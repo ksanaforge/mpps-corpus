@@ -73,6 +73,10 @@ Sub 巨集3()
  Call ReplaceAllKewen("[abcdefghijklmnopqrstuvwxz]、", 9)
  Call ReplaceAllKewen("（[abcdefghijklmnopqrstuvwxz]）", 10)
 
+
+Call ReplaceAllKewen("[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]、", 11) 
+Call ReplaceAllKewen("（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）", 12) 
+
 End Sub
 
 
