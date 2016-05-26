@@ -64,8 +64,7 @@ Sub ReplaceAllKewen(from, replaceto)
     Selection.Find.Replacement.Highlight = True
     With Selection.Find
         .Text = from
-        .Replacement.Text = "<H" + CStr(replaceto) + ">"
-        
+        .Replacement.Text = "<H" + CStr(replaceto) + " t=""\1"">"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
@@ -88,20 +87,20 @@ Sub Convert()
  Call ReplaceAll("（([0-9]{1,3}[abc])）", "<taisho n=""25.\1""/>", True, Body)
  Call ReplaceAll("^f", "<note n=""^&""/>", False, Body)
  
- Call ReplaceAllKewen("[壹貳參肆伍陸柒捌玖]{1,2}、", 1)
- Call ReplaceAllKewen("（[壹貳參肆伍陸柒捌玖]{1,2}）", 2)
- Call ReplaceAllKewen("[一二三四五六七八九十]{1,2}、", 3)
- Call ReplaceAllKewen("（[一二三四五六七八九十]{1,2}）", 4)
+ Call ReplaceAllKewen("([壹貳參肆伍陸柒捌玖拾]{1,2})、", 1)
+ Call ReplaceAllKewen("(（[壹貳參肆伍陸柒捌玖拾]{1,2}）)", 2)
+ Call ReplaceAllKewen("([一二三四五六七八九十]{1,2})、", 3)
+ Call ReplaceAllKewen("(（[一二三四五六七八九十]{1,2}）)", 4)
  
  
-Call ReplaceAllKewen("[1234567890]{1,2}、", 5)
-Call ReplaceAllKewen("（[1234567890]{1,2}）", 6)
-Call ReplaceAllKewen("[ABCDEFGHIJKLMNOPQRSTUVWXYZ]、", 7)
-Call ReplaceAllKewen("（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）", 8)
-Call ReplaceAllKewen("[abcdefghijklmnopqrstuvwxz]、", 9)
-Call ReplaceAllKewen("（[abcdefghijklmnopqrstuvwxz]）", 10)
-Call ReplaceAllKewen("[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]、", 11)
-Call ReplaceAllKewen("（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）", 12)
+Call ReplaceAllKewen("([1234567890]{1,2})、", 5)
+Call ReplaceAllKewen("(（[1234567890]{1,2}）)", 6)
+Call ReplaceAllKewen("([ABCDEFGHIJKLMNOPQRSTUVWXYZ])、", 7)
+Call ReplaceAllKewen("(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)", 8)
+Call ReplaceAllKewen("([abcdefghijklmnopqrstuvwxz])、", 9)
+Call ReplaceAllKewen("(（[abcdefghijklmnopqrstuvwxz]）)", 10)
+Call ReplaceAllKewen("([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ])、", 11)
+Call ReplaceAllKewen("(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)", 12)
 
 Call RemoveBold("", "<b>^&</b>", Body)
 Set Footnotes = ActiveDocument.StoryRanges(wdFootnotesStory)
@@ -129,4 +128,5 @@ Function existence_of_footnotes() As Boolean
         End If
     Next myStoryRange
 End Function
+
 
