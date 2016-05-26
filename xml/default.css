@@ -15,44 +15,44 @@
     b {font-weight:700;}
 
     NOTE {white-space: pre}
-    H1 {color:blue;font-size: 24pt; font-family: "標楷體";font-weight:bold}
-    H2 {color:blue;font-size: 18pt; font-family: "標楷體";font-weight:bold}
-    H3 {color:blue;font-size: 14pt; font-family: "標楷體";font-weight:bold}
-    H4 {color:blue;font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H5 {color:blue;font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H6 {color:blue;font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H7 {font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H8 {font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H9 {font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H10 {font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H11 {font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H12 {font-size: 12pt; font-family: "標楷體";font-weight:bold}
-    H13 {font-size: 12pt; font-family: "標楷體";font-weight:bold}
+    H1 {color:blue;font-size: 24pt; font-weight:bold}
+    H2 {color:blue;font-size: 18pt; font-weight:bold}
+    H3 {color:blue;font-size: 14pt; font-weight:bold}
+    H4 {color:blue;font-size: 12pt; font-weight:bold}
+    H5 {color:blue;font-size: 12pt; font-weight:bold}
+    H6 {color:blue;font-size: 12pt; font-weight:bold}
+    H7 {font-size: 12pt; font-weight:bold}
+    H8 {font-size: 12pt; font-weight:bold}
+    H9 {font-size: 12pt; font-weight:bold}
+    H10 {font-size: 12pt; font-weight:bold}
+    H11 {font-size: 12pt; font-weight:bold}
+    H12 {font-size: 12pt; font-weight:bold}
+    H13 {font-size: 12pt; font-weight:bold}
    
-    H1:before {content: "\aH1 "; white-space: pre }
+    H1:before {content: "\a" attr(t) "、"; white-space: pre }
 #    H1:after {content: "\a"; white-space: pre }
 #    H2:after {content: "\a"; white-space: pre }
-    H2:before {content: "\aH2 "; white-space: pre }
+    H2:before {content: "\a" attr(t); white-space: pre }
 #    H3:after {content: "\a"; white-space: pre }
-    H3:before {content: "\aH3 "; white-space: pre }
+    H3:before {content: "\a" attr(t) "、"; white-space: pre }
 #    H4:after {content: "\a"; white-space: pre }
-    H4:before {content: "\aH4 "; white-space: pre }
+    H4:before {content: "\a" attr(t); white-space: pre }
 #    H5:after {content: "\a"; white-space: pre }
-    H5:before {content: "\aH5 "; white-space: pre }
+    H5:before {content: "\a" attr(t) "、"; white-space: pre }
 #    H6:after {content: "\a"; white-space: pre }
-    H6:before {content: "\aH6 "; white-space: pre }
+    H6:before {content: "\a" attr(t); white-space: pre }
 #    H7:after {content: "\a"; white-space: pre }
-    H7:before {content: "\aH7 "; white-space: pre }
+    H7:before {content: "\a" attr(t); white-space: pre }
 #    H8:after {content: "\a"; white-space: pre }
-    H8:before {content: "\aH8 "; white-space: pre }
+    H8:before {content: "\a" attr(t); white-space: pre }
 #    H9:after {content: "\a"; white-space: pre }
-    H9:before {content: "\aH9 "; white-space: pre }
+    H9:before {content: "\a" attr(t); white-space: pre }
 #    H10:after {content: "\a"; white-space: pre }
-    H10:before {content: "\aH10 "; white-space: pre }
+    H10:before {content: "\a" attr(t); white-space: pre }
 #    H11:after {content: "\a"; white-space: pre }
-    H11:before {content: "\aH11 "; white-space: pre }
+    H11:before {content: "\a" attr(t); white-space: pre }
 #    H12:after {content: "\a"; white-space: pre }
-    H12:before {content: "\aH12 "; white-space: pre }
+    H12:before {content: "\a" attr(t); white-space: pre }
 #    H13:after {content: "\a"; white-space: pre }
-    H13:before {content: "\aH13 "; white-space: pre }
+    H13:before {content: "\a" attr(t); white-space: pre }
     

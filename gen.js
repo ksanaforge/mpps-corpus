@@ -3,7 +3,8 @@
 	output: TEI
 */
 var fs=require("fs");
-var lst=fs.readFileSync("docxml/files.lst","utf8").split(/\r?\n/);
+var sourcepath="msword_pb_kai/xml/";
+var lst=fs.readFileSync(sourcepath+"files.lst","utf8").split(/\r?\n/);
 
 var replacePb=function(content){
 	return content.replace(/`(\d+)`/g,function(m,m1){
@@ -12,14 +13,14 @@ var replacePb=function(content){
 }
 
 var replaceHead=function(content){
-	return content.replace(/<b><H(\d+)>(.+?)<\/b>/g,function(m,m1,m2){
-		return "<H"+m1+">"+m2+"</H"+m1+">";
-	}).replace(/<b><H(\d+)>([^<]+?)\n/g,function(m,m1,m2){
-		return "<H"+m1+">"+m2+"</H"+m1+">\n<b>";
-	}).replace(/<b>`(\d+)`<H(\d+)>(.+?)<\/b>/g,function(m,pb,m1,m2){
-		return '<pb n="'+pb+'"/>'+"<H"+m1+">"+m2+"</H"+m1+">";
-	}).replace(/<b>`(\d+)`<H(\d+)>([^<]+?)\n/g,function(m,pb,m1,m2){
-		return '<pb n="'+pb+'"/>'+"<H"+m1+">"+m2+"</H"+m1+">\n<b>";
+	return content.replace(/<b><H(\d+) t="(.+?)">(.+?)<\/b>/g,function(m,m1,t,m2){
+		return "<H"+m1+' t="'+t+'">'+m2+"</H"+m1+">";
+	}).replace(/<b><H(\d+) t="(.+?)">([^<]+?)\n/g,function(m,m1,t,m2){
+		return "<H"+m1+' t="'+t+'">'+m2+"</H"+m1+">\n<b>";
+	}).replace(/<b>`(\d+)`<H(\d+) t="(.+?)">(.+?)<\/b>/g,function(m,pb,m1,t,m2){
+		return '<pb n="'+pb+'"/>'+"<H"+m1+' t="'+t+'">'+m2+"</H"+m1+">";
+	}).replace(/<b>`(\d+)`<H(\d+) t="(.+?)">([^<]+?)\n/g,function(m,pb,m1,t,m2){
+		return '<pb n="'+pb+'"/>'+"<H"+m1+' t="'+t+'">'+m2+"</H"+m1+">\n<b>";
 	})
 	;
 }
@@ -30,8 +31,9 @@ var replaceKai=function(content){
 	});
 }
 var processfile=function(fn){
+	console.log(fn)
 	var out="";
-	var content=fs.readFileSync("docxml/"+fn,'utf8');
+	var content=fs.readFileSync(sourcepath+fn,'utf8');
 	content=content.replace(/\r?\n/g,"\n");
 
 	//deal with <b><H1>xxx\n<H2>xxx\n</b>
@@ -49,7 +51,11 @@ var processfile=function(fn){
 	out=`<?xml-stylesheet type="text/css" href="default.css" ?>
 			<html><script src="script.js"></script><meta charset="UTF-8"/>
 			<body>`+out+"</body></html>";
-	fs.writeFileSync("genxml/"+fn,out,"utf8");
+
+	var newfn=fn.replace("-pb-kai.docx.xml",".xhtml");
+	newfn=newfn.replace(/\d+大智度論卷/,"");
+	newfn=newfn.replace(/大智度論簡介/,"");
+	fs.writeFileSync("genxml/"+newfn,out,"utf8");
 }
 lst.length=3;
 lst.forEach(processfile);
