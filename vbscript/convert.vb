@@ -118,8 +118,8 @@ Sub Convert()
  
  Call ReplaceAllKewen("([壹貳參肆伍陸柒捌玖拾]{1,2})、", 1)
  Call ReplaceAllKewen("(（[壹貳參肆伍陸柒捌玖拾]{1,2}）)", 2)
- Call ReplaceAllKewen("([一二三四五六七八九十]{1,2})、", 3)
- Call ReplaceAllKewen("(（[一二三四五六七八九十]{1,2}）)", 4)
+ Call ReplaceAllKewen("([一二三四五六七八九十]{1,3})、", 3)
+ Call ReplaceAllKewen("(（[一二三四五六七八九十]{1,3}）)", 4)
  
  
 Call ReplaceAllKewen("([1234567890]{1,2})、", 5)
