@@ -5,7 +5,7 @@
 var fs=require("fs");
 var sourcepath="msword_pb_kai/xml/";
 var lst=fs.readFileSync(sourcepath+"files.lst","utf8").split(/\r?\n/);
-var validate=require("./validate");
+var validate=require("ksana-master-format/validatexml");
 var allerrors=[];
 var replacePb=function(content){
 	return content.replace(/`(\d+)`/g,function(m,m1){
@@ -22,7 +22,7 @@ var hotfixes={
 	['<kai>【<b>經</b>】<b>婆伽婆</kai></b>','<kai>【<b>經</b>】<b>婆伽婆</b></kai>']
 	]
 	,25:[[
-	'<b>第<h3 t="三">第四無畏</h3>','<b>第三、第四無畏</b>']]
+	'<b>第<h3 t="三">第四無畏</h3>','<b>第三、第四無畏']]
 	,28:[
 	['<B>Ｂ、變化諸物</B>','<b><h7 t="B">變化諸物</h7></b>']
 	]
@@ -45,6 +45,20 @@ var hotfixes={
 	]
 }
 
+
+var fix_head=function(content){
+	return content.replace(/<b><h(.*?)<\/b>/g,function(m,m1){
+		return "<h"+m1;
+	}).replace(/<b><pb(.*?)><h(.*?)<\/b>/g,function(m,pb,m1){
+		return "<pb"+pb+"><h"+m1;
+	}).replace(/\n<\/h(\d+)>/g,function(m,m1){
+		return '</h'+m1+">\n"; //move endtag at begining of line to previous end of line
+	});
+
+	//TODO, remove <b></b> in head group
+	//<b><h4 t="（三）">辨異同</h4>
+  //<h5 t="1">法王與輪王同異</h5></b>
+}
 var dohotfix=function(content,fn) {
 	var prefix=parseInt(fn);
 	var hotfix=hotfixes[prefix];
@@ -118,6 +132,7 @@ var processfile=function(fn){
 	content=content.replace(/<b>\n/g,"\n<b>");
 
 	content=dohotfix(content,fn);
+	content=fix_head(content);
 
 	var errors=validate(content,fn,2);//output has two extra line at the top
 
