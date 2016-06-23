@@ -1,4 +1,5 @@
 /*generate toc */
+//separate jin and luan , two toc
 var fs=require("fs");
 var files=fs.readFileSync("./xml/files.lst","utf8").split(/\r?\n/);
 var sourcepath="./genxml/";

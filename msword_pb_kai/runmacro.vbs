@@ -9,7 +9,7 @@ rem oShell.CurrentDirectory = ofso.GetParentFolderName(Wscript.ScriptFullName)
 
 fn =  ofso.GetParentFolderName(Wscript.ScriptFullName)+"\"+args.Item(0)
 targetfn = ofso.GetParentFolderName(Wscript.ScriptFullName)+"\xml\"+args.Item(0)+".xml"
-
+rem create a xml subfolder manually
 objWord.Visible = True
 objWord.DisplayAlerts = False
 

@@ -85,6 +85,37 @@ Sub RemoveItalic(from, replaceto, ThisRng)
     End With
     ThisRng.Find.Execute Replace:=wdReplaceAll
 End Sub
+Sub RemoveUnderline(from, replaceto, ThisRng)
+
+    ThisRng.Find.ClearFormatting
+    ThisRng.Find.font.Underline = True
+    ThisRng.Find.Replacement.ClearFormatting
+    With ThisRng.Find.Replacement.font
+        .Bold = False
+        .Italic = False
+    End With
+    ThisRng.Find.Replacement.Highlight = True
+    With ThisRng.Find
+        .Text = from
+        .Replacement.Text = replaceto
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = True
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchKashida = False
+        .MatchDiacritics = False
+        .MatchAlefHamza = False
+        .MatchControl = False
+        .MatchByte = False
+        .MatchAllWordForms = False
+        .MatchSoundsLike = False
+        .MatchFuzzy = False
+        .MatchWildcards = True
+    End With
+    ThisRng.Find.Execute Replace:=wdReplaceAll
+End Sub
+
 Sub ReplaceAllKewen(from, replaceto)
     Selection.Find.ClearFormatting
      Selection.Find.font.Bold = True
@@ -116,23 +147,25 @@ Sub Convert()
  Call ReplaceAll("（([0-9]{1,3}[abc])）", "<taisho n=""25.\1""/>", True, Body)
  Call ReplaceAll("^f", "<note n=""^&""/>", False, Body)
  
- Call ReplaceAllKewen("([壹貳參肆伍陸柒捌玖拾]{1,2})、", 1)
- Call ReplaceAllKewen("(（[壹貳參肆伍陸柒捌玖拾]{1,2}）)", 2)
- Call ReplaceAllKewen("([一二三四五六七八九十]{1,3})、", 3)
- Call ReplaceAllKewen("(（[一二三四五六七八九十]{1,3}）)", 4)
+'process kepan in node.js
+' Call ReplaceAllKewen("([壹貳參肆伍陸柒捌玖拾]{1,3})、", 1)
+'Call ReplaceAllKewen("(（[壹貳參肆伍陸柒捌玖拾]{1,3}）)", 2)
+'Call ReplaceAllKewen("([一二三四五六七八九十]{1,3})、", 3)
+'Call ReplaceAllKewen("(（[一二三四五六七八九十]{1,3}）)", 4)
  
  
-Call ReplaceAllKewen("([1234567890]{1,2})、", 5)
-Call ReplaceAllKewen("(（[1234567890]{1,2}）)", 6)
-Call ReplaceAllKewen("([ABCDEFGHIJKLMNOPQRSTUVWXYZ])、", 7)
-Call ReplaceAllKewen("(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)", 8)
-Call ReplaceAllKewen("([abcdefghijklmnopqrstuvwxz])、", 9)
-Call ReplaceAllKewen("(（[abcdefghijklmnopqrstuvwxz]）)", 10)
-Call ReplaceAllKewen("([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ])、", 11)
-Call ReplaceAllKewen("(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)", 12)
+'Call ReplaceAllKewen("([1234567890]{1,2})、", 5)
+'Call ReplaceAllKewen("(（[1234567890]{1,2}）)", 6)
+'Call ReplaceAllKewen("([ABCDEFGHIJKLMNOPQRSTUVWXYZ])、", 7)
+'Call ReplaceAllKewen("(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)", 8)
+'Call ReplaceAllKewen("([abcdefghijklmnopqrstuvwxz])、", 9)
+'Call ReplaceAllKewen("(（[abcdefghijklmnopqrstuvwxz]）)", 10)
+'Call ReplaceAllKewen("([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ])、", 11)
+'Call ReplaceAllKewen("(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)", 12)
 
 Call RemoveBold("", "<b>^&</b>", Body)
 Call RemoveItalic("", "<i>^&</i>", Body)
+Call RemoveUnderline("", "<u>^&</u>", Body)
 
 Set Footnotes = ActiveDocument.StoryRanges(wdFootnotesStory)
 Call RemoveBold("", "<b>^&</b>", Footnotes)
