@@ -8,7 +8,10 @@ var sourcepath="msword_pb_kai/xml/";
 var lst=fs.readFileSync(sourcepath+"files.lst","utf8").split(/\r?\n/);
 var validate=require("ksana-master-format/validatexml");
 var allerrors=[];
+var toc=[];
 var writeToDisk=true;
+lst.length=1;
+
 var replacePb=function(content){
 	return content.replace(/`(\d+)`/g,function(m,m1){
 		return '<pb n="'+m1+'"/>';
@@ -63,11 +66,15 @@ var hotfixes={
 
 
 var fix_head=function(content){
+	/*
 	return content.replace(/<b><h(.*?)<\/b>/g,function(m,m1){
 		return "<h"+m1;
 	}).replace(/<b><pb(.*?)><h(.*?)<\/b>/g,function(m,pb,m1){
 		return "<pb"+pb+"><h"+m1;
-	}).replace(/\n<\/h(\d+)>/g,function(m,m1){
+	})
+*/
+
+	return content.replace(/\n<\/h(\d+)>/g,function(m,m1){
 		return '</h'+m1+">\n"; //move endtag at begining of line to previous end of line
 	});
 
@@ -113,7 +120,7 @@ var ReplaceAllKewen=function(content,pat,depth) {//first pass, endtag not found 
 			return "<kai><b><H"+depth+' t="'+m1+'">';
 		});
 	}
-
+/*
 	var reg4=new RegExp("^`([0-9]+)`"+pat,"g");
 	for (i=0;i<lines.length;i++) {
 		if (lines[i].indexOf("<ndef")>-1) break;
@@ -121,7 +128,7 @@ var ReplaceAllKewen=function(content,pat,depth) {//first pass, endtag not found 
 			return '<pb n="'+pb+'"/><H'+depth+' t="'+m1+'">';
 		});
 	}
-
+*/
 	var reg5=new RegExp("^<b>`([0-9]+)`"+pat,"g");
 	for (i=0;i<lines.length;i++) {
 		if (lines[i].indexOf("<ndef")>-1) break;
@@ -149,25 +156,140 @@ var processKepan=function(content) {//move from vbscript
 	content=ReplaceAllKewen(content,"(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)", 12);
 	return content;
 }
-var closeKepan=function(content){
+
+
+/*
+	if no <b> at begining of the group, might not be a kepan 
+	parse 印順法師，《大智度論筆記》
+  check 承上卷
+  remove all <b> and </b> in kepan group
+  if <b> is not close, output <b> when kepan group is ended.
+
+  remove kai , as known by luan
+*/
+var matchcount=function(line,pat){
+	var m=0;
+	line.replace(pat, function(){m++});
+	return m;
+}
+
+var mark_mpps_yinshun_note=function(line){
+	return line.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)）/,function(m,bk,pg){
+		return '<note_mpps bk="'+bk+'" pg="'+pg+'"/>';
+	});
+}
+
+var mark_taisho=function(line) {
+	return line.replace(/（大正(\d+)，(.+?)，n\.(.+?)）/g,function(m,vol,pg,sutra){
+		return '<note_taisho vol="'+vol+'" pg="'+pg+'" n="'+sutra+'"/>';
+	}).replace(/（大正(\d+)，(.+?)）/,function(m,vol,pg){
+		return '<note_taisho vol="'+vol+'" pg="'+pg+'"/>';
+	});
+}
+
+var mark_see_previous_juan=function(line){
+	line=line.replace(/（承上卷(\d+)）/,function(m,juan){
+		return '<note_juan n="'+juan+'">';
+	}).replace(/（承上卷(\d+)〈(.+)〉）/,function(m,juan,vagga){
+		return '<note_juan n="'+juan+'" vagga="'+vagga+'">';
+	}).replace(/（承上卷(\d+)～卷?(\d+)）/,function(m,juan,j2){
+		return '<note_juan n="'+juan+'" n2="'+j2+'">';
+	}).replace(/（承上卷(\d+)〈(.+)〉～卷?(\d+)）/,function(m,juan,vagga,j2){
+		return '<note_juan n="'+juan+'" n2="'+j2+'" vagga="'+vagga+'">';
+	}).replace(/（承上卷(\d+)（大正(\d+)，([0-9abc]+)-([0-9abc]+)））/,function(m,juan,vol,r1,r2){
+		return '<note_juan n="'+juan+'" taisho="'+vol+'" from="'+r1+'" to="'+r2+'"/>';
+	});
+	return line;	
+}
+var closeKepan=function(content,fn){
 	var lastdepth=0;
-	
-	//has tag just after not a kepan
-	content=content.replace(/<H6 t="(.+?)"></g,function(m,t){
-		return t+"<";
+	content=content.replace(/<b>\n/g,"\n<b>");//move </b> at begin of line to previos end of line
+	content=content.replace(/\n<\/b>/g,"</b>\n");//move </b> at begin of line to previos end of line
+	//content=content.replace(/<b><\/b>/g,"");//not needed
+
+	//remove extra </b> <b> caused by note
+	content=content.replace(/<\/b><note n="(.+?)"\/><b>/g,function(m,m1){
+			return '<note n="'+m1+'"/>'
 	});
 
-	content=content.replace(/<H(\d+) t="(.+?)">([^<]+)/g,function(m,d,t,text,idx){
-		d=parseInt(d,10);
-		if ( d==6 && (d>lastdepth+1)) {
-			//console.log("restore",text)
-			return t+text;//restore;
+
+	var lines=content.split("\n");
+
+	var kepangroup=0;
+	for (var i=0;i<lines.length;i++) {
+		var line=lines[i];
+		if (line.indexOf("<H")==-1) { //end of group
+			if (kepangroup) { //previous line is end of group
+
+			}
+			kepangroup=0;
+			continue;
 		}
-		lastdepth=d;
 
-		return "<h"+d+' t="'+t+'">'+text+"</h"+d+">";
+		if (!kepangroup) { //first in the group
+			if (line.indexOf("<b>")==-1) {
+				//console.log("no b not a group",line);
+				//restore
+
+				lines[i]=line.replace(/<H(\d+) t="(.+?)">(.+)/g,function(m,d,t,text,idx){
+					return "*b"+t+text;//restore;
+				});
+
+				continue;
+			}
+		}
+
+		kepangroup++;
+		//extra <b></b> caused by kai
+
+		line=line.replace(/<\/b><kai><b>(.+?)<\/b><\/kai><b>/g,function(m,m1){
+			return "<kai>"+m1+"</kai>";
+		});
+
+		line=line.replace(/<H(\d+) t="(.+?)">(.+)/g,function(m,d,t,text,idx){
+			d=parseInt(d,10);
+			if ( d==6 && (d>lastdepth+1)) {
+				//console.log("restore",text)
+				return "**"+t+text;//restore;
+			}
+			lastdepth=d;
+			
+			return "<h"+d+' t="'+t+'">'+text+"</h"+d+">";
+		});
+
+
+		//remove <b> </b> pair
+		if (matchcount(line,"<b>")==1 && matchcount(line,"</b>")==1) {
+			line=line.replace(/<\/?b>/g,"");
+		}
+
+		line=mark_mpps_yinshun_note(line);
+		line=mark_see_previous_juan(line);
+
+	//fix overlap </b> </h
+		line=line.replace(/<\/b><\/h(\d+)>/g,function(m,m1){return "</h"+m1+"></b>"});
+		line=line.replace(/<\/b><note(.+?)><\/h(\d+)>/g,function(m,note,m1){return "<note"+note+"></h"+m1+"></b>"});
+
+		toc.push(fn.substr(0,3)+"#"+i+"\t"+line);
+		lines[i]=line;
+	}
+
+	content=lines.join("\n");
+	content=content.replace(/<b><\/b>/g,"");
+
+
+//fixes </kai><mpps_note bk="E022" pg="321"/></h4>\n<kai>
+	content=content.replace(/<\/kai><note(.+?)><\/h(\d+)>\n<kai>/g,function(m,note,lv){
+		return "<note"+note+"></h"+lv+">\n";
 	});
 
+	content=content.replace(/<\/b><note(.+?)><\/h(\d+)>/g,function(m,note,m1){
+		return "<note"+note+"></h"+m1+"></b>"
+	});
+
+
+	//content=content.replace(/<b><h/g,"<h");
+	//content=content.replace(/<\/b><\/h/g,"</h");
 	return content;
 }
 
@@ -181,6 +303,8 @@ var otherMarkup=function(content) {
 	return content.replace(/【<b>經<\/b>】/g,"<jin>經</jin>")
 	.replace(/【<b>論<\/b>】/g,"<luan>論</luan>");
 }
+
+/*
 //process line by line
 var addRepeatKepan=function(content,fn) {
 	var lines=content=content.split("\n");
@@ -199,18 +323,31 @@ var addRepeatKepan=function(content,fn) {
 	}
 	return lines.join("\n");
 }
+*/
+
+var process_ndef=function(content){
+	var lines=content.split("\n");
+	var started=false;
+
+	for (var i=0;i<lines.length;i++) {
+		var line=lines[i];
+		if (lines[i].indexOf("<ndef")==-1 && !started) continue;
+		started=true;
+		line=mark_mpps_yinshun_note(line);
+		line=mark_taisho(line);
+		if (line!==lines[i]) lines[i]=line;
+	}
+
+	return lines.join("\n");
+}
 var processfile=function(fn){
 	var out="";
 	var content=fs.readFileSync(sourcepath+fn,'utf8');
 	content=content.replace(/\r?\n/g,"\n");
 
-	content=content.replace(/\n<\/b>/g,"</b>\n");
-	content=content.replace(/<b>\n/g,"\n<b>");
-
-	content=content.replace(/<b>\n<\/b>/g,"\n");
-
 	content=content.replace(/<B>/g,"<b>");
 	content=content.replace(/<\/B>/g,"</b>");
+	content=content.replace(/<b><\/b>/g,"");
 
 	content=replaceKai(content);
 
@@ -218,14 +355,10 @@ var processfile=function(fn){
 	//deal with <b><H1>xxx\n<H2>xxx\n</b>
 
 
-	content=closeKepan(content);
+	content=closeKepan(content,fn);
 
 	content=replacePb(content);
 
-	content=addRepeatKepan(content,fn);
-
-	content=content.replace(/\n<\/b>/g,"</b>\n");
-	content=content.replace(/<b>\n/g,"\n<b>");
 
 	content=fix_head(content);
 	content=otherMarkup(content);
@@ -234,7 +367,7 @@ var processfile=function(fn){
 
 
 	var errors=validate(content,fn,2);//output has two extra line at the top
-
+	content=process_ndef(content);
 	out=content;
 	out=`<?xml-stylesheet type="text/css" href="default.css" ?>
 			<html><script src="script.js"></script><meta charset="UTF-8"/>
@@ -251,10 +384,9 @@ var processfile=function(fn){
 	}
 	if (writeToDisk)	fs.writeFileSync("genxml/"+newfn,out,"utf8");
 	
-	
 }
 
-//lst.length=2;
-lst.forEach(processfile);
 
+lst.forEach(processfile);
+fs.writeFileSync("genxml/toc.txt",toc.join("\n"),"utf8");
 fs.writeFileSync("genxml/errors.txt",allerrors.join("\n"),"utf8");
