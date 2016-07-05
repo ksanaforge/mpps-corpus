@@ -99,7 +99,7 @@ var processExtraKepan=function(lines) { //因論生論
 
 			if (line.indexOf("$$")>-1) {
 				line=line.replace("$$","");
-				line=line.replace(/<h(\d+) (.+?)>/,function(m,d,m1){return "<h"+d+' repeat="1" '+m1+">"});
+				line=line.replace(/<h(\d+) (.+?)>/,function(m,d,m1){return "<h"+d+' repeat="true" '+m1+">"});
 			}
 		} else if (line.indexOf("$")>-1) {
 			line=line.replace(/\$([^<]+)(.*)/,function(m,m1,m2){
