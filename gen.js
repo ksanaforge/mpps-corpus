@@ -4,13 +4,13 @@
 */
 "use strict";
 var fs=require("fs");
-var sourcepath="msword_pb_kai/xml/";
+var sourcepath="msword_pb_kai_kepan/xml/";
 var lst=fs.readFileSync(sourcepath+"files.lst","utf8").split(/\r?\n/);
 var validate=require("ksana-master-format/validatexml");
 var allerrors=[];
 var toc=[];
 var writeToDisk=true;
-lst.length=1;
+//lst.length=16;
 
 var replacePb=function(content){
 	return content.replace(/`(\d+)`/g,function(m,m1){
@@ -19,47 +19,11 @@ var replacePb=function(content){
 }
 
 var hotfixes={
-	1:[
-	['<h4 t="（一）">外人執著<h3 t="一">異</h4></h3>',
-	'<h4 t="（一）">外人執著一、異</h4>']
-	]
-	,2:[
-	['<kai><jin>經</jin><b>婆伽婆</kai></b>','<kai><jin>經</jin><b>婆伽婆</b></kai>']
-	]
-	,25:[[
-	'<b>第<h3 t="三">第四無畏</h3>','<b>第三、第四無畏']]
-//	,28:[
-//	['<B>Ｂ、變化諸物</B>','<b><h7 t="B">變化諸物</h7></b>']
-//	]
-	,36:[
-	['<h9 t="b">二種色</h9><H6 t="（13）">','<h9 t="b">二種色（13）</h9>'],
-	['<h9 t="c">三種色</h9><H6 t="（3）">','<h9 t="c">三種色（3）</h9>'],
-	['<h9 t="d">四種色</h9><H6 t="（4）">','<h9 t="d">四種色（4）</h9>'],
-	['<h9 t="e">五種色</h9><H6 t="（3）">','<h9 t="e">五種色（3）</h9>'],
-	['<h8 t="（B）">二種受</h8><H6 t="（5）">','<h8 t="（B）">二種受（5）</h8>'],
-	['<h8 t="（C）">三種受</h8><H6 t="（7）">','<h8 t="（C）">三種受（7）</h8>'],
-	['<h8 t="（D）">四種受</h8><H6 t="（4）">','<h8 t="（D）">四種受（4）</h8>'],
-	['<h8 t="（E）">五種受</h8><H6 t="（3）">','<h8 t="（E）">五種受（3）</h8>']
-	]
-	,48:[
-		['<b>　　（一）六度是摩訶衍</b>','<h4 t="（一）">六度是摩訶衍</h4>'],
-		['<b>（二）十八空、四空是摩訶衍</b>','<h4 t="（二）">十八空、四空是摩訶衍</h4>'],
-		['<b>（三）百八三昧是摩訶衍</b>','<h4 t="（三）">百八三昧是摩訶衍</h4>'],
-		['<b>（四）三十七道品是摩訶衍</b>','<h4 t="（四）">三十七道品是摩訶衍</h4>'],
-		['<b>　　</b>','']
-	]
-	,56:[
-		['<H3 t="二、"><b>明有方便行</b>','<h3 t="二、">明有方便行</h3>']
-	]
-	,63:[
-		[/<H3 t="一、"><b>以七因緣、八因緣故難信難解<\/b>/g,'<h3 t="一、">以七因緣、八因緣故難信難解</h3>']
-	]
-	,64:[
-		['<H3 t="一、"><b>歎般若法</b>','<h3 t="一、">歎般若法</h3>'],
-	]
-	,73:[
-	['<H3 t="二、"><b>佛述：入諸法如相，如實知諸地，無二無別</b>',
-	'<h3 t="二、">佛述：入諸法如相，如實知諸地，無二無別</h3>']
+	2:[
+	['<kai><jin>經</jin><b>婆伽婆</kai></b>','<jin>經</jin><kai>婆伽婆</kai>']
+	],
+	21:[
+	['$（2）<h3 t="三、">四勝處</h3>','<h6 t="（2）">三、四勝處</h6>']
 	]
 }
 
@@ -93,68 +57,108 @@ var dohotfix=function(content,fn) {
 	return content;
 }
 
-var ReplaceAllKewen=function(content,pat,depth) {//first pass, endtag not found yet
-	var reg=new RegExp("^"+pat,"g");
-	var lines=content.split("\n"),i,line;
+var ReplaceAllKewen=function(lines,pat,depth) {//first pass, endtag not found yet
+	var reg=new RegExp(pat,"g");
+	var i,line;
+	var bold=false,lastidx=0,prevdepth=0;
 
 	for (i=0;i<lines.length;i++) {
 		line=lines[i];
 		if (line.indexOf("<ndef")>-1) break; //no kepan after first ndef
-		lines[i]=line.replace(reg , function(m,m1,idx){
-				return "<H"+depth+' t="'+m1+'">';	
-		});
-	}
 
-	var reg2=new RegExp("^<b>"+pat,"g");
-	for (i=0;i<lines.length;i++) {
-		if (lines[i].indexOf("<ndef")>-1) break;
-		lines[i]=lines[i].replace(reg2 , function(m,m1){
-			return "<b><H"+depth+' t="'+m1+'">';
+		if (line.indexOf("$")==-1) continue;
+		
+		line=mark_mpps_yinshun_note(line);
+		line=mark_see_previous_juan(line);
+		
+		line=line.replace(/<b>(.*?)<\/b>/,function(m,m1){return m1});
+		//line=line.replace("$","");
+		line=line.replace(reg , function(m,m1,t,idx){
+			prevdepth=depth;
+			return "<h"+depth+' t="'+m1+'">'+t+"</h"+depth+">";	
 		});
+		
+		lines[i]=line;
 	}
+	return lines;
+}
+var processExtraKepan=function(lines) { //因論生論
+	var depth=0;
+	for (var i=0;i<lines.length;i++) {
+		var line=lines[i];
+		var h=line.indexOf("<h");
+		if (h>0) {
+			var m=line.match(/<h(\d+)/);
+			depth=parseInt(m[1]);			
+		} else if (line.indexOf("$")>-1) {
+			lines[i]=line.replace(/\$([^<]+)(.*)/,function(m,m1,m2){
+				return "<h"+(depth+1)+">"+m1+"</h"+(depth+1)+">"+m2;
+			});
+		}
+	}
+	return lines;
+}
+var removeKepanB=function(lines){
+	var groupstart=0, inkepan=false, bopen=0,bclose=0;
+	for (var i=0;i<lines.length;i++) {
+		var line=lines[i];
+		if (line.indexOf("<h")==-1) {
+			inkepan=false;
+			if (bopen&&bclose&&bopen==bclose) { //save to remove all
+				for (var j=groupstart;j<i;j++) {
+					lines[j]=lines[j].replace(/<\/?b>/g,"");
+				}
+			} else if (bclose+1==bopen){ //not closing, bold text after kepan
+				for (var j=groupstart;j<i;j++) {
+					lines[j]=lines[j].replace(/<\/?b>/g,"");
+				}
+				lines[i]="<b>"+lines[i];
+			} else if (bclose==bopen+1) { //<b> before group start
+				for (var j=groupstart;j<i;j++) {
+					lines[j]=lines[j].replace(/<\/?b>/g,"");
+				}
+				lines[groupstart-1]=lines[groupstart-1]+"</b>";
 
-	var reg3=new RegExp("^<kai><b>"+pat,"g");
-	for (i=0;i<lines.length;i++) {
-		if (lines[i].indexOf("<ndef")>-1) break;
-		lines[i]=lines[i].replace(reg3 , function(m,m1){
-			return "<kai><b><H"+depth+' t="'+m1+'">';
-		});
+			} else if (bclose || bopen) {
+				for (var j=groupstart;j<i;j++) {
+					console.log(lines[j]);
+				}
+				console.log("cannot process",bopen,bclose,groupstart,i);
+			}
+			bopen=0;bclose=0;
+		} else {
+			if (!inkepan) {
+				groupstart=i;
+			}
+			line.replace(/<b>/g,function(){bopen++});
+			line.replace(/<\/b>/g,function(){bclose++});
+			inkepan=true;
+		}
 	}
-/*
-	var reg4=new RegExp("^`([0-9]+)`"+pat,"g");
-	for (i=0;i<lines.length;i++) {
-		if (lines[i].indexOf("<ndef")>-1) break;
-		lines[i]=lines[i].replace(reg4 , function(m,pb,m1){
-			return '<pb n="'+pb+'"/><H'+depth+' t="'+m1+'">';
-		});
-	}
-*/
-	var reg5=new RegExp("^<b>`([0-9]+)`"+pat,"g");
-	for (i=0;i<lines.length;i++) {
-		if (lines[i].indexOf("<ndef")>-1) break;
-		lines[i]=lines[i].replace(reg5 , function(m,pb,m1){
-			return '<b><pb n="'+pb+'"/><H'+depth+' t="'+m1+'">';
-		});
-	}
-
-	return lines.join("\n");
+	return lines;
 }
 var processKepan=function(content) {//move from vbscript
-	content=ReplaceAllKewen(content,"([壹貳参參肆伍陸柒捌玖拾～]+、)", 1);
-	content=ReplaceAllKewen(content,"(（[壹貳参參肆伍陸柒捌玖拾～]+）)", 2);
-	content=ReplaceAllKewen(content,"([一二三四五六七八九十～]+、)", 3);
-	content=ReplaceAllKewen(content,"(（[一二三四五六七八九十～]+）)", 4);
-	  
-	content=ReplaceAllKewen(content,"([0-9]{1,2}、)", 5);
+	content=content.replace(/\n<\/b>/g,"</b>\n");
 
-	content=ReplaceAllKewen(content,"(（[0-9]{1,2}）)", 6);
-	content=ReplaceAllKewen(content,"([ABCDEFGHIJKLMNOPQRSTUVWXYZ]、)", 7);
-	content=ReplaceAllKewen(content,"(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)", 8);
-	content=ReplaceAllKewen(content,"([abcdefghijklmnopqrstuvwxz]、)", 9);
-	content=ReplaceAllKewen(content,"(（[abcdefghijklmnopqrstuvwxz]）)", 10);
-	content=ReplaceAllKewen(content,"([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]、)", 11);
-	content=ReplaceAllKewen(content,"(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)", 12);
-	return content;
+	var lines=	content.split("\n");
+
+	lines=ReplaceAllKewen(lines,"([壹貳参參肆伍陸柒捌玖拾～]+、)([^<]+)", 1);
+	content=ReplaceAllKewen(lines,"(（[壹貳参參肆伍陸柒捌玖拾～]+）)([^<]+)", 2);
+	lines=ReplaceAllKewen(lines,"([一二三四五六七八九十～\-]+、)([^<]+)", 3);
+	lines=ReplaceAllKewen(lines,"(（[一二三四五六七八九十～\-]+）)([^<]+)", 4);
+	  
+	lines=ReplaceAllKewen(lines,"([0-9～\-]{1,5}、)([^<]+)", 5);
+
+	lines=ReplaceAllKewen(lines,"(（[0-9～\-]{1,5}）)([^<]+)", 6);
+	lines=ReplaceAllKewen(lines,"([ABCDEFGHIJKLMNOPQRSTUVWXYZ]、)([^<]+)", 7);
+	lines=ReplaceAllKewen(lines,"(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)([^<]+)", 8);
+	lines=ReplaceAllKewen(lines,"([abcdefghijklmnopqrstuvwxz]、)([^<]+)", 9);
+	lines=ReplaceAllKewen(lines,"(（[abcdefghijklmnopqrstuvwxz]）)([^<]+)", 10);
+	lines=ReplaceAllKewen(lines,"([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]、)([^<]+)", 11);
+	lines=ReplaceAllKewen(lines,"(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)([^<]+)", 12);
+	lines=processExtraKepan(lines);
+	lines=removeKepanB(lines);
+	return lines.join("\n");
 }
 
 
@@ -174,8 +178,12 @@ var matchcount=function(line,pat){
 }
 
 var mark_mpps_yinshun_note=function(line){
+	line=line.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)；[〔［](.+?)[〕］]p\.(\d+)/,function(m,bk1,pg1,bk2,pg2){
+		return '<note_mpps ref="'+bk1+'#'+pg1+'"/><note_mpps ref="'+bk2+'#'+pg2+'"/>';
+	});
+
 	return line.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)）/,function(m,bk,pg){
-		return '<note_mpps bk="'+bk+'" pg="'+pg+'"/>';
+		return '<note_mpps ref="'+bk+'#'+pg+'"/>';
 	});
 }
 
@@ -189,108 +197,17 @@ var mark_taisho=function(line) {
 
 var mark_see_previous_juan=function(line){
 	line=line.replace(/（承上卷(\d+)）/,function(m,juan){
-		return '<note_juan n="'+juan+'">';
+		return '<note_juan n="'+juan+'"/>';
 	}).replace(/（承上卷(\d+)〈(.+)〉）/,function(m,juan,vagga){
-		return '<note_juan n="'+juan+'" vagga="'+vagga+'">';
+		return '<note_juan n="'+juan+'" vagga="'+vagga+'"/>';
 	}).replace(/（承上卷(\d+)～卷?(\d+)）/,function(m,juan,j2){
-		return '<note_juan n="'+juan+'" n2="'+j2+'">';
+		return '<note_juan n="'+juan+'" n2="'+j2+'"/>';
 	}).replace(/（承上卷(\d+)〈(.+)〉～卷?(\d+)）/,function(m,juan,vagga,j2){
-		return '<note_juan n="'+juan+'" n2="'+j2+'" vagga="'+vagga+'">';
+		return '<note_juan n="'+juan+'" n2="'+j2+'" vagga="'+vagga+'"/>';
 	}).replace(/（承上卷(\d+)（大正(\d+)，([0-9abc]+)-([0-9abc]+)））/,function(m,juan,vol,r1,r2){
 		return '<note_juan n="'+juan+'" taisho="'+vol+'" from="'+r1+'" to="'+r2+'"/>';
 	});
 	return line;	
-}
-var closeKepan=function(content,fn){
-	var lastdepth=0;
-	content=content.replace(/<b>\n/g,"\n<b>");//move </b> at begin of line to previos end of line
-	content=content.replace(/\n<\/b>/g,"</b>\n");//move </b> at begin of line to previos end of line
-	//content=content.replace(/<b><\/b>/g,"");//not needed
-
-	//remove extra </b> <b> caused by note
-	content=content.replace(/<\/b><note n="(.+?)"\/><b>/g,function(m,m1){
-			return '<note n="'+m1+'"/>'
-	});
-
-
-	var lines=content.split("\n");
-
-	var kepangroup=0;
-	for (var i=0;i<lines.length;i++) {
-		var line=lines[i];
-		if (line.indexOf("<H")==-1) { //end of group
-			if (kepangroup) { //previous line is end of group
-
-			}
-			kepangroup=0;
-			continue;
-		}
-
-		if (!kepangroup) { //first in the group
-			if (line.indexOf("<b>")==-1) {
-				//console.log("no b not a group",line);
-				//restore
-
-				lines[i]=line.replace(/<H(\d+) t="(.+?)">(.+)/g,function(m,d,t,text,idx){
-					return "*b"+t+text;//restore;
-				});
-
-				continue;
-			}
-		}
-
-		kepangroup++;
-		//extra <b></b> caused by kai
-
-		line=line.replace(/<\/b><kai><b>(.+?)<\/b><\/kai><b>/g,function(m,m1){
-			return "<kai>"+m1+"</kai>";
-		});
-
-		line=line.replace(/<H(\d+) t="(.+?)">(.+)/g,function(m,d,t,text,idx){
-			d=parseInt(d,10);
-			if ( d==6 && (d>lastdepth+1)) {
-				//console.log("restore",text)
-				return "**"+t+text;//restore;
-			}
-			lastdepth=d;
-			
-			return "<h"+d+' t="'+t+'">'+text+"</h"+d+">";
-		});
-
-
-		//remove <b> </b> pair
-		if (matchcount(line,"<b>")==1 && matchcount(line,"</b>")==1) {
-			line=line.replace(/<\/?b>/g,"");
-		}
-
-		line=mark_mpps_yinshun_note(line);
-		line=mark_see_previous_juan(line);
-
-	//fix overlap </b> </h
-		line=line.replace(/<\/b><\/h(\d+)>/g,function(m,m1){return "</h"+m1+"></b>"});
-		line=line.replace(/<\/b><note(.+?)><\/h(\d+)>/g,function(m,note,m1){return "<note"+note+"></h"+m1+"></b>"});
-
-		toc.push(fn.substr(0,3)+"#"+i+"\t"+line);
-		lines[i]=line;
-	}
-
-	content=lines.join("\n");
-	content=content.replace(/<b><\/b>/g,"");
-
-
-//fixes </kai><mpps_note bk="E022" pg="321"/></h4>\n<kai>
-	content=content.replace(/<\/kai><note(.+?)><\/h(\d+)>\n<kai>/g,function(m,note,lv){
-		return "<note"+note+"></h"+lv+">\n";
-	});
-
-	content=content.replace(/<\/b><note(.+?)><\/h(\d+)>/g,function(m,note,m1){
-		return "<note"+note+"></h"+m1+"></b>"
-	});
-
-
-	//content=content.replace(/<b><h/g,"<h");
-	//content=content.replace(/<\/b><\/h/g,"</h");
-	return content;
 }
 
 var replaceKai=function(content){
@@ -353,9 +270,7 @@ var processfile=function(fn){
 
 	content=processKepan(content);
 	//deal with <b><H1>xxx\n<H2>xxx\n</b>
-
-
-	content=closeKepan(content,fn);
+	
 
 	content=replacePb(content);
 
@@ -365,6 +280,18 @@ var processfile=function(fn){
 
 	content=dohotfix(content,fn);
 
+	content=content.replace(/\$<h/g,"<h");
+	content=content.replace(/\$<pb/g,"<pb");
+	content=content.replace(/<kai>\$/g,"<kai>");
+	content=content.replace(/\$<h/g,"<h");
+	content=content.replace(/\$<pb/g,"<pb");
+	content=content.replace(/\$<\/b/g,"</b");
+	content=content.replace(/\$※/g,"※");
+	content=content.replace(/<b><\/b>/g,"");
+	content=content.replace(/<b><\/u><\/b>/g,"</u>");
+	content=content.replace(/<u><\/u>/g,"");
+	content=content.replace(/<u>\n<\/u>/g,"");
+
 
 	var errors=validate(content,fn,2);//output has two extra line at the top
 	content=process_ndef(content);
@@ -373,7 +300,7 @@ var processfile=function(fn){
 			<html><script src="script.js"></script><meta charset="UTF-8"/>
 			<body>`+out+"</body></html>";
 
-	var newfn=fn.replace("-pb-kai.docx.xml",".xhtml");
+	var newfn=fn.replace("-pb-kai-kw.docx.xml",".xhtml");
 	newfn=newfn.replace(/\d+大智度論卷/,"");
 	newfn=newfn.replace(/大智度論簡介/,"");
 
