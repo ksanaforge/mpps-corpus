@@ -68,7 +68,8 @@ var ReplaceAllKewen=function(lines,pat,depth) {//first pass, endtag not found ye
 
 		if (line.indexOf("$")==-1) continue;
 		if (line.indexOf("<h")>-1) continue; //already parse
-		
+
+
 		line=mark_mpps_yinshun_note(line);
 		line=mark_see_previous_juan(line);
 		
@@ -82,7 +83,7 @@ var ReplaceAllKewen=function(lines,pat,depth) {//first pass, endtag not found ye
 		});
 
 		if (match) line=line+"</h"+prevdepth+">";
-		
+
 		lines[i]=line;
 	}
 	return lines;
@@ -94,12 +95,19 @@ var processExtraKepan=function(lines) { //因論生論
 		var h=line.indexOf("<h");
 		if (h>0) {
 			var m=line.match(/<h(\d+)/);
-			depth=parseInt(m[1]);			
+			depth=parseInt(m[1]);
+
+			if (line.indexOf("$$")>-1) {
+				line=line.replace("$$","");
+				line=line.replace(/<h(\d+) (.+?)>/,function(m,d,m1){return "<h"+d+' repeat="1" '+m1+">"});
+			}
 		} else if (line.indexOf("$")>-1) {
-			lines[i]=line.replace(/\$([^<]+)(.*)/,function(m,m1,m2){
+			line=line.replace(/\$([^<]+)(.*)/,function(m,m1,m2){
 				return "<h"+(depth+1)+">"+m1+"</h"+(depth+1)+">"+m2;
-			});
+			});		
 		}
+		if (line!==lines[i])			lines[i]=line;
+
 	}
 	return lines;
 }
@@ -205,7 +213,7 @@ var mark_mpps_yinshun_note=function(line){
 var mark_taisho=function(line) {
 	return line.replace(/（大正(\d+)，(.+?)，n\.(.+?)）/g,function(m,vol,pg,sutra){
 		return '<note_taisho vol="'+vol+'" pg="'+pg+'" n="'+sutra+'"/>';
-	}).replace(/（大正(\d+)，(.+?)）/,function(m,vol,pg){
+	}).replace(/（大正(\d+)，(.+?)）/g,function(m,vol,pg){
 		return '<note_taisho vol="'+vol+'" pg="'+pg+'"/>';
 	});
 }
