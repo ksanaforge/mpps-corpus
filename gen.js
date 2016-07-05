@@ -58,7 +58,7 @@ var dohotfix=function(content,fn) {
 }
 
 var ReplaceAllKewen=function(lines,pat,depth) {//first pass, endtag not found yet
-	var reg=new RegExp(pat,"g");
+	var reg=new RegExp(pat,"");
 	var i,line;
 	var bold=false,lastidx=0,prevdepth=0;
 
@@ -67,16 +67,21 @@ var ReplaceAllKewen=function(lines,pat,depth) {//first pass, endtag not found ye
 		if (line.indexOf("<ndef")>-1) break; //no kepan after first ndef
 
 		if (line.indexOf("$")==-1) continue;
+		if (line.indexOf("<h")>-1) continue; //already parse
 		
 		line=mark_mpps_yinshun_note(line);
 		line=mark_see_previous_juan(line);
 		
 		line=line.replace(/<b>(.*?)<\/b>/,function(m,m1){return m1});
 		//line=line.replace("$","");
-		line=line.replace(reg , function(m,m1,t,idx){
+		var match=false;
+		line=line.replace(reg , function(m,m1,idx){
 			prevdepth=depth;
-			return "<h"+depth+' t="'+m1+'">'+t+"</h"+depth+">";	
+			match=true;
+			return "<h"+depth+' t="'+m1+'">';	
 		});
+
+		if (match) line=line+"</h"+prevdepth+">";
 		
 		lines[i]=line;
 	}
@@ -98,26 +103,28 @@ var processExtraKepan=function(lines) { //因論生論
 	}
 	return lines;
 }
-var removeKepanB=function(lines){
+var removeKepanTag=function(lines,tag){
 	var groupstart=0, inkepan=false, bopen=0,bclose=0;
+	var openpat=new RegExp("<"+tag+">","g"), closepat=new RegExp("</"+tag+">","g");
+	var  bothpat=new RegExp("</?"+tag+">","g");
 	for (var i=0;i<lines.length;i++) {
 		var line=lines[i];
 		if (line.indexOf("<h")==-1) {
 			inkepan=false;
 			if (bopen&&bclose&&bopen==bclose) { //save to remove all
 				for (var j=groupstart;j<i;j++) {
-					lines[j]=lines[j].replace(/<\/?b>/g,"");
+					lines[j]=lines[j].replace(bothpat,"");
 				}
 			} else if (bclose+1==bopen){ //not closing, bold text after kepan
 				for (var j=groupstart;j<i;j++) {
-					lines[j]=lines[j].replace(/<\/?b>/g,"");
+					lines[j]=lines[j].replace(bothpat,"");
 				}
-				lines[i]="<b>"+lines[i];
+				lines[i]="<"+tag+">"+lines[i];
 			} else if (bclose==bopen+1) { //<b> before group start
 				for (var j=groupstart;j<i;j++) {
-					lines[j]=lines[j].replace(/<\/?b>/g,"");
+					lines[j]=lines[j].replace(bothpat,"");
 				}
-				lines[groupstart-1]=lines[groupstart-1]+"</b>";
+				lines[groupstart-1]=lines[groupstart-1]+"</"+tag+">";
 
 			} else if (bclose || bopen) {
 				for (var j=groupstart;j<i;j++) {
@@ -130,8 +137,8 @@ var removeKepanB=function(lines){
 			if (!inkepan) {
 				groupstart=i;
 			}
-			line.replace(/<b>/g,function(){bopen++});
-			line.replace(/<\/b>/g,function(){bclose++});
+			line.replace(openpat,function(){bopen++});
+			line.replace(closepat,function(){bclose++});
 			inkepan=true;
 		}
 	}
@@ -142,23 +149,31 @@ var processKepan=function(content) {//move from vbscript
 
 	var lines=	content.split("\n");
 
-	lines=ReplaceAllKewen(lines,"([壹貳参參肆伍陸柒捌玖拾～]+、)([^<]+)", 1);
-	content=ReplaceAllKewen(lines,"(（[壹貳参參肆伍陸柒捌玖拾～]+）)([^<]+)", 2);
-	lines=ReplaceAllKewen(lines,"([一二三四五六七八九十～\-]+、)([^<]+)", 3);
-	lines=ReplaceAllKewen(lines,"(（[一二三四五六七八九十～\-]+）)([^<]+)", 4);
-	  
-	lines=ReplaceAllKewen(lines,"([0-9～\-]{1,5}、)([^<]+)", 5);
+	lines=ReplaceAllKewen(lines,"(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)", 12);
+	lines=ReplaceAllKewen(lines,"([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]、)", 11);
+	lines=ReplaceAllKewen(lines,"(（[abcdefghijklmnopqrstuvwxz]）)", 10);
+	lines=ReplaceAllKewen(lines,"([abcdefghijklmnopqrstuvwxz]、)", 9);
+	lines=ReplaceAllKewen(lines,"(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)", 8);
+	lines=ReplaceAllKewen(lines,"([ABCDEFGHIJKLMNOPQRSTUVWXYZ]、)", 7);
+	lines=ReplaceAllKewen(lines,"(（[0-9～\-]{1,5}）)", 6);
+	lines=ReplaceAllKewen(lines,"([0-9～\-]{1,5}、)", 5);
+	lines=ReplaceAllKewen(lines,"(（[一二三四五六七八九十～\-]+）)", 4);
+	lines=ReplaceAllKewen(lines,"([一二三四五六七八九十～\-]+、)", 3);
+	lines=ReplaceAllKewen(lines,"(（[壹貳参參肆伍陸柒捌玖拾～]+）)", 2);
+	lines=ReplaceAllKewen(lines,"([壹貳参參肆伍陸柒捌玖拾～]+、)", 1);
 
-	lines=ReplaceAllKewen(lines,"(（[0-9～\-]{1,5}）)([^<]+)", 6);
-	lines=ReplaceAllKewen(lines,"([ABCDEFGHIJKLMNOPQRSTUVWXYZ]、)([^<]+)", 7);
-	lines=ReplaceAllKewen(lines,"(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)([^<]+)", 8);
-	lines=ReplaceAllKewen(lines,"([abcdefghijklmnopqrstuvwxz]、)([^<]+)", 9);
-	lines=ReplaceAllKewen(lines,"(（[abcdefghijklmnopqrstuvwxz]）)([^<]+)", 10);
-	lines=ReplaceAllKewen(lines,"([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]、)([^<]+)", 11);
-	lines=ReplaceAllKewen(lines,"(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)([^<]+)", 12);
-	lines=processExtraKepan(lines);
-	lines=removeKepanB(lines);
-	return lines.join("\n");
+	lines=processExtraKepan(lines);//因論生論
+	lines=removeKepanTag(lines,"b");
+	lines=removeKepanTag(lines,"kai");
+
+	//move <note outof kepan
+
+
+	content= lines.join("\n");
+	content=content.replace(/<note(.+?)<\/h(\d+)>/g,function(m,tag,d){
+		return "</h"+d+"><note"+tag;
+	});
+	return content;
 }
 
 
@@ -265,6 +280,7 @@ var processfile=function(fn){
 	content=content.replace(/<B>/g,"<b>");
 	content=content.replace(/<\/B>/g,"</b>");
 	content=content.replace(/<b><\/b>/g,"");
+	content=content.replace(/<u>\n<\/u>/g,"\n");
 
 	content=replaceKai(content);
 
@@ -272,6 +288,16 @@ var processfile=function(fn){
 	//deal with <b><H1>xxx\n<H2>xxx\n</b>
 	
 
+
+/*
+	content=content.replace(/<\/h(\d+)>」/g,function(m,m1){
+		return "」</h"+m1+">";
+	});
+
+	content=content.replace(/<\/kai><\/h(\d+)>/g,function(m,m1){
+		return "</h"+m1+"></kai>";
+	});
+*/
 	content=replacePb(content);
 
 
@@ -290,7 +316,7 @@ var processfile=function(fn){
 	content=content.replace(/<b><\/b>/g,"");
 	content=content.replace(/<b><\/u><\/b>/g,"</u>");
 	content=content.replace(/<u><\/u>/g,"");
-	content=content.replace(/<u>\n<\/u>/g,"");
+	content=content.replace(/<u>\n<\/u>/g,"\n");
 
 
 	var errors=validate(content,fn,2);//output has two extra line at the top
