@@ -14,10 +14,10 @@ var jin=[],luan=[],ndef=[];
 var out=luan,prevout;
 
 var checkContent=function(fn,content){
-	if (content.indexOf("<kai>")==-1) {
-		console.log(fn+" has no kai markup");
-		//juan 88 missing kai markup
-	}
+	var notallow=["^","{","}","~"];
+	notallow.map(function(pat){
+		if (content.indexOf(pat)>-1)console.log(fn+" cannot have "+pat);
+	})
 }
 var processfile=function(fn){
 	var juan=parseInt(fn.substr(sourcepath));
@@ -74,10 +74,12 @@ var replaceRef=function(str){
   })
 }
 var replaceFont=function(str){
-	return str.replace(/<kai>/g,"{k").replace(/<\/kai>/g,"k}")
+	str= str.replace(/<kai>/g,"{k").replace(/<\/kai>/g,"k}")
   .replace(/<b>/g,"{").replace(/<\/b>/g,"}")
   .replace(/<u>/g,"{u").replace(/<\/u>/g,"u}")
   .replace(/{u{/g,"{u").replace(/}u}/g,"u}")
+
+  return str;
 }
 var replace=function(str){
 return str.replace(/<pb n="(\d+)"\/>/g,function(m,m1){
@@ -92,6 +94,9 @@ return str.replace(/<pb n="(\d+)"\/>/g,function(m,m1){
 	.replace(/%(\d+) ~(\d+)/g,function(m,depth,pb){
 		return "~"+pb+"%"+depth+" "; //swap pb and depth , pb must before kepan
 	})  
+	.replace(/~(\d+)%/g,function(m,pb){
+		return "~"+pb+"\n%";  //pb has own line if followed by kepan
+	})
   .replace(/<body>/g,"")
 }
 
