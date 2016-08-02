@@ -39,8 +39,8 @@ var processfile=function(fn){
 			line=line.replace('<ndef n="','<ndef n="'+juan+".");
 		} else if (line.indexOf("<jin")>-1) {
 			out=jin;
-			out.push('^'+juan+'.'+group);
 			group++;
+			out.push('^'+juan+'.'+group);
 		}
 
 		if (line.indexOf('repeat="true"')==-1) {
