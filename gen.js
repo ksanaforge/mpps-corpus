@@ -192,7 +192,7 @@ var processKepan=function(content) {//move from vbscript
   remove all <b> and </b> in kepan group
   if <b> is not close, output <b> when kepan group is ended.
 
-  remove kai , as known by luan
+  remove kai , as known by lun
 */
 var matchcount=function(line,pat){
 	var m=0;
@@ -241,7 +241,7 @@ var replaceKai=function(content){
 
 var otherMarkup=function(content) {
 	return content.replace(/【<b>經<\/b>】/g,"<jin>經</jin>")
-	.replace(/【<b>論<\/b>】/g,"<luan>論</luan>");
+	.replace(/【<b>論<\/b>】/g,"<lun>論</lun>");
 }
 
 /*

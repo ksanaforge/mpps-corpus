@@ -10,8 +10,8 @@ var sourcepath="genxml/";
 var lst='genxml/mpps.lst';
 var fs=require("fs");
 var lst=fs.readFileSync(lst,"utf8").split(/\r?\n/);
-var jin=[],luan=[],ndef=[];
-var out=luan,prevout;
+var jin=[],lun=[],ndef=[];
+var out=lun,prevout;
 
 var checkContent=function(fn,content){
 	var notallow=["^","{","}","~"];
@@ -30,8 +30,8 @@ var processfile=function(fn){
 
 	for (var i=2;i<lines.length-1;i++) { //omit first 2 line and last line
 		var line=lines[i];
-		if (line.indexOf("<luan")>-1) {
-			out=luan;
+		if (line.indexOf("<lun")>-1) {
+			out=lun;
 			out.push('^'+juan+'.'+group);
 		} else if (line.indexOf("<ndef")>-1) {
 			if (out!=ndef) prevout=out;
@@ -110,10 +110,10 @@ jin=jin.replace(/<jin>經<\/jin>/g,"");
 jin=jin.replace(/\{/g,"").replace(/\}/g,"");
 jin=jin.replace(/<\/b>(#\d+)<b>/g,function(m,m1){return m1});
 
-luan=replace(luan.join("\n"));
-luan=replaceRef(luan);
-luan=replaceFont(luan);
-luan=luan.replace(/<luan>論<\/luan>/g,"");
+lun=replace(lun.join("\n"));
+lun=replaceRef(lun);
+lun=replaceFont(lun);
+lun=lun.replace(/<lun>論<\/lun>/g,"");
 
 ndef=ndef.join("\n");
 ndef=replaceRef(ndef);
@@ -123,5 +123,5 @@ ndef=ndef.replace(/<ndef n="(.*?)"\/>/g,function(m,m1){
 })
 
 fs.writeFileSync("jin.xml",jin,"utf8");
-fs.writeFileSync("luan.xml",luan,"utf8");
+fs.writeFileSync("lun.xml",lun,"utf8");
 fs.writeFileSync("ndef.xml",ndef,"utf8");
