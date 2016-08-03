@@ -21,7 +21,7 @@ var checkContent=function(fn,content){
 }
 var processfile=function(fn){
 	var juan=parseInt(fn.substr(sourcepath));
-	group=1;
+	group=0;
 	out.push('^'+juan);
 	var content=fs.readFileSync(sourcepath+fn,"utf8");
 	checkContent(fn,content);
