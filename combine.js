@@ -44,12 +44,11 @@ var processfile=function(fn){
 			out.push('^'+juan+'.'+group);
 		}
 
-		if (line.indexOf('repeat="true"')==-1) {
-
+		if (line.indexOf('repeat="true"')==-1) { //ignore repeated kepan
 			line=line.replace(/<note n="(\d+)"\/>/g,function(m,m1){
 				return "#"+juan+"."+m1;
 			})
-			out.push(line);	
+			if (line.trim()) out.push(line);	
 		}
 	}
 
@@ -129,6 +128,19 @@ var extractKepan=function(content,suffix){
 	});
 	return out;
 }
+
+var checkpart=function(jin,lun){
+	var jinpart=[],lunpart=[];
+	jin.replace(/\^([0-9.]+)/g,function(m,m1){jinpart.push(m1)});
+	lun.replace(/\^([0-9.]+)/g,function(m,m1){lunpart.push(m1)});
+	jinpart=jinpart.join("\n");
+	lunpart=lunpart.join("\n");
+	if (jinpart!==lunpart) {
+		console.log("jin and lun not aligned, see jin_part.txt and lun_part.txt");
+		fs.writeFileSync("jin_part.txt",jinpart,"utf8");
+		fs.writeFileSync("lun_part.txt",lunpart,"utf8");
+	}
+}
 lst.map(processfile);
 jin=jin.join("\n");
 jin=jin.replace(/<kai>/g,"").replace(/<\/kai>/g,"");//all jin is kai
@@ -157,9 +169,12 @@ ndef=ndef.replace(/<ndef n="(.*?)"\/>/g,function(m,m1){
 	return "#"+m1;
 })
 
+checkpart(jin,lun);
+
 fs.writeFileSync("jin.txt",jin,"utf8");
 fs.writeFileSync("lun.txt",lun,"utf8");
 fs.writeFileSync("ndef.txt",ndef,"utf8");
 
 fs.writeFileSync("jin_kepan.txt",jinkepan.join("\n"),"utf8");
 fs.writeFileSync("lun_kepan.txt",lunkepan.join("\n"),"utf8");
+

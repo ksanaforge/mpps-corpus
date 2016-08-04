@@ -88,7 +88,7 @@ var ReplaceAllKewen=function(lines,pat,depth) {//first pass, endtag not found ye
 	}
 	return lines;
 }
-var processExtraKepan=function(lines) { //因論生論
+var processExtraKepan=function(lines,fn) { //因論生論
 	var depth=0;
 	for (var i=0;i<lines.length;i++) {
 		var line=lines[i];
@@ -100,6 +100,9 @@ var processExtraKepan=function(lines) { //因論生論
 			if (line.indexOf("$$")>-1) {
 				line=line.replace("$$","");
 				line=line.replace(/<h(\d+) (.+?)>/,function(m,d,m1){return "<h"+d+' repeat="true" '+m1+">"});
+				//if (line.indexOf("<note")==-1) {
+					//console.log("warning repeat kepan without note",fn)
+				//}
 			}
 		} else if (line.indexOf("$")>-1) {
 			line=line.replace(/\$([^<]+)(.*)/,function(m,m1,m2){
@@ -152,10 +155,14 @@ var removeKepanTag=function(lines,tag){
 	}
 	return lines;
 }
-var processKepan=function(content) {//move from vbscript
+var processKepan=function(content,fn) {//move from vbscript
 	content=content.replace(/\n<\/b>/g,"</b>\n");
 
 	var lines=	content.split("\n");
+//1 and 2 have higher precedent for juan 090 
+//（貳）以方便力安立眾生於實際，而眾生際、實際不一、不異
+	lines=ReplaceAllKewen(lines,"(（[壹貳参參肆伍陸柒捌玖拾～]+）)", 2);
+	lines=ReplaceAllKewen(lines,"([壹貳参參肆伍陸柒捌玖拾～]+、)", 1);
 
 	lines=ReplaceAllKewen(lines,"(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)", 12);
 	lines=ReplaceAllKewen(lines,"([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]、)", 11);
@@ -163,14 +170,14 @@ var processKepan=function(content) {//move from vbscript
 	lines=ReplaceAllKewen(lines,"([abcdefghijklmnopqrstuvwxz]、)", 9);
 	lines=ReplaceAllKewen(lines,"(（[ABCDEFGHIJKLMNOPQRSTUVWXYZ]）)", 8);
 	lines=ReplaceAllKewen(lines,"([ABCDEFGHIJKLMNOPQRSTUVWXYZ]、)", 7);
+
 	lines=ReplaceAllKewen(lines,"(（[0-9～\-]{1,5}）)", 6);
 	lines=ReplaceAllKewen(lines,"([0-9～\-]{1,5}、)", 5);
+
 	lines=ReplaceAllKewen(lines,"(（[一二三四五六七八九十～\-]+）)", 4);
 	lines=ReplaceAllKewen(lines,"([一二三四五六七八九十～\-]+、)", 3);
-	lines=ReplaceAllKewen(lines,"(（[壹貳参參肆伍陸柒捌玖拾～]+）)", 2);
-	lines=ReplaceAllKewen(lines,"([壹貳参參肆伍陸柒捌玖拾～]+、)", 1);
 
-	lines=processExtraKepan(lines);//因論生論
+	lines=processExtraKepan(lines,fn);//因論生論
 	lines=removeKepanTag(lines,"b");
 	lines=removeKepanTag(lines,"kai");
 
@@ -238,12 +245,15 @@ var replaceKai=function(content){
 		return "<kai>"+m1+"</kai>";
 	});
 }
-
+/* assuming 論 has <b> , because ndef might have 【論】, juan #85.70 */
 var otherMarkup=function(content) {
 	return content.replace(/【<b>經<\/b>】/g,"<jin>經</jin>")
-	.replace(/【經】/g,"<jin>經</jin>")
+	//.replace(/【經】/g,"<jin>經</jin>")
 	.replace(/【<b>論<\/b>】/g,"<lun>論</lun>")
-	.replace(/【論】/g,"<lun>論</lun>");
+	.replace(/【<b>論<\/b>(<note .*?>)】/g,function(m,note){ //juan 51 lun has note
+		return "<lun>論</lun>"+note;
+	})
+	//.replace(/【論】/g,"<lun>論</lun>");
 }
 
 /*
@@ -294,7 +304,7 @@ var processfile=function(fn){
 
 	content=replaceKai(content);
 
-	content=processKepan(content);
+	content=processKepan(content,fn);
 	//deal with <b><H1>xxx\n<H2>xxx\n</b>
 	
 
