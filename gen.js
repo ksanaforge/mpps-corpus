@@ -241,7 +241,9 @@ var replaceKai=function(content){
 
 var otherMarkup=function(content) {
 	return content.replace(/【<b>經<\/b>】/g,"<jin>經</jin>")
-	.replace(/【<b>論<\/b>】/g,"<lun>論</lun>");
+	.replace(/【經】/g,"<jin>經</jin>")
+	.replace(/【<b>論<\/b>】/g,"<lun>論</lun>")
+	.replace(/【論】/g,"<lun>論</lun>");
 }
 
 /*

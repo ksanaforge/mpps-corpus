@@ -12,6 +12,7 @@ var fs=require("fs");
 var lst=fs.readFileSync(lst,"utf8").split(/\r?\n/);
 var jin=[],lun=[],ndef=[];
 var out=lun,prevout;
+var jinkepan=[],lunkepan=[];
 
 var checkContent=function(fn,content){
 	var notallow=["^","{","}","~"];
@@ -19,26 +20,26 @@ var checkContent=function(fn,content){
 		if (content.indexOf(pat)>-1)console.log(fn+" cannot have "+pat);
 	})
 }
+var jinpart=[],lunpart=[],ndefpart=[];
 var processfile=function(fn){
 	var juan=parseInt(fn.substr(sourcepath));
 	group=0;
-	out.push('^'+juan);
 	var content=fs.readFileSync(sourcepath+fn,"utf8");
 	checkContent(fn,content);
 	var lines=content.split(/\r?\n/);
-	if (prevout) out=prevout;
+	if (prevout) out=prevout; else out=lunpart;//start from lun
 
 	for (var i=2;i<lines.length-1;i++) { //omit first 2 line and last line
 		var line=lines[i];
 		if (line.indexOf("<lun")>-1) {
-			out=lun;
+			out=lunpart;
 			out.push('^'+juan+'.'+group);
 		} else if (line.indexOf("<ndef")>-1) {
-			if (out!=ndef) prevout=out;
-			out=ndef;
+			if (out!=ndefpart) prevout=out;
+			out=ndefpart;
 			line=line.replace('<ndef n="','<ndef n="'+juan+".");
 		} else if (line.indexOf("<jin")>-1) {
-			out=jin;
+			out=jinpart;
 			group++;
 			out.push('^'+juan+'.'+group);
 		}
@@ -48,11 +49,28 @@ var processfile=function(fn){
 			line=line.replace(/<note n="(\d+)"\/>/g,function(m,m1){
 				return "#"+juan+"."+m1;
 			})
-
 			out.push(line);	
-
 		}
 	}
+
+	//process part of this file
+	jinkepan=jinkepan.concat(extractKepan(jinpart.join("\n")," (卷"+juan+")"));
+	lunkepan=lunkepan.concat(extractKepan(lunpart.join("\n")," (卷"+juan+")"));
+
+	if (juan==14) debugger;
+	jin=jin.concat(jinpart);
+	lun=lun.concat(lunpart);
+	ndef=ndef.concat(ndefpart);
+	if (prevout==jinpart) {
+		prevout=jinpart=[];
+		lunpart=[];
+	} else if(prevout==lunpart) {
+		jinpart=[];
+		prevout=lunpart=[];
+	} else {
+		lunpart=[],jinpart=[];
+	}
+	ndefpart=[];
 }
 
 var replaceRef=function(str){
@@ -81,16 +99,18 @@ var replaceFont=function(str){
 
   return str;
 }
-var replace=function(str){
-return str.replace(/<pb n="(\d+)"\/>/g,function(m,m1){
-		return "~"+m1;
-  })
-  .replace(/<h(\d+) t="(.*?)">(.*?)<\/h\d+>/g,function(m,depth,m1,m2){
+var replaceKepan=function(str){
+  return str.replace(/<h(\d+) t="(.*?)">(.*?)<\/h\d+>/g,function(m,depth,m1,m2){
   	return "%"+depth+" "+m1+m2
   })
   .replace(/<h(\d+)>(.*?)<\/h\d+>/g,function(m,depth,m2){
   	return "%"+depth+" "+m2; //without t
   })  
+}
+var replace=function(str){
+return str.replace(/<pb n="(\d+)"\/>/g,function(m,m1){
+		return "~"+m1;
+  })
 	.replace(/%(\d+) ~(\d+)/g,function(m,depth,pb){
 		return "~"+pb+"%"+depth+" "; //swap pb and depth , pb must before kepan
 	})  
@@ -99,21 +119,36 @@ return str.replace(/<pb n="(\d+)"\/>/g,function(m,m1){
 	})
   .replace(/<body>/g,"")
 }
-
+var extractKepan=function(content,suffix){
+	var out=[];
+  var newformat=replaceRef(replaceKepan(content))
+  .replace(/<pb .*?>/g,"").replace(/@.[A-Za-z0-9\-]+/g,"")
+  .replace(/#[0-9.]+/g,"")
+	newformat.replace(/%(.*)/g,function(m,m1){
+		out.push(m1+suffix);
+	});
+	return out;
+}
 lst.map(processfile);
 jin=jin.join("\n");
 jin=jin.replace(/<kai>/g,"").replace(/<\/kai>/g,"");//all jin is kai
 jin=replace(jin);
+jin=replaceKepan(jin);
 jin=replaceRef(jin);
 jin=replaceFont(jin);
 jin=jin.replace(/<jin>經<\/jin>/g,"");
 jin=jin.replace(/\{/g,"").replace(/\}/g,"");
 jin=jin.replace(/<\/b>(#\d+)<b>/g,function(m,m1){return m1});
 
+//var jinkepan=extractKepan(jin);
+
 lun=replace(lun.join("\n"));
+lun=replaceKepan(lun);
 lun=replaceRef(lun);
 lun=replaceFont(lun);
 lun=lun.replace(/<lun>論<\/lun>/g,"");
+
+//var lunkepan=extractKepan(lun);
 
 ndef=ndef.join("\n");
 ndef=replaceRef(ndef);
@@ -122,6 +157,9 @@ ndef=ndef.replace(/<ndef n="(.*?)"\/>/g,function(m,m1){
 	return "#"+m1;
 })
 
-fs.writeFileSync("jin.xml",jin,"utf8");
-fs.writeFileSync("lun.xml",lun,"utf8");
-fs.writeFileSync("ndef.xml",ndef,"utf8");
+fs.writeFileSync("jin.txt",jin,"utf8");
+fs.writeFileSync("lun.txt",lun,"utf8");
+fs.writeFileSync("ndef.txt",ndef,"utf8");
+
+fs.writeFileSync("jin_kepan.txt",jinkepan.join("\n"),"utf8");
+fs.writeFileSync("lun_kepan.txt",lunkepan.join("\n"),"utf8");
