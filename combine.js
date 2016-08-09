@@ -13,9 +13,10 @@ var lst=fs.readFileSync(lst,"utf8").split(/\r?\n/);
 var jin=[],lun=[],ndef=[];
 var out=lun,prevout;
 var jinkepan=[],lunkepan=[];
+var kepan=[];
 
 var checkContent=function(fn,content){
-	var notallow=["^","{","}","~"];
+	var notallow=["^","{","}","~","`"];
 	notallow.map(function(pat){
 		if (content.indexOf(pat)>-1)console.log(fn+" cannot have "+pat);
 	})
@@ -53,8 +54,9 @@ var processfile=function(fn){
 	}
 
 	//process part of this file
-	jinkepan=jinkepan.concat(extractKepan(jinpart.join("\n")," (卷"+juan+")"));
-	lunkepan=lunkepan.concat(extractKepan(lunpart.join("\n")," (卷"+juan+")"));
+	//jinkepan=jinkepan.concat(extractKepan(jinpart.join("\n")," (卷"+juan+")"));
+	//lunkepan=lunkepan.concat(extractKepan(lunpart.join("\n")," (卷"+juan+")"));
+	kepan=kepan.concat(extractKepan(content," (卷"+juan+")"));
 
 	if (juan==14) debugger;
 	jin=jin.concat(jinpart);
@@ -72,6 +74,12 @@ var processfile=function(fn){
 	ndefpart=[];
 }
 
+/* TODO Error parsing
+（一）修多羅（印順法師，《大智度論筆記》［F029］p.360，［I042］p.449）
+  to 
+（一）修多羅@yF029］p.360，［I042p449
+ in juan 33
+*/
 var replaceRef=function(str){
 	// @[_a-zA-z0-9\-]
   return str.replace(/<taisho n="(.*?)"\/>/g,function(m,m1){
@@ -175,6 +183,7 @@ fs.writeFileSync("jin.txt",jin,"utf8");
 fs.writeFileSync("lun.txt",lun,"utf8");
 fs.writeFileSync("ndef.txt",ndef,"utf8");
 
-fs.writeFileSync("jin_kepan.txt",jinkepan.join("\n"),"utf8");
-fs.writeFileSync("lun_kepan.txt",lunkepan.join("\n"),"utf8");
+//fs.writeFileSync("jin_kepan.txt",jinkepan.join("\n"),"utf8");
+//fs.writeFileSync("lun_kepan.txt",lunkepan.join("\n"),"utf8");
+fs.writeFileSync("kepan.txt",kepan.join("\n"),"utf8");
 
