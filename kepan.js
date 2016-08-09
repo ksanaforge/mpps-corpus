@@ -89,12 +89,15 @@ var emit=function(text,mode,textlinenum,linenum){
    prevlinenum=textlinenum;
 }
 var validate=function(){
-   var prevdepth=0,out=[];
+   var prevdepth=0,out=[],head="";
    for(var i=0;i<kepanView.length;i++) {
       var k=kepanView[i];
       var depth=parseInt(k);
+      if (depth==0) head=k;
       if (depth-prevdepth>1) {
-         out.push(k+" "+i);
+         out.push("===line "+i+" "+head)
+         out.push(kepanView[i-1]);
+         out.push(k);
       }
       prevdepth=depth;
    }
