@@ -55,21 +55,50 @@ var renderDepth=function(depth){
    return out;
 }
 
-var reset=function(ntree,juan,textlinenum){
+var reset=function(ntree,mode,juan,textlinenum,linenum){
    prevdepth=0;
    adjustdepth=false;
+   starkepan=false;//※因論生論
    prevlinenum=textlinenum;
-   kepanView.push("0\t========="+ntree+"=========卷"+juan);
+   var part=mode==1?"J":"L";  
+   kepanView.push([part,0,ntree,juan,linenum,textlinenum]);
 }
-var emit=function(text,mode,textlinenum,linenum){
-   text=text.replace(/<.*?>/g,"");
-   var rangeline=textlinenum-prevlinenum;
-   if (rangeline>0) {
-      kepanView[kepanView.length-1]+="------"+rangeline;
+var starkepan=false;
+
+//踫到經，經緊接之前(中間無文字)的科判視為共享。
+var jinAfterKepan=function(textlinenum,linenum){
+   var k=kepanView.length-1;
+   while (kepanView[k][0]=="L" && kepanView[k][5]===textlinenum) {
+      kepanView[k][0]="S";//sharing
+      k--;
    }
+}
+//論的科判，往回找相同的經科判，直到0
+var findCounterPart=function(text,part){ 
+   var normalize=function(tt){
+      return tt.replace(/[「（）」]/,"");
+   }
+   text=normalize(text);
+   var i=kepanView.length-1;
+   while (kepanView[i][1]){
+      var t=kepanView[i][2];
+      if (text==normalize(t) && (kepanView[i][0]=="J" || kepanView[i][0]=="S")) {
+         return i;
+      }
+      i--;
+   }
+   return part;
+}
+var emit=function(text,mode,juan,textlinenum,linenum){
+   text=text.replace(/<.*?>/g,"").replace("$","");
+   var rangeline=textlinenum-prevlinenum;
+
    var depth=suggestedDepth(text);
-   if (!depth) depth=prevdepth;
-   else {
+   if (!depth) {
+      depth=starkepan?prevdepth:prevdepth+1;
+      starkepan=true;
+   } else {
+      starkepan=false;
       if (depth===3 && prevdepth==1) {
          adjustdepth=1;
          depth--;
@@ -80,11 +109,12 @@ var emit=function(text,mode,textlinenum,linenum){
       }      
    }
    
-   if (mode==1) {
-      kepanView.push(depth+"\t"+renderDepth(depth)+text+"(經)");
-   } else {
-      kepanView.push(depth+"\t"+renderDepth(depth)+text);
+   var part=mode==1?"J":"L";
+   if (mode!==1) {
+      part=findCounterPart(text,part);
    }
+   kepanView.push([part,depth,text,juan,linenum,textlinenum]);
+
    prevdepth=depth;
    prevlinenum=textlinenum;
 }
@@ -106,4 +136,4 @@ var validate=function(){
 var get=function(){
    return kepanView.join("\n");
 }
-module.exports={emit, get, newfile,reset,validate};
+module.exports={emit, get, newfile,reset,validate,jinAfterKepan};

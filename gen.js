@@ -7,7 +7,7 @@ var fs=require("fs");
 
 var sourcepath="msword_pb_kai_kepan/xml/";
 var lst=fs.readFileSync(sourcepath+"files.lst","utf8").split(/\r?\n/);
-var writeToDisk=false;
+var writeToDisk=true;
 //lst.length=5;
 
 var validate=require("ksana-master-format/validatexml");
@@ -18,46 +18,79 @@ var allerrors=[], treecount=0;
 
 var mode=2; //1:jin, 2 : lun
 var inNdef=false;
+var totalline=0;
 
+var removeKepanStyle=function(line){
+	return line.replace(/<\/?b>/g,"");
+}
+
+var isInBold=function(line,prevbold) {//is bold after this line
+	var bold=prevbold;
+	var bstart=line.lastIndexOf("<b>");
+	var bend=line.lastIndexOf("</b>");
+
+	if (bstart>-1 || bend>-1) {
+		if (bend>bstart) bold=false;
+		if (bstart>bend) bold=true;
+	}
+
+	return bold
+}
 var processlines=function(content,juan){
-/*
-	t1
-	$1
-   <jin>
-   t2
-	$2	
-
-	$3
-
-	$4
-   <lun>
-
-	$5
-
-
-*/
-
+	content=content.replace(/\n<\/b>/g,"</b>\n");
+	content=content.replace(/<b>\n/g,"\n<b>");
 	var lines=content.split("\n");
-	inNdef=false;
+	
+	inNdef=false ;
+	var inBold=false;
 	Kepan.newfile();
-	var textlinecount=0;
+	var textlinecount=0,prevlineiskepan=false;
 	for (var i=0;i<lines.length;i++) {
-//		if (i==369 && juan==35) debugger;
+		if (juan==1 && line==95) debugger;
 		var line=lines[i];
-		if (line.indexOf("$$")>-1) continue; //repeated kepan ignore this line
+
+		if (line.indexOf("$$")>-1) {
+			if (!prevlineiskepan) {
+				if (inBold) { //add </b> to previous line
+					lines[i-1]+="</b>";
+					inBold=false;
+				}
+			}
+			lines[i]=removeKepanStyle(line);
+			prevlineiskepan=true;
+			inBold=isInBold(line,inBold);
+			continue; //repeated kepan ignore this line
+		}
 
 		if (line.indexOf("$")>-1) { //a kepan node
+			if (!prevlineiskepan) {
+				if (inBold) { //add </b> to previous line
+					lines[i-1]+="</b>";
+					inBold=false;
+				}
+			}
+
 			if (line.indexOf("$壹、")>-1) { //start of a new tree
 				treecount++;
-				Kepan.reset(treecount,juan,textlinecount);
+				Kepan.reset(treecount,mode,juan,textlinecount,totalline+i);
 			}
-			Kepan.emit(line,mode,textlinecount,i);
+			Kepan.emit(line,mode,juan,textlinecount,totalline+i);
+			lines[i]=removeKepanStyle(line);
+			prevlineiskepan=true;
+			inBold=isInBold(line,inBold);
 		} else {
+			if (prevlineiskepan) {
+				if (inBold) {
+					lines[i]="<b>"+line;
+				}
+			}
+			prevlineiskepan=false;
 			if (line.indexOf("<jin/>")>-1) {
 				if (line.replace(/<.*?>/g,"").trim().length) { //check if text on same line
 					textlinecount++;
 				}
 				mode=1;
+				Kepan.jinAfterKepan(textlinecount);
 			} else if (line.indexOf("<lun/>")>-1) {
 				if (line.replace(/<.*?>/g,"").trim().length) { //check if text on same line
 					textlinecount++;
@@ -68,9 +101,10 @@ var processlines=function(content,juan){
 			} else {
 				textlinecount++;
 			}
-		}
-		
+			inBold=isInBold(line,inBold);
+		}		
 	}
+	totalline+=lines.length;
 	return lines.join("\n");
 }
 var processfile=function(fn){
