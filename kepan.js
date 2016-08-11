@@ -16,7 +16,7 @@
 	h2 might be slightly different in text
 	h4 is lun own kepan
 */
-var kepanView=[];
+var kepanView=[],treestart=0;
 var suggestedDepth=function(line){
    var pats=[
       [/(（[壹貳参參肆伍陸柒捌玖拾～]+）)/, 2],
@@ -57,17 +57,18 @@ var renderDepth=function(depth){
 
 var reset=function(ntree,mode,juan,textlinenum,linenum){
    prevdepth=0;
+   treestart=kepanView.length;
    adjustdepth=false;
    starkepan=false;//※因論生論
    prevlinenum=textlinenum;
    var part=mode==1?"J":"L";  
-   kepanView.push([part,0,ntree,juan,linenum,textlinenum]);
+   kepanView.push([part,0,ntree.toString(),juan,linenum,textlinenum]);
 }
 var starkepan=false;
 
 //踫到經，經緊接之前(中間無文字)的科判視為共享。
 var jinAfterKepan=function(textlinenum,linenum){
-   var k=kepanView.length-1;
+   k=kepanView.length-1;
    while (kepanView[k][0]=="L" && kepanView[k][5]===textlinenum) {
       kepanView[k][0]="S";//sharing
       k--;
@@ -79,13 +80,14 @@ var findCounterPart=function(text,part){
       return tt.replace(/[「（）」]/,"");
    }
    text=normalize(text);
-   var i=kepanView.length-1;
-   while (kepanView[i][1]){
+   var now=kepanView.length;
+
+   for (var i=treestart;i<kepanView.length;i++) {
       var t=kepanView[i][2];
       if (text==normalize(t) && (kepanView[i][0]=="J" || kepanView[i][0]=="S")) {
+         kepanView[i][0]=now+kepanView[i][0];
          return i;
       }
-      i--;
    }
    return part;
 }
@@ -137,3 +139,8 @@ var get=function(){
    return kepanView.join("\n");
 }
 module.exports={emit, get, newfile,reset,validate,jinAfterKepan};
+
+/* has same text but not counter part
+16327,1,貳、為始行菩薩開示修行次第,87,69029,81
+>>16398,2,（壹）須菩提問,87,69030,81
+*/
