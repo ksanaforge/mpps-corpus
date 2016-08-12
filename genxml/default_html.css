@@ -1,0 +1,60 @@
+﻿
+    body {background: #FFFFFF;white-space:pre-wrap}
+    /*note:before {color:red; font-size:75% ;content: attr(n)}*/
+    note {color:red;font-size:75%;}
+    taisho:before {color:green; font-size:75% ;content: attr(n)}
+    pb:before {color:green; font-size:120% ;content: "\a--------" attr(n) ; white-space:pre}
+    pb:after {color:green; font-size:120% ;content: "--------\a" ; white-space:pre}
+    ndef:before {color:brown; content: "\a" ;}
+     
+    jin {color:blue;font-size:48pt}
+    lun {color:brown;font-size:48pt}
+    jin:after {content:"經";}
+    lun:after {content:"論";}
+    
+    kai {font-family: DFKai-sb}
+    b {font-weight:700;}
+
+    note {white-space: pre}
+    h {color:green;} /* is a kepan but level not known yet */
+    h1 {color:blue;font-size: 24pt; font-weight:bold}
+    h2 {color:blue;font-size: 18pt; font-weight:bold}
+    h3 {color:blue;font-size: 14pt; font-weight:bold}
+    h4 {color:blue;font-size: 12pt; font-weight:bold}
+    h5 {color:blue;font-size: 12pt; font-weight:bold}
+    h6 {color:blue;font-size: 12pt; font-weight:bold}
+    h7 {font-size: 12pt; font-weight:bold}
+    h8 {font-size: 12pt; font-weight:bold}
+    h9 {font-size: 12pt; font-weight:bold}
+    h10 {font-size: 12pt; font-weight:bold}
+    h11 {font-size: 12pt; font-weight:bold}
+    h12 {font-size: 12pt; font-weight:bold}
+    h13 {font-size: 12pt; font-weight:bold}
+   
+    h1:before {content: "\a" attr(t) ; white-space: pre }
+#    H1:after {content: "\a"; white-space: pre }
+#    H2:after {content: "\a"; white-space: pre }
+    h2:before {content: "\a" attr(t); white-space: pre }
+#    H3:after {content: "\a"; white-space: pre }
+    h3:before {content: "\a" attr(t) ; white-space: pre }
+#    H4:after {content: "\a"; white-space: pre }
+    h4:before {content: "\a" attr(t); white-space: pre }
+#    H5:after {content: "\a"; white-space: pre }
+    h5:before {content: "\a" attr(t) ; white-space: pre }
+#    H6:after {content: "\a"; white-space: pre }
+    h6:before {content: "\a" attr(t); white-space: pre }
+#    H7:after {content: "\a"; white-space: pre }
+    h7:before {content: "\a" attr(t); white-space: pre }
+#    H8:after {content: "\a"; white-space: pre }
+    h8:before {content: "\a" attr(t); white-space: pre }
+#    H9:after {content: "\a"; white-space: pre }
+    h9:before {content: "\a" attr(t); white-space: pre }
+#    H10:after {content: "\a"; white-space: pre }
+    h10:before {content: "\a" attr(t); white-space: pre }
+#    H11:after {content: "\a"; white-space: pre }
+    h11:before {content: "\a" attr(t); white-space: pre }
+#    H12:after {content: "\a"; white-space: pre }
+    h12:before {content: "\a" attr(t); white-space: pre }
+#    H13:after {content: "\a"; white-space: pre }
+    h13:before {content: "\a" attr(t); white-space: pre }
+    
