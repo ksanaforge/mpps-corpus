@@ -16,7 +16,10 @@
 	h2 might be slightly different in text
 	h4 is lun own kepan
 */
-var kepanView=[],treestart=0;
+var kepanView=[],
+treestart=0, //current tree start index of kepanview (tree might cross multiple file)
+filestart=0; //current file start index of kepanview (one file might have more than one tree)
+
 var suggestedDepth=function(line){
    var pats=[
       [/(（[壹貳参參肆伍陸柒捌玖拾～]+）)/, 2],
@@ -45,6 +48,7 @@ var suggestedDepth=function(line){
 var prevlinenum=0,prevdepth=0,
 adjustdepth=false;//before juan 40 , level 2 is missing
 var newfile=function(){
+   filestart=kepanView.length;
    prevlinenum=0;
 }
 var renderDepth=function(depth){
@@ -54,12 +58,36 @@ var renderDepth=function(depth){
    }
    return out;
 }
-
+//
+var patchKepan=function(lines,juan){
+   for (i=filestart;i<kepanView.length;i++) {
+      var k=kepanView[i];
+      var mode=k[0],j=k[3],l=k[4],d=k[1];
+      if (j!==juan) break;
+      if (d==0) continue;//start of tree is mark as attribute in first H1
+      var extra="";
+      if (mode==2)extra=' m="J"';
+      if (d==1&&kepanView[i-1][1]==0) extra+=' start="1"';
+      var line=lines[l];
+      var starat=line.indexOf("$");
+      var tagat=line.indexOf("<",starat+1);
+      var remain="";
+      if (tagat>-1) {
+         remain=line.substr(tagat);
+      } else {
+         tagat=line.length;
+      }
+      line=line.substr(0,starat)+
+         "<H"+d+extra+'>'+line.substring(starat+1,tagat)+"</H"+d+">"+remain;
+      lines[l]=line;
+   }
+   return lines;
+}
 var reset=function(ntree,mode,juan,textlinenum,linenum){
    prevdepth=0;
-   treestart=kepanView.length;
    adjustdepth=false;
    starkepan=false;//※因論生論
+   treestart=kepanView.length;
    prevlinenum=textlinenum;
    var part=mode==1?"J":"L";  
    kepanView.push([part,0,ntree.toString(),juan,linenum,textlinenum]);
@@ -73,23 +101,6 @@ var jinAfterKepan=function(textlinenum,linenum){
       kepanView[k][0]="S";//sharing
       k--;
    }
-}
-//論的科判，往回找相同的經科判，直到0
-var findCounterPart=function(text,part){ 
-   var normalize=function(tt){
-      return tt.replace(/[「（）」]/,"");
-   }
-   text=normalize(text);
-   var now=kepanView.length;
-
-   for (var i=treestart;i<kepanView.length;i++) {
-      var t=kepanView[i][2];
-      if (text==normalize(t) && (kepanView[i][0]=="J" || kepanView[i][0]=="S")) {
-         kepanView[i][0]=now+kepanView[i][0];
-         return i;
-      }
-   }
-   return part;
 }
 var emit=function(text,mode,juan,textlinenum,linenum){
    text=text.replace(/<.*?>/g,"").replace("$","");
@@ -112,9 +123,6 @@ var emit=function(text,mode,juan,textlinenum,linenum){
    }
    
    var part=mode==1?"J":"L";
-   if (mode!==1) {
-      part=findCounterPart(text,part);
-   }
    kepanView.push([part,depth,text,juan,linenum,textlinenum]);
 
    prevdepth=depth;
@@ -138,7 +146,7 @@ var validate=function(){
 var get=function(){
    return kepanView.join("\n");
 }
-module.exports={emit, get, newfile,reset,validate,jinAfterKepan};
+module.exports={emit, get, newfile,reset,validate,jinAfterKepan, patchKepan};
 
 /* has same text but not counter part
 16327,1,貳、為始行菩薩開示修行次第,87,69029,81

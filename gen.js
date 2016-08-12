@@ -45,6 +45,7 @@ var processlines=function(content,juan){
 	var inBold=false;
 	Kepan.newfile();
 	var textlinecount=0,prevlineiskepan=false;
+
 	for (var i=0;i<lines.length;i++) {
 		if (juan==1 && line==95) debugger;
 		var line=lines[i];
@@ -70,11 +71,11 @@ var processlines=function(content,juan){
 				}
 			}
 
-			if (line.indexOf("$壹、")>-1) { //start of a new tree
+			if (line.indexOf("$壹、")>-1 && (mode==1 || juan<41)) { //start of a new tree
 				treecount++;
-				Kepan.reset(treecount,mode,juan,textlinecount,totalline+i);
+				Kepan.reset(treecount,mode,juan,textlinecount,i);
 			}
-			Kepan.emit(line,mode,juan,textlinecount,totalline+i);
+			Kepan.emit(line,mode,juan,textlinecount,i);
 			lines[i]=removeKepanStyle(line);
 			prevlineiskepan=true;
 			inBold=isInBold(line,inBold);
@@ -104,6 +105,7 @@ var processlines=function(content,juan){
 			inBold=isInBold(line,inBold);
 		}		
 	}
+	lines=Kepan.patchKepan(lines,juan);
 	totalline+=lines.length;
 	return lines.join("\n");
 }
@@ -123,11 +125,15 @@ var processfile=function(fn){
 	var errors=validate(content,fn,2);//output has two extra line at the top
 
 	out=content;
-	out=`<?xml-stylesheet type="text/css" href="default.css" ?>
+	//out=`<?xml-stylesheet type="text/css" href="default.css" ?>
+	//		<html><script src="script.js"></script><meta charset="UTF-8"/>
+	//		<body>`+out+"</body></html>";
+
+	out=`<link rel="stylesheet" type="text/css" href="default_html.css" />
 			<html><script src="script.js"></script><meta charset="UTF-8"/>
 			<body>`+out+"</body></html>";
 
-	var newfn=fn.replace("-pb-kai-kw.docx.xml",".xhtml");
+	var newfn=fn.replace("-pb-kai-kw.docx.xml",".html");
 	newfn=newfn.replace(/\d+大智度論卷/,"");
 	newfn=newfn.replace(/大智度論簡介/,"");
 
