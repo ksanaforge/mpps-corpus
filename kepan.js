@@ -69,6 +69,10 @@ var patchKepan=function(lines,juan){
       if (mode==2)extra=' m="J"';
       if (d==1&&kepanView[i-1][1]==0) extra+=' start="1"';
       var line=lines[l];
+      //move pb before $
+      line=line.replace(/\$<pb n="(.*)"><\/pb>/,function(m,m1){
+         return '<pb n="'+m1+'"></pb>$';
+      });
       var starat=line.indexOf("$");
       var tagat=line.indexOf("<",starat+1);
       var remain="";
@@ -77,8 +81,12 @@ var patchKepan=function(lines,juan){
       } else {
          tagat=line.length;
       }
+      var head=line.substring(starat+1,tagat);
+      if (!head) {
+         console.log("warning empty head",juan,l);
+      }
       line=line.substr(0,starat)+
-         "<H"+d+extra+'>'+line.substring(starat+1,tagat)+"</H"+d+">"+remain;
+         "<H"+d+extra+'>'+title+"</H"+d+">"+remain;
       lines[l]=line;
    }
    return lines;

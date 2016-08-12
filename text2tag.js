@@ -15,6 +15,8 @@ var taisho=function(content) {
 		return '<note_taisho vol="'+vol+'" pg="'+pg+'" n="'+sutra+'"></note_taisho>';
 	}).replace(/（大正(\d+)，(.+?)）/g,function(m,vol,pg){
 		return '<note_taisho vol="'+vol+'" pg="'+pg+'"></note_taisho>';
+	}).replace(/<taisho n="(.*?)"\/>/g,function(m,m1){ //taisho page num
+		return '<taisho n="'+m1+'"></taisho>';
 	});
 }
 
