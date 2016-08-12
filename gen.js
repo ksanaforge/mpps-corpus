@@ -86,13 +86,13 @@ var processlines=function(content,juan){
 				}
 			}
 			prevlineiskepan=false;
-			if (line.indexOf("<jin/>")>-1) {
+			if (line.indexOf("<jin")>-1) {
 				if (line.replace(/<.*?>/g,"").trim().length) { //check if text on same line
 					textlinecount++;
 				}
 				mode=1;
 				Kepan.jinAfterKepan(textlinecount);
-			} else if (line.indexOf("<lun/>")>-1) {
+			} else if (line.indexOf("<lun")>-1) {
 				if (line.replace(/<.*?>/g,"").trim().length) { //check if text on same line
 					textlinecount++;
 				}

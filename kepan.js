@@ -66,7 +66,7 @@ var patchKepan=function(lines,juan){
       if (j!==juan) break;
       if (d==0) continue;//start of tree is mark as attribute in first H1
       var extra="";
-      if (mode==2)extra=' m="J"';
+      if (mode!=="L")extra=' m="'+mode+'"';
       if (d==1&&kepanView[i-1][1]==0) extra+=' start="1"';
       var line=lines[l];
       //move pb before $
@@ -86,7 +86,7 @@ var patchKepan=function(lines,juan){
          console.log("warning empty head",juan,l);
       }
       line=line.substr(0,starat)+
-         "<H"+d+extra+'>'+title+"</H"+d+">"+remain;
+         "<H"+d+extra+'>'+head+"</H"+d+">"+remain;
       lines[l]=line;
    }
    return lines;
