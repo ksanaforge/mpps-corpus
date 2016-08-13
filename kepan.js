@@ -91,14 +91,14 @@ var patchKepan=function(lines,juan){
    }
    return lines;
 }
-var reset=function(ntree,mode,juan,textlinenum,linenum){
+var reset=function(text,mode,juan,textlinenum,linenum){
    prevdepth=0;
    adjustdepth=false;
    starkepan=false;//※因論生論
    treestart=kepanView.length;
    prevlinenum=textlinenum;
    var part=mode==1?"J":"L";  
-   kepanView.push([part,0,ntree.toString(),juan,linenum,textlinenum]);
+   kepanView.push([part,0,text,juan,linenum,textlinenum]);
 }
 var starkepan=false;
 

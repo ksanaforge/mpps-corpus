@@ -14,6 +14,7 @@ var validate=require("ksana-master-format/validatexml");
 var Kepan=require("./kepan");
 var Hotfix=require("./hotfix");
 var Text2Tag=require("./text2tag");//known text pattern to xml tag
+var treename=require("./treename");
 var allerrors=[], treecount=0;
 
 var mode=2; //1:jin, 2 : lun
@@ -70,10 +71,13 @@ var processlines=function(content,juan){
 					inBold=false;
 				}
 			}
+			//juan 1~40, 42 , top level kepan might come before <jin>
+			if (line.indexOf("壹、")>-1 &&line.indexOf("拾壹、")===-1 
+			&& (mode==1 || juan<41 || juan==42 )) { //start of a new tree
 
-			if (line.indexOf("$壹、")>-1 && (mode==1 || juan<41)) { //start of a new tree
+				var text=treename[treecount];
+				Kepan.reset(text,mode,juan,textlinecount,i);
 				treecount++;
-				Kepan.reset(treecount,mode,juan,textlinecount,i);
 			}
 			Kepan.emit(line,mode,juan,textlinecount,i);
 			lines[i]=removeKepanStyle(line);

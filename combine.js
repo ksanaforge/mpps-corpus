@@ -15,7 +15,7 @@ var out=lun,prevout;
 var jinkepan=[],lunkepan=[];
 var kepan=[],subtreecount=0;
 var kepanmerge=require("./kepanmerge");
-
+var treename=require("./treename");
 var checkContent=function(fn,content){
 	var notallow=["^","{","}","~","`"];
 	notallow.map(function(pat){
@@ -46,8 +46,8 @@ var processkepanline=function(line,jun,part) {
 		return "";
 	});
 	if (isnewtree) {
+		kepan.push([0,treename[subtreecount],subtreecount]);
 		subtreecount++;
-		kepan.push([0,"科判"+subtreecount,subtreecount]);
 	}
 	line=line.replace(/<H(\d+)>(.+?)<\/H\d+>/,function(m,d,head,idx){
 		var kid=subtreecount+"."+subkepan.length;
