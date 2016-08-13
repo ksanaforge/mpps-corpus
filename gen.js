@@ -25,6 +25,24 @@ var removeKepanStyle=function(line){
 	return line.replace(/<\/?b>/g,"");
 }
 
+//kai should open on close on each line
+var completeKai=function(line){
+	var kstart=line.lastIndexOf("<kai>");
+	var kend=line.indexOf("</kai>");
+
+	var kstart1=line.indexOf("<kai>");
+	var kend1=line.lastIndexOf("</kai>");
+
+	if (kstart==-1 && kend==-1) return line;
+
+	if ( kstart==-1) return "<kai>"+line;
+	if (kend==-1)    return line+"</kai>";
+	
+	if (kstart>kend1) return line+"</kai>";
+	if (kend<kstart1) return "<kai>"+line;
+
+	return line;
+}
 var isInBold=function(line,prevbold) {//is bold after this line
 	var bold=prevbold;
 	var bstart=line.lastIndexOf("<b>");
@@ -58,9 +76,10 @@ var processlines=function(content,juan){
 					inBold=false;
 				}
 			}
-			lines[i]=removeKepanStyle(line);
-			prevlineiskepan=true;
 			inBold=isInBold(line,inBold);
+			line=removeKepanStyle(line);
+			lines[i]=line;
+			prevlineiskepan=true;
 			continue; //repeated kepan ignore this line
 		}
 
@@ -86,7 +105,8 @@ var processlines=function(content,juan){
 		} else {
 			if (prevlineiskepan) {
 				if (inBold) {
-					lines[i]="<b>"+line;
+					line="<b>"+line;
+					lines[i]=line;
 				}
 			}
 			prevlineiskepan=false;
@@ -107,7 +127,12 @@ var processlines=function(content,juan){
 				textlinecount++;
 			}
 			inBold=isInBold(line,inBold);
-		}		
+			line=completeKai(line);
+			if (line!==lines[i]) {
+				lines[i]=line;
+			}
+		}
+
 	}
 	lines=Kepan.patchKepan(lines,juan);
 	totalline+=lines.length;
