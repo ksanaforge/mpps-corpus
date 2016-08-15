@@ -37,21 +37,25 @@ var addKepanSubtree=function(jinline,lunline){
 var processkepanline=function(line,jun,part) {
 	var jinline=jin.length+jinpart.length;
 	var lunline=lun.length+lunpart.length
-
+	var isKai=false;
 	var isnewtree=false;
+	isKai =(line.indexOf(' m="J"')>-1||line.indexOf(' m="S"')>-1) ;
+
 	line=line.replace(/ m="J"/,"").replace(/ m="S"/,"");
 	line=line.replace(/ start="1"/,function(){
 		addKepanSubtree(jinline);
 		isnewtree=true;
 		return "";
 	});
+	
 	if (isnewtree) {
-		kepan.push([0,treename[subtreecount],subtreecount]);
+		var kid=(subtreecount+1)+".0";//same as first child
+		kepan.push([0,treename[subtreecount],kid,isKai?"1":""]);
 		subtreecount++;
 	}
 	line=line.replace(/<H(\d+)>(.+?)<\/H\d+>/,function(m,d,head,idx){
 		var kid=subtreecount+"."+subkepan.length;
-		subkepan.push([parseInt(d),head,kid]);
+		subkepan.push([parseInt(d),head,kid,isKai?"1":""]);
 		return "%"+kid+" "+head;
 	});
 	return line; 
