@@ -147,7 +147,27 @@ var replaceRef=function(str){
   })
   .replace(/<note_taisho vol="(.*?)" pg="(.*?)"><\/note_taisho>/g,function(m,vol,pg){
   	//taisho apparatus
-  	return "@t"+vol+"p"+pg;
+  	pg=pg.replace(/[， ]/g,"");
+  	if (pg.indexOf("-")>-1) { //has range
+  		var m,r=pg.split("-");
+  		var part1="@t"+vol+"p"+r[0],part2="@t"+vol+"p";
+
+  		if (m=r[1].match(/(\d+[a-c]\d+)/)) { //cross page
+  			part2+=m[1];
+  		} else if (m=r[1].match(/[a-c]\d+/)){ //cross column
+  			var p=parseInt(r[0])
+  			part2+=p+m[1];
+  		} else {//same column
+  			var p=r[0].match(/(\d+[a-c])/);
+  			if (!p) {
+  				console.log(pg)
+  			}
+  			part2+=pg[1]+r[1];
+  		}
+  		return part1+"-"+part2;
+  	} else {
+  		return "@t"+vol+"p"+pg;	
+  	}
   })
 }
 var replaceEmptyLineAfterParagraph=function(str){
