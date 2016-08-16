@@ -5,7 +5,10 @@ var mpps_yinshun_note=function(content){
 		return '<note_mpps ref="'+bk1+'#'+pg1+'"></note_mpps><note_mpps ref="'+bk2+'#'+pg2+'"></note_mpps>';
 	});
 
-	return content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk,pg){
+	content=content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk,pg){
+		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
+	});
+	return content.replace(/（[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk,pg){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
 	});
 }
