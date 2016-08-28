@@ -276,6 +276,10 @@ fs.writeFileSync("ndef.txt",ndef,"utf8");
 
 //fs.writeFileSync("jin_kepan.txt",jinkepan.join("\n"),"utf8");
 //fs.writeFileSync("lun_kepan.txt",lunkepan.join("\n"),"utf8");
-kepan=kepan.map(function(k){return k.join("\t")});
-fs.writeFileSync("kepan.txt",kepan.join("\n"),"utf8");
+var out=kepan.map(function(k){return k.join("\t")});
+fs.writeFileSync("kepan_nomatch.txt",out.join("\n"),"utf8");
+
+kepan2=kepanmerge(kepan);
+kepan2=kepan2.map(function(k){return k.join("\t")});
+fs.writeFileSync("kepan.txt",kepan2.join("\n"),"utf8");
 
