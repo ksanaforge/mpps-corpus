@@ -1,13 +1,18 @@
 /* input,output :string 
 change a text pattern to xml tag*/
 var mpps_yinshun_note=function(content){
-	content=content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)；[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk1,pg1,bk2,pg2){
+	content=content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.?(\d+)；[〔［](.+?)[〕］]p\.(\d+)）?/g,function(m,bk1,pg1,bk2,pg2){
 		return '<note_mpps ref="'+bk1+'#'+pg1+'"></note_mpps><note_mpps ref="'+bk2+'#'+pg2+'"></note_mpps>';
 	});
 
-	content=content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk,pg){
+	content=content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］）]p\.?(\d+)）?/g,function(m,bk,pg){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
 	});
+
+	content=content.replace(/（《大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)）?/g,function(m,bk,pg){
+		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
+	});	
+
 	return content.replace(/（[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk,pg){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
 	});
