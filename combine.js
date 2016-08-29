@@ -25,12 +25,9 @@ var checkContent=function(fn,content){
 var jinpart=[],lunpart=[],ndefpart=[];
 var subkepan=[],kepan=[];
 
-var adjustKepan=function(depth,head,juan){
-	//if (juan>40) return;
-}
+
 var addKepanSubtree=function(jinline,lunline){
 	if (!subkepan.length)return;
-	adjustKepan(subkepan);
 	kepan=kepan.concat(subkepan);
 	subkepan=[];
 }

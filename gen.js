@@ -55,6 +55,11 @@ var isInBold=function(line,prevbold) {//is bold after this line
 
 	return bold
 }
+var cleanupkepanline=function(line){
+	return line.replace(/<\/b><kai><b>(.*?)<\/b><\/kai><b>/g,function(m,m1){
+		return m1;
+	});
+}
 var processlines=function(content,juan){
 	content=content.replace(/\n<\/b>/g,"</b>\n");
 	content=content.replace(/<b>\n/g,"\n<b>");
@@ -66,8 +71,11 @@ var processlines=function(content,juan){
 	var textlinecount=0,prevlineiskepan=false;
 
 	for (var i=0;i<lines.length;i++) {
-		if (juan==1 && line==95) debugger;
+		//if (juan==1 && line==95) debugger;
 		var line=lines[i];
+		if (line.indexOf("$")>-1 && line.indexOf("<kai>")>-1) {
+			line=cleanupkepanline(line);
+		}
 
 		if (line.indexOf("$$")>-1) {
 			if (!prevlineiskepan) {
@@ -111,11 +119,13 @@ var processlines=function(content,juan){
 			}
 			prevlineiskepan=false;
 			if (line.indexOf("<jin")>-1) {
+				Kepan.jinAfterKepan(textlinecount);
+
 				if (line.replace(/<.*?>/g,"").trim().length) { //check if text on same line
 					textlinecount++;
 				}
 				mode=1;
-				Kepan.jinAfterKepan(textlinecount);
+
 			} else if (line.indexOf("<lun")>-1) {
 				if (line.replace(/<.*?>/g,"").trim().length) { //check if text on same line
 					textlinecount++;
