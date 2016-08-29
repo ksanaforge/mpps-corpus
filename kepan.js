@@ -23,7 +23,7 @@ filestart=0; //current file start index of kepanview (one file might have more t
 var suggestedDepth=function(line){
    var pats=[
       [/(（[壹貳参參肆伍陸柒捌玖拾～]+）)/, 2],
-      [/([壹貳参參肆伍陸柒捌玖拾～]+、)/, 1],
+      [/([壹貳参參肆伍陸柒捌玖拾～※]+、)/, 1], //※ for juan 17 禪波羅密
       [/(（[ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹ]）)/, 14],
       [/([ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹ]、)/, 13],
       [/(（[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]）)/, 12],

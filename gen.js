@@ -99,7 +99,9 @@ var processlines=function(content,juan){
 				}
 			}
 			//juan 1~40, 42 , top level kepan might come before <jin>
-			if (line.indexOf("壹、")>-1 &&line.indexOf("拾壹、")===-1 
+			//※ same as 壹, but without  貳, used in ※禪波羅密 juan 17
+			if ((line.indexOf("壹、")>-1||line.indexOf("※、")>-1)
+			 &&line.indexOf("拾壹、")===-1 
 			&& (mode==1 || juan<41 || juan==42 )) { //start of a new tree
 
 				var text=treename[treecount];
