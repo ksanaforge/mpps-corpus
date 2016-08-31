@@ -3,15 +3,16 @@
 var treestart=0;
 var matches=0;
 var findCounterPart=function(kepan,_text,_depth,_id,now){
-   //_text=_text.replace(/[。，、─]/g,"");
+   _text=_text.replace(/[。，、「」─]/g,"");
    for (i=treestart;i<now;i++) {
       var k=kepan[i];
       var depth=k[0], text=k[1], id=k[2], jin=k[3], match=k[4];
-     // text=text.replace(/[。，、─]/g,"");
-      if (_text==text && _depth==depth && !match && !kepan[now][4]) {
+      text=text.replace(/[。，、「」─]/g,"");
+      if (_text==text && _depth==depth && !match && !kepan[now][4] && jin) {
          kepan[i][4]=_id;
          kepan[now][4]=id;
          matches++;
+         return;
       }
    }
 }
@@ -68,7 +69,7 @@ var check=function(kepan){
    for (var i=0;i<kepan.length;i++) {
       var depth=kepan[i][0];
       if (depth>prevdepth && depth-prevdepth>1){
-         //console.log("error depth",i,kepan[i][1],kepan[i][3]);
+         console.log("adjust depth",kepan[i][2],kepan[i][1],kepan[i][3]);
          error.push(i);
       }
       prevdepth=depth;
@@ -80,6 +81,7 @@ var mergeWithPrevious=function(kepan){
 
    kepan=matchCounterPart(kepan)
    var error=check(kepan);
+
    kepan=patch(kepan,error);
    var error=check(kepan);
    kepan=patch(kepan,error);//need two past to fix all kepan nesting error
