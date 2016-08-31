@@ -3,10 +3,12 @@
 var treestart=0;
 var matches=0;
 var findCounterPart=function(kepan,_text,_depth,_id,now){
+   //_text=_text.replace(/[。，、─]/g,"");
    for (i=treestart;i<now;i++) {
       var k=kepan[i];
       var depth=k[0], text=k[1], id=k[2], jin=k[3], match=k[4];
-      if (_text==text && _depth==depth && !match) {
+     // text=text.replace(/[。，、─]/g,"");
+      if (_text==text && _depth==depth && !match && !kepan[now][4]) {
          kepan[i][4]=_id;
          kepan[now][4]=id;
          matches++;
@@ -88,6 +90,7 @@ var mergeWithPrevious=function(kepan){
          console.log(i,kepan[i][1],kepan[i][2],kepan[i][3]);
       });
    }
+   console.log("match count",matches);
    return kepan;   
 }
 
@@ -100,7 +103,7 @@ if (process.argv[1].indexOf("kepanmerge.js")>-1){
    var out=mergeWithPrevious(kepan);
    out=kepan.map(function(k){return k.join("\t")});
 
-   console.log("match count",matches);
+   //console.log("match count",matches);
    fs.writeFileSync("kepan.txt",out.join("\n"),"utf8");
 }
 
