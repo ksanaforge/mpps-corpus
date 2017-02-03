@@ -25,6 +25,10 @@ const emittaisho=function(){
 	text="";
 	offset=0;
 }
+const emitstandoff=function(){
+	standoffs.push([pb,offset,captured]);
+	captured="";
+}
 const buildfulltag=function(tag,innertext){
 	var opentag=tag.name;
 	if (tag.attributes && Object.keys(tag.attributes).length) {
@@ -32,20 +36,22 @@ const buildfulltag=function(tag,innertext){
 			opentag+=" "+key+'="'+tag.attributes[key]+'"';
 		}
 	}
-	return "<"+opentag+">"+innertext+"</"+tag.name+">";
+	return "<"+opentag+">";
 }
 const on_H=function(tag,closing){
 	if (closing) {
-		standoffs.push([pb,offset,buildfulltag(tag,captured)]);
-		captured="";
+		captured+="</"+tag.name+">";
 		capturing=false;	
 	} else {
+		captured+=buildfulltag(tag);
 		capturing=true;
 	}
 }
 const defaulthandler=function(tag,closing) {
 	if (closing) {
-		standoffs.push([pb,offset,buildfulltag(tag,captured)]);
+		captured+="</"+tag.name+">";
+	} else {
+		captured+=buildfulltag(tag);
 	}
 }
 const on_taisho=function(tag,closing){
@@ -69,6 +75,7 @@ const processfile=function(fn){
 		if (capturing) {
 			captured+=t;
 		} else {
+			if (captured) emitstandoff();
 			text+=t;	
 			offset+=t.length;
 		}
