@@ -66,7 +66,7 @@ const defaulthandler=function(tag,closing) {
 }
 const on_taisho=function(tag,closing){
 	if (!closing) {
-		emittaisho();
+		if (pb!=tag.attributes.n) emittaisho();
 		pb=tag.attributes.n;
 	}
 }
@@ -115,9 +115,14 @@ const processfile=function(fn){
 	parser.write(content);
 	
 }
-
+const removeextractkepan=function(){
+	for (var i =0;i<taishotext.length;i++) {
+		var s=taishotext[i][1];
+		taishotext[i][1]=s.replace(/\$\$.*?\n/g,"");
+	}
+}
 lst.forEach(processfile);
 emittaisho();
-
+removeextractkepan();
 fs.writeFileSync("mpps_taisho.js","module.exports="+JSON.stringify(taishotext,""," "),"utf8");
 fs.writeFileSync("mpps_standoffs.js","module.exports="+JSON.stringify(standoffs,""," "),"utf8");

@@ -1,3 +1,5 @@
+master MSWORD FILE in https://drive.google.com/drive/folders/0Bw3YnwlH6NQwbHB4NTJXN3NmZ3c
+
 cd msword_pb_kai_kepan
 runall  ; Normal.dot must include vbscript/convert.vb
 
