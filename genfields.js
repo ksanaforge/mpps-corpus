@@ -2,7 +2,7 @@
 const standoffs=require("./mpps_standoffs_converted");
 const {openCorpus,bsearch}=require("ksana-corpus");
 var cor;
-var output={},prevpage=0,pagerange,pagetext=null,linebreaks;
+var output=[],prevpage=0,pagerange,pagetext=null,linebreaks;
 const fs=require("fs");
 /*group by article */
 const calKPos=function(realpos){
@@ -16,14 +16,9 @@ const calKPos=function(realpos){
 	return cor.makeKPos([pagerange.startarr[0],pagerange.startarr[1],line,kch]);
 }
 const processtag=function(standoff){
-	const k=cor.parseRange(standoff[0].replace(".","p")+"0100");
-	const article=cor.articleOf(k.start);
-	if (!output[article.at]) output[article.at]={pos:[],value:[]};
-
 	pagerange=cor.parseRange(standoff[0].replace(".","p")+"0100-2931");
 	
 	if (prevpage!==standoff[0]) {
-
 		pagetext=cor.getText(pagerange.kRange);
 		var len=0;
 		linebreaks=pagetext.map(function(l){
@@ -37,17 +32,14 @@ const processtag=function(standoff){
 	realpos=standoff[3];
 	if (realpos<0) realpos=-realpos;//closeest guest
 
-
 	standoff[2].replace(/<H(\d+).*?>(.*?)<\/H\d>/,function(m,depth,head){
 		const kpos=calKPos(realpos);
 		if (kpos) {
-			output[article.at].pos.push(kpos);
-			output[article.at].value.push(depth+"\t"+head);			
+			output.push(cor.stringify(kpos)+"\t"+depth+"\t"+head);
 		} else {
 			console.log("wrong pos",head,realpos,prevpage);
 		}
 	})
-
 }
 
 openCorpus("taisho",function(err,_cor){
@@ -56,7 +48,7 @@ openCorpus("taisho",function(err,_cor){
 	cor.getText(alltext.kRange,function(text){
 
 		standoffs.forEach(processtag);	
-		fs.writeFileSync("mpps_fields.js",JSON.stringify(output),"utf8");
+		fs.writeFileSync("mpps_fields.js",'module.exports='+JSON.stringify(output,""," "),"utf8");
 		
 	});
 });
