@@ -83,7 +83,11 @@ const handlers={
 }
 const processfile=function(fn){
 	console.log("processing",fn)
-	const content = fs.readFileSync(sourcepath+fn,"utf8")
+	const content = fs.readFileSync(sourcepath+fn,"utf8").replace(/<taisho n/g,"\n<taisho n"); //讓<taisho 重起一行，否則上一頁最後一個標誌會變成這頁
+/*"25.61a",0,"<note n=\"96\">
+  應是
+  "25.60c",308,"<note n=\"96\">
+  */
 	const parser = Sax.parser(true);
 	indef=false;
 	parser.ontext = function (t) {
@@ -113,7 +117,6 @@ const processfile=function(fn){
 	  }
 	};
 	parser.write(content);
-	
 }
 const removeextractkepan=function(){
 	for (var i =0;i<taishotext.length;i++) {
@@ -122,6 +125,7 @@ const removeextractkepan=function(){
 	}
 }
 lst.forEach(processfile);
+emitstandoff();
 emittaisho();
 removeextractkepan();
 fs.writeFileSync("mpps_taisho.js","module.exports="+JSON.stringify(taishotext,""," "),"utf8");

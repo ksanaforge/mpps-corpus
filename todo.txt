@@ -1,3 +1,16 @@
+convert jin lun kepan mapping from gprajna to json
+
+create links between jin lun kepan to mpps_fields
+
+taisho gen include mpps_fields.
+
+log inaccurate standoff pos after migration
+
+
+taisho link to ya.ksana.tw/taisho/
+
+
+
 <b><H5>不淨觀
 不淨觀</b><note n=“80“/><b>思惟</b>
 
@@ -5,3 +18,4 @@ convert to
 
 <H5>不淨觀</H5>
 <b>不淨觀<note n=“80“/>思惟</b>
+

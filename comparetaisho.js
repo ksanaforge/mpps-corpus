@@ -68,27 +68,34 @@ const compare=function(rawpb,text1,text2){
 	//fs.writeFileSync('mpps_diff.js',JSON.stringify(out),"");
 	
 }
+var accuratecount=0,inaccuratecount=0;
+var inaccurate=[];
+const translate=function(t1pos,t2pos,pos){
+	if (!pos) {
+		debugger;
+	}
 
-const translate=function(t1pos,t2pos,pos,text1,text2){
 	const at=bsearch(t1pos,pos,true)-1;
 	
 	const dist=pos-t1pos[at];
 	const t2dist=t2pos[at+1]-t2pos[at];
 	if (t2dist>=dist) {
+		accuratecount++;
 		return t2pos[at]+dist;
 	} else {
-		return (t2pos[at]+t2dist) ;
+		inaccuratecount++;
+		return -(t2pos[at]+t2dist) ;
 	}
 }
 
-const convert=function(pbdiffs,standoffs,text1,text2){
-	
+const convert=function(pbdiffs,standoffs){
 	for (var i=0;i<standoffs.length;i++) {
 		const pb=standoffs[i][0];
 		const pos=standoffs[i][1];
 		const diffs=pbdiffs[pb];
 		if (!diffs) break;
-		standoffs[i].push(translate(diffs[0],diffs[1],pos,text1,text2));
+		const t=translate(diffs[0],diffs[1],pos)
+		standoffs[i].push(t);
 	}
 	return standoffs;
 }
@@ -100,8 +107,8 @@ const check=function(rawpb,text1,text2,out){
 		const at=rawpb.indexOf(pb);
 		const t1=text1[at],t2=text2[at];
 		console.log(pb);
-		console.log(p1,t1.substr(p1,10))
-		console.log(p2,t2.substr(Math.abs(p2),10))
+		console.log(p1,t1&&t1.substr(p1,10))
+		console.log(p2,t2&&t2.substr(Math.abs(p2),10))
 	}
 	
 }
@@ -127,12 +134,15 @@ const fetch=function(cor) {
 		const diffs=compare(rawpb,text1,text2);
 		console.log("start convert");
 		
-		const new_standoffs=convert(diffs,mpps_standoffs,text1,text2);
+		const new_standoffs=convert(diffs,mpps_standoffs,text1,text2,rawpb);
 
 		console.log("write to mpps_standoffs_converted")
 		fs.writeFileSync("mpps_standoffs_converted.js","module.exports="+JSON.stringify(new_standoffs,""," "),"utf8");
 		
 		//return 
+		console.log("accurate",accuratecount,"inaccurate",inaccuratecount)
+//		fs.writeFileSync("inaccurate.json",JSON.stringify(inaccurate,""," "),"utf8");
+
 
 		output=convert(diffs,[
 			["25.58a" ,43],
