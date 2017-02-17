@@ -145,15 +145,15 @@ openCorpus("taisho",function(err,_cor){
 		}
 		
 		const kepans=bindJinLunKepan(H);
-		kepans.unshift({type:"kepan@yinshun",corpus:"taisho",first:"25p57c0805"});
+		kepans.unshift({type:"kepan",corpus:"taisho",first:"25p57c0805"});
 		fs.writeFileSync("mpps_fields_head.json",JSON.stringify(kepans,""," "),"utf8");
 
 
-		links.unshift({type:"link@yinshun",corpus:"taisho",first:"25p57c0805"});
+		links.unshift({type:"link",corpus:"taisho",first:"25p57c0805"});
 		fs.writeFileSync("mpps_fields_link.json",JSON.stringify(links,""," "),"utf8");
 
 		attachNoteWithNdef();
-		notes.unshift({type:"note@yinshun",corpus:"taisho",first:"25p57c0805"});
+		notes.unshift({type:"note",corpus:"taisho",first:"25p57c0805"});
 		fs.writeFileSync("mpps_fields_note.json",JSON.stringify(notes,""," "),"utf8");
 
 
