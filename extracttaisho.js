@@ -38,10 +38,30 @@ const buildfulltag=function(tag,isSelfClosing){
 	}
 	return "<"+opentag+ (isSelfClosing?"/":"")+">";
 }
+var subtreecount=0;
+var subkepan=[];
+var kepan=[];
+var treename=require("./treename");
 const on_H=function(tag,closing){
 	if (closing) {
 		captured+="</"+tag.name+">";
 		capturing=false;
+
+		if (tag.attributes.start=="1") {
+			kepan=kepan.concat(subkepan);
+			subtreecount++;
+			subkepan=[0+"\t"+subtreecount+"\t"+treename[subtreecount-1]];
+		}
+		//補上 id 供之後的經論科判對應
+		const kepanid=subtreecount+"."+(subkepan.length-1);
+
+		const depth=parseInt(tag.name.substr(1),10);
+		const k=captured.match(/<H.+?>(.+?)<\/H/)[1];	
+		subkepan.push(depth+"\t"+kepanid+"\t"+k);
+		
+
+		captured=captured.replace(/<H(.+?)>/,function(m,m1){return '<H'+m1+' id="'+kepanid+'">'});
+
 	} else {
 		captured+=buildfulltag(tag);
 		capturing=true;
@@ -78,12 +98,28 @@ const handlers={
 	H1:on_H,H2:on_H,H3:on_H,H4:on_H,H5:on_H,H6:on_H,H7:on_H,H8:on_H,H9:on_H,H10:on_H,
 	H11:on_H,H12:on_H,H13:on_H,H14:on_H,H15:on_H,H16:on_H,H17:on_H,H18:on_H,H19:on_H,H20:on_H,
 	H21:on_H,H22:on_H,H23:on_H,H24:on_H,H25:on_H,H26:on_H,H27:on_H,H28:on_H,H29:on_H,H30:on_H,
-	a:on_H,ndef:on_ndef,
+	ndef:on_ndef,
 	taisho:on_taisho
+}
+const preprocess=function(s){
+	//讓<taisho 重起一行，否則上一頁最後一個標誌會變成這頁
+	var o=s.replace(/<taisho n/g,"\n<taisho n"); 
+	//將 <note><a>x</a></note> 改為 <note n=""/> ，減少 diff 的差異
+	o=o.replace(/<note n="(\d+)"><a id="n\d+" href="#d\d+">\[\d+\]<\/a><\/note>/g,function(m,m1){
+		return '<note n="'+m1+'"/>';
+	});
+
+	//丟去包 H 的 kai 
+	o=o.replace(/<kai>(<H.+?>)<\/kai>/g,function(m,m1){
+		console.log("extra kai enclosing H",m);
+		return m1;
+	})
+	return o;
 }
 const processfile=function(fn){
 	console.log("processing",fn)
-	const content = fs.readFileSync(sourcepath+fn,"utf8").replace(/<taisho n/g,"\n<taisho n"); //讓<taisho 重起一行，否則上一頁最後一個標誌會變成這頁
+	const content = preprocess(fs.readFileSync(sourcepath+fn,"utf8"));
+
 /*"25.61a",0,"<note n=\"96\">
   應是
   "25.60c",308,"<note n=\"96\">
@@ -118,7 +154,7 @@ const processfile=function(fn){
 	};
 	parser.write(content);
 }
-const removeextractkepan=function(){
+const removeextrakepan=function(){ //repeated kepan in docx (承上卷)
 	for (var i =0;i<taishotext.length;i++) {
 		var s=taishotext[i][1];
 		taishotext[i][1]=s.replace(/\$\$.*?\n/g,"");
@@ -127,6 +163,8 @@ const removeextractkepan=function(){
 lst.forEach(processfile);
 emitstandoff();
 emittaisho();
-removeextractkepan();
+kepan=kepan.concat(subkepan);
+removeextrakepan();
 fs.writeFileSync("mpps_taisho.js","module.exports="+JSON.stringify(taishotext,""," "),"utf8");
 fs.writeFileSync("mpps_standoffs.js","module.exports="+JSON.stringify(standoffs,""," "),"utf8");
+fs.writeFileSync("mpps_kepan.txt",kepan.join("\n"),"utf8");

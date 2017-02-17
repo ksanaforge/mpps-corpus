@@ -5,7 +5,9 @@ const diff=require("diff");
 const fs=require("fs")
 const mpps_standoffs=require("./mpps_standoffs");
 openCorpus("taisho",function(err,cor){
-	fetch(cor);
+	cor.getText("25p57a0100-750c0100",function(){//prefetch , 10 times faster
+		fetch(cor);
+	})
 });
 var suspect=[];
 const maxcount=64;

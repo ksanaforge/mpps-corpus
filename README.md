@@ -30,9 +30,3 @@ node genfields
 	generate external kdb fields from mpps_standoffs_converted.js
 	output mpps_fields.js
 
-
-===以下轉換不成功===
-error realpos 409
-wrong pos 壹、十種譬喻 409 25.101b
-error realpos 424
-wrong pos 九、釋「尸羅波羅蜜」 424 25.161c

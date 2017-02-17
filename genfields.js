@@ -101,14 +101,12 @@ const processtag=function(standoff){
 	});
 
 	standoff[2].replace(/<H(\d+).*?>(.*?)<\/H\d>/,function(m,depth,head){
-		emit(H,realpos,depth,head)
+		const id=m.match(/id="([\d\.]+)"/)[1];
+		emit(H,realpos,depth+"\t"+head,id);
 	})
 
-	standoff[2].replace(/<note n="(\d+)"><a id="n\d+" href="#d\d+">\[(\d+)\]<\/a><\/note>/,function(m,id1,id2){
-		if (id1!=id2){
-			throw "unmatch id";
-		}
-		emit(notes,realpos,fascicle+"."+id1,""); // attachNoteWithNdef will fill it
+	standoff[2].replace(/<note n="(\d+)"\/>/,function(m,id){
+		emit(notes,realpos,fascicle+"."+id,""); // attachNoteWithNdef will fill it
 	})
 
 
@@ -132,6 +130,9 @@ const attachNoteWithNdef=function(){
 
 }
 
+const bindJinLunKepan=function(head){
+	return head;
+}
 openCorpus("taisho",function(err,_cor){
 	cor=_cor;
 	const alltext=cor.parseRange('25p57a0100-756c2919'); //range of MPPS
@@ -142,9 +143,10 @@ openCorpus("taisho",function(err,_cor){
 		if (fascicle!==101) { //after last ndef it will become 101
 			console.log("wrong fasicle",fascicle-1);
 		}
-
-		H.unshift({type:"kepan@yinshun",corpus:"taisho",first:"25p57c0805"});
-		fs.writeFileSync("mpps_fields_head.json",JSON.stringify(H,""," "),"utf8");
+		
+		const kepans=bindJinLunKepan(H);
+		kepans.unshift({type:"kepan@yinshun",corpus:"taisho",first:"25p57c0805"});
+		fs.writeFileSync("mpps_fields_head.json",JSON.stringify(kepans,""," "),"utf8");
 
 
 		links.unshift({type:"link@yinshun",corpus:"taisho",first:"25p57c0805"});
