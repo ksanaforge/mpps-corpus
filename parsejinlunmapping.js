@@ -92,6 +92,7 @@ const pack=function(nums){//pack nums to a short string notation
 	emitgroup(nums[nums.length-1]%groupshift);
 	return segments.join(";");
 }
+
 const processline=function(line,idx){
 	if (line.indexOf("^")>-1)return;
 	const parts=line.split(/[\-=]/);
@@ -106,13 +107,31 @@ const processline=function(line,idx){
 		kepan[key]=parseRange(parts[1],idx+1);
 	}
 }
+const buildReverseLink=function(){
+
+}
 const finalize=function(){
 	for (var i in kepan) {
 		if (kepan[i].indexOf(";")>-1){
-			kepan[i]=pack(toRange(kepan[i],i,true));
+			const ranges=toRange(kepan[i],i,true);
+			for (var j=0;j<ranges.length;j++) {
+				const target=packone(ranges[j]);
+				if (!kepan[target]) {
+					kepan[target]=i;
+				} else {
+					console.log('from',i,'to',target)
+				}
+			}
+			kepan[i]=ranges;
 		}
 	}
+
+	//phase 2 
+	for (var i in kepan) {
+		kepan[i]=pack(kepan[i]);
+	}
 }
+/*
 const listOrphan=function(){
 	var nums=[];
 	for (var i in kepan) {
@@ -143,13 +162,14 @@ const listOrphan=function(){
 		}
 		prevgroup=group;
 	}
-
 }
+*/
 //console.log(pack([10001,10002,10003,20005,20006,20007,20008,30010,40050,40052,40053]));
 //1.1~3;2.5~8;3.10;4.50;4.52~53
 
 f1.map(processline);
 f2.map(processline);
-listOrphan();
+
+//listOrphan();
 finalize();
 fs.writeFileSync("kepan-map.json",JSON.stringify(kepan,""," "),"utf8");

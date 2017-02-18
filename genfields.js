@@ -4,7 +4,7 @@ const {openCorpus,bsearch}=require("ksana-corpus");
 var cor;
 var fascicle=1,para=0;//current fascile
 var H=[],notes=[],links=[],wrongpos=[],ndefs={},paragraphs=[];
-
+const endofmpps="25p0756c19";
 var prevpage=0,pagerange,pagetext=null,linebreaks;
 const fs=require("fs");
 /*group by article */
@@ -103,15 +103,20 @@ const processtag=function(standoff){
 
 	standoff[2].replace(/<H(\d+).*?>(.*?)<\/H\d>/,function(m,depth,head){
 		const id=m.match(/id="([\d\.]+)"/)[1];
+		kepanpos[id]=realpos;
 		emit(H,realpos,depth+"\t"+head,id);
 	})
 
 	standoff[2].replace(/<jin>/,function(){
 		para++;
-		emit(paragraphs,realpos,"jin",fascicle+"."+para);
+		const jinid=fascicle+"."+para
+		jinparapos[jinid]=realpos;
+		emit(paragraphs,realpos,"jin",jinid);
 	});
 	standoff[2].replace(/<lun>/,function(){
-		emit(paragraphs,realpos,"lun",fascicle+"."+para)
+		const lunid=fascicle+"."+para;
+		lunparapos[lunid]=realpos;
+		emit(paragraphs,realpos,"lun",lunid)
 	});
 
 	standoff[2].replace(/<note n="(\d+)"\/>/,function(m,id){
@@ -136,12 +141,34 @@ const attachNoteWithNdef=function(){
 		notes[i]+=ndefs[id];
 		delete ndefs[id];
 	}
+}
+var jinparapos={}, lunparapos={}; //ksana position given jin or lun paragraph id (juan.seq)
+var kepanpos={}; //ksanaposition given kepan id (nkepan.seq)
+
+//kepan target is kranges.
+//when kepan is click , highlight the text in the first range (jump to begining), 
+//click second time , highlight the second range,
+//UI should notify user the kepan has multiple range
+const getKepanStartEnd=function(){ //given an kepan id return its start and end kpos
 
 }
 
-const bindJinLunKepan=function(head){
+const kepanrange2krange=function(str){
+//return krange , start=start of first kepan, end=end of last kepan
+}
+const bindJinLunKepan=function(heads){
+	const kepanMap=require("./kepan-map.json");
+	for (var i=0;i<heads.length;i++){
+		const head=heads[i].split("\t");
+		const headkepanid=head[3];
+		const target=kepanMap[headkepanid];
+		if (target) {
+			head[4]=target;
+			heads[i]=head.join("\t");
+		}
+	}
 	debugger;
-	return head;
+	return heads;
 }
 openCorpus("taisho",function(err,_cor){
 	cor=_cor;
