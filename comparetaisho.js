@@ -72,7 +72,8 @@ const compare=function(rawpb,text1,text2){
 }
 var accuratecount=0,inaccuratecount=0;
 var inaccurate=[];
-const translate=function(t1pos,t2pos,pos){
+const inaccurate_threshold=2;
+const translate=function(t1pos,t2pos,pos,pb,standoff){
 	if (!pos) {
 		debugger;
 	}
@@ -86,6 +87,12 @@ const translate=function(t1pos,t2pos,pos){
 		return t2pos[at]+dist;
 	} else {
 		inaccuratecount++;
+		if (Math.abs(t2dist-dist)>inaccurate_threshold &&
+			(standoff.indexOf("<H")>-1 || standoff.indexOf("<note ")>-1 )) {
+			//showing pb, pos diff and the standoff for future check
+			const s=pb+":"+(dist-t2dist)+"\t"+standoff;
+			inaccurate.push(s);
+		}
 		return -(t2pos[at]+t2dist) ;
 	}
 }
@@ -96,7 +103,7 @@ const convert=function(pbdiffs,standoffs){
 		const pos=standoffs[i][1];
 		const diffs=pbdiffs[pb];
 		if (!diffs) break;
-		const t=translate(diffs[0],diffs[1],pos)
+		const t=translate(diffs[0],diffs[1],pos,pb,standoffs[i][2]);
 		standoffs[i].push(t);
 	}
 	return standoffs;
@@ -143,7 +150,7 @@ const fetch=function(cor) {
 		
 		//return 
 		console.log("accurate",accuratecount,"inaccurate",inaccuratecount)
-//		fs.writeFileSync("inaccurate.json",JSON.stringify(inaccurate,""," "),"utf8");
+		fs.writeFileSync("inaccurate.json",JSON.stringify(inaccurate,""," "),"utf8");
 
 
 		output=convert(diffs,[
