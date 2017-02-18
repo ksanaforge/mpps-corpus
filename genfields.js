@@ -2,8 +2,8 @@
 const standoffs=require("./mpps_standoffs_converted");
 const {openCorpus,bsearch}=require("ksana-corpus");
 var cor;
-var fascicle=1;//current fascile
-var H=[],notes=[],links=[],wrongpos=[],ndefs={};
+var fascicle=1,para=0;//current fascile
+var H=[],notes=[],links=[],wrongpos=[],ndefs={},paragraphs=[];
 
 var prevpage=0,pagerange,pagetext=null,linebreaks;
 const fs=require("fs");
@@ -61,6 +61,7 @@ const ndefblocks=function(str){
 		ndefs[fascicle+"."+id]=processndef(content);
 	}
 	fascicle++;
+	para=0;
 }
 
 const emit=function(arr,realpos,a1,a2){
@@ -105,6 +106,14 @@ const processtag=function(standoff){
 		emit(H,realpos,depth+"\t"+head,id);
 	})
 
+	standoff[2].replace(/<jin>/,function(){
+		para++;
+		emit(paragraphs,realpos,"jin",fascicle+"."+para);
+	});
+	standoff[2].replace(/<lun>/,function(){
+		emit(paragraphs,realpos,"lun",fascicle+"."+para)
+	});
+
 	standoff[2].replace(/<note n="(\d+)"\/>/,function(m,id){
 		emit(notes,realpos,fascicle+"."+id,""); // attachNoteWithNdef will fill it
 	})
@@ -131,6 +140,7 @@ const attachNoteWithNdef=function(){
 }
 
 const bindJinLunKepan=function(head){
+	debugger;
 	return head;
 }
 openCorpus("taisho",function(err,_cor){
@@ -155,6 +165,9 @@ openCorpus("taisho",function(err,_cor){
 		attachNoteWithNdef();
 		notes.unshift({type:"note",corpus:"taisho",first:"25p57c0805"});
 		fs.writeFileSync("mpps_fields_note.json",JSON.stringify(notes,""," "),"utf8");
+
+		paragraphs.unshift({type:"p",corpus:"taisho",first:"25p57c0805"});
+		fs.writeFileSync("mpps_fields_p.json",JSON.stringify(paragraphs,""," "),"utf8");
 
 
 		//fs.writeFileSync("ndef.json",JSON.stringify(ndefs,""," "),"utf8");

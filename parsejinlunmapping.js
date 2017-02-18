@@ -10,6 +10,7 @@ const fs=require("fs");
 const f1=fs.readFileSync('gprajna_kepan_mapping/lun-jin.txt','utf8').split(/\r?\n/);
 const f2=fs.readFileSync('gprajna_kepan_mapping/jin-lun.txt','utf8').split(/\r?\n/);
 var kepan={};
+const groupshift=10000; //assuming items in group less than 10000
 const parseRange=function(str,line){
 	const r=str.split("~");
 	if (r.length>2) {
@@ -19,7 +20,7 @@ const parseRange=function(str,line){
 }
 const toInt=function(s){
 	const p=s.split(".");
-	return parseInt(p[0],10)*10000+parseInt(p[1]);
+	return parseInt(p[0],10)*groupshift+parseInt(p[1]);
 
 }
 const expandRange=function(r){
@@ -27,14 +28,14 @@ const expandRange=function(r){
 	const out=[];
 
 	const i2=r[1].indexOf(".")>0?toInt(r[1]): (
-		Math.floor(i1/10000)*10000+parseInt(r[1],10)
+		Math.floor(i1/groupshift)*groupshift+parseInt(r[1],10)
 	);
 	for (var i=i1;i<=i2;i++) {
 		out.push(i);
 	}
 	return out;
 }
-const toRange=function(s,key) {
+const toRange=function(s,key,printgap) {
 	var values=s.split(";");
 	var nums=[]; 
 	for (var i=0;i<values.length;i++){
@@ -42,6 +43,10 @@ const toRange=function(s,key) {
 		if (v.indexOf("~")>-1){
 			nums=nums.concat(expandRange(v.split("~")));
 		} else {
+			const n=toInt(v);
+			if (isNaN(n)) {
+				console.log("wrong number",v)
+			}
 			nums.push(toInt(v));
 		}
 	};
@@ -52,14 +57,40 @@ const toRange=function(s,key) {
 	var gap=0;
 	for (var i=1;i<nums.length;i++) {
 		const diff=nums[i]-nums[i-1];
-		if (diff!==1 && diff<5000) {
+		if (diff!==1 && diff<groupshift/2) {
 			gap++;
 		}
 	}
 
-	if (gap) console.log(key," gap in "+s);
+	if (gap &&printgap) console.log(key," gap in "+s);
 
 	return nums;
+}
+const packone=function(n){
+	return Math.floor(n/groupshift)+"."+(n%groupshift);
+}
+const pack=function(nums){//pack nums to a short string notation
+	var prevgroup=0;
+	var segments=[], start;
+	const emitgroup=function(end){
+		segments.push(prevgroup+"."+start+ ((end>start)?"~"+end:""));
+	}
+	for (var i=0;i<nums.length;i++) {
+		const group=Math.floor(nums[i]/groupshift);
+		if (prevgroup!==group) {
+			if(prevgroup>0)emitgroup(nums[i-1]%groupshift);
+			start=nums[i]%groupshift;
+		} else {
+			if (i&&nums[i]-nums[i-1]!=1) {
+				emitgroup(nums[i-1]%groupshift);
+				start=nums[i]%groupshift;
+			}
+		}
+
+		prevgroup=group;
+	}
+	emitgroup(nums[nums.length-1]%groupshift);
+	return segments.join(";");
 }
 const processline=function(line,idx){
 	if (line.indexOf("^")>-1)return;
@@ -78,12 +109,47 @@ const processline=function(line,idx){
 const finalize=function(){
 	for (var i in kepan) {
 		if (kepan[i].indexOf(";")>-1){
-			kepan[i]=toRange(kepan[i],i);
+			kepan[i]=pack(toRange(kepan[i],i,true));
 		}
 	}
 }
+const listOrphan=function(){
+	var nums=[];
+	for (var i in kepan) {
+		const k=toInt(i);
+		if (isNaN(k)) {
+			console.log("wrong ",i)
+		}
+		if (!kepan[i]) {
+			console.log("empty",kepan[i],i)
+		}
+		nums.push( toInt(i) )
+		nums=nums.concat(toRange(kepan[i],i));
+	}
+	nums.sort();
+
+	var prevgroup=0;
+	for (var i=0;i<nums.length;i++) {
+		const group=Math.floor(nums[i]/groupshift);
+		if (prevgroup!==group) {
+			
+		} else {
+			if (i&&nums[i]-nums[i-1]!=1) {
+				diff=nums[i]-nums[i-1];
+				for (var j=1;j<diff;j++) {
+					console.log(packone(nums[i-1]+j))	
+				}
+			}
+		}
+		prevgroup=group;
+	}
+
+}
+//console.log(pack([10001,10002,10003,20005,20006,20007,20008,30010,40050,40052,40053]));
+//1.1~3;2.5~8;3.10;4.50;4.52~53
 
 f1.map(processline);
 f2.map(processline);
+listOrphan();
 finalize();
 fs.writeFileSync("kepan-map.json",JSON.stringify(kepan,""," "),"utf8");
