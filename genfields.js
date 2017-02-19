@@ -42,7 +42,7 @@ const processndef=function(ndef){
 		return "@y"+mpps; //印順導師大智度論筆記
 	});
 
-	s=s.replace(/<kai>/g,"{{").replace(/<\/kai>/g,"}}");
+	s=s.replace(/<kai>/g,"{k").replace(/<\/kai>/g,"k}");
 	s=s.replace(/<b>/g,"{").replace(/<\/b>/g,"}");
 
 	s=s.replace(/《大智度論》講義（第\d+期）/g,"");
@@ -77,7 +77,7 @@ const processtag=function(standoff){
 	pagerange=cor.parseRange(standoff[0].replace(".","p")+"0100-2931");
 	
 	if (prevpage!==standoff[0]) {
-		pagetext=cor.getText(pagerange.kRange);
+		pagetext=cor.getText(pagerange.range);
 		var len=0;
 		linebreaks=pagetext.map(function(l){
 			len+=l.length+1;
@@ -101,21 +101,22 @@ const processtag=function(standoff){
 		emit(links,realpos,"mpps",mpps);
 	});
 
-	standoff[2].replace(/<H(\d+).*?>(.*?)<\/H\d>/,function(m,depth,head){
+	standoff[2].replace(/<H(\d+).*?>(.*?)<\/H\d+>/,function(m,depth,head){
 		const id=m.match(/id="([\d\.]+)"/)[1];
-		kepanpos[id]=realpos;
+		kepanpos[id]=calKPos(realpos);
+		kepanid.push(id);
 		emit(H,realpos,depth+"\t"+head,id);
 	})
 
 	standoff[2].replace(/<jin>/,function(){
 		para++;
 		const jinid=fascicle+"."+para
-		jinparapos[jinid]=realpos;
+		jinparapos[jinid]=calKPos(realpos);
 		emit(paragraphs,realpos,"jin",jinid);
 	});
 	standoff[2].replace(/<lun>/,function(){
 		const lunid=fascicle+"."+para;
-		lunparapos[lunid]=realpos;
+		lunparapos[lunid]=calKPos(realpos);
 		emit(paragraphs,realpos,"lun",lunid)
 	});
 
@@ -144,37 +145,85 @@ const attachNoteWithNdef=function(){
 }
 var jinparapos={}, lunparapos={}; //ksana position given jin or lun paragraph id (juan.seq)
 var kepanpos={}; //ksanaposition given kepan id (nkepan.seq)
+var kepanid=[];
 
 //kepan target is kranges.
 //when kepan is click , highlight the text in the first range (jump to begining), 
 //click second time , highlight the second range,
 //UI should notify user the kepan has multiple range
-const getKepanStartEnd=function(){ //given an kepan id return its start and end kpos
-
+const getKepanStartEnd=function(id){ //given an kepan id return its start and end kpos
+	const at=kepanid.indexOf(id);
+	if (at==-1) {
+		console.log("wrong id",id);
+		debugger;
+		//throw "wrong id "+id;
+	}
+	const endpos= (at==kepanid.length-1) ?endofmpps:kepanpos[kepanid[at+1]]
+	return [kepanpos[id], endpos];
 }
-
+const breakKepanRange=function(r){
+	const parts=r.split("~");
+	if (parts.length==1) {
+		return parts[0];
+	}
+	const start=parts[0];
+	const end=start.match(/(.+)\./)[1] + "."+parts[1];
+	return [start,end];
+}
 const kepanrange2krange=function(str){
 //return krange , start=start of first kepan, end=end of last kepan
+	const ranges=str.split(";");
+
+	const out=[];
+	for (var i=0;i<ranges.length;i++) {
+		const range=ranges[i];
+		const r=breakKepanRange(range);
+		var krange;
+		if (typeof r=="string") {
+			const se=getKepanStartEnd(r);
+			krange=cor.makeRange( se[0],se[0]) ;
+		} else { //has ~
+			const se1=getKepanStartEnd(r[0])
+			//const se2=getKepanStartEnd(r[1])
+			krange=cor.makeRange( se1[0], se1[0]) ;
+		}
+		out.push(cor.stringify(krange));
+	}
+	return out.join(";");
 }
 const bindJinLunKepan=function(heads){
+	console.log("binding jin lun kepan")
 	const kepanMap=require("./kepan-map.json");
+	const kepanMapPara=require("./kepan-map-para.json");
+
 	for (var i=0;i<heads.length;i++){
 		const head=heads[i].split("\t");
 		const headkepanid=head[3];
 		const target=kepanMap[headkepanid];
 		if (target) {
-			head[4]=target;
-			heads[i]=head.join("\t");
+			head[4]="("+head[3]+"=>"+target+")";
+			head[3]=kepanrange2krange(target);
+		} else {
+			const para=kepanMapPara[headkepanid];
+			if (para) {
+				const parapos=(para[0]=='J')?jinparapos[para.substr(1)]:lunparapos[para.substr(1)];
+				if (!parapos) {
+					console.log("error parapos of",para,"for kepan",headkepanid);
+				}
+				head[4]="("+head[3]+"=>"+para+")";
+				head[3]=cor.stringify(parapos);
+			}
 		}
+		heads[i]=head.join("\t");
 	}
-	debugger;
+	
 	return heads;
 }
 openCorpus("taisho",function(err,_cor){
 	cor=_cor;
 	const alltext=cor.parseRange('25p57a0100-756c2919'); //range of MPPS
-	cor.getText(alltext.kRange,function(text){
-
+	cor.getText(alltext.range,function(text){
+		console.log("text fetched");
 		standoffs.forEach(processtag);	
 
 		if (fascicle!==101) { //after last ndef it will become 101
@@ -190,7 +239,7 @@ openCorpus("taisho",function(err,_cor){
 		fs.writeFileSync("mpps_fields_link.json",JSON.stringify(links,""," "),"utf8");
 
 		attachNoteWithNdef();
-		notes.unshift({type:"note",corpus:"taisho",first:"25p57c0805"});
+		notes.unshift({type:"mppsnote",corpus:"taisho",first:"25p57c0805"});
 		fs.writeFileSync("mpps_fields_note.json",JSON.stringify(notes,""," "),"utf8");
 
 		paragraphs.unshift({type:"p",corpus:"taisho",first:"25p57c0805"});
@@ -201,9 +250,9 @@ openCorpus("taisho",function(err,_cor){
 
 		fs.writeFileSync("mpps_fields_wrongpos.txt",wrongpos.join("\n"),"utf8");
 		
-		console.log("unconsumed ndef" ,Object.keys(ndefs).length);
+		console.log("unconsumed ndef" ,Object.keys(ndefs).length," in mpps_fields_wrongndef.txt");
 		fs.writeFileSync("mpps_fields_wrongndef.txt",JSON.stringify(ndefs,""," "),"utf8");
-		
+		console.log("done")		;
 	});
 });
 

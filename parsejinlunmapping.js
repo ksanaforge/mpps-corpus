@@ -16,7 +16,7 @@ const parseRange=function(str,line){
 	if (r.length>2) {
 		throw "wrong range "+line
 	}
-	return r[0]+ (r[1]?"-"+r[1]:"");
+	return r[0]+ (r[1]?"~"+r[1]:"");
 }
 const toInt=function(s){
 	const p=s.split(".");
@@ -63,7 +63,9 @@ const toRange=function(s,key,printgap) {
 	}
 
 	if (gap &&printgap) console.log(key," gap in "+s);
-
+	if (nums.length>10) {
+		//console.log(key,nums.length)
+	}
 	return nums;
 }
 const packone=function(n){
@@ -92,41 +94,84 @@ const pack=function(nums){//pack nums to a short string notation
 	emitgroup(nums[nums.length-1]%groupshift);
 	return segments.join(";");
 }
+/* the kepan has no correspondance
+   connect with paragraph
+*/
+const kepanToPara={};
+const kepan2para=function(line){
+	const parts=line.split(/[=-]/);
+	var kepan,target;
+	if (parts[1][0]=="^") { //connect to jin
+		kepan=toRange(parts[0])
+		target='J'+parts[1].substr(1);
+	} else {
+		kepan=toRange(parts[1]);
+		target='L'+parts[0].substr(1);
+	}
 
+	for (var i=0;i<kepan.length;i++) {
+		kepanToPara[packone(kepan[i])]=target;
+	}
+}
 const processline=function(line,idx){
-	if (line.indexOf("^")>-1)return;
+	if (line.indexOf("^")>-1) {
+		kepan2para(line);
+		return;
+	}
 	const parts=line.split(/[\-=]/);
 	if (parts.length!==2) {
 		console.log("error parsing line",idx+1,line);
 		return;
 	}
 	const key=parts[0];
+	
 	if (kepan[key]) {
 		kepan[key]+=";"+parts[1];
 	} else {
 		kepan[key]=parseRange(parts[1],idx+1);
 	}
 }
-const buildReverseLink=function(){
-
-}
 const finalize=function(){
+	var hassegments={};
 	for (var i in kepan) {
-		if (kepan[i].indexOf(";")>-1){
-			const ranges=toRange(kepan[i],i,true);
-			for (var j=0;j<ranges.length;j++) {
-				const target=packone(ranges[j]);
+		if (kepan[i].indexOf(";")>-1) hassegments[i]=true;
+		kepan[i]=toRange(kepan[i]);
+	}
+
+	for (var i in kepan) {
+		if (hassegments[i]){
+			const segments=kepan[i];
+			for (var j=0;j<segments.length;j++) {
+				const target=packone(segments[j]);
+				if (target=="NaN.NaN") debugger;
 				if (!kepan[target]) {
-					kepan[target]=i;
+					//if (target=="89.108") debugger
+					kepan[target]=toRange(i);
 				} else {
-					console.log('from',i,'to',target)
+					//multi to one
+					//console.log('from',i,'to',target)
+					kepan[target].push(toRange(i));
 				}
 			}
-			kepan[i]=ranges;
+		} else {
+			
+			for (var j=0;j<kepan[i].length;j++) {
+				const target=packone(kepan[i][j]);
+				if (target==i) continue; //prevent self referencing 89.133=89.37~192
+
+				if (target=="NaN.NaN") debugger;
+				if (!kepan[target]) {
+					kepan[target]=toRange(i);
+				} else {
+					kepan[target].push(toRange(i));
+				}
+
+			}
 		}
 	}
 
 	//phase 2 
+	//debugger;
 	for (var i in kepan) {
 		kepan[i]=pack(kepan[i]);
 	}
@@ -172,4 +217,6 @@ f2.map(processline);
 
 //listOrphan();
 finalize();
+console.log("done")
 fs.writeFileSync("kepan-map.json",JSON.stringify(kepan,""," "),"utf8");
+fs.writeFileSync("kepan-map-para.json",JSON.stringify(kepanToPara,""," "),"utf8");

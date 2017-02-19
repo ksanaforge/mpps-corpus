@@ -1,9 +1,12 @@
 const {openCorpus,bsearch}=require("ksana-corpus");
 
-const mpps_taisho=require("./mpps_taisho");
+/* input from result of extracttaisho.js
+output for genfields.js
+*/
+const mpps_taisho=require("./mpps_taisho"); //output of extracttaisho.js
+const mpps_standoffs=require("./mpps_standoffs"); 
 const diff=require("diff");
 const fs=require("fs")
-const mpps_standoffs=require("./mpps_standoffs");
 openCorpus("taisho",function(err,cor){
 	cor.getText("25p57a0100-750c0100",function(){//prefetch , 10 times faster
 		fetch(cor);
@@ -74,11 +77,13 @@ var accuratecount=0,inaccuratecount=0;
 var inaccurate=[];
 const inaccurate_threshold=2;
 const translate=function(t1pos,t2pos,pos,pb,standoff){
+
 	if (!pos) {
-		debugger;
+		return 0;
 	}
 
 	const at=bsearch(t1pos,pos,true)-1;
+	if (at<0) return pos;
 	
 	const dist=pos-t1pos[at];
 	const t2dist=t2pos[at+1]-t2pos[at];
@@ -104,6 +109,7 @@ const convert=function(pbdiffs,standoffs){
 		const diffs=pbdiffs[pb];
 		if (!diffs) break;
 		const t=translate(diffs[0],diffs[1],pos,pb,standoffs[i][2]);
+		if (!t && t!==0) debugger
 		standoffs[i].push(t);
 	}
 	return standoffs;
