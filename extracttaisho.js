@@ -114,6 +114,10 @@ const preprocess=function(s){
 		console.log("extra kai enclosing H",m);
 		return m1;
 	})
+	o=o.replace(/慧日佛學班第\d+期/g,"");
+	o=o.replace(/釋厚觀（[\d\.]+）/g,"");
+	o=o.replace(/\$\$.*?\n/g,"");//去掉承上卷
+
 	return o;
 }
 const processfile=function(fn){
@@ -154,17 +158,12 @@ const processfile=function(fn){
 	};
 	parser.write(content);
 }
-const removeextrakepan=function(){ //repeated kepan in docx (承上卷)
-	for (var i =0;i<taishotext.length;i++) {
-		var s=taishotext[i][1];
-		taishotext[i][1]=s.replace(/\$\$.*?\n/g,"");
-	}
-}
+
 lst.forEach(processfile);
 emitstandoff();
 emittaisho();
 kepan=kepan.concat(subkepan);
-removeextrakepan();
+//removeextrakepan();
 fs.writeFileSync("mpps_taisho.js","module.exports="+JSON.stringify(taishotext,""," "),"utf8");
 fs.writeFileSync("mpps_standoffs.js","module.exports="+JSON.stringify(standoffs,""," "),"utf8");
 fs.writeFileSync("mpps_kepan.txt",kepan.join("\n"),"utf8");
