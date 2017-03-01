@@ -73,10 +73,11 @@ var processfile=function(fn){
 	if (prevout) out=prevout; else out=lunpart;//start from lun
 
 	for (var i=2;i<lines.length-1;i++) { //omit first 2 line and last line
-		var line=lines[i];
+		var line=lines[i],o;
 		if (line.indexOf("<lun")>-1) {
 			out=lunpart;
-			out.push('^'+juan+'.'+group);
+			o='^'+juan+'.'+group;
+			out.push(o);
 		} else if (line.indexOf("<ndef")>-1) {
 			if (out!=ndefpart) prevout=out;
 			out=ndefpart;
@@ -84,7 +85,8 @@ var processfile=function(fn){
 		} else if (line.indexOf("<jin")>-1) {
 			out=jinpart;
 			group++;
-			out.push('^'+juan+'.'+group);
+			o='^'+juan+'.'+group
+			out.push(o);
 		} else if (line.indexOf("<H")>-1) {
 			if (line.indexOf('m="S"')>-1) {
 				sharekepan=true; //put to JIN instead of jun
@@ -236,7 +238,6 @@ lst.map(processfile);
 addKepanSubtree(100); //last 100 juan
 
 
-
 jin=jin.join("\n");
 jin=jin.replace(/<kai>/g,"").replace(/<\/kai>/g,"");//all jin is kai
 jin=replace(jin);
@@ -257,6 +258,12 @@ lun=lun.replace(/<lun><\/lun>/g,"");
 lun=replaceEmptyLineAfterParagraph(lun);
 lun=swapParagraphKepan(lun);
 
+var alltext=all.join("\n")
+alltext=replace(alltext)
+alltext=replaceRef(alltext)
+alltext=replaceFont(alltext)
+//alltext=alltext.replace(/<\/b>(#\d+)<b>/g,function(m,m1){return m1});
+alltext=replaceEmptyLineAfterParagraph(alltext);
 
 ndef=ndef.join("\n");
 ndef=replaceRef(ndef);
@@ -270,7 +277,7 @@ checkpart(jin,lun);
 fs.writeFileSync("jin.txt",jin,"utf8");
 fs.writeFileSync("lun.txt",lun,"utf8");
 fs.writeFileSync("ndef.txt",ndef,"utf8");
-
+fs.writeFileSync("all.txt",alltext,"utf8")
 //fs.writeFileSync("jin_kepan.txt",jinkepan.join("\n"),"utf8");
 //fs.writeFileSync("lun_kepan.txt",lunkepan.join("\n"),"utf8");
 var out=kepan.map(function(k){return k.join("\t")});
