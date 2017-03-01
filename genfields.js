@@ -5,6 +5,8 @@ var cor;
 var fascicle=1,para=0;//current fascile
 var H=[],notes=[],links=[],wrongpos=[],ndefs={},paragraphs=[];
 const endofmpps="25p0756c19";
+var jin=[],jinstart=0,kaistart=0;
+
 var prevpage=0,pagerange,pagetext=null,linebreaks;
 const fs=require("fs");
 /*group by article */
@@ -45,6 +47,7 @@ const processndef=function(ndef){
 	s=s.replace(/<kai>/g,"{k").replace(/<\/kai>/g,"k}");
 	s=s.replace(/<b>/g,"{").replace(/<\/b>/g,"}");
 
+
 	s=s.replace(/《大智度論》講義（第\d+期）/g,"");
 	s=s.replace(/第[一二三四五六七]冊：《大智度論》卷\d+/g,"");
 	s=s.replace(/<\/body><\/html>/g,"");
@@ -64,10 +67,11 @@ const ndefblocks=function(str){
 	para=0;
 }
 
-const emit=function(arr,realpos,a1,a2){
-	const kpos=calKPos(realpos);
+const emit=function(arr,kpos,a1,a2){
 	if (kpos) {
-		arr.push(cor.stringify(kpos)+"\t"+a1+"\t"+a2);
+		var line=cor.stringify(kpos)+"\t"+a1;
+		if (a2) line+="\t"+a2;
+		arr.push(line);
 	} else {
 		wrongpos.push([realpos,prevpage,a1,a2]);
 		//console.log("wrong pos",a1,a2,realpos,prevpage);
@@ -93,35 +97,51 @@ const processtag=function(standoff){
 		ndefblocks(standoff[2]);
 		return
 	}
+
+	const kpos=calKPos(realpos);
 	standoff[2].replace(/<note_taisho vol="(\d+)" pg="([a-d\d\-]+)"><\/note_taisho>/g,function(m,v,pg){
-		emit(links,realpos,"taisho",v+"p"+pg);
+		emit(links,kpos,"taisho",v+"p"+pg);
 	});
 
 	standoff[2].replace(/<note_mpps ref="(.+?)"><\/note_mpps>/g,function(m,mpps){
-		emit(links,realpos,"mpps",mpps);
+		emit(links,kpos,"mpps",mpps);
 	});
 
 	standoff[2].replace(/<H(\d+).*?>(.*?)<\/H\d+>/,function(m,depth,head){
 		const id=m.match(/id="([\d\.]+)"/)[1];
-		kepanpos[id]=calKPos(realpos);
+		kepanpos[id]=kpos;
 		kepanid.push(id);
-		emit(H,realpos,depth+"\t"+head,id);
+		emit(H,kpos,depth+"\t"+head,id);
 	})
+
+	standoff[2].replace(/<kai>/,function(){
+		kaistart=kpos;
+	});
+
+	standoff[2].replace(/<\/kai>/,function(){
+		if (kaistart && !jinstart) { //not in jin section
+			emit(jin,cor.makeRange(kaistart,kpos),"lun");	
+		}
+	});
 
 	standoff[2].replace(/<jin>/,function(){
 		para++;
 		const jinid=fascicle+"."+para
-		jinparapos[jinid]=calKPos(realpos);
-		emit(paragraphs,realpos,"jin",jinid);
+		jinstart=kpos;
+		jinparapos[jinid]=jinstart;
+		emit(paragraphs,kpos,"jin",jinid);
 	});
+
 	standoff[2].replace(/<lun>/,function(){
 		const lunid=fascicle+"."+para;
-		lunparapos[lunid]=calKPos(realpos);
-		emit(paragraphs,realpos,"lun",lunid)
+		lunparapos[lunid]=kpos;
+		emit(paragraphs,kpos,"lun",lunid)
+		if (jinstart) emit(jin,cor.makeRange(jinstart,kpos),"jin");
+		jinstart=0;
 	});
 
 	standoff[2].replace(/<note n="(\d+)"\/>/,function(m,id){
-		emit(notes,realpos,fascicle+"."+id,""); // attachNoteWithNdef will fill it
+		emit(notes,kpos,fascicle+"."+id,""); // attachNoteWithNdef will fill it
 	})
 
 
@@ -138,8 +158,9 @@ const attachNoteWithNdef=function(){
 		const id=notes[i].split("\t")[1];
 		if (!ndefs[id]) {
 			console.log("note id not found",id);
+		} else {
+			notes[i]+=ndefs[id].replace(/\t/g,"　　　　");
 		}
-		notes[i]+=ndefs[id];
 		delete ndefs[id];
 	}
 }
@@ -212,6 +233,8 @@ const bindJinLunKepan=function(heads){
 				}
 				head[4]="("+head[3]+"=>"+para+")";
 				head[3]=cor.stringify(parapos);
+			} else {
+				console.log("no pos for",headkepanid)
 			}
 		}
 		heads[i]=head.join("\t");
@@ -245,6 +268,8 @@ openCorpus("taisho",function(err,_cor){
 		paragraphs.unshift({type:"p",corpus:"taisho",first:"25p57c0805"});
 		fs.writeFileSync("mpps_fields_p.json",JSON.stringify(paragraphs,""," "),"utf8");
 
+		jin.unshift({type:"jin",corpus:"taisho",first:"25p57c0805"});
+		fs.writeFileSync("mpps_fields_jin.json",JSON.stringify(jin,""," "),"utf8");
 
 		//fs.writeFileSync("ndef.json",JSON.stringify(ndefs,""," "),"utf8");
 
