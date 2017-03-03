@@ -19,11 +19,11 @@ var mpps_yinshun_note=function(content){
 }
 
 var taisho=function(content) {
-	return content.replace(/（大正(\d+)，(.+?)，n\.(.+?)）/g,function(m,vol,pg,sutra){
+	return content.replace(/（大正(\d+)，([\dabcd\-]+)，n\.(\d+)）/g,function(m,vol,pg,sutra){
 		return '<note_taisho vol="'+vol+'" pg="'+pg+'" n="'+sutra+'"></note_taisho>';
-	}).replace(/（大正(\d+)，(.+?)）/g,function(m,vol,pg){
+	}).replace(/（大正(\d+)，([\dabc\-]+)[）\)]/g,function(m,vol,pg){
 		return '<note_taisho vol="'+vol+'" pg="'+pg+'"></note_taisho>';
-	}).replace(/<taisho n="(.*?)"\/>/g,function(m,m1){ //taisho page num
+	}).replace(/<taisho n="[\dabc]+"\/>/g,function(m,m1){ //taisho page num
 		return '<taisho n="'+m1+'"></taisho>';
 	});
 }

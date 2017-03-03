@@ -26,8 +26,8 @@ const prolog=function(content){
 		return '<link target="mpps@'+m1+'"/>';
 	});	
 
-	content=content.replace(/<note_taisho vol="(\d+)" pg="([p\.abc\d\-]+)"><\/note_taisho>/g,function(m,v,pg){
-		return '<link target="taisho@'+v+"p"+pg.replace("p.","")+'"/>';
+	content=content.replace(/<note_taisho vol="(\d+)" pg="([ p\.abc\d\-]+)"><\/note_taisho>/g,function(m,v,pg){
+		return '<link target="taisho@'+v+"p"+pg.replace("p.","").replace(" ","")+'"/>';
 	});
 	content=content.replace('<link rel="stylesheet" type="text/css" href="default_html.css" />\n','');
 	content=content.replace('<html><script src="script.js"></script><meta charset="UTF-8"/>\n','');
@@ -89,7 +89,7 @@ const def_epilog=function(defs){
 	return defs;
 }
 var kepantreecount=0,kepancount=0;
-const xml2htll=function(def){
+const xml2htll=function(def,id){
 	def=def.replace(/<link target="(.+?)"\/>/g,function(m,m1){
 		m1=m1.replace(/taisho@/,"t");
 		m1=m1.replace(/taishoapp@/,"a");
@@ -101,17 +101,18 @@ const xml2htll=function(def){
 	def=def.replace(/<b>/g,"{");
 	def=def.replace(/<\/b>/g,"}");
 
-	def=def.replace(/>/g,"＞");
 	if (def.indexOf("<")>-1 ) {
-		throw "has html tag in defs"
+		console.log(def.substr(def.indexOf("<"),50));
+		console.log("has html tag in defs",id)
 	}
+	def=def.replace(/>/g,"＞");
 
 	return def
 }
 const convertdef2json=function(defs){
 	const out={};
 	defs.replace(/<def n="([\d\.]+)">([\s\S]+?)<\/def>/g,function(m,m1,t){
-		out[m1]=xml2htll(t);
+		out[m1]=xml2htll(t,m1);
 	})
 	return JSON.stringify(out,""," ");
 }
@@ -210,7 +211,6 @@ var processfile=function(fn){
 	}
 
 	fs.writeFileSync(targetpath+ofn,output,"utf8");
-	//console.log(fn)
 }
 lst.forEach(processfile)
 console.log("maxchar",maxchar);

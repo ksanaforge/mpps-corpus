@@ -8,6 +8,25 @@ runall  ; Normal.dot must include vbscript/convert.vb
 ===create xhtml format from word xml , 每一卷一個  xhtml===
 node gen 
 
+====create  kepan-map.json====
+node parsejinlunmapping
+
+====create xml for building corpus ====
+node gencorpusxml
+
+====create mpps.cor====
+node gencorpus
+
+
+
+======obsolute=====
+
+
+
+
+
+
+
 ===combine 100 juan and break into 3 files, 轉成json ，供 經論對讀使用 ===
 node combine
 

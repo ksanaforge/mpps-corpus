@@ -20,7 +20,6 @@ objWord.Documents.Open fn ,, False
 Set objDoc = objWord.ActiveDocument
 
 objWord.Run "Normal.NewMacros.Convert"
-rem objDoc.SaveAs  targetfn, wdFormatUnicodeText, , , , , , , , , , 65001
-objDoc.SaveAs  targetfn, wdFormatUnicodeText
+objDoc.SaveAs  targetfn, wdFormatUnicodeText, , , , , , , , , , 65001
 objDoc.Close
 objWord.Quit

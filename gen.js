@@ -10,7 +10,7 @@ var lst=fs.readFileSync(sourcepath+"files.lst","utf8").split(/\r?\n/);
 var writeToDisk=true;
 //lst.length=5;
 
-var validate=require("ksana-master-format/validatexml");
+//var validate=require("ksana-master-format/validatexml");
 var Kepan=require("./kepan");
 var Hotfix=require("./hotfix");
 var Text2Tag=require("./text2tag");//known text pattern to xml tag
@@ -163,7 +163,7 @@ var processfile=function(fn){
 
 	content=Hotfix.removeNopTagAfter(content);
 
-	var errors=validate(content,fn,2);//output has two extra line at the top
+	//var errors=validate(content,fn,2);//output has two extra line at the top
 
 	out=content;
 	//out=`<?xml-stylesheet type="text/css" href="default.css" ?>
@@ -178,11 +178,13 @@ var processfile=function(fn){
 	newfn=newfn.replace(/\d+大智度論卷/,"");
 	newfn=newfn.replace(/大智度論簡介/,"");
 
+/*
 	if (errors.length) {
 		console.log(errors.length+" errors in "+fn)
 		allerrors.push("==========="+fn);
 		allerrors=allerrors.concat(errors);
 	}
+*/	
 	if (writeToDisk)	fs.writeFileSync("genxml/"+newfn,out,"utf8");
 }
 
