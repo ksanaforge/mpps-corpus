@@ -27,12 +27,13 @@ const fileStart=function(fn,i){
 	console.log(fn)
 }
 
-var options={name:"mpps",inputFormat:"xhtml",bits:[2,12,5,8],title:"大智度論講義",
+var options={name:"mpps",inputFormat:"xhtml",
+bits:[2,12,5,8],title:"大智度論講義",
 maxTextStackDepth:3,
 footnotes:require("./xml/footnotes.json"),
 articleFields:["head","footnote","a@mpps","rend","origin"],
 preload:["a"],//global anchor
-rendClass:["kai","b","s"], //<kai> will transform to <span class="kai">
+rendClass:["kai","b","jin","j"], //<kai> will transform to <span class="kai">
 removePunc:false,
 articleAsGroup:true,
 extrasize:1024*1024*5, //for external def

@@ -258,13 +258,14 @@ lun=lun.replace(/<lun><\/lun>/g,"");
 lun=replaceEmptyLineAfterParagraph(lun);
 lun=swapParagraphKepan(lun);
 
+/*
 var alltext=all.join("\n")
 alltext=replace(alltext)
 alltext=replaceRef(alltext)
 alltext=replaceFont(alltext)
 //alltext=alltext.replace(/<\/b>(#\d+)<b>/g,function(m,m1){return m1});
 alltext=replaceEmptyLineAfterParagraph(alltext);
-
+*/
 ndef=ndef.join("\n");
 ndef=replaceRef(ndef);
 ndef=replaceFont(ndef);
@@ -277,7 +278,7 @@ checkpart(jin,lun);
 fs.writeFileSync("jin.txt",jin,"utf8");
 fs.writeFileSync("lun.txt",lun,"utf8");
 fs.writeFileSync("ndef.txt",ndef,"utf8");
-fs.writeFileSync("all.txt",alltext,"utf8")
+//fs.writeFileSync("all.txt",alltext,"utf8")
 //fs.writeFileSync("jin_kepan.txt",jinkepan.join("\n"),"utf8");
 //fs.writeFileSync("lun_kepan.txt",lunkepan.join("\n"),"utf8");
 var out=kepan.map(function(k){return k.join("\t")});

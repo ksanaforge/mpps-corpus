@@ -44,6 +44,40 @@ const prolog=function(content){
 
 	content=content.replace(/<kai>\$\$/g,"<kai>");
 
+	content=content.replace(/\$\$/g,"");
+
+
+	content=content.replace(/<kai><jin><\/jin>(.+?)<\/kai>/g,function(m,m1){
+		return "<jin>"+m1+"</jin>"
+	});
+
+
+	content=content.replace(/<kai>(〔?)<jin><\/jin>([\s\S]*?)<\/kai>/g,function(m,m1,m2){
+		return "<j>【經】"+m1+m2+"</j>"
+	});
+
+	content=content.replace(/<jin>(.+?)<\/jin>/g,function(m,m1){
+		return "<j>"+m1+"</j>";
+	});
+
+
+	//content=content.replace(/<kai><jin><\/jin><\/kai>/g,"<j>【經】");
+
+	if (content.indexOf("<jin></jin>")>-1) {
+		content=content.replace(/<jin><\/jin>/g,"<j>【經】");
+		content=content.replace(/<lun><\/lun>/g,"</j>【論】");
+	} else {
+		content=content.replace(/<lun><\/lun>/g,"【論】");
+	}
+
+	//dirty hack
+	content=content.replace(/<\/j>\n<\/j>/g,"</j>\n");
+	//}
+
+	//content=content.replace(/<jin><\/jin>/g,"<jin>");
+	//content=content.replace(/<lun><\/lun>/g,"</jin>");
+	//content=content.replace(/<kai><jin>/g,"<jin>");
+	//content=content.replace(/<\/kai>\n<\/jin>/g,"</jin>");
 	return content;
 }
 
