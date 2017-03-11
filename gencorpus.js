@@ -34,6 +34,7 @@ footnotes:require("./xml/footnotes.json"),
 articleFields:["head","footnote","a@mpps","rend","origin"],
 preload:["a"],//global anchor
 rendClass:["kai","b","jin","j"], //<kai> will transform to <span class="kai">
+displayOptions:{groupColumn:[25,50,75]},
 removePunc:false,
 articleAsGroup:true,
 extrasize:1024*1024*5, //for external def

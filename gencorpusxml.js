@@ -71,6 +71,12 @@ const prolog=function(content){
 	}
 
 	//dirty hack
+	if (content.indexOf("<j>【經】</j>")>-1) {
+		content=content.replace(/<j>【經】<\/j>/g,"<j>【經】");
+		content=content.replace(/\n【論】/g,"\n</j>【論】");
+		//content=content.replace(/<\/j><\/j>【論】/g,"</j>【論】");
+	}
+	
 	content=content.replace(/<\/j>\n<\/j>/g,"</j>\n");
 	//}
 
