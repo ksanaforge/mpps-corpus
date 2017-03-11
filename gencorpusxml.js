@@ -16,7 +16,7 @@ const prolog=function(content){
 		/<ndef n="(\d+)"><a id="d\d+" href="#n\d+">\[\d+\]<\/a><\/ndef>/g,function(m,m1){
 			return '<def n="'+juan+"."+m1+'"/>';
 	});
-	content=content.replace(/<taisho n="(.*?)"><\/taisho>/g,function(m,m1){
+	content=content.replace(/<taisho n="(.*?)"\/>/g,function(m,m1){
 		return '<origin from="taisho@'+m1.replace(".","p")+'"/>';
 	});	
 	content=content.replace(/<pb n="(.*?)"><\/pb>/g,function(m,m1){
