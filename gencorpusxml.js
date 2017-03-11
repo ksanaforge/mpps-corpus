@@ -77,7 +77,9 @@ const prolog=function(content){
 		//content=content.replace(/<\/j><\/j>【論】/g,"</j>【論】");
 	}
 	
-	content=content.replace(/<\/j>\n<\/j>/g,"</j>\n");
+	content=content.replace(/<\/j>(.*)\n<\/j>/g,function(m,m1){
+		return "</j>"+m1+"\n"
+	});
 	//}
 
 	//content=content.replace(/<jin><\/jin>/g,"<jin>");
@@ -124,7 +126,7 @@ const def_epilog=function(defs){
 		console.log("tag unmatch",opencount,closecount)
 	}
 
-
+	defs=defs.replace(/<\/j>【論】/,"【論】");
 
 	return defs;
 }
