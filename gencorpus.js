@@ -57,8 +57,9 @@ corpus.setHandlers(
 
 files.forEach(fn=>corpus.addFile(sourcepath+fn));
 
-corpus.writeKDB("mpps.cor",function(byteswritten){
+const res=corpus.writeKDB("mpps.cor",function(byteswritten){
 	console.log(byteswritten,"bytes written")
 });
+console.log(res.rom)
 
 console.log(corpus.totalPosting,corpus.tPos);

@@ -5,6 +5,7 @@ var fs=require("fs");
 var lst=fs.readFileSync(lst,"utf8").split(/\r?\n/);
 //lst.length=10
 var juan;
+const addjin=require("./addjin");
 const outputfilelist=[];
 const prolog=function(content){
 	content=content.replace(String.fromCharCode(0xFEFF),"")
@@ -46,46 +47,7 @@ const prolog=function(content){
 
 	content=content.replace(/\$\$/g,"");
 
-
-	content=content.replace(/<kai><jin><\/jin>(.+?)<\/kai>/g,function(m,m1){
-		return "<jin>"+m1+"</jin>"
-	});
-
-
-	content=content.replace(/<kai>(〔?)<jin><\/jin>([\s\S]*?)<\/kai>/g,function(m,m1,m2){
-		return "<j>【經】"+m1+m2+"</j>"
-	});
-
-	content=content.replace(/<jin>(.+?)<\/jin>/g,function(m,m1){
-		return "<j>"+m1+"</j>";
-	});
-
-
-	//content=content.replace(/<kai><jin><\/jin><\/kai>/g,"<j>【經】");
-
-	if (content.indexOf("<jin></jin>")>-1) {
-		content=content.replace(/<jin><\/jin>/g,"<j>【經】");
-		content=content.replace(/<lun><\/lun>/g,"</j>【論】");
-	} else {
-		content=content.replace(/<lun><\/lun>/g,"【論】");
-	}
-
-	//dirty hack
-	if (content.indexOf("<j>【經】</j>")>-1) {
-		content=content.replace(/<j>【經】<\/j>/g,"<j>【經】");
-		content=content.replace(/\n【論】/g,"\n</j>【論】");
-		//content=content.replace(/<\/j><\/j>【論】/g,"</j>【論】");
-	}
-	
-	content=content.replace(/<\/j>(.*)\n<\/j>/g,function(m,m1){
-		return "</j>"+m1+"\n"
-	});
-	//}
-
-	//content=content.replace(/<jin><\/jin>/g,"<jin>");
-	//content=content.replace(/<lun><\/lun>/g,"</jin>");
-	//content=content.replace(/<kai><jin>/g,"<jin>");
-	//content=content.replace(/<\/kai>\n<\/jin>/g,"</jin>");
+	content=addjin(content);
 	return content;
 }
 
@@ -252,7 +214,7 @@ var processfile=function(fn){
 		output='<pb n="1"/>\n'+output; //must have one text line in first page
 	}
 
-	fs.writeFileSync(targetpath+ofn,output,"utf8");
+	fs.writeFileSync(targetpath+ofn,"<xml>"+output+"</xml>","utf8");
 }
 lst.forEach(processfile)
 console.log("maxchar",maxchar);

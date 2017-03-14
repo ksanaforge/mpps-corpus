@@ -206,7 +206,7 @@ Sub Convert()
 Call RemoveBold("", "<b>^&</b>", Body)
 Call RemoveItalic("", "<i>^&</i>", Body)
 Call RemoveUnderline("", "<u>^&</u>", Body)
-Call RemoveSuperscript("", "<s>^&</s>", Body)
+'Call RemoveSuperscript("", "<s>^&</s>", Body)
 
 Set Footnotes = ActiveDocument.StoryRanges(wdFootnotesStory)
 Call RemoveBold("", "<b>^&</b>", Footnotes)
