@@ -27,18 +27,17 @@ const fileStart=function(fn,i){
 	console.log(fn)
 }
 
-var options={name:"mpps",inputFormat:"xhtml",
-bits:[2,12,5,8],title:"大智度論講義",
-maxTextStackDepth:3,
+var options={name:"mpps",
+bits:[1,12,6,8],title:"大智度論講義",
 footnotes:require("./xml/footnotes.json"),
 articleFields:["head","footnote","a@mpps","rend","origin"],
 preload:["a"],//global anchor
 rendClass:["kai","b","jin","j"], //<kai> will transform to <span class="kai">
+toc:"H0",
 displayOptions:{groupColumn:[25,50,75]},
 removePunc:false,
-articleAsGroup:true,
 extrasize:1024*1024*5, //for external def
-subtoc:"H0"}; 
+}; 
 var corpus=createCorpus(options);
 
 //const {kai,b,pb}=require("./corpustag/format");
@@ -59,7 +58,11 @@ files.forEach(fn=>corpus.addFile(sourcepath+fn));
 
 const res=corpus.writeKDB("mpps.cor",function(byteswritten){
 	console.log(byteswritten,"bytes written")
+	if (corpus.longLines.length) {
+		console.log("long lines",corpus.longLines.length)
+		fs.writeFileSync('longlines.txt',JSON.stringify(corpus.longLines,""," "),"utf8");
+	}
 });
-console.log(res.rom)
+//console.log(res.rom)
 
-console.log(corpus.totalPosting,corpus.tPos);
+//console.log(corpus.totalPosting,corpus.tPos);
