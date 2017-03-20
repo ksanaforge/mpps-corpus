@@ -1,19 +1,17 @@
 {"name":"mpps",
-	"inputFormat":"xhtml",
-	"bits":[2,12,5,8],
+	"bits":[1,12,6,8],
 	"title":"大智度論講義",
-	"subtoc":"H0",
-	"maxTextStackDepth":3,
+	"toc":"H0",
 	"articleFields":["head","footnote","a@mpps","rend","origin"],
 	"preload":["a"],
-	"rendClass":["kai","b","s"],
-	"removePunc":false,
-	"articleAsGroup":true,
+	"rendClass":["kai","b","s","j"],
 	"extrasize":5242880,
-	"externals":{
+	"displayOptions":{"groupColumn":[20,44,73]},
+	"external":{
 		"footnotes":"footnotes.json"
 	},
 	"files":[
+"000.xml",
 "001-D08A.xml",
 "002-D08A.xml",
 "003-D08.xml",

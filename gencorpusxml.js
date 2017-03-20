@@ -207,14 +207,13 @@ var processfile=function(fn){
 
 	output=lines.join("\n").trim();
 
+	var juanname=fs.readFileSync("juanname.txt","utf8").split(/\r?\n/);
+	juanname=juanname.map(juan=>juan.replace(/\d+=/,""))
 	output=output.replace(/<b>《大智度論》卷(\d+)\n/,function(m,m1){
-		return "<article>《大智度論》卷"+m1+"</article>\n<b>";
+		return "<article>卷"+m1+"："+juanname[parseInt(m1)-1]+"</article>\n<b>";
 	})
-	if (ofn.indexOf("001-")>-1) {
-		output='<pb n="1"/>\n'+output; //must have one text line in first page
-	}
 
-	fs.writeFileSync(targetpath+ofn,"<xml>"+output+"</xml>","utf8");
+	fs.writeFileSync(targetpath+ofn,"<file>"+output+"</file>","utf8");
 }
 lst.forEach(processfile)
 console.log("maxchar",maxchar);
