@@ -139,7 +139,7 @@ var processlines=function(content,juan){
 				textlinecount++;
 			}
 			inBold=isInBold(line,inBold);
-			line=completeKai(line);
+			//line=completeKai(line);
 			if (line!==lines[i]) {
 				lines[i]=line;
 			}
