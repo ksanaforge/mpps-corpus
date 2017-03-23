@@ -1,9 +1,3 @@
-var createCorpus=null
-try {
-	createCorpus=require("ksana-corpus-builder").createCorpus;
-} catch(e){
-	createCorpus=require("ksana-corpus-lib").createCorpus;
-}
 var createCorpusFromJSON=null;
 try{
 	createCorpusFromJSON=require("ksana-corpus-builder").createCorpusFromJSON;
@@ -40,8 +34,7 @@ const fileStart=function(fn,i){
 	console.log(fn)
 }
 
-var options={name:"mpps",
-bits:[1,12,6,8],title:"大智度論講義",
+var options={id:"mpps",title:"大智度論講義",
 footnotes:require("./xml/footnotes.json"),
 articleFields:["head","footnote","a@mpps","rend","origin"],
 preload:["a"],//global anchor
