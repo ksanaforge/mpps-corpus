@@ -1,5 +1,6 @@
 REM need xml subfolder 
 chcp 65001
+
 wscript runmacro.vbs 000大智度論簡介-D06-pb-kai-kw.docx
 wscript runmacro.vbs 001大智度論卷001-D08A-pb-kai-kw.docx
 wscript runmacro.vbs 002大智度論卷002-D08A-pb-kai-kw.docx
