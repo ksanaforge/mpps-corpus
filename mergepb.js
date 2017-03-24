@@ -61,9 +61,8 @@ const insertP=function(content_para,content_lb,fn){
 			console.log(paras[i]);
 			console.log(lbs[j-1]);
 		}
-
+		if(line.trim()) out[out.length-1]+=line;
 	}
-
 	if (unconsumedcount>4) {
 		console.log(fn,unconsumedcount)
 	}
@@ -75,7 +74,7 @@ const processFile=function(fn){
 	var content_para=fs.readFileSync(para_path+fn,"utf8");
 	const content_lb=fs.readFileSync(lb_path+fn,"utf8");
 
-	if (fn.substr(0,3)=="067")debugger
+
 	content_para=content_para.replace(/!(\d+)/g,function(m,m1){
 		notes.push(m1);
 		return '<note n="'+m1+'"/>';

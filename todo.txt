@@ -1,3 +1,30 @@
+juan 38,47 cannot show breadcrumb
+because it is break into toc without parent node
+
+if the toc is not break by juan.
+it should show only parents node in tocview.
+all other nodes beyond the juan should be hidden.
+and breadcrumbtoc
+
+open bracket problem in p layout
+#a=1p150a0100&c=taisho&m=1&l=1
+move to 一時，and cursor keep moving
+
+
+readMain is keep fetching when moving cursor
+
+011-d08.xml
+<kai>一切眾生智，唯除佛世尊；</kai>
+欲比舍利弗，智慧及多聞，
+<kai>於十六分中，猶尚不及一。</kai><fn n="11.2"/>
+should be
+<kai>一切眾生智，唯除佛世尊；
+欲比舍利弗，智慧及多聞，
+於十六分中，猶尚不及一。</kai><fn n="11.2"/>
+
+
+
+
 convert jin lun kepan mapping from gprajna to json
 
 create links between jin lun kepan to mpps_fields
