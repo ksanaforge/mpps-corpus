@@ -1,12 +1,20 @@
 master MSWORD FILE in https://drive.google.com/drive/folders/0Bw3YnwlH6NQwbHB4NTJXN3NmZ3c
 
+Normal.dot must include vbscript/convert.vb
+
 ===convert MSword to XML===
 cd msword_pb_kai_kepan
-runall  ; Normal.dot must include vbscript/convert.vb
+runall_lb   ; output with lb breaks but foot note is lost
 
+runall_para ; output without linebreaks with foot note number
+
+===combine linbreaks in xml_lb to xml====
+node mergepb
 
 ===create xhtml format from word xml , 每一卷一個  xhtml===
 node gen 
+
+
 
 ====create  kepan-map.json====
 node parsejinlunmapping

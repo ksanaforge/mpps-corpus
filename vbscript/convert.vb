@@ -185,7 +185,7 @@ End Sub
 Sub Convert()
  Set Body = ActiveDocument.StoryRanges(wdMainTextStory)
  Call ReplaceAll("（([0-9]{1,3}[abc])）", "<taisho n=""25.\1""/>", True, Body)
- Call ReplaceAll("^f", "<note n=""^&""/>", False, Body)
+ Call ReplaceAll("^f", "!^&", False, Body)
  
  
 ' Call ReplaceAllKewen("([壹貳參肆伍陸柒捌玖拾～]{1,3})、", 1)
@@ -211,7 +211,7 @@ Call RemoveUnderline("", "<u>^&</u>", Body)
 Set Footnotes = ActiveDocument.StoryRanges(wdFootnotesStory)
 Call RemoveBold("", "<b>^&</b>", Footnotes)
 
- Call ReplaceAll("^f", "<ndef n=""^&""/>", False, Footnotes)
+ Call ReplaceAll("^f", "@^&", False, Footnotes)
 End Sub
 
 Sub Convert_SA_TRSL()
