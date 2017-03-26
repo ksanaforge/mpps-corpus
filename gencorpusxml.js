@@ -140,6 +140,7 @@ const processhead=function(headline){
 }
 var maxchar=0;
 var defs=[];
+/*
 const fixlongline=function(line){
 	line=line.replace('但為此故，以方便力',"\n但為此故，以方便力");
 	line=line.replace('是時，弗沙佛如是思惟',"\n是時，弗沙佛如是思惟");
@@ -165,6 +166,7 @@ const fixlongline=function(line){
 	//console.log(line);
 	return line
 }
+*/
 var processfile=function(fn){
 	var indef=false,defstart=0;
 	juan=parseInt(fn.substr(sourcepath));
@@ -190,9 +192,7 @@ var processfile=function(fn){
 			const chars=(line.replace(/<.*?>/g,"")).length;
 			if (chars>maxchar) {
 				maxchar=chars;
-				if (maxchar>254) {
-					line=fixlongline(line);
-				}
+				//if (maxchar>254) line=fixlongline(line);
 			}
 			lines[i]=line;
 		}

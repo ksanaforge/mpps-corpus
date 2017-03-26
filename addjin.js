@@ -14,7 +14,7 @@ const addjin=function(content) {
 	
 	content=content.replace(/<jin><\/jin>([\s\S]*?)<lun><\/lun>/g,function(m,jinpart){
 		return "<j>【經】"+jinpart.replace(/<\/?kai>/g,"").trim()+
-		"</j>\n【論】";
+		"</j>\n<p/>【論】";
 	});
 
 	return content;
