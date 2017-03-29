@@ -3,7 +3,7 @@ master MSWORD FILE in https://drive.google.com/drive/folders/0Bw3YnwlH6NQwbHB4NT
 Normal.dot must include vbscript/convert.vb
 
 ===convert MSword to XML===
-cd msword_pb_kai_kepan
+cd msword
 runall_lb   ; output with lb breaks but foot note is lost
 
 runall_para ; output without linebreaks with foot note number

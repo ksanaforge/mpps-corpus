@@ -5,7 +5,7 @@
 "use strict";
 var fs=require("fs");
 
-var sourcepath="msword_pb_kai_kepan/xml/";
+var sourcepath="msword/xml/";
 var lst=fs.readFileSync(sourcepath+"files.lst","utf8").split(/\r?\n/);
 var writeToDisk=true;
 //lst.length=5;
