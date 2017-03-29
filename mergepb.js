@@ -1,12 +1,12 @@
 const fs=require("fs");
 
 //word saveAs with InsertLineBreaks, foot note is lost
-const target_path="./msword_pb_kai_kepan/xml/";
+const target_path="./msword/xml/";
 
-const lb_path="./msword_pb_kai_kepan/xml_lb/";
+const lb_path="./msword/xml_lb/";
 
 //extract footnote and crlf as paragraph breaks
-const para_path="./msword_pb_kai_kepan/xml_para/";
+const para_path="./msword/xml_para/";
 
 const xml_files=fs.readFileSync(target_path+"files.lst","utf8").split(/\r?\n/);
 //xml_files.shift();
@@ -22,10 +22,9 @@ const insertP=function(content_para,content_lb,fn){
 	const out=[];
 
 	//non breaking space in 050 and 053
-	const paras=content_para.replace(/\u00a0/g," ").
-	replace(/\r?\n/g,"\n").replace(/\r/g,"\n").split("\n");
+	const paras=content_para.replace(/\u00a0/g," ").split("\n");
 
-	const lbs=content_lb.replace(/\r?\n/g,"\n").replace(/\r/g,"\n").split("\n")
+	const lbs=content_lb.split("\n")
 	var j=0,unconsumedcount=0;
 	for (var i=0;i<paras.length;i++) {
 		var line=paras[i];
@@ -55,13 +54,17 @@ const insertP=function(content_para,content_lb,fn){
 		}
 		if (line.trim().length) {
 			unconsumedcount++
+			//console.log(line)
 			//unconsumed.push(fn+"\t"+line.length);
 		}
 		if (unconsumedcount>4){
+			debugger
 			console.log(paras[i]);
 			console.log(lbs[j-1]);
 		}
-		if(line.trim()) out[out.length-1]+=line;
+		if(line.trim()) {
+			out[out.length-1]+=line;
+		}
 	}
 	if (unconsumedcount>4) {
 		console.log(fn,unconsumedcount)
@@ -69,10 +72,61 @@ const insertP=function(content_para,content_lb,fn){
 
 	return out;
 }
+const prolog=function(content){
+	content=content.replace(/\r?\n/g,"\n").replace(/\r/g,"\n");
+
+	content=content.replace(/!!([\s\S]+?)!!/g,function(m,m1){
+		if (m1.length>500) {
+			console.log("possible wrong table",m1)
+		}
+		return "<svg>"+m1+"</svg>"
+	});
+	content=content.replace(/!@([\s\S]*?)@!/g,function(m,m1){//might be no space
+		return "<svg2>"+m1.trim()+"</svg2>"
+	});
+	content=content.replace(/<svg src=" /g,'<svg src="');
+	content=content.replace(/<\/\n品>/g,"</品>");
+	content=content.replace(/\n<\/品>/g,function(){
+		return "</品>"
+	});//pin should not wrap
+
+	content=content.replace(/<\/品\n>/g,function(){
+		return "</品>"
+	});//pin should not wrap
+
+	//remove line breaks between 品
+	content=content.replace(/<品 (.+?)>([\s\S]+?)<\/品>/g,function(m,m1,m2){
+		return "<pin "+m1.replace(/\n/g,"")+"/>"+m2.replace(/\n/g,"");
+	})
+
+	if (content.indexOf("<品")>-1){
+		console.log(content.length)
+		throw "unclean 品"
+	}
+	return content;
+}
 const processFile=function(fn){
 	const notes=[],ndefs=[];
 	var content_para=fs.readFileSync(para_path+fn,"utf8");
-	const content_lb=fs.readFileSync(lb_path+fn,"utf8");
+	var content_lb=fs.readFileSync(lb_path+fn,"utf8");
+
+	content_para=prolog(content_para);
+	content_lb=prolog(content_lb);
+
+	if (parseInt(fn,10)==18) { //hot fix for missing 18.124
+
+		content_para=content_para.replace('<svg>			┌	一法是地，餘三應非',
+			'@124 <svg>			┌	一法是地，餘三應非');
+		content_lb=content_lb.replace('<svg>			┌	一法是地，餘三應非',
+			'@  <svg>			┌	一法是地，餘三應非');
+		const i=content_para.indexOf("@124");
+		const i2=content_lb.indexOf("┌	一法是地，餘三應非");
+	}
+
+	if (parseInt(fn,10)==11) {
+		//don't know why extension B convert to ??
+		content_lb=content_lb.replace("??：車轎上的惟幔","𨏥：車轎上的惟幔");
+	}
 
 
 	content_para=content_para.replace(/!(\d+)/g,function(m,m1){
@@ -84,6 +138,15 @@ const processFile=function(fn){
 		return '<ndef n="'+m1+'"/>';
 	})
 
+	if (notes.length!==ndefs.length) {
+		for (var i=0;i<notes.length;i++) {
+			if (notes[i]!==ndefs[i]) {
+				debugger
+				console.log("unmatch at"+i,fn);
+			}
+		}
+		throw "notes ndefs unmatch"
+	}
 	var content=content_lb.replace(/! /g,function(m){
 		return '<note n="'+notes.shift()+'"/>';
 	});

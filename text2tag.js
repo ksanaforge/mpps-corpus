@@ -50,7 +50,7 @@ var pb=function(content){
 }
 
 var kai=function(content){
-	return content.replace(/\^([\s\S]*?)\^\^/g,function(m,m1){
+	return content.replace(/\^([\s\S]+?)\^\^/g,function(m,m1){
 		return "<kai>"+m1+"</kai>";
 	});
 }

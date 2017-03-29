@@ -174,7 +174,7 @@ var processfile=function(fn){
 			<html><script src="script.js"></script><meta charset="UTF-8"/>
 			<body>`+out+"</body></html>";
 
-	var newfn=fn.replace("-pb-kai-kw.docx.xml",".html");
+	var newfn=fn.replace("-pb-kai-kw-01.docx.xml",".html");
 	newfn=newfn.replace(/\d+大智度論卷/,"");
 	newfn=newfn.replace(/大智度論簡介/,"");
 

@@ -71,6 +71,7 @@ const def_epilog=function(defs){
 	});
 	defs=defs.replace(/<def n="89.11"\/>、/g,"、");//extra
 	defs=defs.replace(/<def n="1.1"\/>/,'<def n="1.1">');
+	defs=defs.replace(/<def n="0.1"\/>/,'<def n="0.1">');
 
 	defs=defs.trim()+"</def>";
 	var opencount=0,closecount=0;
@@ -101,6 +102,18 @@ const xml2htll=function(def,id){
 	def=def.replace(/<\/kai>/g,"k}");
 	def=def.replace(/<b>/g,"{");
 	def=def.replace(/<\/b>/g,"}");
+
+	if (def.indexOf("svg")>-1){
+		def=def.replace(/<svg>([\S\s]+?)<\/svg>/g,function(m,m1){
+			return "{svg|"+m1+"|svg}";
+		});
+
+		def=def.replace(/<svg2>([\S\s]*?)<\/svg2>/g,function(m,m1){
+			return "{svg2}";
+		});
+	}
+	
+
 
 	if (def.indexOf("<")>-1 ) {
 		console.log(def.substr(def.indexOf("<"),50));
@@ -215,6 +228,7 @@ var processfile=function(fn){
 lst.forEach(processfile)
 console.log("maxchar",maxchar);
 const alldef=def_epilog(defs.join("\n"));
+debugger
 fs.writeFileSync(targetpath+"footnotes.xml",alldef,"utf8");
 fs.writeFileSync(targetpath+"footnotes.json",convertdef2json(alldef),"utf8");
 fs.writeFileSync(targetpath+"filelist.lst",outputfilelist.join("\n"),"utf8");
