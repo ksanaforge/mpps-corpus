@@ -228,7 +228,6 @@ var processfile=function(fn){
 lst.forEach(processfile)
 console.log("maxchar",maxchar);
 const alldef=def_epilog(defs.join("\n"));
-debugger
 fs.writeFileSync(targetpath+"footnotes.xml",alldef,"utf8");
 fs.writeFileSync(targetpath+"footnotes.json",convertdef2json(alldef),"utf8");
 fs.writeFileSync(targetpath+"filelist.lst",outputfilelist.join("\n"),"utf8");
