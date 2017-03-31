@@ -50,7 +50,16 @@ const prolog=function(content){
 	content=addjin(content);
 	return content;
 }
-
+const epilog=function(output,juan){//fix long head
+	if (juan==38) {
+		output=output.replace(/諸陀羅尼門、三昧門不能疾現在前<\/H6>\n<b><\/kai>」<\/b>/
+			,"諸陀羅尼門、三昧門不能疾現在前<\/kai>」<\/H6>");
+	} else if (juan==35) {
+		output=output.replace(/後復說「<kai>但有名謂為菩提、菩薩、空<\/H3>\n<b><\/kai>」<\/b>/,
+			"後復說「<kai>但有名謂為菩提、菩薩、空<\/kai>」<\/H3>");
+	}
+	return output;
+}
 /* def to enclose entire foot note*/
 const def_epilog=function(defs){
 //	defs=defs.replace(/---------------\n\n------------------------------------------------------------\n\n---------------\n\n------------------------------------------------------------\n\n《大智度論》講義（第\d+期）\n\n第[一二三四五六七]冊：《大智度論》卷\d+ ?\n\n\d+\n\n\d+\n\n<\/body><\/html>\n?/g,"");
@@ -222,7 +231,7 @@ var processfile=function(fn){
 	output=output.replace(/<b>《大智度論》卷(\d+)\n/,function(m,m1){
 		return "<article>卷"+m1+"："+juanname[parseInt(m1)-1]+"</article>\n<b>";
 	})
-
+	output=epilog(output,juan);
 	fs.writeFileSync(targetpath+ofn,"<file>"+output+"</file>","utf8");
 }
 lst.forEach(processfile)

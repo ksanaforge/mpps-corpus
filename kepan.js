@@ -74,7 +74,9 @@ var patchKepan=function(lines,juan){
          return '<pb n="'+m1+'"></pb>$';
       });
       var starat=line.indexOf("$");
-      var tagat=line.indexOf("<",starat+1);
+      var tagat=line.indexOf("<note_",starat+1);
+      var bracketat=line.indexOf("（",starat+1);//（印順導師筆記
+
       var remain="";
       if (tagat>-1) {
          remain=line.substr(tagat);
