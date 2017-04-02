@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02103.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.23369in" height="1.23176in"
+		viewBox="0 0 160.826 88.6866" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {baseline-shift:32.4947%;font-family:Times New Roman;font-size:0.649894em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(92.3516,-1.05687)">
+			<title>工作表.1</title>
+			<desc>1 勸許女人出家 不供世尊水 不答如來問 足踏如來衣 示佛陰藏相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="46.1397" width="67.73" height="85.0938"/>
+			<rect x="0" y="3.59279" width="67.7245" height="85.0938" class="st1"/>
+			<text x="0" y="13.44" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>？<tspan dy="-0.198em"
+						class="st3" v:baseFontSize="10">1<v:newlineChar/></tspan><tspan x="0" dy="1.582em" class="st4">勸許女人出家<v:newlineChar/></tspan><tspan
+						x="0" dy="1.453em" class="st4">不供世尊水<v:newlineChar/></tspan><tspan x="0" dy="1.453em" class="st4">不答如來問<v:newlineChar/></tspan><tspan
+						x="0" dy="1.453em" class="st4">足踏如來衣<v:newlineChar/></tspan><tspan x="0" dy="1.453em" class="st4">示佛陰藏相</tspan></text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(0.75,-37.0802)">
+			<title>工作表.5</title>
+			<desc>阿難六種突吉羅罪</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="81.9141" width="90.3" height="13.5449"/>
+			<rect x="0" y="75.1417" width="90.2993" height="13.5449" class="st1"/>
+			<text x="0" y="85.55" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>阿難六種突吉羅罪</text>		</g>
+		<g id="shape22-13" v:mID="22" v:groupContext="shape" transform="translate(171.906,9.67697) rotate(90)">
+			<title>工作表.22</title>
+			<path d="M0 80.96 C0 83.08 0 84.85 0 84.85 L36.14 84.85 C36.14 84.85 36.14 86.61 36.14 88.69 C36.14 86.56 36.14 84.85
+						 36.14 84.85 L72.28 84.85 C72.28 84.85 72.28 83.08 72.28 80.96 L0 80.96 Z" class="st5"/>
+			<path d="M0 80.96 C0 83.08 0 84.85 0 84.85 L36.14 84.85 C36.14 84.85 36.14 86.61 36.14 88.69 C36.14 86.56 36.14 84.85
+						 36.14 84.85 L72.28 84.85 C72.28 84.85 72.28 83.08 72.28 80.96" class="st6"/>
+		</g>
+	</g>
+</svg>

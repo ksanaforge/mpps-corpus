@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A00201.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.98344in" height="0.394849in"
+		viewBox="0 0 286.808 28.4291" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(130.235,-14.1342)">
+			<title>工作表.2</title>
+			<desc>大功德神通力———— 二乘此少。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9114" cy="21.6567" width="155.83" height="13.5449"/>
+			<rect x="0" y="14.8842" width="155.823" height="13.5449" class="st1"/>
+			<text x="0" y="24.77" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>大功德神通力<tspan class="st3">————</tspan><tspan
+						class="st3"> </tspan>二乘此少。</text>		</g>
+		<g id="shape5-6" v:mID="5" v:groupContext="shape" transform="translate(0.75,-7.22156)">
+			<title>工作表.5</title>
+			<desc>佛二法滿足故勝一切人</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="67.7245" cy="21.6567" width="135.45" height="13.5449"/>
+			<rect x="0" y="14.8842" width="135.449" height="13.5449" class="st1"/>
+			<text x="0" y="24.77" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛二法滿足（故）勝一切人</text>		</g>
+		<g id="shape7-9" v:mID="7" v:groupContext="shape" transform="translate(130.234,-0.75)">
+			<title>工作表.7</title>
+			<desc>第一淨心諸結使滅—— 諸天無此。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9114" cy="21.6567" width="155.83" height="13.5449"/>
+			<rect x="0" y="14.8842" width="155.823" height="13.5449" class="st1"/>
+			<text x="-0" y="24.77" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>第一淨心諸結使滅<tspan class="st3">——</tspan><tspan
+						class="st3"> </tspan>諸天無此。</text>		</g>
+		<g id="shape16-14" v:mID="16" v:groupContext="shape" transform="translate(150.309,6.41929) rotate(90)">
+			<title>工作表.16</title>
+			<path d="M0 21.7 C0 23.57 0.57 25.06 1.31 25.06 L6.51 25.06 C7.23 25.06 7.8 26.6 7.8 28.43 C7.8 26.6 8.36 25.06 9.11
+						 25.06 L14.3 25.06 C15.02 25.06 15.59 23.57 15.59 21.7 L0 21.7 Z" class="st4"/>
+			<path d="M0 21.7 C0 23.57 0.57 25.06 1.31 25.06 L6.51 25.06 C7.23 25.06 7.8 26.6 7.8 28.43 C7.8 26.6 8.36 25.06 9.11
+						 25.06 L14.3 25.06 C15.02 25.06 15.59 23.57 15.59 21.7" class="st5"/>
+		</g>
+	</g>
+</svg>

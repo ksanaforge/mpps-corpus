@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02007.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.31414in" height="0.73047in"
+		viewBox="0 0 238.618 52.5939" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(62.2669,-0.75)">
+			<title>工作表.1</title>
+			<desc>一、人中結薄厭心易得天上智利。 二、人天得道者多。 三、人中樂因多天上樂報多。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="87.8006" cy="27.0469" width="175.61" height="51.0939"/>
+			<rect x="0" y="1.5" width="175.601" height="51.0939" class="st1"/>
+			<text x="0" y="16.15" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、人中結薄，厭心易得，天上智利。<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">二</tspan>、人天得道者多。<v:newlineChar/><tspan x="0" dy="1.453em" class="st3">三</tspan>、人中樂因多，天上樂報多。</text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(0.75,-19.4296)">
+			<title>工作表.2</title>
+			<desc>天人之特勝</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.4331" cy="45.8214" width="52.87" height="13.5449"/>
+			<rect x="0" y="39.049" width="52.8661" height="13.5449" class="st1"/>
+			<text x="0" y="49.45" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>天人之特勝</text>		</g>
+		<g id="shape16-9" v:mID="16" v:groupContext="shape" transform="translate(104.463,11.6634) rotate(90)">
+			<title>工作表.16</title>
+			<path d="M0 43.76 C0 46.19 0 48.21 0 48.21 L14.99 48.21 C14.99 48.21 14.99 50.16 14.99 52.59 C14.99 50.16 14.99 48.21
+						 14.99 48.21 L30.05 48.21 C30.05 48.21 30.05 46.26 30.05 43.76 L0 43.76 Z" class="st4"/>
+			<path d="M0 43.76 C0 46.19 0 48.21 0 48.21 L14.99 48.21 C14.99 48.21 14.99 50.16 14.99 52.59 C14.99 50.16 14.99 48.21
+						 14.99 48.21 L30.05 48.21 C30.05 48.21 30.05 46.26 30.05 43.76" class="st5"/>
+		</g>
+	</g>
+</svg>
