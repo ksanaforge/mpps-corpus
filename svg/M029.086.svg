@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01201.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.45445in" height="0.621433in"
+		viewBox="0 0 320.72 44.7431" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.470309}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(71.3096,-0.75)">
+			<title>工作表.1</title>
+			<desc>住十住地菩薩自變化身為人說法 得無生忍法性生身七住地住五通變身如佛 發意菩薩行六度行業因緣身相似佛教化眾生</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.996" cy="23.1216" width="202" height="43.2431"/>
+			<rect x="0" y="1.5" width="201.992" height="43.2431" class="st1"/>
+			<text x="-0" y="11.78" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>住十住地菩薩自變化身為人說法<v:newlineChar/><tspan
+						x="-0" dy="1.446em" class="st3">得無生忍法性生身七住地住</tspan>，五通變身如佛<v:newlineChar/><tspan x="-0" dy="1.446em"
+						class="st3">發意菩薩行六度</tspan>，行業因緣身相似佛教化眾生</text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(0.75,-16.0593)">
+			<title>工作表.2</title>
+			<desc>菩薩能現佛力</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="37.9707" width="67.73" height="13.5449"/>
+			<rect x="0" y="31.1983" width="67.7245" height="13.5449" class="st1"/>
+			<text x="0" y="41.09" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩能現佛力</text>		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(297.396,-3.25971)">
+			<title>工作表.4</title>
+			<desc>化現 業感</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="32.6544" width="22.58" height="24.1774"/>
+			<rect x="0" y="20.5657" width="22.5748" height="24.1774" class="st1"/>
+			<text x="0" y="28.54" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>化現<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st3">業感</tspan></text>		</g>
+		<g id="shape13-13" v:mID="13" v:groupContext="shape" transform="translate(106.516,8.5601) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 36.96 C0 39.12 1.03 40.85 2.34 40.85 L11.79 40.85 C13.09 40.85 14.17 42.63 14.17 44.74 C14.17 42.63 15.21
+						 40.85 16.51 40.85 L25.96 40.85 C27.27 40.85 28.35 39.12 28.35 36.96 L0 36.96 Z" class="st4"/>
+			<path d="M0 36.96 C0 39.12 1.03 40.85 2.34 40.85 L11.79 40.85 C13.09 40.85 14.17 42.63 14.17 44.74 C14.17 42.63 15.21
+						 40.85 16.51 40.85 L25.96 40.85 C27.27 40.85 28.35 39.12 28.35 36.96" class="st5"/>
+		</g>
+		<g id="shape14-16" v:mID="14" v:groupContext="shape" transform="translate(222.211,-35.9307) rotate(9.984)">
+			<title>工作表.14</title>
+			<path d="M0 44.74 L81.75 44.74" class="st6"/>
+		</g>
+		<g id="shape16-19" v:mID="16" v:groupContext="shape" transform="translate(273.301,-8.2618)">
+			<title>工作表.16</title>
+			<path d="M0 44.74 L21.66 44.74" class="st5"/>
+		</g>
+		<g id="shape20-22" v:mID="20" v:groupContext="shape" transform="translate(263.38,-22.435)">
+			<title>工作表.20</title>
+			<path d="M0 44.74 L31.59 44.74" class="st5"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M042.083.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.26772in" height="11.6929in"
+		viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group7-1" transform="translate(21.2598,-653.811)" v:mID="7" v:groupContext="group">
+			<title>工作表.7</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(5.24409,0)">
+				<title>工作表.1</title>
+				<desc>行聽聞、誦、讀乃至後心取覺皆名為行。 觀初行如初見物。 習日日漸學。 合與般若相應可。 相應隨順般若。 入通徹般若。 念分...</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="106.299" cy="756.85" width="212.6" height="170.079"/>
+				<rect x="0" y="671.811" width="212.598" height="170.079" class="st1"/>
+				<text x="4" y="686.71" class="st2" v:langID="1033"><v:paragraph v:spLine="-1.4" v:bulletSize="0.166667"/><v:tabList/>行：聽聞、誦、讀乃至後心取覺，皆名為行。<v:newlineChar/><tspan
+							x="4" dy="1.453em" class="st3">觀</tspan>：初行如初見物。<v:newlineChar/><tspan x="4" dy="1.453em" class="st3">習</tspan>：日日漸學。<v:newlineChar/><tspan
+							x="4" dy="1.453em" class="st3">合</tspan>：與般若相應可。<v:newlineChar/><tspan x="4" dy="1.453em" class="st3">相應</tspan>：隨順般若。<v:newlineChar/><tspan
+							x="4" dy="1.453em" class="st3">入</tspan>：通徹般若。<v:newlineChar/><tspan x="4" dy="1.453em" class="st3">念</tspan>：分別取相有是事。<v:newlineChar/><tspan
+							x="4" dy="1.453em" class="st3">學</tspan>：常行不息令相似。<v:newlineChar/><tspan x="4" dy="1.453em" class="st3">思惟</tspan>：學已巧觀知其得失。<v:newlineChar/><tspan
+							x="4" dy="1.453em" class="st3">修</tspan>：定心和合共行。<v:newlineChar/><v:paragraph v:spLine="-1.4"/><tspan
+							x="4" dy="1.453em" class="st3">住</tspan>：得而不失。</text>			</g>
+			<g id="shape3-15" v:mID="3" v:groupContext="shape" transform="translate(3.9968E-15,-157.37)">
+				<title>工作表.3</title>
+				<path d="M0 841.89 L5.24 841.89" class="st4"/>
+			</g>
+			<g id="shape4-18" v:mID="4" v:groupContext="shape" transform="translate(841.89,684.579) rotate(90)">
+				<title>工作表.4</title>
+				<path d="M0 841.89 L144.91 841.89" class="st4"/>
+			</g>
+			<g id="shape5-21" v:mID="5" v:groupContext="shape" transform="translate(3.9968E-15,-12.3307)">
+				<title>工作表.5</title>
+				<path d="M0 841.89 L5.24 841.89" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A00502.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.76476in" height="0.898084in"
+		viewBox="0 0 271.063 64.6621" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(95.1999,-50.3672)">
+			<title>工作表.1</title>
+			<desc>財捨………財施</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.1929" cy="57.8896" width="70.39" height="13.5449"/>
+			<rect x="0" y="51.1172" width="70.3857" height="13.5449" class="st1"/>
+			<text x="-0" y="61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>財捨<tspan class="st3">………</tspan>財施</text>		</g>
+		<g id="shape4-5" v:mID="4" v:groupContext="shape" transform="translate(180.014,-42.2469)">
+			<title>工作表.4</title>
+			<desc>具說六度但明二施</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="57.8896" width="90.3" height="13.5449"/>
+			<rect x="0" y="51.1172" width="90.2993" height="13.5449" class="st1"/>
+			<text x="-0" y="61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>具說六度，但明二施</text>		</g>
+		<g id="shape5-8" v:mID="5" v:groupContext="shape" transform="translate(0.75,-24.0676)">
+			<title>工作表.5</title>
+			<desc>不說六度應說四捨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="57.8896" width="90.3" height="13.5449"/>
+			<rect x="0" y="51.1172" width="90.2993" height="13.5449" class="st1"/>
+			<text x="0" y="61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不說六度應說四捨</text>		</g>
+		<g id="shape6-11" v:mID="6" v:groupContext="shape" transform="translate(95.1989,-33.8281)">
+			<title>工作表.6</title>
+			<desc>法捨………法施</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.1929" cy="57.8896" width="70.39" height="13.5449"/>
+			<rect x="0" y="51.1172" width="70.3857" height="13.5449" class="st1"/>
+			<text x="-0" y="61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>法捨<tspan class="st3">………</tspan>法施</text>		</g>
+		<g id="shape9-15" v:mID="9" v:groupContext="shape" transform="translate(95.1985,-17.2891)">
+			<title>工作表.9</title>
+			<desc>無畏捨尸羅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.1929" cy="57.8896" width="70.39" height="13.5449"/>
+			<rect x="0" y="51.1172" width="70.3857" height="13.5449" class="st1"/>
+			<text x="-0" y="61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無畏捨（尸羅）</text>		</g>
+		<g id="shape10-18" v:mID="10" v:groupContext="shape" transform="translate(95.1994,-0.75)">
+			<title>工作表.10</title>
+			<desc>煩惱捨般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.1929" cy="57.8896" width="70.39" height="13.5449"/>
+			<rect x="0" y="51.1172" width="70.3857" height="13.5449" class="st1"/>
+			<text x="0" y="61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>煩惱捨（般若）</text>		</g>
+		<g id="shape19-21" v:mID="19" v:groupContext="shape" transform="translate(233.076,6.43016) rotate(90)">
+			<title>工作表.19</title>
+			<path d="M0 64.66 C0 62.32 0.7 60.41 1.51 60.41 L7.66 60.41 C8.52 60.41 9.21 58.56 9.21 56.15 C9.21 58.56 9.91 60.41
+						 10.73 60.41 L16.87 60.41 C17.73 60.41 18.43 62.32 18.43 64.66 L0 64.66 Z" class="st4"/>
+			<path d="M0 64.66 C0 62.32 0.7 60.41 1.51 60.41 L7.66 60.41 C8.52 60.41 9.21 58.56 9.21 56.15 C9.21 58.56 9.91 60.41
+						 10.73 60.41 L16.87 60.41 C17.73 60.41 18.43 62.32 18.43 64.66" class="st5"/>
+		</g>
+		<g id="shape20-24" v:mID="20" v:groupContext="shape" transform="translate(146.716,6.43016) rotate(90)">
+			<title>工作表.20</title>
+			<path d="M0 53.37 C0 56.51 1.98 59.02 4.37 59.02 L21.85 59.02 C24.24 59.02 26.22 61.59 26.22 64.66 C26.22 61.59 28.2
+						 59.02 30.59 59.02 L48.07 59.02 C50.46 59.02 52.44 56.51 52.44 53.37 L0 53.37 Z" class="st4"/>
+			<path d="M0 53.37 C0 56.51 1.98 59.02 4.37 59.02 L21.85 59.02 C24.24 59.02 26.22 61.59 26.22 64.66 C26.22 61.59 28.2
+						 59.02 30.59 59.02 L48.07 59.02 C50.46 59.02 52.44 56.51 52.44 53.37" class="st5"/>
+		</g>
+	</g>
+</svg>

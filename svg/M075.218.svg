@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02901.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.04064in" height="0.59283in"
+		viewBox="0 0 146.926 42.6838" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape4-1" v:mID="4" v:groupContext="shape" transform="translate(99.7089,-30.1905) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>輪王</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.3234" cy="36.8122" width="30.65" height="11.7432"/>
+			<rect x="0" y="30.9405" width="30.6467" height="11.7432" class="st1"/>
+			<text x="0" y="39.93" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>輪王</text>		</g>
+		<g id="shape5-4" v:mID="5" v:groupContext="shape" transform="translate(0.824497,-16.558) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>菩薩願住三種福德中</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.4125" cy="36.8122" width="96.83" height="11.7432"/>
+			<rect x="0" y="30.9405" width="96.8251" height="11.7432" class="st1"/>
+			<text x="0" y="39.93" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩願住三種福德中 </text>		</g>
+		<g id="shape6-7" v:mID="6" v:groupContext="shape" transform="translate(99.6853,-15.5118) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>天王</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.3515" cy="36.8122" width="26.71" height="11.7432"/>
+			<rect x="0" y="30.9405" width="26.703" height="11.7432" class="st1"/>
+			<text x="0" y="39.93" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>天王</text>		</g>
+		<g id="shape8-10" v:mID="8" v:groupContext="shape" transform="translate(99.6618,-0.831212) rotate(0.1)">
+			<title>工作表.8</title>
+			<desc>神通聖人</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.2841" cy="36.8122" width="46.57" height="11.7432"/>
+			<rect x="0" y="30.9405" width="46.5682" height="11.7432" class="st1"/>
+			<text x="0" y="39.93" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>神通聖人</text>		</g>
+		<g id="shape15-13" v:mID="15" v:groupContext="shape" transform="translate(134.853,1.51987) rotate(90.1)">
+			<title>工作表.15</title>
+			<path d="M0 37.09 C0 38.63 1.46 39.87 3.31 39.87 L15.43 39.87 C17.24 39.87 18.74 41.14 18.74 42.68 C18.74 41.14 20.2
+						 39.87 22.05 39.87 L36.38 39.87 C38.19 39.87 39.68 38.63 39.68 37.09 L0 37.09 Z" class="st3"/>
+			<path d="M0 37.09 C0 38.63 1.46 39.87 3.31 39.87 L15.43 39.87 C17.24 39.87 18.74 41.14 18.74 42.68 C18.74 41.14 20.2
+						 39.87 22.05 39.87 L36.38 39.87 C38.19 39.87 39.68 38.63 39.68 37.09" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02903.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.94939in" height="0.484826in"
+		viewBox="0 0 212.356 34.9075" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(0.375,-7.36713)">
+			<title>工作表.3</title>
+			<desc>阿毘曇有二</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.3937" cy="25.6949" width="62.79" height="18.4252"/>
+			<rect x="0" y="16.4823" width="62.7874" height="18.4252" class="st1"/>
+			<text x="4" y="28.81" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>阿毘曇有二</text>		</g>
+		<g id="shape5-4" v:mID="5" v:groupContext="shape" transform="translate(73.3199,-16.1073)">
+			<title>工作表.5</title>
+			<desc>佛自說諸法名義。</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.6535" cy="25.6949" width="93.31" height="18.4252"/>
+			<rect x="0" y="16.4823" width="93.3071" height="18.4252" class="st1"/>
+			<text x="4" y="28.81" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>佛自說諸法名義。</text>		</g>
+		<g id="shape7-7" v:mID="7" v:groupContext="shape" transform="translate(73.3199,-0.375)">
+			<title>工作表.7</title>
+			<desc>佛說諸法名後弟子解其義。</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="69.3307" cy="25.6949" width="138.67" height="18.4252"/>
+			<rect x="0" y="16.4823" width="138.661" height="18.4252" class="st1"/>
+			<text x="4" y="28.81" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>佛說諸法名，後弟子解其義。</text>		</g>
+		<g id="shape19-10" v:mID="19" v:groupContext="shape" transform="translate(63.1624,53.4242) rotate(180)">
+			<title>工作表.19</title>
+			<path d="M0 34.91 L6.97 34.91" class="st3"/>
+		</g>
+		<g id="shape20-13" v:mID="20" v:groupContext="shape" transform="translate(63.1624,-9.02066)">
+			<title>工作表.20</title>
+			<path d="M10.16 18.14 L0 18.14 L0 34.91 L10.16 34.91" class="st3"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F3402.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.86058in" height="0.686376in"
+		viewBox="0 0 205.962 49.419" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(58.0535,-34.6117) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>得受記者 得無生忍</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="73.3682" cy="42.6466" width="146.74" height="13.5449"/>
+			<rect x="0" y="35.8741" width="146.736" height="13.5449" class="st1"/>
+			<text x="0" y="45.76" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>得受記者<tspan class="st3"> </tspan>－－－－－<tspan
+						class="st3"> </tspan>得無生忍</text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(0.624776,-17.4443) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>三種菩薩</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="42.6466" width="45.15" height="13.5449"/>
+			<rect x="0" y="35.8741" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="45.76" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三種菩薩</text>		</g>
+		<g id="shape3-9" v:mID="3" v:groupContext="shape" transform="translate(58.1126,-17.6807) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>如受記者利</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="42.6466" width="79.02" height="13.5449"/>
+			<rect x="0" y="35.8741" width="79.0119" height="13.5449" class="st1"/>
+			<text x="0" y="45.76" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如受記者（利）</text>		</g>
+		<g id="shape4-12" v:mID="4" v:groupContext="shape" transform="translate(58.1717,-0.749699) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>近受記者鈍</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="42.6466" width="79.02" height="13.5449"/>
+			<rect x="0" y="35.8741" width="79.0119" height="13.5449" class="st1"/>
+			<text x="-0" y="45.76" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>近受記者（鈍）</text>		</g>
+		<g id="shape5-15" v:mID="5" v:groupContext="shape" transform="translate(159.89,-1.124) rotate(-0.2)">
+			<title>工作表.5</title>
+			<desc>未得故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="42.6466" width="45.15" height="13.5449"/>
+			<rect x="0" y="35.8741" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="45.76" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>未得故。</text>		</g>
+		<g id="shape15-18" v:mID="15" v:groupContext="shape" transform="translate(95.3857,2.43047) rotate(89.8)">
+			<title>工作表.15</title>
+			<path d="M0 40.95 C0 43.31 1.64 45.19 3.78 45.19 L18.9 45.19 C20.91 45.19 22.68 47.07 22.68 49.42 C22.68 47.07 24.31
+						 45.19 26.46 45.19 L41.57 45.19 C43.59 45.19 45.35 43.31 45.35 40.95 L0 40.95 Z" class="st4"/>
+			<path d="M0 40.95 C0 43.31 1.64 45.19 3.78 45.19 L18.9 45.19 C20.91 45.19 22.68 47.07 22.68 49.42 C22.68 47.07 24.31
+						 45.19 26.46 45.19 L41.57 45.19 C43.59 45.19 45.35 43.31 45.35 40.95" class="st5"/>
+		</g>
+		<g id="shape16-21" v:mID="16" v:groupContext="shape" transform="translate(156.199,-16.4962) rotate(33.4901)">
+			<title>工作表.16</title>
+			<path d="M0 49.42 L30.52 49.42" class="st5"/>
+		</g>
+		<g id="shape17-24" v:mID="17" v:groupContext="shape" transform="translate(128.816,-7.7694) rotate(-0.2)">
+			<title>工作表.17</title>
+			<path d="M0 49.42 L25.4 49.42" class="st5"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01406.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.21965in" height="0.42044in"
+		viewBox="0 0 231.815 30.2717" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.470309}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(31.1198,-0.75)">
+			<title>工作表.1</title>
+			<desc>生忍——得無量福德 法忍——得無量智慧</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.3775" cy="15.8858" width="92.76" height="28.7717"/>
+			<rect x="0" y="1.5" width="92.755" height="28.7717" class="st1"/>
+			<text x="0" y="12.25" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>生忍<tspan class="st3">——</tspan>得無量福德<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st4">法忍</tspan><tspan class="st3">——</tspan>得無量智慧</text>		</g>
+		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(0.75,-7.50411)">
+			<title>工作表.2</title>
+			<desc>二忍</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="23.4992" width="22.58" height="13.5449"/>
+			<rect x="0" y="16.7268" width="22.5748" height="13.5449" class="st1"/>
+			<text x="-0" y="26.61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二忍</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(149.994,-6.84453)">
+			<title>工作表.4</title>
+			<desc>具足二事得至所願</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.5354" cy="23.4992" width="81.08" height="13.5449"/>
+			<rect x="0" y="16.7268" width="81.0709" height="13.5449" class="st1"/>
+			<text x="-0" y="26.61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>具足二事得至所願</text>		</g>
+		<g id="shape13-13" v:mID="13" v:groupContext="shape" transform="translate(52.0993,7.69489) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 22.94 C0 25 0.61 26.61 1.32 26.61 L6.71 26.61 C7.46 26.61 8.08 28.28 8.08 30.27 C8.08 28.28 8.69 26.61 9.4
+						 26.61 L14.79 26.61 C15.54 26.61 16.16 25 16.16 22.94 L0 22.94 Z" class="st5"/>
+			<path d="M0 22.94 C0 25 0.61 26.61 1.32 26.61 L6.71 26.61 C7.46 26.61 8.08 28.28 8.08 30.27 C8.08 28.28 8.69 26.61 9.4
+						 26.61 L14.79 26.61 C15.54 26.61 16.16 25 16.16 22.94" class="st6"/>
+		</g>
+		<g id="shape14-16" v:mID="14" v:groupContext="shape" transform="translate(153.471,7.55311) rotate(90)">
+			<title>工作表.14</title>
+			<path d="M0 30.27 L9.28 5.46 L18.56 30.27 L0 30.27 Z" class="st5"/>
+			<path d="M0 30.27 L9.28 5.46 L18.56 30.27" class="st7"/>
+		</g>
+	</g>
+</svg>

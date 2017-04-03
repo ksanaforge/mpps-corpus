@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M029.110.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.26772in" height="11.6929in"
+		viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st4 {font-size:1em}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group28-1" transform="translate(18,-771.024)" v:mID="28" v:groupContext="group">
+			<title>工作表.28</title>
+			<g id="shape27-2" v:mID="27" v:groupContext="shape" transform="translate(1.59872E-14,-15.9449)">
+				<title>工作表.27</title>
+				<desc>無漏法</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="19.3465" cy="830.551" width="38.7" height="22.6772"/>
+				<rect x="0" y="819.213" width="38.6929" height="22.6772" class="st1"/>
+				<text x="0.4em 1.4em 2.4em" y="834.91" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4" v:horizAlign="3"
+							v:bulletSize="0.166667"/><v:tabList/>無漏法</text>			</g>
+			<g id="group12-5" transform="translate(38.6929,-12.7559)" v:mID="12" v:groupContext="group">
+				<title>工作表.12</title>
+				<g id="shape7-6" v:mID="7" v:groupContext="shape" transform="translate(841.89,812.835) rotate(90)">
+					<title>工作表.7</title>
+					<path d="M0 841.89 L29.06 841.89" class="st3"/>
+				</g>
+				<g id="shape8-9" v:mID="8" v:groupContext="shape" transform="translate(1.59872E-14,-29.0551)">
+					<title>工作表.8</title>
+					<path d="M0 841.89 L12.05 841.89" class="st3"/>
+				</g>
+				<g id="shape9-12" v:mID="9" v:groupContext="shape" transform="translate(1.59872E-14,-0.0525261)">
+					<title>工作表.9</title>
+					<path d="M0 841.89 L12.05 841.89" class="st3"/>
+				</g>
+				<g id="shape11-15" v:mID="11" v:groupContext="shape" transform="translate(1.59872E-14,-14.5538)">
+					<title>工作表.11</title>
+					<path d="M0 841.89 L12.05 841.89" class="st3"/>
+				</g>
+			</g>
+			<g id="shape25-18" v:mID="25" v:groupContext="shape" transform="translate(48.5396,0)">
+				<title>工作表.25</title>
+				<desc>十六行三三昧相應。空、無相、無作印故皆入如、法性、實際無相。 令眾生解故分別說為見色發心者現三十二相。現三十二相不破無相。...</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="170.825" cy="815.457" width="341.65" height="52.8662"/>
+				<rect x="0" y="789.024" width="341.649" height="52.8662" class="st1"/>
+				<text x="0.4em 1.4em 2.4em" y="804.72" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4" v:horizAlign="3"
+							v:bulletSize="0.166667"/><v:tabList/>十六行<tspan x="3.4em" dy="0em" class="st4">，</tspan><tspan x="4.4em
+								 5.4em 6.4em 7.4em 8.4em" dy="0em" class="st4">三三昧相應</tspan><tspan x="9.4em" dy="0em" class="st4">。</tspan><tspan
+							x="10.4em" dy="0em" class="st4">空</tspan><tspan x="11.4em" dy="0em" class="st4">、</tspan><tspan x="12.4em
+								 13.4em" dy="0em" class="st4">無相</tspan><tspan x="14.4em" dy="0em" class="st4">、</tspan><tspan x="
+								15.4em 16.4em 17.4em 18.4em" dy="0em" class="st4">無作印故</tspan><tspan x="19.4em" dy="0em"
+							class="st4">，</tspan><tspan x="20.4em 21.4em 22.4em" dy="0em" class="st4">皆入如</tspan><tspan x="23.4em"
+							dy="0em" class="st4">、</tspan><tspan x="24.4em 25.4em" dy="0em" class="st4">法性</tspan><tspan x="26.4em"
+							dy="0em" class="st4">、</tspan><tspan x="27.4em 28.4em" dy="0em" class="st4">實際</tspan><tspan x="29.4em"
+							dy="0em" class="st4">，</tspan><tspan x="30.4em 31.4em" dy="0em" class="st4">無相</tspan><tspan x="32.4em"
+							dy="0em" class="st4">。<v:newlineChar/></tspan><tspan x="0.4em 1.4em 2.4em 3.4em 4.4em 5.4em 6.4em 7.4em"
+							dy="1.56em" class="st4">令眾生解故分別說</tspan><tspan x="8.4em" dy="0em" class="st4">；</tspan><tspan x="9.4em
+								 10.4em 11.4em 12.4em 13.4em 14.4em 15.4em 16.4em 17.4em 18.4em 19.4em" dy="0em" class="st4">為見色發心者現三十二相</tspan><tspan
+							x="20.4em" dy="0em" class="st4">。</tspan><tspan x="21.4em 22.4em 23.4em 24.4em 25.4em" dy="0em"
+							class="st4">現三十二相</tspan><tspan x="26.4em" dy="0em" class="st4">，</tspan><tspan x="27.4em 28.4em 29.4em
+								 30.4em" dy="0em" class="st4">不破無相</tspan><tspan x="31.4em" dy="0em" class="st4">。<v:newlineChar/></tspan><tspan
+							x="0.4em 1.4em" dy="1.56em" class="st4">無相</tspan><tspan x="2.4em" dy="0em" class="st4">，</tspan><tspan
+							x="3.4em 4.4em 5.4em 6.4em 7.4em 8.4em" dy="0em" class="st4">為破常淨樂相</tspan><tspan x="9.4em" dy="0em"
+							class="st4">、</tspan><tspan x="10.4em 11.4em" dy="0em" class="st4">男女</tspan><tspan x="12.4em" dy="0em"
+							class="st4">、</tspan><tspan x="13.4em 14.4em 15.4em 16.4em" dy="0em" class="st4">生死等相</tspan><tspan x="
+								17.4em" dy="0em" class="st4">。</tspan></text>			</g>
+		</g>
+	</g>
+</svg>

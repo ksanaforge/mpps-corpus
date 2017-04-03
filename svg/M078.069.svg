@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M078.069=B02911.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.01701in" height="0.397869in"
+		viewBox="0 0 145.224 28.6466" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {baseline-shift:32.4947%;font-family:Times New Roman;font-size:0.649894em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group16-1" transform="translate(0.75,-1.79504)" v:mID="16" v:groupContext="group">
+			<title>工作表.16</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(1.38712,-17.7287) rotate(0.1)">
+				<title>工作表.2</title>
+				<desc>密※發心</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="57.6523" cy="26.0857" width="115.31" height="5.12182"/>
+				<rect x="0" y="23.5248" width="115.305" height="5.12182" class="st1"/>
+				<text x="68" y="29.2" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>密<tspan dy="-0.198em" class="st3"
+							v:baseFontSize="10">※</tspan><tspan dy="0.129em" class="st4">發心</tspan></text>			</g>
+			<g id="shape6-7" v:mID="6" v:groupContext="shape" transform="translate(0.0499977,-9.86103) rotate(0.1)">
+				<title>工作表.6</title>
+				<desc>發心菩薩有二</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="31.5" cy="26.0857" width="63.01" height="5.12182"/>
+				<rect x="0" y="23.5248" width="63" height="5.12182" class="st1"/>
+				<text x="0" y="29.2" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>發心菩薩有二 </text>			</g>
+			<g id="shape7-10" v:mID="7" v:groupContext="shape" transform="translate(1.33023,-2.06403) rotate(0.1)">
+				<title>工作表.7</title>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<rect x="0" y="23.5248" width="93" height="5.12182" class="st1"/>
+			</g>
+			<g id="shape8-12" v:mID="8" v:groupContext="shape" transform="translate(69.6233,-1.99542) rotate(0.1)">
+				<title>工作表.8</title>
+				<desc>發心已行六度</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="37.0712" cy="26.0857" width="74.15" height="5.12182"/>
+				<rect x="0" y="23.5248" width="74.1424" height="5.12182" class="st1"/>
+				<text x="0" y="29.2" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>發心已，行六度</text>			</g>
+			<g id="shape15-15" v:mID="15" v:groupContext="shape" transform="translate(90.4476,4.59227) rotate(90.1)">
+				<title>工作表.15</title>
+				<path d="M0 22.98 C0 24.54 0.88 25.8 2.01 25.8 L9.37 25.8 C10.47 25.8 11.38 27.08 11.38 28.65 C11.38 27.08 12.26
+							 25.8 13.39 25.8 L22.09 25.8 C23.18 25.8 24.09 24.54 24.09 22.98 L0 22.98 Z" class="st5"/>
+				<path d="M0 22.98 C0 24.54 0.88 25.8 2.01 25.8 L9.37 25.8 C10.47 25.8 11.38 27.08 11.38 28.65 C11.38 27.08 12.26
+							 25.8 13.39 25.8 L22.09 25.8 C23.18 25.8 24.09 24.54 24.09 22.98" class="st6"/>
+			</g>
+		</g>
+	</g>
+</svg>

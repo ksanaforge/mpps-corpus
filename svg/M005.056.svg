@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M005.056=A02301.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.47521in" height="0.633537in"
+		viewBox="0 0 322.215 45.6147" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:#040000;stroke:none;stroke-linecap:butt;stroke-width:0.940618}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group43-1" transform="translate(0.75,-0.75)" v:mID="43" v:groupContext="group">
+			<title>工作表.43</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(80.761,7.38964E-13)">
+				<title>工作表.1</title>
+				<desc>未到除四禪至有頂 四禪 無量、辯通、背捨、勝處、次第、一切處</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="93.2003" cy="23.6983" width="186.41" height="43.8328"/>
+				<rect x="0" y="1.7819" width="186.401" height="43.8328" class="st1"/>
+				<text x="-0" y="12.8" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>未到（除四禪）至有頂<v:newlineChar/><tspan
+							x="-0" dy="1.453em" class="st3">四禪<v:newlineChar/></tspan><tspan x="-0" dy="1.453em" class="st3">無量</tspan>、辯通、背捨、勝處、次第、一切處</text>			</g>
+			<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(298.14,-0.281903)">
+				<title>工作表.3</title>
+				<desc>三昧 定 禪</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="11.2874" cy="23.6983" width="22.58" height="43.8328"/>
+				<rect x="0" y="1.7819" width="22.5748" height="43.8328" class="st1"/>
+				<text x="0" y="12.8" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>三昧<v:newlineChar/><tspan
+							x="0" dy="1.453em" class="st3">定<v:newlineChar/></tspan><tspan x="0" dy="1.453em" class="st3">禪</tspan></text>			</g>
+			<g id="shape4-12" v:mID="4" v:groupContext="shape" transform="translate(-4.2758E-13,-15.0086)">
+				<title>工作表.4</title>
+				<desc>禪定三昧之通局</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="39.5059" cy="38.8422" width="79.02" height="13.5449"/>
+				<rect x="0" y="32.0698" width="79.0119" height="13.5449" class="st1"/>
+				<text x="0" y="42.48" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>禪定三昧之通局</text>			</g>
+			<g id="shape26-15" v:mID="26" v:groupContext="shape" transform="translate(308.658,8.84285) rotate(90)">
+				<title>工作表.26</title>
+				<path d="M16.98 43.65 L17.1 44.18 L17.04 44.7 L16.79 45.16 L16.43 45.48 L15.94 45.61 L15.45 45.55 L15.03 45.29 L14.72
+							 44.9 L14.6 44.37 C14.54 43.39 15.27 42.74 16.19 43 L16.61 43.26 L16.98 43.65 ZM0.12 15.37 L0 14.85 L0.06
+							 14.32 L0.3 13.87 L0.73 13.54 L1.16 13.41 L1.64 13.47 L2.07 13.73 L2.37 14.13 L2.49 14.65 L2.43 15.17
+							 L2.19 15.63 L1.83 15.96 L1.34 16.09 L0.91 16.02 L0.49 15.76 L0.12 15.37 ZM1.4 14.65 L16.12 44.18 L16.12
+							 44.37 L16 44.5 L15.82 44.57 L15.7 44.44 L0.97 14.91 L0.91 14.71 L1.03 14.58 L1.22 14.52 L1.4 14.65 Z"
+						class="st4"/>
+			</g>
+			<g id="shape27-17" v:mID="27" v:groupContext="shape" transform="translate(308.723,8.84285) rotate(90)">
+				<title>工作表.27</title>
+				<path d="M2.37 44.9 L2.06 45.29 L1.64 45.55 L1.15 45.61 L0.67 45.48 L0.3 45.16 L0.06 44.7 L0 44.18 L0.12 43.65 L0.42
+							 43.26 L0.85 43 L1.33 42.94 L1.82 43.07 L2.18 43.39 L2.43 43.85 L2.49 44.37 L2.37 44.9 ZM14.68 14.32
+							 L14.98 13.93 L15.41 13.67 C16.32 13.41 16.93 14.06 16.99 15.04 L16.86 15.5 L16.56 15.96 L16.14 16.22
+							 L15.71 16.28 L15.23 16.15 L14.86 15.83 L14.62 15.37 L14.56 14.91 L14.68 14.32 ZM15.95 15.11 L1.46 44.37
+							 L1.33 44.5 L1.15 44.5 L1.03 44.37 L1.09 44.18 L15.59 14.91 L15.71 14.78 L15.89 14.78 L16.02 14.91 L15.95
+							 15.11 Z" class="st4"/>
+			</g>
+			<g id="shape28-19" v:mID="28" v:groupContext="shape" transform="translate(308.593,23.2917) rotate(90)">
+				<title>工作表.28</title>
+				<path d="M2.65 44.31 L2.52 44.83 L2.26 45.22 L1.81 45.55 L1.29 45.61 L0.78 45.55 L0.39 45.22 L0.13 44.83 L0 44.31
+							 L0.13 43.79 L0.39 43.33 L0.78 43.07 L1.29 43 L1.81 43.07 L2.26 43.33 L2.52 43.79 L2.65 44.31 ZM0 14.91
+							 L0.13 14.39 L0.39 13.93 L0.78 13.67 L1.29 13.6 L1.81 13.67 L2.26 13.93 L2.52 14.39 L2.65 14.91 L2.52
+							 15.43 L2.26 15.83 L1.81 16.15 L1.29 16.22 L0.78 16.15 L0.39 15.83 L0.13 15.43 L0 14.91 ZM1.55 14.91
+							 L1.55 44.31 L1.49 44.44 L1.29 44.5 L1.16 44.44 L1.1 44.31 L1.1 14.91 L1.16 14.71 L1.29 14.65 L1.49 14.71
+							 L1.55 14.91 Z" class="st4"/>
+			</g>
+			<g id="shape29-21" v:mID="29" v:groupContext="shape" transform="translate(308.593,23.2271) rotate(90)">
+				<title>工作表.29</title>
+				<path d="M2.7 44.77 L2.36 45.22 L1.87 45.48 L1.39 45.61 L0.83 45.48 L0.35 45.16 L0.07 44.7 L0 44.24 L0.14 43.72 L0.42
+							 43.26 C1.18 42.61 2.22 42.87 2.63 43.72 L2.7 44.24 L2.7 44.77 ZM13.93 14.19 L14.27 13.73 L14.76 13.47
+							 L15.24 13.41 L15.8 13.54 L16.28 13.87 L16.56 14.26 L16.63 14.78 L16.49 15.3 L16.21 15.76 C15.31 16.35
+							 14.55 16.22 14 15.3 L13.93 14.78 L13.93 14.19 ZM15.52 14.78 L1.73 44.31 L1.59 44.44 L1.45 44.44 L1.32
+							 44.31 L1.32 44.11 L15.1 14.58 L15.24 14.45 L15.38 14.45 L15.52 14.58 L15.52 14.78 Z" class="st4"/>
+			</g>
+			<g id="shape30-23" v:mID="30" v:groupContext="shape" transform="translate(308.397,23.2917) rotate(90)">
+				<title>工作表.30</title>
+				<path d="M16.56 43.52 L16.63 44.05 L16.56 44.5 C16.07 45.42 15.16 45.61 14.32 45.03 L14.04 44.57 L13.9 44.05 L13.97
+							 43.52 L14.25 43.13 L14.74 42.81 L15.3 42.67 L15.79 42.74 L16.28 43 L16.56 43.52 ZM0.07 15.11 L0 14.58
+							 L0.07 14.13 C0.56 13.21 1.47 13.02 2.31 13.6 L2.59 14.06 L2.72 14.58 L2.65 15.11 L2.38 15.56 L1.89 15.83
+							 L1.33 15.96 L0.84 15.89 L0.35 15.63 L0.07 15.11 ZM1.61 14.52 L15.51 43.98 L15.51 44.18 L15.37 44.31
+							 L15.16 44.31 L15.02 44.18 L1.12 14.71 L1.12 14.52 L1.26 14.39 L1.47 14.39 L1.61 14.52 Z" class="st4"/>
+			</g>
+			<g id="shape31-25" v:mID="31" v:groupContext="shape" transform="translate(308.397,8.84285) rotate(90)">
+				<title>工作表.31</title>
+				<path d="M2.65 43.98 L2.52 44.5 L2.26 44.96 C1.55 45.61 0.58 45.42 0.19 44.5 L0.06 43.98 L0.19 43.46 C0.65 42.61
+							 1.55 42.41 2.26 43.07 L2.52 43.46 L2.65 43.98 ZM0 14.58 L0.13 14.06 L0.39 13.67 L0.78 13.41 L1.29 13.28
+							 L1.81 13.41 L2.26 13.67 L2.52 14.06 L2.65 14.58 L2.52 15.11 L2.26 15.56 L1.81 15.83 L1.29 15.96 L0.78
+							 15.83 L0.39 15.56 L0.13 15.11 L0 14.58 ZM1.55 14.58 L1.55 43.98 L1.49 44.18 L1.29 44.24 L1.16 44.18
+							 L1.1 43.98 L1.1 14.58 L1.16 14.45 L1.29 14.39 L1.49 14.45 L1.55 14.58 Z" class="st4"/>
+			</g>
+			<g id="shape32-27" v:mID="32" v:groupContext="shape" transform="translate(308.658,9.03668) rotate(90)">
+				<title>工作表.32</title>
+				<path d="M30.88 43.2 L31.14 43.65 L31.27 44.11 C31.21 45.09 30.43 45.61 29.46 45.35 L29.01 45.09 L28.69 44.63 L28.62
+							 44.18 L28.75 43.65 L29.01 43.2 L29.46 42.94 L29.98 42.87 L30.43 42.94 L30.88 43.2 ZM0.32 15.56 L0.06
+							 15.11 L0 14.58 L0.06 14.13 L0.39 13.67 L0.84 13.34 L1.29 13.28 L1.81 13.41 L2.26 13.67 L2.52 14.13 C2.84
+							 15.11 2.26 15.83 1.29 15.96 L0.78 15.83 L0.32 15.56 ZM1.42 14.45 L30.17 43.98 L30.24 44.11 L30.17 44.31
+							 L29.98 44.37 L29.85 44.31 L1.1 14.78 L1.03 14.58 L1.1 14.45 L1.29 14.39 L1.42 14.45 Z" class="st4"/>
+			</g>
+			<g id="shape35-29" v:mID="35" v:groupContext="shape" transform="translate(117.615,9.12631) rotate(90)">
+				<title>工作表.35</title>
+				<path d="M0 39.08 C0 40.88 0 42.38 0 42.38 L15.31 42.38 C15.31 42.38 15.31 43.82 15.31 45.61 C15.31 43.82 15.31 42.38
+							 15.31 42.38 L30.61 42.38 C30.61 42.38 30.61 40.88 30.61 39.08 L0 39.08 Z" class="st5"/>
+				<path d="M0 39.08 C0 40.88 0 42.38 0 42.38 L15.31 42.38 C15.31 42.38 15.31 43.82 15.31 45.61 C15.31 43.82 15.31 42.38
+							 15.31 42.38 L30.61 42.38 C30.61 42.38 30.61 40.88 30.61 39.08" class="st6"/>
+			</g>
+			<g id="shape40-32" v:mID="40" v:groupContext="shape" transform="translate(184.394,-35.5182)">
+				<title>工作表.40</title>
+				<path d="M0 45.61 L79.17 45.61" class="st7"/>
+			</g>
+			<g id="shape41-35" v:mID="41" v:groupContext="shape" transform="translate(102.776,-21.2032)">
+				<title>工作表.41</title>
+				<path d="M0 45.61 L160.79 45.61" class="st7"/>
+			</g>
+		</g>
+	</g>
+</svg>

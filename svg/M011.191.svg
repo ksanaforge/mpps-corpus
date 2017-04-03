@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02405.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.01296in" height="0.636975in"
+		viewBox="0 0 288.933 45.8622" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {font-family:Times New Roman;font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(51.4902,-0.75)">
+			<title>工作表.2</title>
+			<desc>一華口有香氣 十果1.大名聞2.端正3.得樂4.恭敬5.威光 　　　6.眾所愛7.辨才8.大智9.盡結10.苦滅。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="118.346" cy="23.6811" width="236.7" height="44.3622"/>
+			<rect x="0" y="1.5" width="236.693" height="44.3622" class="st1"/>
+			<text x="0" y="12.78" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一華：口有香氣<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">十果</tspan>：<tspan class="st4">1.</tspan>大名聞，<tspan class="st4">2.</tspan>端正，<tspan
+						class="st4">3.</tspan>得樂，<tspan class="st4">4.</tspan>恭敬，<tspan class="st4">5.</tspan>威光，<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">　　　</tspan><tspan class="st4">6.</tspan>眾所愛，<tspan class="st4">7.</tspan>辨才，<tspan
+						class="st4">8.</tspan>大智，<tspan class="st4">9.</tspan>盡結，<tspan class="st4">10.</tspan>苦滅。</text>		</g>
+		<g id="shape3-16" v:mID="3" v:groupContext="shape" transform="translate(0.75,-22.6382)">
+			<title>工作表.3</title>
+			<desc>法施功德</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="39.0898" width="45.15" height="13.5449"/>
+			<rect x="0" y="32.3173" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="42.72" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>法施功德</text>		</g>
+		<g id="shape27-19" v:mID="27" v:groupContext="shape" transform="translate(89.1268,9.2317) rotate(90)">
+			<title>工作表.27</title>
+			<path d="M0 39.33 C0 41.13 0 42.62 0 42.62 L7.53 42.62 C7.53 42.62 7.53 44.06 7.53 45.86 C7.53 44.06 7.53 42.62 7.53
+						 42.62 L15.07 42.62 C15.07 42.62 15.07 41.13 15.07 39.33 L0 39.33 Z" class="st5"/>
+			<path d="M0 39.33 C0 41.13 0 42.62 0 42.62 L7.53 42.62 C7.53 42.62 7.53 44.06 7.53 45.86 C7.53 44.06 7.53 42.62 7.53
+						 42.62 L15.07 42.62 C15.07 42.62 15.07 41.13 15.07 39.33" class="st6"/>
+		</g>
+	</g>
+</svg>

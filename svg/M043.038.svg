@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00803.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.78285in" height="0.635281in"
+		viewBox="0 0 344.365 45.7402" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(72.8592,-34.111) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>不屬凡夫─凡夫不淨不樂般若故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.4702" cy="40.3402" width="182.95" height="10.8"/>
+			<rect x="0" y="34.9402" width="182.94" height="10.8" class="st1"/>
+			<text x="0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不屬凡夫<tspan class="st3">─</tspan>凡夫不淨，不樂般若故。</text>		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(0.829832,-17.7659) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>般若但屬菩薩</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.3601" cy="40.3402" width="70.73" height="10.8"/>
+			<rect x="0" y="34.9402" width="70.7202" height="10.8" class="st1"/>
+			<text x="-0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>般若但屬菩薩</text>		</g>
+		<g id="shape4-8" v:mID="4" v:groupContext="shape" transform="translate(72.8297,-17.6403) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>不屬二乘─雖樂般若無大慈悲厭世趣寂不能具足得故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="135.423" cy="40.3402" width="270.85" height="10.8"/>
+			<rect x="0" y="34.9402" width="270.847" height="10.8" class="st1"/>
+			<text x="-0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不屬二乘<tspan class="st3">─</tspan>雖樂般若，無大慈悲，厭世趣寂，不能具足得故。</text>		</g>
+		<g id="shape5-12" v:mID="5" v:groupContext="shape" transform="translate(72.8009,-1.12566) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>不屬佛─成佛時般若得名薩婆若故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="96.3204" cy="40.3402" width="192.65" height="10.8"/>
+			<rect x="0" y="34.9402" width="192.641" height="10.8" class="st1"/>
+			<text x="0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不屬佛<tspan class="st3">─</tspan>成佛時，般若得名薩婆若故。</text>		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" transform="translate(110.169,0.906823) rotate(90.1)">
+			<title>工作表.6</title>
+			<path d="M0 39.85 C0 41.48 1.65 42.79 3.68 42.79 L18.48 42.79 C20.51 42.79 22.2 44.13 22.2 45.74 C22.2 44.13 23.85 42.79
+						 25.88 42.79 L40.68 42.79 C42.71 42.79 44.4 41.48 44.4 39.85 L0 39.85 Z" class="st4"/>
+			<path d="M0 39.85 C0 41.48 1.65 42.79 3.68 42.79 L18.48 42.79 C20.51 42.79 22.2 44.13 22.2 45.74 C22.2 44.13 23.85 42.79
+						 25.88 42.79 L40.68 42.79 C42.71 42.79 44.4 41.48 44.4 39.85" class="st5"/>
+		</g>
+	</g>
+</svg>

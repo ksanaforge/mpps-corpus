@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F01204.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.71572in" height="1.32304in"
+		viewBox="0 0 195.532 95.2586" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st3 {font-family:新細明體;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group10-1" transform="translate(0.75,-0.75)" v:mID="10" v:groupContext="group">
+			<title>工作表.10</title>
+			<g id="shape6-2" v:mID="6" v:groupContext="shape" transform="translate(78.0172,0.000580348) rotate(-0.2)">
+				<title>工作表.6</title>
+				<desc>1、應置答故 2、無所益故 3、三種法已總攝故 4、外道常滅無是事故 5、顯現諸法如實有無故 6、如問石女兒為黑為白故</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="57.8412" cy="48.5809" width="115.69" height="93.3554"/>
+				<rect x="0" y="1.90324" width="115.682" height="93.3554" class="st1"/>
+				<text x="-0" y="15.88" class="st2" v:langID="1033"><v:paragraph v:spLine="-1.4" v:bulletSize="0.166667"/><v:tabList/>1<tspan
+							class="st3">、</tspan><tspan class="st3">應置答故<v:newlineChar/></tspan><tspan x="-0" dy="1.453em"
+							class="st4">2</tspan><tspan class="st3">、</tspan><tspan class="st3">無所益故<v:newlineChar/></tspan><tspan
+							x="-0" dy="1.453em" class="st4">3</tspan><tspan class="st3">、</tspan><tspan class="st3">三種法已總攝故<v:newlineChar/></tspan><tspan
+							x="-0" dy="1.453em" class="st4">4</tspan><tspan class="st3">、</tspan><tspan class="st3">外道常滅無是事故<v:newlineChar/></tspan><tspan
+							x="-0" dy="1.453em" class="st4">5</tspan><tspan class="st3">、</tspan><tspan class="st3">顯現諸法如實有無故<v:newlineChar/><v:paragraph
+								v:spLine="-1.4"/></tspan><tspan x="-0" dy="1.453em" class="st4">6</tspan><tspan class="st3">、</tspan><tspan
+							class="st3">如問石女兒為黑為白故</tspan></text>			</g>
+			<g id="shape7-22" v:mID="7" v:groupContext="shape" transform="translate(160.036,8.55395) rotate(89.8)">
+				<title>工作表.7</title>
+				<path d="M0 86.79 C0 89.14 2.99 91.03 6.73 91.03 L35.01 91.03 C38.67 91.03 41.74 92.91 41.74 95.26 C41.74 92.91 44.73
+							 91.03 48.47 91.03 L74.05 91.03 C77.72 91.03 80.79 89.14 80.79 86.79 L0 86.79 Z" class="st5"/>
+				<path d="M0 86.79 C0 89.14 2.99 91.03 6.73 91.03 L35.01 91.03 C38.67 91.03 41.74 92.91 41.74 95.26 C41.74 92.91 44.73
+							 91.03 48.47 91.03 L74.05 91.03 C77.72 91.03 80.79 89.14 80.79 86.79" class="st6"/>
+			</g>
+			<g id="shape9-25" v:mID="9" v:groupContext="shape" transform="translate(-0.268812,-37.6436) rotate(-0.2)">
+				<title>工作表.9</title>
+				<desc>佛不答十四難</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="31.6424" cy="86.1339" width="63.29" height="18.2494"/>
+				<rect x="0" y="77.0092" width="63.2847" height="18.2494" class="st1"/>
+				<text x="0" y="89.77" class="st7" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>佛不答十四難</text>			</g>
+		</g>
+	</g>
+</svg>

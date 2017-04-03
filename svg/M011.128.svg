@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01905.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.43717in" height="0.628133in"
+		viewBox="0 0 247.476 45.2256" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(71.5607,-30.9307)">
+			<title>工作表.1</title>
+			<desc>慳貪、不善、煩惱悉皆薄。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="73.3682" cy="38.4531" width="146.74" height="13.5449"/>
+			<rect x="0" y="31.6807" width="146.736" height="13.5449" class="st1"/>
+			<text x="-0" y="42.09" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>慳貪、不善、煩惱，悉皆薄。</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.75,-20.5346)">
+			<title>工作表.2</title>
+			<desc>布施離惡得善</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="38.4531" width="67.73" height="13.5449"/>
+			<rect x="0" y="31.6807" width="67.7245" height="13.5449" class="st1"/>
+			<text x="0" y="42.09" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>布施離惡得善</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(122.278,-0.75)">
+			<title>工作表.3</title>
+			<desc>一、約引生定慧說 二、約生起相似三十七品說</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.2243" cy="29.8465" width="124.45" height="30.7582"/>
+			<rect x="0" y="14.4674" width="124.449" height="30.7582" class="st1"/>
+			<text x="-0" y="26.21" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、約引生定慧說<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st3">二</tspan>、約生起相似三十七品說</text>		</g>
+		<g id="shape4-11" v:mID="4" v:groupContext="shape" transform="translate(71.562,-10.0346)">
+			<title>工作表.4</title>
+			<desc>諸善法生</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="38.4531" width="45.15" height="13.5449"/>
+			<rect x="0" y="31.6807" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="42.09" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>諸善法生</text>		</g>
+		<g id="shape16-14" v:mID="16" v:groupContext="shape" transform="translate(157.68,22.1846) rotate(90)">
+			<title>工作表.16</title>
+			<path d="M0 37.47 C0 39.61 0.53 41.35 1.19 41.35 L6 41.35 C6.66 41.35 7.19 43.09 7.19 45.23 C7.19 43.09 7.76 41.35 8.42
+						 41.35 L13.23 41.35 C13.89 41.35 14.42 39.61 14.42 37.47 L0 37.47 Z" class="st4"/>
+			<path d="M0 37.47 C0 39.61 0.53 41.35 1.19 41.35 L6 41.35 C6.66 41.35 7.19 43.09 7.19 45.23 C7.19 43.09 7.76 41.35 8.42
+						 41.35 L13.23 41.35 C13.89 41.35 14.42 39.61 14.42 37.47" class="st5"/>
+		</g>
+		<g id="shape18-17" v:mID="18" v:groupContext="shape" transform="translate(107.7,6.73344) rotate(90)">
+			<title>工作表.18</title>
+			<path d="M0 37.47 C0 39.61 0.82 41.35 1.85 41.35 L9.3 41.35 C10.33 41.35 11.15 43.09 11.15 45.23 C11.15 43.09 12.04 41.35
+						 13.06 41.35 L20.52 41.35 C21.54 41.35 22.36 39.61 22.36 37.47 L0 37.47 Z" class="st4"/>
+			<path d="M0 37.47 C0 39.61 0.82 41.35 1.85 41.35 L9.3 41.35 C10.33 41.35 11.15 43.09 11.15 45.23 C11.15 43.09 12.04 41.35
+						 13.06 41.35 L20.52 41.35 C21.54 41.35 22.36 39.61 22.36 37.47" class="st5"/>
+		</g>
+	</g>
+</svg>

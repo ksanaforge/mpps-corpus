@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01109.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.86652in" height="0.57809in"
+		viewBox="0 0 206.39 41.6225" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(62.3406,-0.75)">
+			<title>工作表.1</title>
+			<desc>不名波羅蜜 不能有所至 不得增益具足</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.5039" cy="21.5612" width="61.01" height="40.1225"/>
+			<rect x="0" y="1.5" width="61.0078" height="40.1225" class="st1"/>
+			<text x="0" y="10.22" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>不名波羅蜜<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st3">不能有所至<v:newlineChar/></tspan><tspan x="0" dy="1.446em" class="st3">不得增益具足</tspan></text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(0.75,-14.4105)">
+			<title>工作表.2</title>
+			<desc>五度離般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="34.85" width="56.44" height="13.5449"/>
+			<rect x="0" y="28.0776" width="56.4371" height="13.5449" class="st1"/>
+			<text x="0" y="37.96" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>五度離般若</text>		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(144.632,-14.4105)">
+			<title>工作表.4</title>
+			<desc>要以般若助成</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.5039" cy="34.85" width="61.01" height="13.5449"/>
+			<rect x="0" y="28.0776" width="61.0078" height="13.5449" class="st1"/>
+			<text x="0" y="37.96" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>要以般若助成</text>		</g>
+		<g id="shape14-12" v:mID="14" v:groupContext="shape" transform="translate(93.5378,5.52795) rotate(90)">
+			<title>工作表.14</title>
+			<path d="M0 32.55 C0 35.05 1.08 37.09 2.46 37.09 L12.32 37.09 C13.7 37.09 14.79 39.12 14.79 41.62 C14.79 39.12 15.87
+						 37.09 17.25 37.09 L27.16 37.09 C28.54 37.09 29.62 35.05 29.62 32.55 L0 32.55 Z" class="st4"/>
+			<path d="M0 32.55 C0 35.05 1.08 37.09 2.46 37.09 L12.32 37.09 C13.7 37.09 14.79 39.12 14.79 41.62 C14.79 39.12 15.87
+						 37.09 17.25 37.09 L27.16 37.09 C28.54 37.09 29.62 35.05 29.62 32.55" class="st5"/>
+		</g>
+		<g id="shape18-15" v:mID="18" v:groupContext="shape" transform="translate(139.066,-29.1926) rotate(33.6901)">
+			<title>工作表.18</title>
+			<path d="M0 41.62 L30.66 41.62" class="st6"/>
+		</g>
+		<g id="shape19-18" v:mID="19" v:groupContext="shape" transform="translate(101.394,-0.846132) rotate(-33.6901)">
+			<title>工作表.19</title>
+			<path d="M0 41.62 L20.44 41.62" class="st6"/>
+		</g>
+	</g>
+</svg>

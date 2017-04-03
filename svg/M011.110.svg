@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01902.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.62516in" height="0.605606in"
+		viewBox="0 0 189.012 43.6036" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(54.3008,-1.03815)">
+			<title>工作表.1</title>
+			<desc>今世後世樂———如種樹求蔭 聲聞、辟支道——如種樹求華 佛道——————如種樹求果</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.9805" cy="22.8399" width="133.97" height="41.5276"/>
+			<rect x="0" y="2.07608" width="133.961" height="41.5276" class="st1"/>
+			<text x="-0" y="11.94" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>今世後世樂<tspan class="st3">———</tspan>如種樹求蔭<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">聲聞</tspan>、辟支道<tspan class="st3">——</tspan>如種樹求華<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">佛道</tspan><tspan class="st3">——————</tspan>如種樹求果</text>		</g>
+		<g id="shape2-9" v:mID="2" v:groupContext="shape" transform="translate(0.75,-15.8202)">
+			<title>工作表.2</title>
+			<desc>布施之果</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="36.8312" width="45.15" height="13.5449"/>
+			<rect x="0" y="30.0587" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="40.46" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>布施之果</text>		</g>
+		<g id="shape12-12" v:mID="12" v:groupContext="shape" transform="translate(85.8812,7.13243) rotate(90)">
+			<title>工作表.12</title>
+			<path d="M0 32.32 C0 35.45 1.09 37.96 2.5 37.96 L12.38 37.96 C13.74 37.96 14.88 40.47 14.88 43.6 C14.88 40.47 15.97 37.96
+						 17.38 37.96 L27.27 37.96 C28.62 37.96 29.76 35.45 29.76 32.32 L0 32.32 Z" class="st5"/>
+			<path d="M0 32.32 C0 35.45 1.09 37.96 2.5 37.96 L12.38 37.96 C13.74 37.96 14.88 40.47 14.88 43.6 C14.88 40.47 15.97 37.96
+						 17.38 37.96 L27.27 37.96 C28.62 37.96 29.76 35.45 29.76 32.32" class="st6"/>
+		</g>
+	</g>
+</svg>

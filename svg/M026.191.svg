@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A00906.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.82201in" height="0.421803in"
+		viewBox="0 0 203.185 30.3698" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(81.1675,-16.0749)">
+			<title>工作表.1</title>
+			<desc>有我有法多為在家人說。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="60.633" cy="23.5973" width="121.27" height="13.5449"/>
+			<rect x="0" y="16.8249" width="121.266" height="13.5449" class="st1"/>
+			<text x="-0" y="26.71" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有我有法，多為在家人說。</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.75,-8.57079)">
+			<title>工作表.2</title>
+			<desc>有我法、無我法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="23.5973" width="79.02" height="13.5449"/>
+			<rect x="0" y="16.8249" width="79.0119" height="13.5449" class="st1"/>
+			<text x="0" y="26.71" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有我法、無我法</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(81.169,-0.75)">
+			<title>工作表.3</title>
+			<desc>無我無法多為出家人說。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="60.633" cy="23.5973" width="121.27" height="13.5449"/>
+			<rect x="0" y="16.8249" width="121.266" height="13.5449" class="st1"/>
+			<text x="-0" y="26.71" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無我無法，多為出家人說。</text>		</g>
+		<g id="shape10-10" v:mID="10" v:groupContext="shape" transform="translate(102.452,6.92481) rotate(90)">
+			<title>工作表.10</title>
+			<path d="M0 23 C0 25.05 0.61 26.68 1.42 26.68 L7.09 26.68 C7.84 26.68 8.5 28.32 8.5 30.37 C8.5 28.32 9.12 26.68 9.92
+						 26.68 L15.59 26.68 C16.35 26.68 17.01 25.05 17.01 23 L0 23 Z" class="st3"/>
+			<path d="M0 23 C0 25.05 0.61 26.68 1.42 26.68 L7.09 26.68 C7.84 26.68 8.5 28.32 8.5 30.37 C8.5 28.32 9.12 26.68 9.92
+						 26.68 L15.59 26.68 C16.35 26.68 17.01 25.05 17.01 23" class="st4"/>
+		</g>
+	</g>
+</svg>

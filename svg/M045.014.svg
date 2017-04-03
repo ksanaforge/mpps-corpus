@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01006.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.83984in" height="0.371756in"
+		viewBox="0 0 276.469 26.7664" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(80.523,-15.1372) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>得無生法忍隨無上正覺相發心</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.6823" cy="21.3664" width="141.37" height="10.8"/>
+			<rect x="0" y="15.9664" width="141.365" height="10.8" class="st1"/>
+			<text x="0" y="24.48" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>得無生法忍，隨無上正覺相發心</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(243.957,-14.5442) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>真發心</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.895" cy="21.3664" width="31.79" height="10.8"/>
+			<rect x="0" y="15.9664" width="31.79" height="10.8" class="st1"/>
+			<text x="0" y="24.48" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>真發心</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.796716,-7.63366) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>二種新發意菩薩</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.4962" cy="21.3664" width="75" height="10.8"/>
+			<rect x="0" y="15.9664" width="74.9923" height="10.8" class="st1"/>
+			<text x="0" y="24.48" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種新發意菩薩</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(80.4655,-1.12569) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>在結使中發大悲心度生我當作佛。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="86.3025" cy="21.3664" width="172.61" height="10.8"/>
+			<rect x="0" y="15.9664" width="172.605" height="10.8" class="st1"/>
+			<text x="-0" y="24.48" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>在結使中，發大悲心度生，我當作佛。</text>		</g>
+		<g id="shape12-13" v:mID="12" v:groupContext="shape" transform="translate(99.3469,4.41485) rotate(90.1)">
+			<title>工作表.12</title>
+			<path d="M0 21.1 C0 22.67 0.74 23.94 1.63 23.94 L8.15 23.94 C9.04 23.94 9.78 25.2 9.78 26.77 C9.78 25.2 10.52 23.94 11.41
+						 23.94 L17.93 23.94 C18.82 23.94 19.56 22.67 19.56 21.1 L0 21.1 Z" class="st3"/>
+			<path d="M0 21.1 C0 22.67 0.74 23.94 1.63 23.94 L8.15 23.94 C9.04 23.94 9.78 25.2 9.78 26.77 C9.78 25.2 10.52 23.94 11.41
+						 23.94 L17.93 23.94 C18.82 23.94 19.56 22.67 19.56 21.1" class="st4"/>
+		</g>
+		<g id="shape13-16" v:mID="13" v:groupContext="shape" transform="translate(242.522,33.7591) rotate(180)">
+			<title>工作表.13</title>
+			<path d="M0 26.77 L20.04 26.77" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01102.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.83148in" height="0.370478in"
+		viewBox="0 0 275.867 26.6744" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(81.96,-15.0452) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>一、非一時一念無量劫積集次第生起。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="96.5923" cy="21.2744" width="193.19" height="10.8"/>
+			<rect x="0" y="15.8744" width="193.185" height="10.8" class="st1"/>
+			<text x="0" y="24.39" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一、非一時一念，無量劫積集，次第生起。</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.796556,-8.60079) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>六度互攝行二解</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.4746" cy="21.2744" width="72.95" height="10.8"/>
+			<rect x="0" y="15.8744" width="72.9492" height="10.8" class="st1"/>
+			<text x="0" y="24.39" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>六度互攝行二解</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(81.9024,-1.12569) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>二、六波羅密一時莊嚴能破大賊。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.3676" cy="21.2744" width="184.74" height="10.8"/>
+			<rect x="0" y="15.8744" width="184.735" height="10.8" class="st1"/>
+			<text x="-0" y="24.39" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二、六波羅密，一時莊嚴，能破大賊。</text>		</g>
+		<g id="shape13-10" v:mID="13" v:groupContext="shape" transform="translate(100.527,0.987278) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 21.01 C0 22.57 0.89 23.84 1.98 23.84 L9.92 23.84 C11.03 23.84 11.92 25.11 11.92 26.67 C11.92 25.11 12.8 23.84
+						 13.89 23.84 L21.84 23.84 C22.95 23.84 23.83 22.57 23.83 21.01 L0 21.01 Z" class="st3"/>
+			<path d="M0 21.01 C0 22.57 0.89 23.84 1.98 23.84 L9.92 23.84 C11.03 23.84 11.92 25.11 11.92 26.67 C11.92 25.11 12.8 23.84
+						 13.89 23.84 L21.84 23.84 C22.95 23.84 23.83 22.57 23.83 21.01" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A00206.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.29839in" height="1.18905in"
+		viewBox="0 0 309.484 85.6114" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(124.876,-42.3417)">
+			<title>工作表.1</title>
+			<desc>初 — 心不自知作佛 — 離女人身 二 — 心知作佛口中不說 — 值佛世授記 三 — 心了了知口了了說</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.9291" cy="64.3515" width="183.86" height="42.5197"/>
+			<rect x="0" y="43.0917" width="183.858" height="42.5197" class="st1"/>
+			<text x="0" y="53.45" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>初<tspan class="st3"> </tspan><tspan
+						class="st3">—</tspan><tspan class="st3"> </tspan>心不自知作佛<tspan class="st3"> </tspan><tspan class="st3">—</tspan><tspan
+						class="st3"> </tspan>離女人身<v:newlineChar/><tspan x="0" dy="1.453em" class="st4">二</tspan><tspan class="st3"> </tspan><tspan
+						class="st3">—</tspan><tspan class="st3"> </tspan>心知作佛，口中不說<tspan class="st3"> </tspan><tspan class="st3">—</tspan><tspan
+						class="st3"> </tspan>值佛世授記<v:newlineChar/><tspan x="0" dy="1.453em" class="st4">三</tspan><tspan class="st3"> </tspan><tspan
+						class="st3">—</tspan><tspan class="st3"> </tspan>心了了知，口了了說</text>		</g>
+		<g id="shape6-21" v:mID="6" v:groupContext="shape" transform="translate(73.0352,-57.7471)">
+			<title>工作表.6</title>
+			<desc>三祇行因</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="78.8389" width="56.44" height="13.5449"/>
+			<rect x="0" y="72.0665" width="56.4371" height="13.5449" class="st1"/>
+			<text x="0" y="82.47" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>三祇行因 </text>		</g>
+		<g id="shape15-24" v:mID="15" v:groupContext="shape" transform="translate(0.75,-28.4286)">
+			<title>工作表.15</title>
+			<desc>三藏四階成佛</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="78.8389" width="67.73" height="13.5449"/>
+			<rect x="0" y="72.0665" width="67.7245" height="13.5449" class="st1"/>
+			<text x="-0" y="82.47" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>三藏四階成佛</text>		</g>
+		<g id="shape24-27" v:mID="24" v:groupContext="shape" transform="translate(73.0352,-14.3327)">
+			<title>工作表.24</title>
+			<desc>最後出世</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="78.8389" width="45.15" height="13.5449"/>
+			<rect x="0" y="72.0665" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="82.47" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>最後出世</text>		</g>
+		<g id="shape33-30" v:mID="33" v:groupContext="shape" transform="translate(73.0335,-0.75)">
+			<title>工作表.33</title>
+			<desc>樹下成佛</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="78.8389" width="45.15" height="13.5449"/>
+			<rect x="0" y="72.0665" width="45.1496" height="13.5449" class="st1"/>
+			<text x="-0" y="82.47" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>樹下成佛</text>		</g>
+		<g id="shape48-33" v:mID="48" v:groupContext="shape" transform="translate(148.588,19.4014) rotate(90)">
+			<title>工作表.48</title>
+			<path d="M0 76.97 C0 79.35 2.26 81.27 5.08 81.27 L25.34 81.27 C28.1 81.27 30.42 83.19 30.42 85.61 C30.42 83.24 32.68
+						 81.27 35.44 81.27 L55.7 81.27 C58.46 81.27 60.72 79.35 60.72 76.97 L0 76.97 Z" class="st5"/>
+			<path d="M0 76.97 C0 79.35 2.26 81.27 5.08 81.27 L25.34 81.27 C28.1 81.27 30.42 83.19 30.42 85.61 C30.42 83.24 32.68
+						 81.27 35.44 81.27 L55.7 81.27 C58.46 81.27 60.72 79.35 60.72 76.97" class="st6"/>
+		</g>
+		<g id="shape49-36" v:mID="49" v:groupContext="shape" transform="translate(200.568,7.61036) rotate(90)">
+			<title>工作表.49</title>
+			<path d="M0 76.97 C0 79.37 1.1 81.29 2.48 81.29 L12.4 81.29 C13.78 81.29 14.88 83.21 14.88 85.61 C14.88 83.21 15.98 81.29
+						 17.36 81.29 L27.28 81.29 C28.66 81.29 29.76 79.37 29.76 76.97 L0 76.97 Z" class="st5"/>
+			<path d="M0 76.97 C0 79.37 1.1 81.29 2.48 81.29 L12.4 81.29 C13.78 81.29 14.88 83.21 14.88 85.61 C14.88 83.21 15.98 81.29
+						 17.36 81.29 L27.28 81.29 C28.66 81.29 29.76 79.37 29.76 76.97" class="st6"/>
+		</g>
+		<g id="shape50-39" v:mID="50" v:groupContext="shape" transform="translate(73.0352,-27.9632)">
+			<title>工作表.50</title>
+			<desc>百劫相好 — 六波羅蜜滿</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="54.7786" cy="78.8389" width="109.56" height="13.5449"/>
+			<rect x="0" y="72.0665" width="109.557" height="13.5449" class="st1"/>
+			<text x="0" y="82.47" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>百劫相好<tspan class="st3"> </tspan><tspan
+						class="st3">—</tspan><tspan class="st3"> </tspan>六波羅蜜滿</text>		</g>
+	</g>
+</svg>

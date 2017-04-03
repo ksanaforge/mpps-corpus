@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01304.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.09377in" height="0.571515in"
+		viewBox="0 0 150.751 41.1491" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(50.05,-30.2926) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>眾生世間</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.9422" cy="36.5218" width="55.89" height="9.25463"/>
+			<rect x="0" y="31.8945" width="55.8845" height="9.25463" class="st1"/>
+			<text x="0" y="39.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>眾生世間</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.821819,-17.5927) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>三種世間</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.7682" cy="36.5218" width="49.54" height="9.25463"/>
+			<rect x="0" y="31.8945" width="49.5363" height="9.25463" class="st1"/>
+			<text x="0" y="39.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三種世間</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(50.0211,-15.9218) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>住處世間國土世間</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50.0179" cy="36.5218" width="100.04" height="9.25463"/>
+			<rect x="0" y="31.8945" width="100.036" height="9.25463" class="st1"/>
+			<text x="-0" y="39.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>住處世間（國土世間）</text>		</g>
+		<g id="shape7-10" v:mID="7" v:groupContext="shape" transform="translate(49.9917,-0.898778) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>五眾世間</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.9716" cy="35.7491" width="55.95" height="10.8"/>
+			<rect x="0" y="30.3491" width="55.9432" height="10.8" class="st1"/>
+			<text x="-0" y="38.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>五眾世間</text>		</g>
+		<g id="shape22-13" v:mID="22" v:groupContext="shape" transform="translate(83.9299,1.42602) rotate(90.1)">
+			<title>工作表.22</title>
+			<path d="M0 35.48 C0 37.05 1.4 38.31 3.12 38.31 L15.67 38.31 C17.43 38.31 18.83 39.6 18.83 41.15 C18.83 39.6 20.23 38.31
+						 21.95 38.31 L34.5 38.31 C36.26 38.31 37.66 37.05 37.66 35.48 L0 35.48 Z" class="st3"/>
+			<path d="M0 35.48 C0 37.05 1.4 38.31 3.12 38.31 L15.67 38.31 C17.43 38.31 18.83 39.6 18.83 41.15 C18.83 39.6 20.23 38.31
+						 21.95 38.31 L34.5 38.31 C36.26 38.31 37.66 37.05 37.66 35.48" class="st4"/>
+		</g>
+	</g>
+</svg>

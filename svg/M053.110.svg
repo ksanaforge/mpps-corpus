@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01703.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.82206in" height="0.379283in"
+		viewBox="0 0 203.189 27.3084" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(70.0912,-18.6869) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>世間檀─有三礙─有所依</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.9813" cy="24.916" width="113.97" height="4.7847"/>
+			<rect x="0" y="22.5237" width="113.963" height="4.7847" class="st1"/>
+			<text x="0" y="28.03" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>世間檀<tspan class="st3">─</tspan>有三礙<tspan
+						class="st3">─</tspan>有所依</text>		</g>
+		<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(0.797662,-11.3987) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>二種檀波羅蜜</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.8424" cy="24.916" width="71.69" height="4.7847"/>
+			<rect x="0" y="22.5237" width="71.6847" height="4.7847" class="st1"/>
+			<text x="-0" y="28.03" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種檀波羅蜜</text>		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(71.5181,-4.06367) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>出世間檀─三分清淨─無所依</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="65.48" cy="24.916" width="130.96" height="4.7847"/>
+			<rect x="0" y="22.5237" width="130.96" height="4.7847" class="st1"/>
+			<text x="0" y="28.03" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>出世間檀<tspan class="st3">─</tspan>三分清淨<tspan
+						class="st3">─</tspan>無所依</text>		</g>
+		<g id="shape13-14" v:mID="13" v:groupContext="shape" transform="translate(89.8533,0.520655) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 21.64 C0 23.21 0.95 24.47 2.11 24.47 L10.62 24.47 C11.78 24.47 12.76 25.76 12.76 27.31 C12.76 25.76 13.7
+						 24.47 14.87 24.47 L23.37 24.47 C24.54 24.47 25.51 23.21 25.51 21.64 L0 21.64 Z" class="st4"/>
+			<path d="M0 21.64 C0 23.21 0.95 24.47 2.11 24.47 L10.62 24.47 C11.78 24.47 12.76 25.76 12.76 27.31 C12.76 25.76 13.7
+						 24.47 14.87 24.47 L23.37 24.47 C24.54 24.47 25.51 23.21 25.51 21.64" class="st5"/>
+		</g>
+	</g>
+</svg>

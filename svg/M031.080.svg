@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F2103.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.01916in" height="0.645518in"
+		viewBox="0 0 217.379 46.4773" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(100.41,-31.7771) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>一、我心顛倒計我為常</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="58.029" cy="39.7049" width="116.06" height="13.5449"/>
+			<rect x="0" y="32.9324" width="116.058" height="13.5449" class="st1"/>
+			<text x="0" y="42.82" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一、我心顛倒，計我為常</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.635044,-15.5859) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>有為常相空之常相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="39.7049" width="90.3" height="13.5449"/>
+			<rect x="0" y="32.9324" width="90.2993" height="13.5449" class="st1"/>
+			<text x="-0" y="42.82" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有為常相空之常相</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(100.469,-15.9799) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>二、色無常而心常</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="39.7049" width="90.3" height="13.5449"/>
+			<rect x="0" y="32.9324" width="90.2993" height="13.5449" class="st1"/>
+			<text x="0" y="42.82" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二、色無常而心常</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(100.528,-0.749717) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>三、五眾變化而不滅。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.4371" cy="39.7049" width="112.88" height="13.5449"/>
+			<rect x="0" y="32.9324" width="112.874" height="13.5449" class="st1"/>
+			<text x="0" y="42.82" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三、五眾變化而不滅。</text>		</g>
+		<g id="shape14-13" v:mID="14" v:groupContext="shape" transform="translate(132.907,6.71796) rotate(89.8)">
+			<title>工作表.14</title>
+			<path d="M0 38.01 C0 40.36 1.22 42.24 2.82 42.24 L14.11 42.24 C15.61 42.24 16.93 44.13 16.93 46.48 C16.93 44.13 18.15
+						 42.24 19.75 42.24 L31.04 42.24 C32.55 42.24 33.86 40.36 33.86 38.01 L0 38.01 Z" class="st3"/>
+			<path d="M0 38.01 C0 40.36 1.22 42.24 2.82 42.24 L14.11 42.24 C15.61 42.24 16.93 44.13 16.93 46.48 C16.93 44.13 18.15
+						 42.24 19.75 42.24 L31.04 42.24 C32.55 42.24 33.86 40.36 33.86 38.01" class="st4"/>
+		</g>
+	</g>
+</svg>

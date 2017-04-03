@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F01203.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.61795in" height="0.422998in"
+		viewBox="0 0 188.493 30.4559" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(85.5917,-15.8051) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>與則能不與則不能食</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50.9668" cy="23.6834" width="101.94" height="13.5449"/>
+			<rect x="0" y="16.911" width="101.934" height="13.5449" class="st1"/>
+			<text x="-0" y="26.8" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>與則能，不與則不能食</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.69097,-6.69632) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>佛食它人能食不</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.7698" cy="23.6834" width="73.54" height="13.5449"/>
+			<rect x="0" y="16.911" width="73.5397" height="13.5449" class="st1"/>
+			<text x="0" y="26.8" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛食它人能食不</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(85.7035,-0.749814) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>未食則不能殘餘則能</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50.9668" cy="23.6834" width="101.94" height="13.5449"/>
+			<rect x="0" y="16.911" width="101.934" height="13.5449" class="st1"/>
+			<text x="0" y="26.8" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>未食則不能，殘餘則能</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(104.368,3.17792) rotate(89.8)">
+			<title>工作表.11</title>
+			<path d="M0 21.99 C0 24.34 0.88 26.22 2.02 26.22 L10.52 26.22 C11.6 26.22 12.54 28.1 12.54 30.46 C12.54 28.1 13.42 26.22
+						 14.56 26.22 L22.25 26.22 C23.33 26.22 24.27 24.34 24.27 21.99 L0 21.99 Z" class="st3"/>
+			<path d="M0 21.99 C0 24.34 0.88 26.22 2.02 26.22 L10.52 26.22 C11.6 26.22 12.54 28.1 12.54 30.46 C12.54 28.1 13.42 26.22
+						 14.56 26.22 L22.25 26.22 C23.33 26.22 24.27 24.34 24.27 21.99" class="st4"/>
+		</g>
+	</g>
+</svg>

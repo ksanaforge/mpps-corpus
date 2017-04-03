@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02104.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.26499in" height="0.384322in"
+		viewBox="0 0 163.079 27.6712" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(31.7833,-18.7643) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>有相是一邊無相是一邊</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.7733" cy="24.9933" width="113.55" height="5.3558"/>
+			<rect x="0" y="22.3154" width="113.547" height="5.3558" class="st1"/>
+			<text x="0" y="28.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有相是一邊，無相是一邊</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.798295,-11.3232) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>中邊</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.2607" cy="24.9933" width="30.53" height="5.3558"/>
+			<rect x="0" y="22.3154" width="30.5214" height="5.3558" class="st1"/>
+			<text x="0" y="28.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>中邊</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(31.7554,-3.77821) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>離是二邊行中道是諸佛實相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="65.3066" cy="24.9933" width="130.62" height="5.3558"/>
+			<rect x="0" y="22.3154" width="130.613" height="5.3558" class="st1"/>
+			<text x="0" y="28.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>離是二邊行中道，是諸佛實相</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(51.1033,2.27386) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 22 C0 23.57 0.87 24.84 1.94 24.84 L9.75 24.84 C10.85 24.84 11.72 26.1 11.72 27.67 C11.72 26.1 12.59 24.84
+						 13.66 24.84 L21.47 24.84 C22.56 24.84 23.43 23.57 23.43 22 L0 22 Z" class="st3"/>
+			<path d="M0 22 C0 23.57 0.87 24.84 1.94 24.84 L9.75 24.84 C10.85 24.84 11.72 26.1 11.72 27.67 C11.72 26.1 12.59 24.84
+						 13.66 24.84 L21.47 24.84 C22.56 24.84 23.43 23.57 23.43 22" class="st4"/>
+		</g>
+	</g>
+</svg>

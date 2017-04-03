@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01001.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.09079in" height="0.40784in"
+		viewBox="0 0 366.537 29.3645" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(161.581,-17.7352) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>內緣不具─無正憶念無利智慧無大悲心。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="102.119" cy="23.9645" width="204.24" height="10.8"/>
+			<rect x="0" y="18.5645" width="204.238" height="10.8" class="st1"/>
+			<text x="0" y="27.08" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>內緣不具<tspan class="st3">─</tspan>無正憶念，無利智慧，無大悲心。</text>		</g>
+		<g id="shape4-5" v:mID="4" v:groupContext="shape" transform="translate(0.801251,-9.49068) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>內外因緣不具聞深般若當有恐怖</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="75.878" cy="23.9645" width="151.76" height="10.8"/>
+			<rect x="0" y="18.5645" width="151.756" height="10.8" class="st1"/>
+			<text x="-0" y="27.08" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>內外因緣不具，聞深般若當有恐怖</text>		</g>
+		<g id="shape5-8" v:mID="5" v:groupContext="shape" transform="translate(161.524,-1.17805) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>外緣不具─不生中國不聞般若不得善友。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="101.013" cy="23.9645" width="202.03" height="10.8"/>
+			<rect x="0" y="18.5645" width="202.027" height="10.8" class="st1"/>
+			<text x="-0" y="27.08" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>外緣不具<tspan class="st3">─</tspan>不生中國，不聞般若，不得善友。</text>		</g>
+		<g id="shape12-12" v:mID="12" v:groupContext="shape" transform="translate(182.929,1.46421) rotate(90.1)">
+			<title>工作表.12</title>
+			<path d="M0 22.39 C0 24.32 0.98 25.88 2.18 25.88 L10.97 25.88 C12.18 25.88 13.18 27.44 13.18 29.36 C13.18 27.44 14.16
+						 25.88 15.37 25.88 L24.15 25.88 C25.36 25.88 26.36 24.32 26.36 22.39 L0 22.39 Z" class="st4"/>
+			<path d="M0 22.39 C0 24.32 0.98 25.88 2.18 25.88 L10.97 25.88 C12.18 25.88 13.18 27.44 13.18 29.36 C13.18 27.44 14.16
+						 25.88 15.37 25.88 L24.15 25.88 C25.36 25.88 26.36 24.32 26.36 22.39" class="st5"/>
+		</g>
+	</g>
+</svg>

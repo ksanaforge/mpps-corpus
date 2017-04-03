@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01401.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.86855in" height="0.607177in"
+		viewBox="0 0 494.536 43.7167" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.470309}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(70.4082,-15.6969)">
+			<title>工作表.1</title>
+			<desc>聲聞——三學四果乃至十無學法 大乘——般若乃至十地一切功德</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.0119" cy="30.2316" width="158.03" height="26.9704"/>
+			<rect x="0" y="16.7464" width="158.024" height="26.9704" class="st1"/>
+			<text x="0" y="26.6" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>聲聞<tspan class="st3">——</tspan>三學四果乃至十無學法<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st4">大乘</tspan><tspan class="st3">——</tspan>般若乃至十地一切功德</text>		</g>
+		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(0.75,-22.2675)">
+			<title>工作表.2</title>
+			<desc>不可得空故得</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="36.9443" width="67.73" height="13.5449"/>
+			<rect x="0" y="30.1718" width="67.7245" height="13.5449" class="st1"/>
+			<text x="-0" y="40.06" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不可得空故得</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(241.139,-1.04945)">
+			<title>工作表.4</title>
+			<desc>雖得而趣不可得無愛著故無為法故聖諦故勝義故 雖無所得而得</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="126.323" cy="30.2316" width="252.65" height="26.9704"/>
+			<rect x="0" y="16.7464" width="252.647" height="26.9704" class="st1"/>
+			<text x="-0" y="26.6" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>雖得而趣不可得＝無愛著故，無為法故，聖諦故，勝義故<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">雖無所得而得</tspan></text>		</g>
+		<g id="shape15-14" v:mID="15" v:groupContext="shape" transform="translate(105.037,6.5049) rotate(90)">
+			<title>工作表.15</title>
+			<path d="M0 35.67 C0 37.91 0.64 39.7 1.42 39.7 L7.09 39.7 C7.87 39.7 8.5 41.48 8.5 43.72 C8.5 41.48 9.14 39.7 9.92 39.7
+						 L15.59 39.7 C16.37 39.7 17.01 37.91 17.01 35.67 L0 35.67 Z" class="st5"/>
+			<path d="M0 35.67 C0 37.91 0.64 39.7 1.42 39.7 L7.09 39.7 C7.87 39.7 8.5 41.48 8.5 43.72 C8.5 41.48 9.14 39.7 9.92 39.7
+						 L15.59 39.7 C16.37 39.7 17.01 37.91 17.01 35.67" class="st6"/>
+		</g>
+		<g id="shape16-17" v:mID="16" v:groupContext="shape" transform="translate(238.486,65.626) rotate(180)">
+			<title>工作表.16</title>
+			<path d="M0 43.72 L26.93 43.72" class="st7"/>
+		</g>
+		<g id="shape17-20" v:mID="17" v:groupContext="shape" transform="translate(268.029,21.9093) rotate(90)">
+			<title>工作表.17</title>
+			<path d="M0 43.72 L14.36 43.72 L14.36 29.54 L0 43.72 Z" class="st5"/>
+			<path d="M0 43.72 L14.36 43.72 L14.36 29.54" class="st6"/>
+		</g>
+	</g>
+</svg>

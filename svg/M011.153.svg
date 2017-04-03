@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02003.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.12516in" height="0.690236in"
+		viewBox="0 0 369.012 49.697" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(123.367,-0.75)">
+			<title>工作表.2</title>
+			<desc>一、世間檀、出世間檀 二、清淨不雜諸垢如法實相不淨雜結使、顛倒心著 三、實相智慧和合施、不和合</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="122.447" cy="25.5985" width="244.9" height="48.197"/>
+			<rect x="0" y="1.5" width="244.895" height="48.197" class="st1"/>
+			<text x="-0" y="14.7" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、世間檀、出世間檀<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st3">二</tspan>、清淨不雜諸垢，如法實相；不淨雜結使、顛倒心著<v:newlineChar/><tspan x="-0" dy="1.453em"
+						class="st3">三</tspan>、實相智慧和合施、不和合</text>		</g>
+		<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(0.75,-17.9455)">
+			<title>工作表.3</title>
+			<desc>聖人稱譽、不稱譽檀三說</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.0808" cy="42.9245" width="124.17" height="13.5449"/>
+			<rect x="0" y="36.1521" width="124.162" height="13.5449" class="st1"/>
+			<text x="0" y="46.56" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>聖人稱譽、不稱譽檀三說</text>		</g>
+		<g id="shape15-9" v:mID="15" v:groupContext="shape" transform="translate(162.676,10.246) rotate(90)">
+			<title>工作表.15</title>
+			<path d="M0 40.86 C0 43.3 0 45.31 0 45.31 L14.99 45.31 C14.99 45.31 14.99 47.26 14.99 49.7 C14.99 47.26 14.99 45.31 14.99
+						 45.31 L30.05 45.31 C30.05 45.31 30.05 43.37 30.05 40.86 L0 40.86 Z" class="st4"/>
+			<path d="M0 40.86 C0 43.3 0 45.31 0 45.31 L14.99 45.31 C14.99 45.31 14.99 47.26 14.99 49.7 C14.99 47.26 14.99 45.31 14.99
+						 45.31 L30.05 45.31 C30.05 45.31 30.05 43.37 30.05 40.86" class="st5"/>
+		</g>
+	</g>
+</svg>

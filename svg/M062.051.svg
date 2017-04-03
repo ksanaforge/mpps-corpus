@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02201.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.32316in" height="0.389376in"
+		viewBox="0 0 167.268 28.035" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(51.427,-19.2648) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>有分</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.2034" cy="25.494" width="26.41" height="5.08212"/>
+			<rect x="0" y="22.9529" width="26.4068" height="5.08212" class="st1"/>
+			<text x="0" y="28.61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有分</text>		</g>
+		<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(0.79893,-11.5469) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>法有二分</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.6203" cy="25.494" width="47.25" height="5.08212"/>
+			<rect x="0" y="22.9529" width="47.2406" height="5.08212" class="st1"/>
+			<text x="0" y="28.61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>法有二分</text>		</g>
+		<g id="shape5-7" v:mID="5" v:groupContext="shape" transform="translate(90.7652,-12.994) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>離是有無即法性</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.8963" cy="25.494" width="75.8" height="5.08212"/>
+			<rect x="0" y="22.9529" width="75.7927" height="5.08212" class="st1"/>
+			<text x="0" y="28.61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>離是有無即法性</text>		</g>
+		<g id="shape6-10" v:mID="6" v:groupContext="shape" transform="translate(51.3703,-3.72284) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>無分</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.6086" cy="25.494" width="29.22" height="5.08212"/>
+			<rect x="0" y="22.9529" width="29.2171" height="5.08212" class="st1"/>
+			<text x="0" y="28.61" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無分</text>		</g>
+		<g id="shape7-13" v:mID="7" v:groupContext="shape" transform="translate(71.3627,1.41657) rotate(90.1)">
+			<title>工作表.7</title>
+			<path d="M0 22.37 C0 23.93 0.95 25.2 2.11 25.2 L10.62 25.2 C11.78 25.2 12.76 26.47 12.76 28.04 C12.76 26.47 13.7 25.2
+						 14.87 25.2 L23.37 25.2 C24.54 25.2 25.51 23.93 25.51 22.37 L0 22.37 Z" class="st3"/>
+			<path d="M0 22.37 C0 23.93 0.95 25.2 2.11 25.2 L10.62 25.2 C11.78 25.2 12.76 26.47 12.76 28.04 C12.76 26.47 13.7 25.2
+						 14.87 25.2 L23.37 25.2 C24.54 25.2 25.51 23.93 25.51 22.37" class="st4"/>
+		</g>
+		<g id="shape8-16" v:mID="8" v:groupContext="shape" transform="translate(59.3847,-2.73916) rotate(-28.9951)">
+			<title>工作表.8</title>
+			<path d="M0 28.04 L18.34 28.04" class="st5"/>
+		</g>
+		<g id="shape9-19" v:mID="9" v:groupContext="shape" transform="translate(83.9111,-19.7168) rotate(22.9615)">
+			<title>工作表.9</title>
+			<path d="M0 28.04 L17.42 28.04" class="st5"/>
+		</g>
+	</g>
+</svg>

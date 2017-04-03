@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02205.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.64316in" height="0.787675in"
+		viewBox="0 0 118.308 56.7126" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(72.8885,-46.7635) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>為魔所使</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.9602" cy="52.9927" width="41.93" height="7.43978"/>
+			<rect x="0" y="49.2728" width="41.9204" height="7.43978" class="st1"/>
+			<text x="-0" y="56.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>為魔所使</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(72.8645,-32.3948) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>不解深法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.539" cy="53.3073" width="43.08" height="6.81061"/>
+			<rect x="0" y="49.902" width="43.078" height="6.81061" class="st1"/>
+			<text x="0" y="56.42" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不解深法</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.848982,-24.1666) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>四緣毀訾般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.567" cy="52.9927" width="71.14" height="7.43978"/>
+			<rect x="0" y="49.2728" width="71.1341" height="7.43978" class="st1"/>
+			<text x="-0" y="56.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>四緣毀訾般若</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(72.8351,-16.1518) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>惡友所攝</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.5519" cy="51.7473" width="43.11" height="9.93072"/>
+			<rect x="0" y="46.7819" width="43.1038" height="9.93072" class="st1"/>
+			<text x="0" y="54.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>惡友所攝</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(72.8092,-0.898754) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>多懷瞋恚</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.4143" cy="51.3126" width="44.83" height="10.8"/>
+			<rect x="0" y="45.9126" width="44.8286" height="10.8" class="st1"/>
+			<text x="0" y="54.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>多懷瞋恚</text>		</g>
+		<g id="shape13-16" v:mID="13" v:groupContext="shape" transform="translate(120.475,1.31765) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 49.43 C0 51.45 1.99 53.07 4.47 53.07 L22.42 53.07 C24.91 53.07 26.93 54.72 26.93 56.71 C26.93 54.72 28.92
+						 53.07 31.4 53.07 L49.35 53.07 C51.83 53.07 53.86 51.45 53.86 49.43 L0 49.43 Z" class="st3"/>
+			<path d="M0 49.43 C0 51.45 1.99 53.07 4.47 53.07 L22.42 53.07 C24.91 53.07 26.93 54.72 26.93 56.71 C26.93 54.72 28.92
+						 53.07 31.4 53.07 L49.35 53.07 C51.83 53.07 53.86 51.45 53.86 49.43" class="st4"/>
+		</g>
+	</g>
+</svg>

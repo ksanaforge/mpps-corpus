@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F01605.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.52703in" height="0.794174in"
+		viewBox="0 0 325.946 57.1805" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.235154}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(120.699,-42.4126) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>十地尚無邊利益何況於佛</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="67.7245" cy="50.4081" width="135.45" height="13.5449"/>
+			<rect x="0" y="43.6356" width="135.449" height="13.5449" class="st1"/>
+			<text x="0" y="53.52" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>十地尚無邊利益，何況於佛</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.597683,-21.1824) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>釋尊何故不能滿人所願</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.4371" cy="50.4081" width="112.88" height="13.5449"/>
+			<rect x="0" y="43.6356" width="112.874" height="13.5449" class="st1"/>
+			<text x="-0" y="53.52" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>釋尊何故不能滿人所願</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(120.699,-27.9322) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>真身佛能悉與世出世間之願</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="67.7245" cy="50.4081" width="135.45" height="13.5449"/>
+			<rect x="0" y="43.6356" width="135.449" height="13.5449" class="st1"/>
+			<text x="0" y="53.52" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>真身佛能悉與世出世間之願</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(163.449,3.47169) rotate(89.8)">
+			<title>工作表.4</title>
+			<path d="M0 45.89 C0 49 2.82 51.54 6.3 51.54 L19.56 51.54 C23.05 51.54 25.87 54.08 25.87 57.18 C25.87 54.08 28.69 51.54
+						 32.26 51.54 L44.4 51.54 C47.88 51.54 50.79 49 50.79 45.89 L0 45.89 Z" class="st3"/>
+			<path d="M0 45.89 C0 49 2.82 51.54 6.3 51.54 L19.56 51.54 C23.05 51.54 25.87 54.08 25.87 57.18 C25.87 54.08 28.69 51.54
+						 32.26 51.54 L44.4 51.54 C47.88 51.54 50.79 49 50.79 45.89" class="st4"/>
+		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(120.955,-14.251) rotate(-0.2)">
+			<title>工作表.5</title>
+			<desc>釋尊能滿而不欲滿但與涅槃樂不與雜毒食</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="102.021" cy="50.4081" width="204.05" height="13.5449"/>
+			<rect x="0" y="43.6356" width="204.043" height="13.5449" class="st1"/>
+			<text x="0" y="53.52" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>釋尊能滿而不欲滿，但與涅槃樂，不與雜毒食</text>		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" transform="translate(120.955,-0.749652) rotate(-0.2)">
+			<title>工作表.6</title>
+			<desc>釋尊已滿眾生願眾生自不得。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.0119" cy="50.4081" width="158.03" height="13.5449"/>
+			<rect x="0" y="43.6356" width="158.024" height="13.5449" class="st1"/>
+			<text x="0" y="53.52" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>釋尊已滿眾生願，眾生自不得。</text>		</g>
+	</g>
+</svg>

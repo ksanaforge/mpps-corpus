@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F2604.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.6806in" height="0.701601in"
+		viewBox="0 0 409.003 50.5152" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(0.620949,-34.6117) rotate(-0.2)">
+			<title>工作表.1</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="36.9704" width="154.261" height="13.5449" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(48.8887,-34.9663) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>實相常不動。無明等與煩惱覆轉異邪曲。破無明令還得實性如本不異為如。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="179.595" cy="43.7428" width="359.2" height="13.5449"/>
+			<rect x="0" y="36.9704" width="359.19" height="13.5449" class="st1"/>
+			<text x="0" y="46.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>實相常不動。無明等與煩惱覆，轉異邪曲。破無明令還得實性，如本不異為如。</text>		</g>
+		<g id="shape8-6" v:mID="8" v:groupContext="shape" transform="translate(0.68005,-17.6807) rotate(-0.2)">
+			<title>工作表.8</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="36.9704" width="60.1995" height="13.5449" class="st1"/>
+		</g>
+		<g id="shape9-8" v:mID="9" v:groupContext="shape" transform="translate(49.8789,-17.8383) rotate(-0.2)">
+			<title>工作表.9</title>
+			<desc>得其真性是名法性清淨。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="63.7646" cy="43.7428" width="127.53" height="13.5449"/>
+			<rect x="0" y="36.9704" width="127.529" height="13.5449" class="st1"/>
+			<text x="-0" y="46.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>得其真性，是名法性清淨。</text>		</g>
+		<g id="shape15-11" v:mID="15" v:groupContext="shape" transform="translate(0.738774,-0.749692) rotate(-0.2)">
+			<title>工作表.15</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="36.9704" width="154.261" height="13.5449" class="st1"/>
+		</g>
+		<g id="shape16-13" v:mID="16" v:groupContext="shape" transform="translate(49.0065,-1.1043) rotate(-0.2)">
+			<title>工作表.16</title>
+			<desc>入法性中知法性無量無邊心則滿足為實際。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="118.518" cy="43.7428" width="237.04" height="13.5449"/>
+			<rect x="0" y="36.9704" width="237.036" height="13.5449" class="st1"/>
+			<text x="0" y="46.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>入法性中，知法性無量無邊，心則滿足為實際。</text>		</g>
+		<g id="shape28-16" v:mID="28" v:groupContext="shape" transform="translate(88.0146,8.64049) rotate(89.8)">
+			<title>工作表.28</title>
+			<path d="M0 42.05 C0 44.4 1.22 46.28 2.82 46.28 L14.11 46.28 C15.61 46.28 16.93 48.16 16.93 50.52 C16.93 48.16 18.15
+						 46.28 19.75 46.28 L31.04 46.28 C32.55 46.28 33.86 44.4 33.86 42.05 L0 42.05 Z" class="st3"/>
+			<path d="M0 42.05 C0 44.4 1.22 46.28 2.82 46.28 L14.11 46.28 C15.61 46.28 16.93 48.16 16.93 50.52 C16.93 48.16 18.15
+						 46.28 19.75 46.28 L31.04 46.28 C32.55 46.28 33.86 44.4 33.86 42.05" class="st4"/>
+		</g>
+		<g id="shape29-19" v:mID="29" v:groupContext="shape" transform="translate(3.44291,-17.9831)">
+			<title>工作表.29</title>
+			<desc>第四說</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="16.9547" cy="43.7428" width="33.91" height="13.5449"/>
+			<rect x="0" y="36.9704" width="33.9093" height="13.5449" class="st1"/>
+			<text x="0" y="46.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>第四說  </text>		</g>
+	</g>
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01408.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.32779in" height="0.605606in"
+		viewBox="0 0 167.601 43.6036" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(81.9626,-3.16396)">
+			<title>工作表.1</title>
+			<desc>我不作不得果 我不自作不從他來 我若作終不失</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.4443" cy="24.9658" width="84.89" height="37.2756"/>
+			<rect x="0" y="6.32802" width="84.8886" height="37.2756" class="st1"/>
+			<text x="0" y="14.06" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>我不作不得果<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">我不自作不從他來<v:newlineChar/></tspan><tspan x="0" dy="1.453em" class="st3">我若作終不失</tspan></text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(0.75,-14.8992)">
+			<title>工作表.2</title>
+			<desc>三種思惟生精進</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="36.8312" width="79.02" height="13.5449"/>
+			<rect x="0" y="30.0587" width="79.0119" height="13.5449" class="st1"/>
+			<text x="-0" y="39.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三種思惟生精進</text>		</g>
+		<g id="shape12-9" v:mID="12" v:groupContext="shape" transform="translate(115.362,7.85572) rotate(90)">
+			<title>工作表.12</title>
+			<path d="M0 35.69 C0 37.9 1.11 39.64 2.44 39.64 L12.3 39.64 C13.69 39.64 14.74 41.39 14.74 43.6 C14.74 41.39 15.85 39.64
+						 17.18 39.64 L27.04 39.64 C28.43 39.64 29.48 37.85 29.48 35.69 L0 35.69 Z" class="st4"/>
+			<path d="M0 35.69 C0 37.9 1.11 39.64 2.44 39.64 L12.3 39.64 C13.69 39.64 14.74 41.39 14.74 43.6 C14.74 41.39 15.85 39.64
+						 17.18 39.64 L27.04 39.64 C28.43 39.64 29.48 37.85 29.48 35.69" class="st5"/>
+		</g>
+	</g>
+</svg>

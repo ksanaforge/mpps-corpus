@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02603.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.71951in" height="0.621966in"
+		viewBox="0 0 195.805 44.7815" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(31.4641,-0.75)">
+			<title>工作表.1</title>
+			<desc>身律儀不惱害、劫盜、邪婬、飲酒 口律儀不妄語、兩舌、惡口、綺語 淨命</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.7954" cy="23.1408" width="163.6" height="43.2815"/>
+			<rect x="0" y="1.5" width="163.591" height="43.2815" class="st1"/>
+			<text x="0" y="12.24" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>身律儀：不惱害、劫盜、邪婬、飲酒<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">口律儀</tspan>：不妄語、兩舌、惡口、綺語<v:newlineChar/><tspan x="0" dy="1.453em"
+						class="st3">淨命</tspan></text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(0.75,-17.1797)">
+			<title>工作表.2</title>
+			<desc>尸羅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="38.0091" width="22.58" height="13.5449"/>
+			<rect x="0" y="31.2366" width="22.5748" height="13.5449" class="st1"/>
+			<text x="-0" y="41.64" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>尸羅</text>		</g>
+		<g id="shape14-9" v:mID="14" v:groupContext="shape" transform="translate(67.5102,7.18113) rotate(90)">
+			<title>工作表.14</title>
+			<path d="M0 38.25 C0 40.05 0 41.54 0 41.54 L14.88 41.54 C14.88 41.54 14.88 42.98 14.88 44.78 C14.88 42.98 14.88 41.54
+						 14.88 41.54 L29.76 41.54 C29.76 41.54 29.76 40.05 29.76 38.25 L0 38.25 Z" class="st4"/>
+			<path d="M0 38.25 C0 40.05 0 41.54 0 41.54 L14.88 41.54 C14.88 41.54 14.88 42.98 14.88 44.78 C14.88 42.98 14.88 41.54
+						 14.88 41.54 L29.76 41.54 C29.76 41.54 29.76 40.05 29.76 38.25" class="st5"/>
+		</g>
+	</g>
+</svg>

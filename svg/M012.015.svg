@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02505.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.07005in" height="1.05188in"
+		viewBox="0 0 437.043 75.7351" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(61.5979,-0.75)">
+			<title>工作表.1</title>
+			<desc>一、一切物施一切眾生等心施不求報施得實相施一切時施無悔惜施。滿。 二、發心至三十四心。滿。小乘意 三、七住至十地施滿。 二...</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="187.348" cy="38.6175" width="374.7" height="74.2351"/>
+			<rect x="0" y="1.5" width="374.695" height="74.2351" class="st1"/>
+			<text x="0" y="13.18" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、一切物施，一切眾生等心施，不求報施，得實相施，一切時施，無悔惜施。滿。<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">二</tspan>、發心至三十四心。滿。（小乘意）<v:newlineChar/><tspan x="0" dy="1.453em"
+						class="st3">三</tspan>、七住至十地施滿。<v:newlineChar/><tspan x="0" dy="1.453em" class="st3">二身檀滿</tspan>。<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">三種檀施滿</tspan>。</text>		</g>
+		<g id="shape4-8" v:mID="4" v:groupContext="shape" transform="translate(0.75,-31.1398)">
+			<title>工作表.4</title>
+			<desc>施度具足滿</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="68.9626" width="56.44" height="13.5449"/>
+			<rect x="0" y="62.1902" width="56.4371" height="13.5449" class="st1"/>
+			<text x="0" y="72.6" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>施度具足滿</text>		</g>
+		<g id="shape25-11" v:mID="25" v:groupContext="shape" transform="translate(128.456,9.34078) rotate(90)">
+			<title>工作表.25</title>
+			<path d="M0 69.21 C0 71 0 72.5 0 72.5 L29.28 72.5 C29.28 72.5 29.28 73.94 29.28 75.74 C29.28 73.94 29.28 72.5 29.28 72.5
+						 L58.56 72.5 C58.56 72.5 58.56 71 58.56 69.21 L0 69.21 Z" class="st4"/>
+			<path d="M0 69.21 C0 71 0 72.5 0 72.5 L29.28 72.5 C29.28 72.5 29.28 73.94 29.28 75.74 C29.28 73.94 29.28 72.5 29.28 72.5
+						 L58.56 72.5 C58.56 72.5 58.56 71 58.56 69.21" class="st5"/>
+		</g>
+	</g>
+</svg>

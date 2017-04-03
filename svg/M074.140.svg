@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02801.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.40812in" height="0.394311in"
+		viewBox="0 0 173.385 28.3904" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape4-1" v:mID="4" v:groupContext="shape" transform="translate(55.6807,-18.4736) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>觀五眾生滅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.8972" cy="25.3467" width="53.8" height="6.08742"/>
+			<rect x="0" y="22.3029" width="53.7943" height="6.08742" class="st1"/>
+			<text x="0" y="28.46" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>觀五眾生滅</text>		</g>
+		<g id="shape5-4" v:mID="5" v:groupContext="shape" transform="translate(101.917,-16.8403) rotate(0.1)">
+			<title>工作表.5</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="17.5904" width="36" height="10.8" class="st1"/>
+		</g>
+		<g id="shape6-6" v:mID="6" v:groupContext="shape" transform="translate(126.467,-15.7494) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>破常。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.3302" cy="22.9904" width="34.67" height="10.8"/>
+			<rect x="0" y="17.5904" width="34.6603" height="10.8" class="st1"/>
+			<text x="0" y="26.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>破常。</text>		</g>
+		<g id="shape7-9" v:mID="7" v:groupContext="shape" transform="translate(3.0393,-10.9648) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>備破八倒</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5" cy="25.3467" width="45" height="6.08742"/>
+			<rect x="0" y="22.3029" width="45" height="6.08742" class="st1"/>
+			<text x="0" y="28.46" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>備破八倒 </text>		</g>
+		<g id="shape8-12" v:mID="8" v:groupContext="shape" transform="translate(0.799551,-3.7893) rotate(0.1)">
+			<title>工作表.8</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="17.5904" width="63" height="10.8" class="st1"/>
+		</g>
+		<g id="shape9-14" v:mID="9" v:groupContext="shape" transform="translate(55.6542,-3.25508) rotate(0.1)">
+			<title>工作表.9</title>
+			<desc>觀畢竟空</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2501" cy="25.3467" width="42.51" height="6.08742"/>
+			<rect x="0" y="22.3029" width="42.5003" height="6.08742" class="st1"/>
+			<text x="-0" y="28.46" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>觀畢竟空</text>		</g>
+		<g id="shape10-17" v:mID="10" v:groupContext="shape" transform="translate(91.6549,-3.62436) rotate(0.1)">
+			<title>工作表.10</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="17.5904" width="51.75" height="10.8" class="st1"/>
+		</g>
+		<g id="shape11-19" v:mID="11" v:groupContext="shape" transform="translate(126.622,-1.10042) rotate(0.1)">
+			<title>工作表.11</title>
+			<desc>破生滅。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.0217" cy="22.9904" width="46.05" height="10.8"/>
+			<rect x="0" y="17.5904" width="46.0434" height="10.8" class="st1"/>
+			<text x="0" y="26.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>破生滅。</text>		</g>
+		<g id="shape18-22" v:mID="18" v:groupContext="shape" transform="translate(74.1782,2.89162) rotate(90.1)">
+			<title>工作表.18</title>
+			<path d="M0 21.64 C0 23.53 0.86 25.02 1.9 25.02 L9.51 25.02 C10.55 25.02 11.41 26.55 11.41 28.39 C11.41 26.55 12.28 25.02
+						 13.32 25.02 L20.93 25.02 C21.97 25.02 22.83 23.53 22.83 21.64 L0 21.64 Z" class="st3"/>
+			<path d="M0 21.64 C0 23.53 0.86 25.02 1.9 25.02 L9.51 25.02 C10.55 25.02 11.41 26.55 11.41 28.39 C11.41 26.55 12.28 25.02
+						 13.32 25.02 L20.93 25.02 C21.97 25.02 22.83 23.53 22.83 21.64" class="st4"/>
+		</g>
+		<g id="shape19-25" v:mID="19" v:groupContext="shape" transform="translate(107.884,-21.4646) rotate(0.1)">
+			<title>工作表.19</title>
+			<path d="M0 28.39 L16.61 28.39" class="st5"/>
+		</g>
+		<g id="shape20-28" v:mID="20" v:groupContext="shape" transform="translate(98.1634,-6.13162) rotate(0.0999992)">
+			<title>工作表.20</title>
+			<path d="M0 28.39 L26.32 28.39" class="st5"/>
+		</g>
+	</g>
+</svg>

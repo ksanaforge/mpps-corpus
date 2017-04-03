@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01506.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.46768in" height="0.605606in"
+		viewBox="0 0 177.673 43.6036" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(64.2243,-1.47786)">
+			<title>工作表.1</title>
+			<desc>無色—————定多智少 未到、中間——智多定少 四禪—————等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.3495" cy="23.2797" width="112.7" height="40.6478"/>
+			<rect x="0" y="2.9558" width="112.699" height="40.6478" class="st1"/>
+			<text x="0" y="12.38" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>無色<tspan class="st3">—————</tspan>定多智少<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st4">未到</tspan>、中間<tspan class="st3">——</tspan>智多定少<v:newlineChar/><tspan x="0"
+						dy="1.453em" class="st4">四禪</tspan><tspan class="st3">—————</tspan>等</text>		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(0.75,-13.9629)">
+			<title>工作表.4</title>
+			<desc>智定等不等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="36.8312" width="56.44" height="13.5449"/>
+			<rect x="0" y="30.0587" width="56.4371" height="13.5449" class="st1"/>
+			<text x="0" y="39.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>智定等不等</text>		</g>
+		<g id="shape18-12" v:mID="18" v:groupContext="shape" transform="translate(96.4893,7.14727) rotate(90)">
+			<title>工作表.18</title>
+			<path d="M0 34.11 C0 36.76 1.1 38.86 2.5 38.86 L13.25 38.86 C14.65 38.86 15.75 41 15.75 43.6 C15.75 41 16.86 38.86 18.25
+						 38.86 L27.26 38.86 C28.66 38.86 29.76 36.76 29.76 34.11 L0 34.11 Z" class="st5"/>
+			<path d="M0 34.11 C0 36.76 1.1 38.86 2.5 38.86 L13.25 38.86 C14.65 38.86 15.75 41 15.75 43.6 C15.75 41 16.86 38.86 18.25
+						 38.86 L27.26 38.86 C28.66 38.86 29.76 36.76 29.76 34.11" class="st6"/>
+		</g>
+	</g>
+</svg>

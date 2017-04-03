@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01406.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.48524in" height="0.622887in"
+		viewBox="0 0 322.937 44.8478" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(30.6638,-35.9813) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>初三地─慧多定少</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="47.6791" cy="42.2103" width="95.36" height="5.27504"/>
+			<rect x="0" y="39.5728" width="95.3583" height="5.27504" class="st1"/>
+			<text x="0" y="45.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>初三地<tspan class="st3">─</tspan>慧多定少</text>		</g>
+		<g id="shape4-5" v:mID="4" v:groupContext="shape" transform="translate(153.265,-27.5592) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>不得入菩薩位</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.7297" cy="42.2103" width="73.46" height="5.27504"/>
+			<rect x="0" y="39.5728" width="73.4593" height="5.27504" class="st1"/>
+			<text x="0" y="45.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不得入菩薩位</text>		</g>
+		<g id="shape5-8" v:mID="5" v:groupContext="shape" transform="translate(0.828274,-20.1597) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>七地</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.0289" cy="42.1022" width="38.06" height="5.49125"/>
+			<rect x="0" y="39.3566" width="38.0577" height="5.49125" class="st1"/>
+			<text x="0" y="45.22" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>七地</text>		</g>
+		<g id="shape6-11" v:mID="6" v:groupContext="shape" transform="translate(30.6436,-19.8698) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>後三地─定多慧少</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.2571" cy="42.2103" width="88.52" height="5.27504"/>
+			<rect x="0" y="39.5728" width="88.5143" height="5.27504" class="st1"/>
+			<text x="-0" y="45.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>後三地<tspan class="st3">─</tspan>定多慧少</text>		</g>
+		<g id="shape7-15" v:mID="7" v:groupContext="shape" transform="translate(30.586,-3.76621) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>七地─我法二空定慧等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="52.5085" cy="42.2103" width="105.02" height="5.27504"/>
+			<rect x="0" y="39.5728" width="105.017" height="5.27504" class="st1"/>
+			<text x="-0" y="45.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>七地<tspan class="st3">─</tspan>我法二空定慧等</text>		</g>
+		<g id="shape8-19" v:mID="8" v:groupContext="shape" transform="translate(153.178,-3.96977) rotate(0.1)">
+			<title>工作表.8</title>
+			<desc>行菩薩道從不退地漸得一切種智</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="84.5391" cy="42.2103" width="169.08" height="5.27504"/>
+			<rect x="0" y="39.5728" width="169.078" height="5.27504" class="st1"/>
+			<text x="0" y="45.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>行菩薩道，從不退地，漸得一切種智</text>		</g>
+		<g id="shape9-22" v:mID="9" v:groupContext="shape" transform="translate(68.1035,1.21464) rotate(90.1)">
+			<title>工作表.9</title>
+			<path d="M0 39.18 C0 40.75 1.58 42.01 3.54 42.01 L17.71 42.01 C19.65 42.01 21.26 43.28 21.26 44.85 C21.26 43.28 22.84
+						 42.01 24.8 42.01 L38.97 42.01 C40.91 42.01 42.52 40.75 42.52 39.18 L0 39.18 Z" class="st4"/>
+			<path d="M0 39.18 C0 40.75 1.58 42.01 3.54 42.01 L17.71 42.01 C19.65 42.01 21.26 43.28 21.26 44.85 C21.26 43.28 22.84
+						 42.01 24.8 42.01 L38.97 42.01 C40.91 42.01 42.52 40.75 42.52 39.18" class="st5"/>
+		</g>
+		<g id="shape10-25" v:mID="10" v:groupContext="shape" transform="translate(133.324,-6.1318) rotate(0.0871458)">
+			<title>工作表.10</title>
+			<path d="M0 44.85 L17.01 44.85" class="st6"/>
+		</g>
+		<g id="shape11-28" v:mID="11" v:groupContext="shape" transform="translate(113.462,-22.6413) rotate(0.0614796)">
+			<title>工作表.11</title>
+			<path d="M0 44.85 L20.6 44.85" class="st6"/>
+		</g>
+		<g id="shape12-31" v:mID="12" v:groupContext="shape" transform="translate(113.298,-37.6974) rotate(0.0614796)">
+			<title>工作表.12</title>
+			<path d="M0 44.85 L21.45 44.85" class="st6"/>
+		</g>
+		<g id="shape13-34" v:mID="13" v:groupContext="shape" transform="translate(115.189,-18.3829) rotate(-25.1039)">
+			<title>工作表.13</title>
+			<path d="M0 44.85 L18.18 44.85" class="st6"/>
+		</g>
+		<g id="shape14-37" v:mID="14" v:groupContext="shape" transform="translate(153.431,-33.5756) rotate(24.6865)">
+			<title>工作表.14</title>
+			<path d="M0 44.85 L17.58 44.85" class="st6"/>
+		</g>
+	</g>
+</svg>

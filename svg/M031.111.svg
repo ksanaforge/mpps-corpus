@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M031.111=F02107.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.78143in" height="0.442645in"
+		viewBox="0 0 200.263 31.8705" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {baseline-shift:32.4947%;font-family:Times New Roman;font-size:0.649894em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group13-1" transform="translate(0.352732,-0.75)" v:mID="13" v:groupContext="group">
+			<title>工作表.13</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(10.9881,-16.1849) rotate(-0.2)">
+				<title>工作表.1</title>
+				<desc>問必應有根本如所化空化主不空</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.7599" cy="25.098" width="183.52" height="13.5449"/>
+				<rect x="0" y="18.3256" width="183.52" height="13.5449" class="st1"/>
+				<text x="-0" y="28.21" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>問：必應有根本，如所化空，化主不空？</text>			</g>
+			<g id="shape7-5" v:mID="7" v:groupContext="shape" transform="translate(11.0472,0.000194166) rotate(-0.2)">
+				<title>工作表.7</title>
+				<desc>答化主亦從所化生不應化主空不空※。</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="94.0016" cy="25.098" width="188.01" height="13.5449"/>
+				<rect x="0" y="18.3256" width="188.003" height="13.5449" class="st1"/>
+				<text x="-0" y="28.21" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>答：化主亦從所化生，不應化主空不空<tspan dy="-0.198em"
+							class="st3" v:baseFontSize="10">※</tspan><tspan dy="0.129em" class="st4">。</tspan></text>			</g>
+			<g id="shape10-10" v:mID="10" v:groupContext="shape" transform="translate(31.8275,5.06646) rotate(89.8)">
+				<title>工作表.10</title>
+				<path d="M0 23.4 C0 25.76 0.89 27.64 2.04 27.64 L10.22 27.64 C11.31 27.64 12.26 29.52 12.26 31.87 C12.26 29.52 13.15
+							 27.64 14.3 27.64 L22.48 27.64 C23.57 27.64 24.52 25.76 24.52 23.4 L0 23.4 Z" class="st5"/>
+				<path d="M0 23.4 C0 25.76 0.89 27.64 2.04 27.64 L10.22 27.64 C11.31 27.64 12.26 29.52 12.26 31.87 C12.26 29.52 13.15
+							 27.64 14.3 27.64 L22.48 27.64 C23.57 27.64 24.52 25.76 24.52 23.4" class="st6"/>
+			</g>
+		</g>
+	</g>
+</svg>

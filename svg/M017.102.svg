@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M017.102.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.85097in" height="0.843923in"
+		viewBox="0 0 493.27 60.7624" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape10-1" v:mID="10" v:groupContext="shape" transform="translate(164.188,-24.2457)">
+			<title>工作表.10</title>
+			<path d="M10 32.42 L0 32.42 L0 60.76" class="st1"/>
+		</g>
+		<g id="shape11-4" v:mID="11" v:groupContext="shape" transform="translate(164.188,83.1059) rotate(180)">
+			<title>工作表.11</title>
+			<path d="M0 60.76 L24.32 60.76" class="st1"/>
+		</g>
+		<g id="shape12-7" v:mID="12" v:groupContext="shape" transform="translate(164.188,-24.2457)">
+			<title>工作表.12</title>
+			<path d="M0 60.76 L9.25 60.76" class="st1"/>
+		</g>
+		<g id="shape39-10" v:mID="39" v:groupContext="shape" transform="translate(288.8,-24.2457)">
+			<title>工作表.39</title>
+			<path d="M0 60.76 L42.52 60.76" class="st1"/>
+		</g>
+		<g id="shape40-13" v:mID="40" v:groupContext="shape" transform="translate(322.505,-42.3871) rotate(33.6901)">
+			<title>工作表.40</title>
+			<path d="M0 60.76 L51.1 60.76" class="st1"/>
+		</g>
+		<g id="shape41-16" v:mID="41" v:groupContext="shape" transform="translate(269.585,-35.3008) rotate(-18.4349)">
+			<title>工作表.41</title>
+			<path d="M0 60.76 L44.82 60.76" class="st1"/>
+		</g>
+		<g id="shape44-19" v:mID="44" v:groupContext="shape" transform="translate(288.8,-10.0725)">
+			<title>工作表.44</title>
+			<path d="M0 60.76 L42.52 60.76" class="st1"/>
+		</g>
+		<g id="shape49-22" v:mID="49" v:groupContext="shape" transform="translate(222.186,-24.2457)">
+			<title>工作表.49</title>
+			<path d="M0 60.76 L28.35 60.76" class="st1"/>
+		</g>
+		<g id="shape50-25" v:mID="50" v:groupContext="shape" transform="translate(222.186,-52.5922)">
+			<title>工作表.50</title>
+			<path d="M0 60.76 L28.35 60.76" class="st1"/>
+		</g>
+		<g id="shape55-28" v:mID="55" v:groupContext="shape" transform="translate(240.925,-10.0725)">
+			<title>工作表.55</title>
+			<path d="M0 46.59 L0 60.76 L9.61 60.76" class="st1"/>
+		</g>
+		<g id="shape56-31" v:mID="56" v:groupContext="shape" transform="translate(240.925,-38.4189)">
+			<title>工作表.56</title>
+			<path d="M0 46.59 L0 60.76 L9.61 60.76" class="st1"/>
+		</g>
+		<g id="shape61-34" v:mID="61" v:groupContext="shape" transform="translate(331.32,-44.7969)">
+			<title>工作表.61</title>
+			<desc>有漏無漏道。</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.4173" cy="52.9672" width="74.84" height="15.5906"/>
+			<rect x="0" y="45.1719" width="74.8346" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>有漏無漏道。</text>		</g>
+		<g id="shape63-37" v:mID="63" v:groupContext="shape" transform="translate(331.32,-16.4504)">
+			<title>工作表.63</title>
+			<desc>有漏道。</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="52.9672" width="56.7" height="15.5906"/>
+			<rect x="0" y="45.1719" width="56.6929" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>有漏道。</text>		</g>
+		<g id="shape65-40" v:mID="65" v:groupContext="shape" transform="translate(331.32,-2.2772)">
+			<title>工作表.65</title>
+			<desc>未到定漏無漏道初禪邊地有漏。</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="80.7874" cy="52.9672" width="161.58" height="15.5906"/>
+			<rect x="0" y="45.1719" width="161.575" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>未到定漏無漏道，初禪邊地有漏。</text>		</g>
+		<g id="shape89-43" v:mID="89" v:groupContext="shape" transform="translate(250.532,-44.7969)">
+			<title>工作表.89</title>
+			<desc>現在修</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="52.9672" width="42.52" height="15.5906"/>
+			<rect x="0" y="45.1719" width="42.5197" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>現在修</text>		</g>
+		<g id="shape90-46" v:mID="90" v:groupContext="shape" transform="translate(250.532,-30.6237)">
+			<title>工作表.90</title>
+			<desc>未來修</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="52.9672" width="42.52" height="15.5906"/>
+			<rect x="0" y="45.1719" width="42.5197" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>未來修</text>		</g>
+		<g id="shape91-49" v:mID="91" v:groupContext="shape" transform="translate(250.532,-14.5482)">
+			<title>工作表.91</title>
+			<desc>現在修</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="52.9672" width="42.52" height="15.5906"/>
+			<rect x="0" y="45.1719" width="42.5197" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>現在修</text>		</g>
+		<g id="shape92-52" v:mID="92" v:groupContext="shape" transform="translate(250.532,-0.375)">
+			<title>工作表.92</title>
+			<desc>未來修</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="52.9672" width="42.52" height="15.5906"/>
+			<rect x="0" y="45.1719" width="42.5197" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>未來修</text>		</g>
+		<g id="shape101-55" v:mID="101" v:groupContext="shape" transform="translate(177.167,-44.7969)">
+			<title>工作表.101</title>
+			<desc>九無八解</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="52.9672" width="56.7" height="15.5906"/>
+			<rect x="0" y="45.1719" width="56.6929" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>九無八解</text>		</g>
+		<g id="shape102-58" v:mID="102" v:groupContext="shape" transform="translate(163.621,-30.6237)">
+			<title>工作表.102</title>
+			<desc>於未到定</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.4173" cy="52.9672" width="74.84" height="15.5906"/>
+			<rect x="0" y="45.1719" width="74.8346" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>（於未到定）</text>		</g>
+		<g id="shape103-61" v:mID="103" v:groupContext="shape" transform="translate(177.167,-14.5482)">
+			<title>工作表.103</title>
+			<desc>第九解脫</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="52.9672" width="56.7" height="15.5906"/>
+			<rect x="0" y="45.1719" width="56.6929" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>第九解脫</text>		</g>
+		<g id="shape124-64" v:mID="124" v:groupContext="shape" transform="translate(0.375,-30.6237)">
+			<title>工作表.124</title>
+			<desc>離欲得初禪依漏無漏道同</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="71.2205" cy="52.9672" width="142.45" height="15.5906"/>
+			<rect x="0" y="45.1719" width="142.441" height="15.5906" class="st2"/>
+			<text x="4" y="56.08" class="st3" v:langID="1033"><v:paragraph/><v:tabList/>離欲得初禪（依漏無漏道同）</text>		</g>
+	</g>
+</svg>

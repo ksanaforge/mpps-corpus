@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02404.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.5504in" height="0.399139in"
+		viewBox="0 0 255.629 28.738" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(61.1442,-19.8977) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>須菩提說有為般若─觀法緣生有為法故無常</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="96.887" cy="26.1269" width="193.78" height="5.22217"/>
+			<rect x="0" y="23.5158" width="193.774" height="5.22217" class="st1"/>
+			<text x="0" y="29.24" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>須菩提說有為般若<tspan class="st3">─</tspan>觀法緣生有為法故無常</text>		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(0.800157,-12.039) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>常歟無常歟</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.7947" cy="26.1269" width="71.59" height="5.22217"/>
+			<rect x="0" y="23.5158" width="71.5895" height="5.22217" class="st1"/>
+			<text x="-0" y="29.24" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>常歟無常歟</text>		</g>
+		<g id="shape4-8" v:mID="4" v:groupContext="shape" transform="translate(61.0367,-3.94954) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>佛說無為般若─般若緣處如法性故常</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="96.9416" cy="26.1269" width="193.89" height="5.22217"/>
+			<rect x="0" y="23.5158" width="193.883" height="5.22217" class="st1"/>
+			<text x="0" y="29.24" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛說（無為般若）<tspan class="st3">─</tspan>般若緣處如法性，故常</text>		</g>
+		<g id="shape22-12" v:mID="22" v:groupContext="shape" transform="translate(81.9629,2.60194) rotate(90.1)">
+			<title>工作表.22</title>
+			<path d="M0 23.34 C0 24.84 0.85 26.04 1.89 26.04 L9.51 26.04 C10.57 26.04 11.42 27.26 11.42 28.74 C11.42 27.26 12.27
+						 26.04 13.32 26.04 L20.93 26.04 C22 26.04 22.85 24.84 22.85 23.34 L0 23.34 Z" class="st4"/>
+			<path d="M0 23.34 C0 24.84 0.85 26.04 1.89 26.04 L9.51 26.04 C10.57 26.04 11.42 27.26 11.42 28.74 C11.42 27.26 12.27
+						 26.04 13.32 26.04 L20.93 26.04 C22 26.04 22.85 24.84 22.85 23.34" class="st5"/>
+		</g>
+	</g>
+</svg>

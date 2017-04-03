@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01206.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.33076in" height="0.379961in"
+		viewBox="0 0 95.8147 27.3572" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(52.5841,-15.728) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>無上正智</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2548" cy="21.9572" width="42.51" height="10.8"/>
+			<rect x="0" y="16.5572" width="42.5096" height="10.8" class="st1"/>
+			<text x="0" y="25.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無上正智</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.797747,-8.10368) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>佛慧二種</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.1932" cy="21.9572" width="40.39" height="10.8"/>
+			<rect x="0" y="16.5572" width="40.3864" height="10.8" class="st1"/>
+			<text x="-0" y="25.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛慧二種</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(50.57,-0.898799) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>一切種智</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.5533" cy="21.9572" width="43.11" height="10.8"/>
+			<rect x="0" y="16.5572" width="43.1066" height="10.8" class="st1"/>
+			<text x="0" y="25.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一切種智</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(71.3878,2.71457) rotate(90.1)">
+			<title>工作表.5</title>
+			<path d="M0 21.69 C0 23.26 0.78 24.52 1.74 24.52 L8.73 24.52 C9.69 24.52 10.49 25.79 10.49 27.36 C10.49 25.79 11.27 24.52
+						 12.23 24.52 L19.22 24.52 C20.18 24.52 20.98 23.26 20.98 21.69 L0 21.69 Z" class="st3"/>
+			<path d="M0 21.69 C0 23.26 0.78 24.52 1.74 24.52 L8.73 24.52 C9.69 24.52 10.49 25.79 10.49 27.36 C10.49 25.79 11.27 24.52
+						 12.23 24.52 L19.22 24.52 C20.18 24.52 20.98 23.26 20.98 21.69" class="st4"/>
+		</g>
+	</g>
+</svg>

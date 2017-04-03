@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00210.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.22394in" height="0.632469in"
+		viewBox="0 0 160.124 45.5378" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group12-1" transform="translate(0.75,-0.381872)" v:mID="12" v:groupContext="group">
+			<title>工作表.12</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(52.4732,-33.5267) rotate(0.1)">
+				<title>工作表.1</title>
+				<desc>樂受生貪欲</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="33.845" cy="40.1378" width="67.7" height="10.8"/>
+				<rect x="0" y="34.7378" width="67.69" height="10.8" class="st1"/>
+				<text x="0" y="43.25" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>樂受生貪欲</text>			</g>
+			<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.0794784,-17.1509) rotate(0.1)">
+				<title>工作表.2</title>
+				<desc>受生結使</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.0109" cy="40.1378" width="50.03" height="10.8"/>
+				<rect x="0" y="34.7378" width="50.0218" height="10.8" class="st1"/>
+				<text x="0" y="43.25" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>受生結使</text>			</g>
+			<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(52.1109,-17.0567) rotate(0.1)">
+				<title>工作表.3</title>
+				<desc>苦受生瞋恚</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="34.8612" cy="40.1378" width="69.73" height="10.8"/>
+				<rect x="0" y="34.7378" width="69.7224" height="10.8" class="st1"/>
+				<text x="0" y="43.25" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>苦受生瞋恚</text>			</g>
+			<g id="shape4-11" v:mID="4" v:groupContext="shape" transform="translate(52.0828,-0.586712) rotate(0.1)">
+				<title>工作表.4</title>
+				<desc>不苦不樂受生愚癡</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="53.3009" cy="40.1378" width="106.61" height="10.8"/>
+				<rect x="0" y="34.7378" width="106.602" height="10.8" class="st1"/>
+				<text x="0" y="43.25" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不苦不樂受生愚癡</text>			</g>
+			<g id="shape11-14" v:mID="11" v:groupContext="shape" transform="translate(88.4488,0.818215) rotate(90.1)">
+				<title>工作表.11</title>
+				<path d="M0 38.79 C0 40.68 1.67 42.16 3.7 42.16 L18.63 42.16 C20.72 42.16 22.39 43.69 22.39 45.54 C22.39 43.69 24.07
+							 42.16 26.1 42.16 L41.03 42.16 C43.12 42.16 44.79 40.68 44.79 38.79 L0 38.79 Z" class="st3"/>
+				<path d="M0 38.79 C0 40.68 1.67 42.16 3.7 42.16 L18.63 42.16 C20.72 42.16 22.39 43.69 22.39 45.54 C22.39 43.69 24.07
+							 42.16 26.1 42.16 L41.03 42.16 C43.12 42.16 44.79 40.68 44.79 38.79" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

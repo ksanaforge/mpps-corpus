@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00602.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.15514in" height="0.636908in"
+		viewBox="0 0 299.17 45.8574" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(11.218,-34.3073) rotate(0.1)">
+			<title>工作表.2</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="35.0574" width="240.75" height="10.8" class="st1"/>
+		</g>
+		<g id="shape3-3" v:mID="3" v:groupContext="shape" transform="translate(123.718,-34.111) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>聞阿────知諸法本來不生</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="69.3797" cy="40.4574" width="138.76" height="10.8"/>
+			<rect x="0" y="35.0574" width="138.759" height="10.8" class="st1"/>
+			<text x="-0" y="43.57" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>聞阿<tspan class="st3">────</tspan>知諸法本來不生</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.830036,-17.2866) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>菩薩聞字即入諸法實相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="57.1164" cy="40.4574" width="114.24" height="10.8"/>
+			<rect x="0" y="35.0574" width="114.233" height="10.8" class="st1"/>
+			<text x="0" y="43.57" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩聞字，即入諸法實相 </text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(123.69,-17.641) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>聞頭佉───知諸法皆苦……生大悲心</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="86.8276" cy="40.4574" width="173.66" height="10.8"/>
+			<rect x="0" y="35.0574" width="173.655" height="10.8" class="st1"/>
+			<text x="0" y="43.57" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>聞頭佉<tspan class="st3">───</tspan>知諸法皆苦<tspan
+						class="st3">……</tspan>生大悲心</text>		</g>
+		<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(123.66,-1.12566) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>聞阿尼吒──知諸法無常……入聖道行</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="87.4106" cy="40.4574" width="174.83" height="10.8"/>
+			<rect x="0" y="35.0574" width="174.821" height="10.8" class="st1"/>
+			<text x="0" y="43.57" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>聞阿尼吒<tspan class="st3">──</tspan>知諸法無常<tspan
+						class="st3">……</tspan>入聖道行</text>		</g>
+		<g id="shape13-20" v:mID="13" v:groupContext="shape" transform="translate(158.805,1.91398) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 37.81 C0 40.03 1.58 41.83 3.55 41.83 L17.82 41.83 C19.8 41.83 21.42 43.66 21.42 45.86 C21.42 43.66 23 41.83
+						 24.98 41.83 L39.24 41.83 C41.22 41.83 42.84 40.03 42.84 37.81 L0 37.81 Z" class="st4"/>
+			<path d="M0 37.81 C0 40.03 1.58 41.83 3.55 41.83 L17.82 41.83 C19.8 41.83 21.42 43.66 21.42 45.86 C21.42 43.66 23 41.83
+						 24.98 41.83 L39.24 41.83 C41.22 41.83 42.84 40.03 42.84 37.81" class="st5"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B03107.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.63726in" height="0.573711in"
+		viewBox="0 0 117.883 41.3072" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(0.879665,-30.0848) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>瞋</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="46.5" cy="36.314" width="93.01" height="9.98639"/>
+			<rect x="0" y="31.3208" width="93" height="9.98639" class="st1"/>
+			<text x="51" y="39.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>瞋</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(64.3184,-29.9728) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>───</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.4345" cy="36.314" width="52.87" height="9.98639"/>
+			<rect x="0" y="31.3208" width="52.869" height="9.98639" class="st1"/>
+			<text x="0" y="39.31" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>───</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(95.5442,-29.9195) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>意</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.5" cy="36.314" width="9.01" height="9.98639"/>
+			<rect x="0" y="31.3208" width="9" height="9.98639" class="st1"/>
+			<text x="0" y="39.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>意</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(2.85252,-16.188) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>瞋起三業</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="34.8218" cy="36.314" width="69.65" height="9.98639"/>
+			<rect x="0" y="31.3208" width="69.6437" height="9.98639" class="st1"/>
+			<text x="-0" y="39.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>瞋起三業  </text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(64.0161,-16.5771) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>───</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.749" cy="36.314" width="47.5" height="9.98639"/>
+			<rect x="0" y="31.3208" width="47.4979" height="9.98639" class="st1"/>
+			<text x="0" y="39.31" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>───</text>		</g>
+		<g id="shape7-16" v:mID="7" v:groupContext="shape" transform="translate(95.5161,-16.5237) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>口</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.5" cy="36.314" width="9.01" height="9.98639"/>
+			<rect x="0" y="31.3208" width="9" height="9.98639" class="st1"/>
+			<text x="0" y="39.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>口</text>		</g>
+		<g id="shape8-19" v:mID="8" v:groupContext="shape" transform="translate(0.822095,-1.41855) rotate(0.1)">
+			<title>工作表.8</title>
+			<desc>打</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="46.5" cy="36.314" width="93.01" height="9.98639"/>
+			<rect x="0" y="31.3208" width="93" height="9.98639" class="st1"/>
+			<text x="51" y="39.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>打</text>		</g>
+		<g id="shape9-22" v:mID="9" v:groupContext="shape" transform="translate(63.9867,-1.30662) rotate(0.1)">
+			<title>工作表.9</title>
+			<desc>───</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.7641" cy="36.314" width="47.53" height="9.98639"/>
+			<rect x="0" y="31.3208" width="47.5283" height="9.98639" class="st1"/>
+			<text x="0" y="39.31" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>───</text>		</g>
+		<g id="shape10-25" v:mID="10" v:groupContext="shape" transform="translate(95.4866,-1.25325) rotate(0.1)">
+			<title>工作表.10</title>
+			<desc>身</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.5" cy="36.314" width="9.01" height="9.98639"/>
+			<rect x="0" y="31.3208" width="9" height="9.98639" class="st1"/>
+			<text x="0" y="39.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>身</text>		</g>
+		<g id="shape17-28" v:mID="17" v:groupContext="shape" transform="translate(86.1638,1.14295) rotate(90.1)">
+			<title>工作表.17</title>
+			<path d="M0 35.87 C0 37.36 1.49 38.59 3.28 38.59 L16.42 38.59 C18.21 38.59 19.7 39.82 19.7 41.31 C19.7 39.82 21.19 38.59
+						 22.98 38.59 L36.12 38.59 C37.91 38.59 39.4 37.36 39.4 35.87 L0 35.87 Z" class="st4"/>
+			<path d="M0 35.87 C0 37.36 1.49 38.59 3.28 38.59 L16.42 38.59 C18.21 38.59 19.7 39.82 19.7 41.31 C19.7 39.82 21.19 38.59
+						 22.98 38.59 L36.12 38.59 C37.91 38.59 39.4 37.36 39.4 35.87" class="st5"/>
+		</g>
+		<g id="shape18-31" v:mID="18" v:groupContext="shape" transform="translate(52.2381,-16.025)">
+			<title>工作表.18</title>
+			<desc>罵</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="6.85605" cy="36.314" width="13.72" height="9.98639"/>
+			<rect x="0" y="31.3208" width="13.7121" height="9.98639" class="st1"/>
+			<text x="0" y="39.43" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>罵</text>		</g>
+	</g>
+</svg>

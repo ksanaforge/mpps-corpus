@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M036.016.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.26772in" height="11.6929in"
+		viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st4 {font-size:1em}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group9-1" transform="translate(18,-789.591)" v:mID="9" v:groupContext="group">
+			<title>工作表.9</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(130.252,-13.0394)">
+				<title>工作表.1</title>
+				<desc>教化眾生淨佛世界。</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="54.8504" cy="831.26" width="109.71" height="21.2598"/>
+				<rect x="0" y="820.63" width="109.701" height="21.2598" class="st1"/>
+				<text x="4" y="834.6" class="st2" v:langID="1103"><v:paragraph v:bulletSize="0.166667"/><v:tabList/>教化眾生，淨佛世界。</text>			</g>
+			<g id="shape3-5" v:mID="3" v:groupContext="shape">
+				<title>工作表.3</title>
+				<desc>淨佛道者住阿毘跋致中　　除三麤業滅諸法中從來所失事。</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="145.488" cy="831.26" width="290.98" height="21.2598"/>
+				<rect x="0" y="820.63" width="290.976" height="21.2598" class="st1"/>
+				<text x="4" y="834.85" class="st3" v:langID="1103"><v:paragraph v:spLine="-1.4"/><v:tabList/>淨佛道者，住阿毘跋致中<tspan
+							class="st4" v:langID="1028">　　</tspan>除三麤業，滅諸法中從來所失事。</text>			</g>
+			<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(114.594,-10.063)">
+				<title>工作表.4</title>
+				<path d="M0 841.89 L18.28 841.89" class="st5"/>
+			</g>
+			<g id="shape5-12" v:mID="5" v:groupContext="shape" transform="translate(123.77,-23.6693)">
+				<title>工作表.5</title>
+				<path d="M0 841.89 L9.1 841.89" class="st5"/>
+			</g>
+			<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(965.659,818.301) rotate(90)">
+				<title>工作表.6</title>
+				<path d="M0 841.89 L13.5 841.89" class="st5"/>
+			</g>
+		</g>
+	</g>
+</svg>

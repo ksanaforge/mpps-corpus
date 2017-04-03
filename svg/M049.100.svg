@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M049.100=B01309.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.88113in" height="0.589137in"
+		viewBox="0 0 135.441 42.4179" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(30.3927,-33.7287) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>無相施</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.645" cy="39.9577" width="41.29" height="4.92032"/>
+			<rect x="0" y="37.4976" width="41.29" height="4.92032" class="st1"/>
+			<text x="0" y="43.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無相施</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(30.5425,-18.939) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>捨財行施</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.0513" cy="39.9577" width="54.11" height="4.92032"/>
+			<rect x="0" y="37.4976" width="54.1026" height="4.92032" class="st1"/>
+			<text x="0" y="43.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>捨財行施</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(92.1706,-18.6844) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>初地能捨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.1516" cy="39.9577" width="42.31" height="4.92032"/>
+			<rect x="0" y="37.4976" width="42.3032" height="4.92032" class="st1"/>
+			<text x="0" y="43.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>初地能捨</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(0.824033,-9.51329) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>二捨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.7076" cy="37.9239" width="35.42" height="8.988"/>
+			<rect x="0" y="33.4299" width="35.4152" height="8.988" class="st1"/>
+			<text x="-0" y="41.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二捨</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(30.6201,-3.89288) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>捨結得道</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.8183" cy="39.9577" width="55.64" height="4.92032"/>
+			<rect x="0" y="37.4976" width="55.6367" height="4.92032" class="st1"/>
+			<text x="0" y="43.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>捨結得道</text>		</g>
+		<g id="shape7-16" v:mID="7" v:groupContext="shape" transform="translate(92.0458,-3.83878) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>七地能捨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.3554" cy="39.9577" width="42.72" height="4.92032"/>
+			<rect x="0" y="37.4976" width="42.7109" height="4.92032" class="st1"/>
+			<text x="0" y="43.07" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>七地能捨</text>		</g>
+		<g id="shape14-19" v:mID="14" v:groupContext="shape" transform="translate(65.1227,16.028) rotate(90.1)">
+			<title>工作表.14</title>
+			<path d="M0 36.84 C0 38.38 0.92 39.63 2.05 39.63 L10.29 39.63 C11.44 39.63 12.36 40.89 12.36 42.42 C12.36 40.89 13.28
+						 39.63 14.41 39.63 L22.65 39.63 C23.8 39.63 24.72 38.38 24.72 36.84 L0 36.84 Z" class="st3"/>
+			<path d="M0 36.84 C0 38.38 0.92 39.63 2.05 39.63 L10.29 39.63 C11.44 39.63 12.36 40.89 12.36 42.42 C12.36 40.89 13.28
+						 39.63 14.41 39.63 L22.65 39.63 C23.8 39.63 24.72 38.38 24.72 36.84" class="st4"/>
+		</g>
+		<g id="shape15-22" v:mID="15" v:groupContext="shape" transform="translate(72.2536,-6.61695) rotate(0.0455586)">
+			<title>工作表.15</title>
+			<path d="M0 42.42 L17.26 42.42" class="st5"/>
+		</g>
+		<g id="shape16-25" v:mID="16" v:groupContext="shape" transform="translate(72.2201,-20.9542)">
+			<title>工作表.16</title>
+			<path d="M0 42.42 L17.32 42.42" class="st5"/>
+		</g>
+	</g>
+</svg>

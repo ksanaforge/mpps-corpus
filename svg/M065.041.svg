@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02305.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.13309in" height="0.387315in"
+		viewBox="0 0 153.583 27.8867" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group6-1" transform="translate(0.75,-1.19993)" v:mID="6" v:groupContext="group">
+			<title>工作表.6</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(50.3936,-17.9604) rotate(0.1)">
+				<title>工作表.2</title>
+				<desc>分別善惡─世間般若</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="47.321" cy="25.3894" width="94.65" height="4.99454"/>
+				<rect x="0" y="22.8921" width="94.6421" height="4.99454" class="st1"/>
+				<text x="-0" y="28.5" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>分別善惡<tspan class="st3">─</tspan>世間般若</text>			</g>
+			<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(0.0486714,-9.58326) rotate(0.1)">
+				<title>工作表.3</title>
+				<desc>二種般若</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="23.1306" cy="25.3894" width="46.27" height="4.99454"/>
+				<rect x="0" y="22.8921" width="46.2612" height="4.99454" class="st1"/>
+				<text x="0" y="28.5" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種般若</text>			</g>
+			<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(50.3678,-2.70646) rotate(0.1)">
+				<title>工作表.4</title>
+				<desc>不別善惡─出世間般若</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="50.8775" cy="25.3894" width="101.76" height="4.99454"/>
+				<rect x="0" y="22.8921" width="101.755" height="4.99454" class="st1"/>
+				<text x="0" y="28.5" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不別善惡<tspan class="st3">─</tspan>出世間般若</text>			</g>
+			<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(70.3242,2.4137) rotate(90.1)">
+				<title>工作表.5</title>
+				<path d="M0 22.22 C0 23.79 0.95 25.05 2.11 25.05 L10.62 25.05 C11.81 25.05 12.76 26.32 12.76 27.89 C12.76 26.32 13.7
+							 25.05 14.87 25.05 L23.37 25.05 C24.56 25.05 25.51 23.79 25.51 22.22 L0 22.22 Z" class="st4"/>
+				<path d="M0 22.22 C0 23.79 0.95 25.05 2.11 25.05 L10.62 25.05 C11.81 25.05 12.76 26.32 12.76 27.89 C12.76 26.32 13.7
+							 25.05 14.87 25.05 L23.37 25.05 C24.56 25.05 25.51 23.79 25.51 22.22" class="st5"/>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01306.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.03073in" height="0.777885in"
+		viewBox="0 0 74.2123 56.0077" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(39.9675,-44.328) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>日月</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.2927" cy="50.5571" width="28.59" height="10.9013"/>
+			<rect x="0" y="45.1065" width="28.5853" height="10.9013" class="st1"/>
+			<text x="0" y="53.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>日月</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(39.8015,-29.5351) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>世間月</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.8698" cy="50.5571" width="33.74" height="10.9013"/>
+			<rect x="0" y="45.1065" width="33.7395" height="10.9013" class="st1"/>
+			<text x="0" y="53.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>世間月</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.847752,-24.4929) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>四種月</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.7493" cy="52.1906" width="41.5" height="7.63417"/>
+			<rect x="0" y="48.3736" width="41.4985" height="7.63417" class="st1"/>
+			<text x="0" y="55.31" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>四種月</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(39.8849,-15.1658) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>月月</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.0024" cy="50.5571" width="24.01" height="10.9013"/>
+			<rect x="0" y="45.1065" width="24.0049" height="10.9013" class="st1"/>
+			<text x="-0" y="53.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>月月</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(39.7243,-0.830855) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>星宿月</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.8998" cy="50.5571" width="33.8" height="10.9013"/>
+			<rect x="0" y="45.1065" width="33.7997" height="10.9013" class="st1"/>
+			<text x="-0" y="53.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>星宿月</text>		</g>
+		<g id="shape13-16" v:mID="13" v:groupContext="shape" transform="translate(87.9655,1.89484) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 49.71 C0 51.45 1.94 52.86 4.36 52.86 L21.85 52.86 C24.27 52.86 26.24 54.29 26.24 56.01 C26.24 54.29 28.18
+						 52.86 30.6 52.86 L48.1 52.86 C50.51 52.86 52.48 51.45 52.48 49.71 L0 49.71 Z" class="st3"/>
+			<path d="M0 49.71 C0 51.45 1.94 52.86 4.36 52.86 L21.85 52.86 C24.27 52.86 26.24 54.29 26.24 56.01 C26.24 54.29 28.18
+						 52.86 30.6 52.86 L48.1 52.86 C50.51 52.86 52.48 51.45 52.48 49.71" class="st4"/>
+		</g>
+	</g>
+</svg>

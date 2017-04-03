@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01307.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.0228in" height="1.22753in"
+		viewBox="0 0 289.642 88.3819" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(22.4243,-0.75)">
+			<title>工作表.1</title>
+			<desc>一、離我所故 二、因緣和合生故 三、無常、苦、無我故 四、始終不可得故 五、誑心故 六、賢聖一切法不著故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="51.029" cy="44.941" width="102.06" height="86.8819"/>
+			<rect x="0" y="1.5" width="102.058" height="86.8819" class="st1"/>
+			<text x="0" y="10.84" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>一、離我所故<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st3">二</tspan>、因緣和合生故<v:newlineChar/><tspan x="0" dy="1.446em" class="st3">三</tspan>、無常、苦、無我故<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st3">四</tspan>、始終不可得故<v:newlineChar/><tspan x="0" dy="1.446em" class="st3">五</tspan>、誑心故<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st3">六</tspan>、賢聖一切法不著故</text>		</g>
+		<g id="shape10-9" v:mID="10" v:groupContext="shape" transform="translate(0.75,-38.8405)">
+			<title>工作表.10</title>
+			<desc>空</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="81.6095" width="11.29" height="13.5449"/>
+			<rect x="0" y="74.837" width="11.2874" height="13.5449" class="st1"/>
+			<text x="0" y="84.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>空</text>		</g>
+		<g id="shape31-12" v:mID="31" v:groupContext="shape" transform="translate(160.96,-17.6161)">
+			<title>工作表.31</title>
+			<desc>七、無相無作解脫門故 八、實相無量無數故 九、斷一切語言道故 十、滅一切心行故 十一、三乘聖人入而不出故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="63.966" cy="53.374" width="127.94" height="70.0158"/>
+			<rect x="0" y="18.3661" width="127.932" height="70.0158" class="st1"/>
+			<text x="-0" y="27.71" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>七、無相無作解脫門故<v:newlineChar/><tspan
+						x="-0" dy="1.446em" class="st3">八</tspan>、實相無量無數故<v:newlineChar/><tspan x="-0" dy="1.446em" class="st3">九</tspan>、斷一切語言道故<v:newlineChar/><tspan
+						x="-0" dy="1.446em" class="st3">十</tspan>、滅一切心行故<v:newlineChar/><tspan x="-0" dy="1.446em" class="st3">十一</tspan>、三乘聖人入而不出故</text>		</g>
+		<g id="shape38-19" v:mID="38" v:groupContext="shape" transform="translate(100.523,6.27753) rotate(90)">
+			<title>工作表.38</title>
+			<path d="M0 79.63 C0 82.08 2.6 84.01 5.8 84.01 L30.11 84.01 C33.31 84.01 35.97 85.98 35.97 88.38 C35.97 85.98 38.57 84.01
+						 41.84 84.01 L64.15 84.01 C67.35 84.01 70.02 82.08 70.02 79.63 L0 79.63 Z" class="st4"/>
+			<path d="M0 79.63 C0 82.08 2.6 84.01 5.8 84.01 L30.11 84.01 C33.31 84.01 35.97 85.98 35.97 88.38 C35.97 85.98 38.57 84.01
+						 41.84 84.01 L64.15 84.01 C67.35 84.01 70.02 82.08 70.02 79.63" class="st5"/>
+		</g>
+	</g>
+</svg>

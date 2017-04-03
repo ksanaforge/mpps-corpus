@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00804.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.60332in" height="0.620016in"
+		viewBox="0 0 187.439 44.6411" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(51.3548,-33.0119) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>何者是般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.774" cy="39.2411" width="63.55" height="10.8"/>
+			<rect x="0" y="33.8411" width="63.5479" height="10.8" class="st1"/>
+			<text x="0" y="42.36" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>何者是般若</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.827913,-17.2044) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>三事徵詰</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.0802" cy="39.2411" width="44.17" height="10.8"/>
+			<rect x="0" y="33.8411" width="44.1604" height="10.8" class="st1"/>
+			<text x="0" y="42.36" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三事徵詰</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(51.2584,-16.9391) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>何故名般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.9666" cy="39.2411" width="57.94" height="10.8"/>
+			<rect x="0" y="33.8411" width="57.9332" height="10.8" class="st1"/>
+			<text x="0" y="42.36" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>何故名般若</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(111.512,-17.26) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>唐增般若何用</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.618" cy="39.2411" width="75.24" height="10.8"/>
+			<rect x="0" y="33.8411" width="75.2359" height="10.8" class="st1"/>
+			<text x="0" y="42.36" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>唐增：般若何用</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(51.2979,-0.898772) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>誰之般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.277" cy="39.2411" width="52.56" height="10.8"/>
+			<rect x="0" y="33.8411" width="52.554" height="10.8" class="st1"/>
+			<text x="0" y="42.36" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>誰之般若</text>		</g>
+		<g id="shape31-16" v:mID="31" v:groupContext="shape" transform="translate(88.0848,0.632133) rotate(90.1)">
+			<title>工作表.31</title>
+			<path d="M0 38.97 C0 40.54 1.6 41.81 3.61 41.81 L17.95 41.81 C19.91 41.81 21.51 43.07 21.51 44.64 C21.51 43.07 23.11
+						 41.81 25.12 41.81 L39.46 41.81 C41.42 41.81 43.02 40.54 43.02 38.97 L0 38.97 Z" class="st3"/>
+			<path d="M0 38.97 C0 40.54 1.6 41.81 3.61 41.81 L17.95 41.81 C19.91 41.81 21.51 43.07 21.51 44.64 C21.51 43.07 23.11
+						 41.81 25.12 41.81 L39.46 41.81 C41.42 41.81 43.02 40.54 43.02 38.97" class="st4"/>
+		</g>
+		<g id="shape32-19" v:mID="32" v:groupContext="shape" transform="translate(147.613,0.594787) rotate(90.1)">
+			<title>工作表.32</title>
+			<path d="M0 44.64 C0 43.09 1.6 41.81 3.57 41.81 L17.92 41.81 C19.93 41.81 21.53 40.56 21.53 38.97 C21.53 40.56 23.13
+						 41.81 25.1 41.81 L39.45 41.81 C41.46 41.81 43.06 43.09 43.06 44.64 L0 44.64 Z" class="st3"/>
+			<path d="M0 44.64 C0 43.09 1.6 41.81 3.57 41.81 L17.92 41.81 C19.93 41.81 21.53 40.56 21.53 38.97 C21.53 40.56 23.13
+						 41.81 25.1 41.81 L39.45 41.81 C41.46 41.81 43.06 43.09 43.06 44.64" class="st4"/>
+		</g>
+	</g>
+</svg>

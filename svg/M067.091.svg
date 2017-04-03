@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02502.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.44515in" height="0.377741in"
+		viewBox="0 0 104.051 27.1974" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(50.6672,-18.5695) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>佛眼所攝</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.3381" cy="24.7987" width="42.68" height="4.79741"/>
+			<rect x="0" y="22.4" width="42.6761" height="4.79741" class="st1"/>
+			<text x="-0" y="27.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛眼所攝</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.797468,-10.4557) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>二種天眼</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.7198" cy="24.7987" width="49.44" height="4.79741"/>
+			<rect x="0" y="22.4" width="49.4396" height="4.79741" class="st1"/>
+			<text x="0" y="27.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種天眼</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(50.6423,-3.91765) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>佛眼所不攝</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.3488" cy="24.7987" width="52.7" height="4.79741"/>
+			<rect x="0" y="22.4" width="52.6975" height="4.79741" class="st1"/>
+			<text x="0" y="27.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛眼所不攝</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(70.0435,0.99774) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 21.53 C0 23.1 0.95 24.36 2.11 24.36 L10.62 24.36 C11.78 24.36 12.76 25.65 12.76 27.2 C12.76 25.65 13.7 24.36
+						 14.87 24.36 L23.37 24.36 C24.54 24.36 25.51 23.1 25.51 21.53 L0 21.53 Z" class="st3"/>
+			<path d="M0 21.53 C0 23.1 0.95 24.36 2.11 24.36 L10.62 24.36 C11.78 24.36 12.76 25.65 12.76 27.2 C12.76 25.65 13.7 24.36
+						 14.87 24.36 L23.37 24.36 C24.54 24.36 25.51 23.1 25.51 21.53" class="st4"/>
+		</g>
+	</g>
+</svg>

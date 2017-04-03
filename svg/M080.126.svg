@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B03108.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.29063in" height="0.382361in"
+		viewBox="0 0 164.925 27.53" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(0.856954,-18.9605) rotate(0.1)">
+			<title>工作表.2</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="22.7324" width="108" height="4.79758" class="st1"/>
+		</g>
+		<g id="shape3-3" v:mID="3" v:groupContext="shape" transform="translate(70.3557,-18.902) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>十不善道助道戒</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.9297" cy="25.1312" width="93.86" height="4.79758"/>
+			<rect x="0" y="22.7324" width="93.8593" height="4.79758" class="st1"/>
+			<text x="-0" y="28.25" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>十不善道（助道戒）</text>		</g>
+		<g id="shape4-6" v:mID="4" v:groupContext="shape" transform="translate(0.826872,-11.2823) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>菩薩二種破戒</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.5" cy="25.1312" width="63.01" height="4.79758"/>
+			<rect x="0" y="22.7324" width="63" height="4.79758" class="st1"/>
+			<text x="0" y="28.25" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩二種破戒 </text>		</g>
+		<g id="shape5-9" v:mID="5" v:groupContext="shape" transform="translate(0.798049,-3.96804) rotate(0.1)">
+			<title>工作表.5</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="22.7324" width="108" height="4.79758" class="st1"/>
+		</g>
+		<g id="shape6-11" v:mID="6" v:groupContext="shape" transform="translate(70.2968,-3.90003) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>向二乘地</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.8615" cy="25.1312" width="45.73" height="4.79758"/>
+			<rect x="0" y="22.7324" width="45.7229" height="4.79758" class="st1"/>
+			<text x="0" y="28.25" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>向二乘地</text>		</g>
+		<g id="shape13-14" v:mID="13" v:groupContext="shape" transform="translate(90.449,1.03435) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 21.86 C0 23.45 0.96 24.7 2.13 24.7 L10.63 24.7 C11.82 24.7 12.76 25.98 12.76 27.53 C12.76 25.98 13.72 24.7
+						 14.88 24.7 L23.39 24.7 C24.58 24.7 25.51 23.45 25.51 21.86 L0 21.86 Z" class="st3"/>
+			<path d="M0 21.86 C0 23.45 0.96 24.7 2.13 24.7 L10.63 24.7 C11.82 24.7 12.76 25.98 12.76 27.53 C12.76 25.98 13.72 24.7
+						 14.88 24.7 L23.39 24.7 C24.58 24.7 25.51 23.45 25.51 21.86" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01402.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.87712in" height="0.367238in"
+		viewBox="0 0 135.152 26.4411" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(81.1721,-17.3719) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>世間正見</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.6162" cy="23.601" width="53.24" height="5.68025"/>
+			<rect x="0" y="20.7609" width="53.2324" height="5.68025" class="st1"/>
+			<text x="-0" y="26.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>世間正見</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.796148,-10.9843) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>佛道有二種正見</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.9873" cy="23.601" width="75.98" height="5.68025"/>
+			<rect x="0" y="20.7609" width="75.9746" height="5.68025" class="st1"/>
+			<text x="0" y="26.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛道有二種正見</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(81.1428,-0.916253) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>出世間正見</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.6435" cy="21.0411" width="53.29" height="10.8"/>
+			<rect x="0" y="15.6411" width="53.287" height="10.8" class="st1"/>
+			<text x="0" y="24.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>出世間正見</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(99.8017,0.999228) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 20.35 C0 22.04 0.87 23.4 1.96 23.4 L9.78 23.4 C10.85 23.4 11.72 24.76 11.72 26.44 C11.72 24.76 12.59 23.4
+						 13.68 23.4 L21.5 23.4 C22.57 23.4 23.44 22.04 23.44 20.35 L0 20.35 Z" class="st3"/>
+			<path d="M0 20.35 C0 22.04 0.87 23.4 1.96 23.4 L9.78 23.4 C10.85 23.4 11.72 24.76 11.72 26.44 C11.72 24.76 12.59 23.4
+						 13.68 23.4 L21.5 23.4 C22.57 23.4 23.44 22.04 23.44 20.35" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01503.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.15261in" height="0.379814in"
+		viewBox="0 0 154.988 27.3466" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(51.8475,-18.7822) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>約三乘共地即是佛地</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.0298" cy="25.0112" width="102.06" height="4.67086"/>
+			<rect x="0" y="22.6757" width="102.06" height="4.67086" class="st1"/>
+			<text x="0" y="28.13" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>約三乘共地，即是佛地</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.797729,-10.7859) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>十地二義</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.0733" cy="25.0112" width="54.15" height="4.67086"/>
+			<rect x="0" y="22.6757" width="54.1466" height="4.67086" class="st1"/>
+			<text x="0" y="28.13" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>十地二義</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(51.731,-4.0683) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>約菩薩十地當知如佛</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.2735" cy="25.0112" width="102.55" height="4.67086"/>
+			<rect x="0" y="22.6757" width="102.547" height="4.67086" class="st1"/>
+			<text x="0" y="28.13" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>約菩薩十地，當知如佛</text>		</g>
+		<g id="shape13-10" v:mID="13" v:groupContext="shape" transform="translate(70.7277,1.14719) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 21.68 C0 23.25 0.95 24.51 2.11 24.51 L10.62 24.51 C11.78 24.51 12.76 25.78 12.76 27.35 C12.76 25.78 13.7
+						 24.51 14.87 24.51 L23.37 24.51 C24.54 24.51 25.51 23.25 25.51 21.68 L0 21.68 Z" class="st3"/>
+			<path d="M0 21.68 C0 23.25 0.95 24.51 2.11 24.51 L10.62 24.51 C11.78 24.51 12.76 25.78 12.76 27.35 C12.76 25.78 13.7
+						 24.51 14.87 24.51 L23.37 24.51 C24.54 24.51 25.51 23.25 25.51 21.68" class="st4"/>
+		</g>
+	</g>
+</svg>

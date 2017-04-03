@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00905.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.50942in" height="0.38941in"
+		viewBox="0 0 180.678 28.0375" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(38.9553,-16.4083) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>住百歲千萬億歲等然後歸滅。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.5016" cy="22.6375" width="141.01" height="10.8"/>
+			<rect x="0" y="17.2375" width="141.003" height="10.8" class="st1"/>
+			<text x="-0" y="25.75" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>住百歲千萬億歲等，然後歸滅。</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.798935,-9.15622) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>二種常</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.0631" cy="22.6375" width="30.13" height="10.8"/>
+			<rect x="0" y="17.2375" width="30.1263" height="10.8" class="st1"/>
+			<text x="-0" y="25.75" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種常</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(38.897,-0.898798) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>常住不壞</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.7746" cy="22.6375" width="43.55" height="10.8"/>
+			<rect x="0" y="17.2375" width="43.5491" height="10.8" class="st1"/>
+			<text x="0" y="25.75" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>常住不壞</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(60.5638,0.792263) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 23.24 C0 24.55 0.95 25.64 2.11 25.64 L10.62 25.64 C11.78 25.64 12.76 26.71 12.76 28.04 C12.76 26.71 13.7
+						 25.64 14.87 25.64 L23.37 25.64 C24.54 25.64 25.51 24.55 25.51 23.24 L0 23.24 Z" class="st3"/>
+			<path d="M0 23.24 C0 24.55 0.95 25.64 2.11 25.64 L10.62 25.64 C11.78 25.64 12.76 26.71 12.76 28.04 C12.76 26.71 13.7
+						 25.64 14.87 25.64 L23.37 25.64 C24.54 25.64 25.51 24.55 25.51 23.24" class="st4"/>
+		</g>
+	</g>
+</svg>

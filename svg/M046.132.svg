@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M046.132=B01207.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.97808in" height="0.380752in"
+		viewBox="0 0 142.422 27.4141" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {baseline-shift:32.4947%;font-family:Times New Roman;font-size:0.649894em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group12-1" transform="translate(0.75,-0.826847)" v:mID="12" v:groupContext="group">
+			<title>工作表.12</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(39.7172,-14.6252) rotate(0.1)">
+				<title>工作表.2</title>
+				<desc>有佛無佛※或有或無</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="50.617" cy="22.0141" width="101.24" height="10.8"/>
+				<rect x="0" y="16.6141" width="101.234" height="10.8" class="st1"/>
+				<text x="0" y="25.13" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有佛無佛<tspan dy="-0.198em" class="st3"
+							v:baseFontSize="10">※</tspan><tspan dy="0.129em" class="st4">，</tspan>或有或無</text>			</g>
+			<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(0.0478467,-9.72052) rotate(0.1)">
+				<title>工作表.3</title>
+				<desc>二種戒</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="16.8369" cy="24.1709" width="33.68" height="6.48652"/>
+				<rect x="0" y="20.9276" width="33.6739" height="6.48652" class="st1"/>
+				<text x="0" y="27.29" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種戒</text>			</g>
+			<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(39.7013,-0.176672) rotate(0.1)">
+				<title>工作表.4</title>
+				<desc>有佛無佛常有十善</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="50.6247" cy="22.0141" width="101.25" height="10.8"/>
+				<rect x="0" y="16.6141" width="101.249" height="10.8" class="st1"/>
+				<text x="0" y="25.13" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有佛無佛常有（十善）</text>			</g>
+			<g id="shape11-13" v:mID="11" v:groupContext="shape" transform="translate(59.9451,3.02405) rotate(90.1)">
+				<title>工作表.11</title>
+				<path d="M0 21.84 C0 23.38 0.89 24.63 1.96 24.63 L9.8 24.63 C10.88 24.63 11.76 25.89 11.76 27.41 C11.76 25.89 12.65
+							 24.63 13.72 24.63 L21.57 24.63 C22.64 24.63 23.53 23.38 23.53 21.84 L0 21.84 Z" class="st5"/>
+				<path d="M0 21.84 C0 23.38 0.89 24.63 1.96 24.63 L9.8 24.63 C10.88 24.63 11.76 25.89 11.76 27.41 C11.76 25.89 12.65
+							 24.63 13.72 24.63 L21.57 24.63 C22.64 24.63 23.53 23.38 23.53 21.84" class="st6"/>
+			</g>
+		</g>
+	</g>
+</svg>

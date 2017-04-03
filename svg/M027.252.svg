@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01101.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.43619in" height="0.808235in"
+		viewBox="0 0 319.406 58.1929" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {font-size:1em}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(0.75,-22.6247)">
+			<title>工作表.3</title>
+			<desc>初發心</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="51.4205" width="33.87" height="13.5449"/>
+			<rect x="0" y="44.648" width="33.8622" height="13.5449" class="st1"/>
+			<text x="-0" y="54.53" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>初發心</text>		</g>
+		<g id="shape14-4" v:mID="14" v:groupContext="shape" transform="translate(90.3254,8.26597) rotate(90)">
+			<title>工作表.14</title>
+			<path d="M0 46.91 C0 50.04 1.61 52.55 3.54 52.55 L17.72 52.55 C19.65 52.55 21.26 55.12 21.26 58.19 C21.26 55.12 22.87
+						 52.55 24.8 52.55 L38.98 52.55 C40.91 52.55 42.52 50.04 42.52 46.91 L0 46.91 Z" class="st3"/>
+			<path d="M0 46.91 C0 50.04 1.61 52.55 3.54 52.55 L17.72 52.55 C19.65 52.55 21.26 55.12 21.26 58.19 C21.26 55.12 22.87
+						 52.55 24.8 52.55 L38.98 52.55 C40.91 52.55 42.52 50.04 42.52 46.91" class="st4"/>
+		</g>
+		<g id="shape15-7" v:mID="15" v:groupContext="shape" transform="translate(46.5295,-0.75)">
+			<title>工作表.15</title>
+			<desc>一、斷煩惱、知實相得不退 二、但行檀便具六度 三、行六度未不退生大悲心得不退 四、得悲心念空故悲弱。悲眾生觀空弱二事等得不退</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.063" cy="29.8465" width="272.13" height="56.6929"/>
+			<rect x="0" y="1.5" width="272.126" height="56.6929" class="st1"/>
+			<text x="0" y="11.27" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>一、斷煩惱、知實相，得不退<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st5">二</tspan>、但行檀，便具六度<v:newlineChar/><tspan x="0" dy="1.446em" class="st5">三</tspan>、行六度，未不退，生大悲心，得不退<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st5">四</tspan>、得悲心，念空，故悲弱。悲眾生，觀空弱．二事等得不退</text>		</g>
+	</g>
+</svg>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M038.175-2.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.26772in" height="11.6929in"
+		viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:標楷體;font-size:0.916672em}
+		.st3 {font-family:標楷體;font-size:1em}
+		.st4 {font-family:標楷體;font-size:1em}
+		.st5 {font-family:標楷體;font-size:1em}
+		.st6 {fill:#000000;font-family:標楷體;font-size:0.916672em}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group18-1" transform="translate(18,-753.024)" v:mID="18" v:groupContext="group">
+			<title>工作表.18</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(118.665,0)">
+				<title>工作表.2</title>
+				<desc>甲──發心入菩薩位………………………頂位 乙──發心成佛轉法輪……………………初地 丙──發心般若相應成熟眾生莊嚴佛土…地上</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="126.142" cy="806.457" width="252.29" height="70.8661"/>
+				<rect x="0" y="771.024" width="252.283" height="70.8661" class="st1"/>
+				<text x="4" y="788.19" class="st2" v:langID="1033"><v:paragraph v:spLine="-1.4" v:bulletSize="0.166667"/><v:tabList/>甲<tspan
+							class="st3">──</tspan>發心入菩薩位<tspan class="st3">………………………</tspan>（頂位）<v:newlineChar/><v:newlineChar/><tspan
+							x="4" dy="2.902em" class="st4">乙</tspan><tspan class="st3">──</tspan><tspan class="st4">發心成佛轉法輪</tspan><tspan
+							class="st5">……………………</tspan><tspan class="st4">（</tspan><tspan class="st4">初地</tspan><tspan class="st4">）<v:newlineChar/></tspan><tspan
+							x="4" dy="1.519em" class="st4">丙</tspan><tspan class="st3">──</tspan><tspan class="st4">發心般若相應成熟眾生莊嚴佛土</tspan><tspan
+							class="st5">…</tspan><tspan class="st4">（</tspan><tspan class="st4">地上</tspan><tspan class="st4">）</tspan></text>			</g>
+			<g id="shape5-21" v:mID="5" v:groupContext="shape" transform="translate(151.264,-29.7638)">
+				<title>工作表.5</title>
+				<desc>發心小住入菩薩位…………………頂位</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="111.26" cy="828.78" width="222.52" height="26.2204"/>
+				<rect x="0" y="815.669" width="222.52" height="26.2204" class="st1"/>
+				<text x="4" y="832.27" class="st6" v:langID="1033"><v:paragraph v:spLine="-1.4" v:bulletSize="0.166667"/><v:tabList/>發心小住入菩薩位<tspan
+							class="st5">…………………</tspan>（頂位）</text>			</g>
+			<g id="shape7-25" v:mID="7" v:groupContext="shape" transform="translate(-7.99361E-15,-21.9685)">
+				<title>工作表.7</title>
+				<desc>三、大福德利根心堅</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="55.9842" cy="828.78" width="111.97" height="26.2204"/>
+				<rect x="0" y="815.669" width="111.968" height="26.2204" class="st1"/>
+				<text x="4" y="832.78" class="st2" v:langID="1033"><v:paragraph v:spLine="-1.4" v:bulletSize="0.166667"/><v:tabList/>三、大福德利根心堅</text>			</g>
+			<g id="shape9-28" v:mID="9" v:groupContext="shape" transform="translate(113.158,-58.1102)">
+				<title>工作表.9</title>
+				<path d="M-0 841.89 L2.67 841.89 L9.76 841.89" class="st7"/>
+			</g>
+			<g id="shape10-31" v:mID="10" v:groupContext="shape" transform="translate(113.158,-10.7717)">
+				<title>工作表.10</title>
+				<path d="M-0 841.89 L2.67 841.89 L9.76 841.89" class="st7"/>
+			</g>
+			<g id="shape11-34" v:mID="11" v:groupContext="shape" transform="translate(103.237,-35.4331)">
+				<title>工作表.11</title>
+				<path d="M-0 841.89 L2.67 841.89 L9.76 841.89" class="st7"/>
+			</g>
+			<g id="shape12-37" v:mID="12" v:groupContext="shape" transform="translate(955.048,783.78) rotate(90)">
+				<title>工作表.12</title>
+				<path d="M0 841.89 L47.34 841.89" class="st7"/>
+			</g>
+			<g id="shape13-40" v:mID="13" v:groupContext="shape" transform="translate(144.177,-42.2362)">
+				<title>工作表.13</title>
+				<path d="M-0 841.89 L2.73 841.89 L9.98 841.89" class="st7"/>
+			</g>
+			<g id="shape14-43" v:mID="14" v:groupContext="shape" transform="translate(986.067,783.78) rotate(90)">
+				<title>工作表.14</title>
+				<path d="M0 841.89 L15.9 841.89" class="st7"/>
+			</g>
+		</g>
+	</g>
+</svg>

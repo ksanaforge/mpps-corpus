@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01302.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.38028in" height="0.373773in"
+		viewBox="0 0 171.38 26.9116" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(49.5539,-17.7589) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>如世間法地堅性等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.5309" cy="23.988" width="87.07" height="5.84717"/>
+			<rect x="0" y="21.0645" width="87.0618" height="5.84717" class="st1"/>
+			<text x="0" y="27.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如世間法地堅性等</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.79697,-10.7409) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>二種自性</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.0644" cy="23.988" width="46.13" height="5.84717"/>
+			<rect x="0" y="21.0645" width="46.1288" height="5.84717" class="st1"/>
+			<text x="0" y="27.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種自性</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(49.5254,-1.03843) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>聖人知如法性實際無為</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="60.5665" cy="21.5116" width="121.14" height="10.8"/>
+			<rect x="0" y="16.1116" width="121.133" height="10.8" class="st1"/>
+			<text x="-0" y="24.63" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>聖人知如法性實際（無為）</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(69.5625,1.89217) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 21.24 C0 22.81 0.84 24.08 1.9 24.08 L9.46 24.08 C10.5 24.08 11.34 25.34 11.34 26.91 C11.34 25.34 12.18 24.08
+						 13.24 24.08 L20.8 24.08 C21.83 24.08 22.68 22.81 22.68 21.24 L0 21.24 Z" class="st3"/>
+			<path d="M0 21.24 C0 22.81 0.84 24.08 1.9 24.08 L9.46 24.08 C10.5 24.08 11.34 25.34 11.34 26.91 C11.34 25.34 12.18 24.08
+						 13.24 24.08 L20.8 24.08 C21.83 24.08 22.68 22.81 22.68 21.24" class="st4"/>
+		</g>
+	</g>
+</svg>

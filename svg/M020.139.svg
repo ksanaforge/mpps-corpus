@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01806.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.71351in" height="0.388889in"
+		viewBox="0 0 195.373 28" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(51.3082,-1.24399)">
+			<title>工作表.1</title>
+			<desc>實無量——虛空、涅槃、眾生性 假名無量——山斤海滴</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="71.6572" cy="15.2441" width="143.32" height="25.5118"/>
+			<rect x="0" y="2.48819" width="143.314" height="25.5118" class="st1"/>
+			<text x="0" y="11.61" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>實無量<tspan class="st3">——</tspan>虛空、涅槃、眾生性<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st4">假名無量</tspan><tspan class="st3">——</tspan>山斤海滴</text>		</g>
+		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(0.75,-6.65718)">
+			<title>工作表.2</title>
+			<desc>二種無量</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="21.2276" width="45.15" height="13.5449"/>
+			<rect x="0" y="14.4551" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="24.86" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>二種無量</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(70.2776,6.91346) rotate(90)">
+			<title>工作表.11</title>
+			<path d="M0 20.22 C0 22.38 0.6 24.11 1.34 24.11 L6.63 24.11 C7.34 24.11 7.94 25.88 7.94 28 C7.94 25.88 8.54 24.11 9.28
+						 24.11 L14.57 24.11 C15.27 24.11 15.87 22.38 15.87 20.22 L0 20.22 Z" class="st5"/>
+			<path d="M0 20.22 C0 22.38 0.6 24.11 1.34 24.11 L6.63 24.11 C7.34 24.11 7.94 25.88 7.94 28 C7.94 25.88 8.54 24.11 9.28
+						 24.11 L14.57 24.11 C15.27 24.11 15.87 22.38 15.87 20.22" class="st6"/>
+		</g>
+	</g>
+</svg>

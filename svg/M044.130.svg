@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01003.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.07272in" height="0.388502in"
+		viewBox="0 0 365.236 27.9721" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(40.5215,-16.3429) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>凡夫肉眼憶想分別色</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.4861" cy="22.5721" width="92.98" height="10.8"/>
+			<rect x="0" y="17.1721" width="92.9722" height="10.8" class="st1"/>
+			<text x="-0" y="25.69" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>凡夫肉眼憶想分別色</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(144.629,-16.1623) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>凡夫所知名為色。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="41.5077" cy="22.5721" width="83.02" height="10.8"/>
+			<rect x="0" y="17.1721" width="83.0154" height="10.8" class="st1"/>
+			<text x="0" y="25.69" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>凡夫所知名為色。</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.798821,-8.60803) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>二種色</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.5925" cy="22.5721" width="33.19" height="10.8"/>
+			<rect x="0" y="17.1721" width="33.185" height="10.8" class="st1"/>
+			<text x="0" y="25.69" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種色</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(40.396,-1.38051) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>聖人心所知色實相如涅槃</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="57.1772" cy="22.5721" width="114.36" height="10.8"/>
+			<rect x="0" y="17.1721" width="114.354" height="10.8" class="st1"/>
+			<text x="0" y="25.69" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>聖人心所知色實相如涅槃</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(166.396,-1.1606) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>色入如中不生不滅─色不離如如不離色。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="99.0602" cy="22.5721" width="198.13" height="10.8"/>
+			<rect x="0" y="17.1721" width="198.12" height="10.8" class="st1"/>
+			<text x="-0" y="25.69" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>色入如中不生不滅<tspan class="st3">─</tspan>色不離如，如不離色。</text>		</g>
+		<g id="shape13-17" v:mID="13" v:groupContext="shape" transform="translate(60.8173,1.95192) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 21.83 C0 23.53 0.9 24.9 2 24.9 L10.05 24.9 C11.18 24.9 12.08 26.27 12.08 27.97 C12.08 26.27 12.98 24.9 14.08
+						 24.9 L22.13 24.9 C23.26 24.9 24.16 23.53 24.16 21.83 L0 21.83 Z" class="st4"/>
+			<path d="M0 21.83 C0 23.53 0.9 24.9 2 24.9 L10.05 24.9 C11.18 24.9 12.08 26.27 12.08 27.97 C12.08 26.27 12.98 24.9 14.08
+						 24.9 L22.13 24.9 C23.26 24.9 24.16 23.53 24.16 21.83" class="st5"/>
+		</g>
+		<g id="shape14-20" v:mID="14" v:groupContext="shape" transform="translate(143.667,34.472) rotate(180)">
+			<title>工作表.14</title>
+			<path d="M0 27.97 L11.63 27.97" class="st6"/>
+		</g>
+		<g id="shape15-23" v:mID="15" v:groupContext="shape" transform="translate(166.355,50.1229) rotate(180)">
+			<title>工作表.15</title>
+			<path d="M0 27.97 L14.28 27.97" class="st6"/>
+		</g>
+	</g>
+</svg>

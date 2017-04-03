@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02704.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.83783in" height="0.377664in"
+		viewBox="0 0 132.324 27.1918" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(70.7398,-17.4519) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>有已得神通。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4345" cy="23.6809" width="60.87" height="7.02187"/>
+			<rect x="0" y="20.1699" width="60.8691" height="7.02187" class="st1"/>
+			<text x="0" y="26.8" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有已得神通。</text>		</g>
+		<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(0.797459,-9.24288) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>阿鞞跋致有二</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.5" cy="23.6809" width="63.01" height="7.02187"/>
+			<rect x="0" y="20.1699" width="63" height="7.02187" class="st1"/>
+			<text x="-0" y="26.8" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>阿鞞跋致有二 </text>		</g>
+		<g id="shape5-7" v:mID="5" v:groupContext="shape" transform="translate(70.7143,-2.82301) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>有未得神通。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.4469" cy="23.6809" width="60.9" height="7.02187"/>
+			<rect x="0" y="20.1699" width="60.8938" height="7.02187" class="st1"/>
+			<text x="0" y="26.8" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有未得神通。</text>		</g>
+		<g id="shape12-10" v:mID="12" v:groupContext="shape" transform="translate(90.2021,1.90884) rotate(90.1)">
+			<title>工作表.12</title>
+			<path d="M0 21.7 C0 23.24 0.9 24.45 2.02 24.45 L10.44 24.45 C11.57 24.45 12.47 25.69 12.47 27.19 C12.47 25.69 13.37 24.45
+						 14.46 24.45 L22.11 24.45 C23.2 24.45 24.1 23.24 24.1 21.7 L0 21.7 Z" class="st3"/>
+			<path d="M0 21.7 C0 23.24 0.9 24.45 2.02 24.45 L10.44 24.45 C11.57 24.45 12.47 25.69 12.47 27.19 C12.47 25.69 13.37 24.45
+						 14.46 24.45 L22.11 24.45 C23.2 24.45 24.1 23.24 24.1 21.7" class="st4"/>
+		</g>
+	</g>
+</svg>

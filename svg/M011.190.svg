@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01405.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.56611in" height="0.40374in"
+		viewBox="0 0 184.76 29.0693" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(41.6468,-0.857461)">
+			<title>工作表.1</title>
+			<desc>慈心不惱眾生——是佛道因緣 觀知諸法真空——是涅槃道因緣</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="71.1815" cy="15.3921" width="142.37" height="27.3543"/>
+			<rect x="0" y="1.71494" width="142.363" height="27.3543" class="st1"/>
+			<text x="0" y="11.76" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>慈心不惱眾生<tspan class="st3">——</tspan>是佛道因緣<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st4">觀知諸法真空</tspan><tspan class="st3">——</tspan>是涅槃道因緣</text>		</g>
+		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(0.75,-7.12989)">
+			<title>工作表.2</title>
+			<desc>二種法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="22.2968" width="33.87" height="13.5449"/>
+			<rect x="0" y="15.5244" width="33.8622" height="13.5449" class="st1"/>
+			<text x="-0" y="25.41" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種法</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(61.4256,6.79334) rotate(90)">
+			<title>工作表.11</title>
+			<path d="M0 21.14 C0 23.32 0.61 25.1 1.36 25.1 L6.79 25.1 C7.54 25.1 8.15 26.89 8.15 29.07 C8.15 26.89 8.77 25.1 9.51
+						 25.1 L14.95 25.1 C15.69 25.1 16.31 23.32 16.31 21.14 L0 21.14 Z" class="st5"/>
+			<path d="M0 21.14 C0 23.32 0.61 25.1 1.36 25.1 L6.79 25.1 C7.54 25.1 8.15 26.89 8.15 29.07 C8.15 26.89 8.77 25.1 9.51
+						 25.1 L14.95 25.1 C15.69 25.1 16.31 23.32 16.31 21.14" class="st6"/>
+		</g>
+	</g>
+</svg>

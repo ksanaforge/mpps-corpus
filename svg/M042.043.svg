@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00408-4.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.64634in" height="0.424569in"
+		viewBox="0 0 118.536 30.5689" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group35-1" transform="translate(0.75,-0.61723)" v:mID="35" v:groupContext="group">
+			<title>工作表.35</title>
+			<g id="shape8-2" v:mID="8" v:groupContext="shape" transform="translate(40.9306,-18.4017) rotate(0.1)">
+				<title>工作表.8</title>
+				<desc>未來無為法</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.2389" cy="25.1689" width="70.48" height="10.8"/>
+				<rect x="0" y="19.7689" width="70.4778" height="10.8" class="st1"/>
+				<text x="-0" y="28.17" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>未來無為法</text>			</g>
+			<g id="shape12-5" v:mID="12" v:groupContext="shape" transform="translate(0.0533528,-9.19399) rotate(0.1)">
+				<title>工作表.12</title>
+				<desc>二不生</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="27.7343" cy="25.1689" width="55.47" height="10.8"/>
+				<rect x="0" y="19.7689" width="55.4687" height="10.8" class="st1"/>
+				<text x="0" y="28.17" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二不生</text>			</g>
+			<g id="shape19-8" v:mID="19" v:groupContext="shape" transform="translate(40.8937,-0.265677) rotate(0.1)">
+				<title>工作表.19</title>
+				<desc>諸法實無生相</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="38.0885" cy="25.1689" width="76.18" height="10.8"/>
+				<rect x="0" y="19.7689" width="76.177" height="10.8" class="st1"/>
+				<text x="-0" y="28.17" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>諸法實無生相</text>			</g>
+			<g id="shape31-11" v:mID="31" v:groupContext="shape" transform="translate(62.4617,2.2349) rotate(90.1)">
+				<title>工作表.31</title>
+				<path d="M0 23.82 C0 25.71 1.04 27.19 2.36 27.19 L11.82 27.19 C13.15 27.19 14.19 28.72 14.19 30.57 C14.19 28.72 15.23
+							 27.19 16.55 27.19 L26.01 27.19 C27.34 27.19 28.38 25.71 28.38 23.82 L0 23.82 Z" class="st3"/>
+				<path d="M0 23.82 C0 25.71 1.04 27.19 2.36 27.19 L11.82 27.19 C13.15 27.19 14.19 28.72 14.19 30.57 C14.19 28.72 15.23
+							 27.19 16.55 27.19 L26.01 27.19 C27.34 27.19 28.38 25.71 28.38 23.82" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -82,6 +82,10 @@ const epilog=function(output,juan){//fix long head
 	} else if (juan==90) {
 		output=output.replace(/<svg src="M090.p2643.svg">\n+<\/svg>/,
 			'<svg src="M090.p2643.svg">表格</svg>\n');
+	} else if (juan==37) {
+
+		output=output.replace(/菩薩不見有法出法性，乃至若法無有生滅相，云何有法當行般若波羅蜜<\/H2>\n<\/kai><b>」<\/b>/,
+			"菩薩不見有法出法性，乃至若法無有生滅相，云何有法當行般若波羅蜜</kai>」</H2>");
 	}
 	return output;
 }
@@ -125,6 +129,13 @@ const def_epilog=function(defs){
 	return defs;
 }
 var kepantreecount=0,kepancount=0;
+const getSVGfn=function(id,count){
+	const m=id.match(/(\d+)\.(\d+)/);
+	var group='00'+m[1],n='00'+m[2];
+	group=group.substring(group.length-3);
+	n=n.substring(n.length-3);
+	return 'M'+group+"."+n+((count>1)?"-"+count:"");
+}
 const xml2htll=function(def,id){
 	def=def.replace(/<link target="(.+?)"\/>/g,function(m,m1){
 		m1=m1.replace(/taisho@/,"t");
@@ -136,10 +147,11 @@ const xml2htll=function(def,id){
 	def=def.replace(/<\/kai>/g,"k}");
 	def=def.replace(/<b>/g,"{");
 	def=def.replace(/<\/b>/g,"}");
-
+	var count=0;
 	if (def.indexOf("svg")>-1){
 		def=def.replace(/<svg>([\S\s]+?)<\/svg>/g,function(m,m1){
-			return "{svg|"+m1+"|svg}";
+			const svgfn=getSVGfn(id,++count);
+			return "{svg|"+svgfn+","+m1+"|svg}";
 		});
 
 		def=def.replace(/<svg2>([\S\s]*?)<\/svg2>/g,function(m,m1){

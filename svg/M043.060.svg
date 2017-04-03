@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00902.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.34578in" height="0.390773in"
+		viewBox="0 0 96.896 28.1356" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(32.6403,-16.5064) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>無相破諸善法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.768" cy="22.7356" width="63.54" height="10.8"/>
+			<rect x="0" y="17.3356" width="63.536" height="10.8" class="st1"/>
+			<text x="-0" y="25.85" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無相破諸善法</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.799106,-9.07397) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>無相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.1968" cy="22.7356" width="24.4" height="10.8"/>
+			<rect x="0" y="17.3356" width="24.3937" height="10.8" class="st1"/>
+			<text x="0" y="25.85" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無相</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(32.5834,-0.916251) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>無相亦自破</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2544" cy="22.7356" width="56.51" height="10.8"/>
+			<rect x="0" y="17.3356" width="56.5088" height="10.8" class="st1"/>
+			<text x="0" y="25.85" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無相亦自破</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(51.8683,0.701081) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 21.64 C0 23.44 0.94 24.89 2.14 24.89 L10.72 24.89 C11.89 24.89 12.86 26.34 12.86 28.14 C12.86 26.34 13.8
+						 24.89 15 24.89 L23.58 24.89 C24.75 24.89 25.72 23.44 25.72 21.64 L0 21.64 Z" class="st3"/>
+			<path d="M0 21.64 C0 23.44 0.94 24.89 2.14 24.89 L10.72 24.89 C11.89 24.89 12.86 26.34 12.86 28.14 C12.86 26.34 13.8
+						 24.89 15 24.89 L23.58 24.89 C24.75 24.89 25.72 23.44 25.72 21.64" class="st4"/>
+		</g>
+	</g>
+</svg>

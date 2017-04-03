@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01908.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.02594in" height="0.591986in"
+		viewBox="0 0 217.868 42.623" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(93.8956,-30.9937) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>般若所護持故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="32.0825" cy="37.223" width="64.17" height="10.8"/>
+			<rect x="0" y="31.823" width="64.1649" height="10.8" class="st1"/>
+			<text x="0" y="40.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>般若所護持故</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.824391,-16.0761) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>說般若時不怯論難</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.2901" cy="37.223" width="88.59" height="10.8"/>
+			<rect x="0" y="31.823" width="88.5801" height="10.8" class="st1"/>
+			<text x="0" y="40.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>說般若時不怯論難</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(93.8675,-16.1428) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>般若中分別一切法故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.2666" cy="37.223" width="92.54" height="10.8"/>
+			<rect x="0" y="31.823" width="92.5333" height="10.8" class="st1"/>
+			<text x="0" y="40.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>般若中分別一切法故</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(93.778,-1.0384) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>住二十空不見難者受難者故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="61.6979" cy="37.223" width="123.4" height="10.8"/>
+			<rect x="0" y="31.823" width="123.396" height="10.8" class="st1"/>
+			<text x="0" y="40.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>住二十空不見難者受難者故</text>		</g>
+		<g id="shape20-13" v:mID="20" v:groupContext="shape" transform="translate(126.535,1.4427) rotate(90.1)">
+			<title>工作表.20</title>
+			<path d="M0 34.95 C0 37.07 1.47 38.79 3.29 38.79 L16.52 38.79 C18.33 38.79 19.84 40.53 19.84 42.62 C19.84 40.53 21.32
+						 38.79 23.13 38.79 L36.36 38.79 C38.17 38.79 39.68 37.07 39.68 34.95 L0 34.95 Z" class="st3"/>
+			<path d="M0 34.95 C0 37.07 1.47 38.79 3.29 38.79 L16.52 38.79 C18.33 38.79 19.84 40.53 19.84 42.62 C19.84 40.53 21.32
+						 38.79 23.13 38.79 L36.36 38.79 C38.17 38.79 39.68 37.07 39.68 34.95" class="st4"/>
+		</g>
+	</g>
+</svg>

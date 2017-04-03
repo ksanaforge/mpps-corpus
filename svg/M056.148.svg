@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01902.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.30765in" height="0.593777in"
+		viewBox="0 0 166.15 42.7519" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:#000000;font-family:微軟正黑體;font-size:0.833336em}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(102.144,-31.3802) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>用薩婆若心行</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.6565" cy="37.6094" width="63.32" height="10.2851"/>
+			<rect x="0" y="32.4668" width="63.313" height="10.2851" class="st1"/>
+			<text x="-0" y="40.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>用薩婆若心行</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.824616,-16.4308) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>發意菩薩三事勝二乘</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="47.092" cy="37.6094" width="94.19" height="10.2851"/>
+			<rect x="0" y="32.4668" width="94.184" height="10.2851" class="st1"/>
+			<text x="0" y="40.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>發意菩薩三事勝二乘</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(102.116,-16.2771) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>常不離六度</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.71" cy="37.6094" width="53.42" height="10.2851"/>
+			<rect x="0" y="32.4668" width="53.42" height="10.2851" class="st1"/>
+			<text x="-0" y="40.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>常不離六度</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(136.525,1.80602) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 37.08 C0 38.65 1.49 39.92 3.27 39.92 L16.28 39.92 C18.07 39.92 19.52 41.2 19.52 42.75 C19.52 41.2 21.01 39.92
+						 22.79 39.92 L35.8 39.92 C37.59 39.92 39.04 38.65 39.04 37.08 L0 37.08 Z" class="st3"/>
+			<path d="M0 37.08 C0 38.65 1.49 39.92 3.27 39.92 L16.28 39.92 C18.07 39.92 19.52 41.2 19.52 42.75 C19.52 41.2 21.01 39.92
+						 22.79 39.92 L35.8 39.92 C37.59 39.92 39.04 38.65 39.04 37.08" class="st4"/>
+		</g>
+		<g id="shape12-13" v:mID="12" v:groupContext="shape" transform="translate(102.116,-1.19123) rotate(0.1)">
+			<title>工作表.12</title>
+			<desc>斷三惡出三乘</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.6704" cy="37.6094" width="63.35" height="10.2851"/>
+			<rect x="0" y="32.4668" width="63.3409" height="10.2851" class="st1"/>
+			<text x="0" y="40.99" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>斷三惡出三乘</text>		</g>
+	</g>
+</svg>

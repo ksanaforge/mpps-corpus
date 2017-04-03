@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02006.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.52674in" height="0.636154in"
+		viewBox="0 0 181.925 45.8031" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(65.6398,-0.75)">
+			<title>工作表.1</title>
+			<desc>不得 多少得但生福不堪受道 有能得者正義</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="57.7677" cy="23.6515" width="115.54" height="44.3031"/>
+			<rect x="0" y="1.5" width="115.535" height="44.3031" class="st1"/>
+			<text x="0" y="12.75" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>不得<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">多少得</tspan>，但生福不堪受道<v:newlineChar/><tspan x="0" dy="1.453em" class="st3">有能得者</tspan>（正義）</text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" transform="translate(0.75,-16.5241)">
+			<title>工作表.2</title>
+			<desc>三惡趣受法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.6854" cy="39.0306" width="57.38" height="13.5449"/>
+			<rect x="0" y="32.2582" width="57.3709" height="13.5449" class="st1"/>
+			<text x="-0" y="42.66" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>三惡趣受法</text>		</g>
+		<g id="shape13-9" v:mID="13" v:groupContext="shape" transform="translate(98.2803,8.26182) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 34.52 C0 37.62 0 40.12 0 40.12 L14.85 40.12 C14.85 40.12 14.85 42.7 14.85 45.8 C14.85 42.7 14.85 40.12 14.85
+						 40.12 L29.76 40.12 C29.76 40.12 29.76 37.62 29.76 34.52 L0 34.52 Z" class="st4"/>
+			<path d="M0 34.52 C0 37.62 0 40.12 0 40.12 L14.85 40.12 C14.85 40.12 14.85 42.7 14.85 45.8 C14.85 42.7 14.85 40.12 14.85
+						 40.12 L29.76 40.12 C29.76 40.12 29.76 37.62 29.76 34.52" class="st5"/>
+		</g>
+	</g>
+</svg>

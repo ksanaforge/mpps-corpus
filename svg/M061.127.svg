@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02102.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.87333in" height="0.373127in"
+		viewBox="0 0 134.879 26.8652" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(71.31,-18.295) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>有新發意能入</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.4291" cy="24.5241" width="62.86" height="4.68209"/>
+			<rect x="0" y="22.1831" width="62.8582" height="4.68209" class="st1"/>
+			<text x="0" y="27.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有新發意能入</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.796889,-11.0941) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>入菩薩位二種</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.429" cy="24.5241" width="66.86" height="4.68209"/>
+			<rect x="0" y="22.1831" width="66.8579" height="4.68209" class="st1"/>
+			<text x="0" y="27.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>入菩薩位二種</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(71.2843,-3.97529) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>有久行得入</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.2072" cy="24.5241" width="54.42" height="4.68209"/>
+			<rect x="0" y="22.1831" width="54.4143" height="4.68209" class="st1"/>
+			<text x="0" y="27.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有久行得入</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(89.7421,1.64446) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 21.2 C0 22.76 0.89 24.03 2.02 24.03 L10.05 24.03 C11.15 24.03 12.05 25.3 12.05 26.87 C12.05 25.3 12.94 24.03
+						 14.07 24.03 L22.1 24.03 C23.2 24.03 24.09 22.76 24.09 21.2 L0 21.2 Z" class="st3"/>
+			<path d="M0 21.2 C0 22.76 0.89 24.03 2.02 24.03 L10.05 24.03 C11.15 24.03 12.05 25.3 12.05 26.87 C12.05 25.3 12.94 24.03
+						 14.07 24.03 L22.1 24.03 C23.2 24.03 24.09 22.76 24.09 21.2" class="st4"/>
+		</g>
+	</g>
+</svg>

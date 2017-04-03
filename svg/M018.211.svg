@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01604.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.45714in" height="1.21121in"
+		viewBox="0 0 176.914 87.2073" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape27-1" v:mID="27" v:groupContext="shape" transform="translate(99.9744,-1.42666)">
+			<title>工作表.27</title>
+			<desc>一、無大誓願 二、無大慈悲 三、不求諸功德 四、不供一切佛 五、不審求實相 但求離苦解脫</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="38.095" cy="45.0301" width="76.2" height="84.3543"/>
+			<rect x="0" y="2.85296" width="76.19" height="84.3543" class="st1"/>
+			<text x="0" y="12.33" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、無大誓願<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">二</tspan>、無大慈悲<v:newlineChar/><tspan x="0" dy="1.453em" class="st3">三</tspan>、不求諸功德<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">四</tspan>、不供一切佛<v:newlineChar/><tspan x="0" dy="1.453em" class="st3">五</tspan>、不審求實相<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">但求離苦解脫</tspan></text>		</g>
+		<g id="shape30-9" v:mID="30" v:groupContext="shape" transform="translate(0.75,-43.482)">
+			<title>工作表.30</title>
+			<desc>小乘不別實相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="80.4348" width="67.73" height="13.5449"/>
+			<rect x="0" y="73.6624" width="67.7245" height="13.5449" class="st1"/>
+			<text x="0" y="83.55" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>小乘不別實相</text>		</g>
+		<g id="shape47-12" v:mID="47" v:groupContext="shape" transform="translate(172.605,8.17037) rotate(90)">
+			<title>工作表.47</title>
+			<path d="M0 75.92 C0 79.06 2.15 81.56 4.84 81.56 L24.21 81.56 C26.9 81.56 29.06 84.13 29.06 87.21 C29.06 84.13 31.21
+						 81.56 33.9 81.56 L53.27 81.56 C55.96 81.56 58.11 79.06 58.11 75.92 L0 75.92 Z" class="st4"/>
+			<path d="M0 75.92 C0 79.06 2.15 81.56 4.84 81.56 L24.21 81.56 C26.9 81.56 29.06 84.13 29.06 87.21 C29.06 84.13 31.21
+						 81.56 33.9 81.56 L53.27 81.56 C55.96 81.56 58.11 79.06 58.11 75.92" class="st5"/>
+		</g>
+		<g id="shape48-15" v:mID="48" v:groupContext="shape" transform="translate(97.0408,167.661) rotate(180)">
+			<title>工作表.48</title>
+			<path d="M0 87.21 L22.78 87.21" class="st5"/>
+		</g>
+		<g id="shape49-18" v:mID="49" v:groupContext="shape" transform="translate(85.3054,124.473) rotate(180)">
+			<title>工作表.49</title>
+			<path d="M0 87.21 L22.46 87.21" class="st5"/>
+		</g>
+		<g id="shape50-21" v:mID="50" v:groupContext="shape" transform="translate(-12.8437,80.3357) rotate(-90)">
+			<title>工作表.50</title>
+			<path d="M0 87.21 L43.07 87.21" class="st5"/>
+		</g>
+	</g>
+</svg>

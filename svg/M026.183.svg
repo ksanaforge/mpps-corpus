@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A00905.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.60379in" height="0.426528in"
+		viewBox="0 0 403.473 30.71" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(60.7728,-16.1314)">
+			<title>工作表.1</title>
+			<desc>不著我者說有我</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.6155" cy="23.9376" width="71.24" height="13.5449"/>
+			<rect x="0" y="17.1651" width="71.2311" height="13.5449" class="st1"/>
+			<text x="-0" y="27.05" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不著我者說有我</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(188.262,-16.4151)">
+			<title>工作表.3</title>
+			<desc>著我相者說但有五眾無我寂滅涅槃是有。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="107.23" cy="23.9376" width="214.47" height="13.5449"/>
+			<rect x="0" y="17.1651" width="214.461" height="13.5449" class="st1"/>
+			<text x="-0" y="27.05" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>著我相者說但有五眾無我，寂滅涅槃是有。</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.75,-8.49624)">
+			<title>工作表.4</title>
+			<desc>有我與有法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="23.9376" width="56.44" height="13.5449"/>
+			<rect x="0" y="17.1651" width="56.4371" height="13.5449" class="st1"/>
+			<text x="0" y="27.05" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有我與有法</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(61.8219,-0.75)">
+			<title>工作表.5</title>
+			<desc>為無後世之斷見說有我</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.3902" cy="23.9376" width="102.79" height="13.5449"/>
+			<rect x="0" y="17.1651" width="102.78" height="13.5449" class="st1"/>
+			<text x="0" y="27.05" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>為無後世之斷見說有我</text>		</g>
+		<g id="shape7-13" v:mID="7" v:groupContext="shape" transform="translate(188.697,-0.75)">
+			<title>工作表.7</title>
+			<desc>為一切皆空之邪見說有有為無為法。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="95.943" cy="23.9376" width="191.89" height="13.5449"/>
+			<rect x="0" y="17.1651" width="191.886" height="13.5449" class="st1"/>
+			<text x="0" y="27.05" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>為一切皆空之邪見，說有有為無為法。</text>		</g>
+		<g id="shape14-16" v:mID="14" v:groupContext="shape" transform="translate(83.3438,7.06679) rotate(90)">
+			<title>工作表.14</title>
+			<path d="M0 23.58 C0 25.53 0.61 27.14 1.4 27.14 L6.96 27.14 C7.71 27.14 8.36 28.76 8.36 30.71 C8.36 28.76 8.98 27.14
+						 9.76 27.14 L15.32 27.14 C16.07 27.14 16.72 25.53 16.72 23.58 L0 23.58 Z" class="st3"/>
+			<path d="M0 23.58 C0 25.53 0.61 27.14 1.4 27.14 L6.96 27.14 C7.71 27.14 8.36 28.76 8.36 30.71 C8.36 28.76 8.98 27.14
+						 9.76 27.14 L15.32 27.14 C16.07 27.14 16.72 25.53 16.72 23.58" class="st4"/>
+		</g>
+		<g id="shape15-19" v:mID="15" v:groupContext="shape" transform="translate(132.004,-23.591)">
+			<title>工作表.15</title>
+			<path d="M0 30.71 L53.01 30.71" class="st5"/>
+		</g>
+		<g id="shape16-22" v:mID="16" v:groupContext="shape" transform="translate(164.602,-7.6275)">
+			<title>工作表.16</title>
+			<path d="M0 30.71 L21.26 30.71" class="st5"/>
+		</g>
+	</g>
+</svg>

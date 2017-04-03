@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00409.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.98675in" height="0.632724in"
+		viewBox="0 0 143.046 45.5561" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st4 {fill:none}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(33.4844,-33.9269) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>智緣滅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="26.5343" cy="40.1561" width="53.07" height="10.8"/>
+			<rect x="0" y="34.7561" width="53.0685" height="10.8" class="st1"/>
+			<text x="8.5" y="43.27" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>智緣滅</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.82951,-17.4743) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>三種滅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.7461" cy="40.1561" width="39.5" height="10.8"/>
+			<rect x="0" y="34.7561" width="39.4922" height="10.8" class="st1"/>
+			<text x="0" y="43.27" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三種滅</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(33.4549,-17.4115) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>非智緣滅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="27.8304" cy="40.1561" width="55.67" height="10.8"/>
+			<rect x="0" y="34.7561" width="55.6607" height="10.8" class="st1"/>
+			<text x="8.5" y="43.27" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>非智緣滅</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(33.4261,-0.896153) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>無常滅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="33.6501" cy="40.1561" width="67.31" height="10.8"/>
+			<rect x="0" y="34.7561" width="67.3003" height="10.8" class="st1"/>
+			<text x="8.5" y="43.27" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無常滅</text>		</g>
+		<g id="shape12-13" v:mID="12" v:groupContext="shape" transform="translate(102.798,-28.5998) rotate(33.7901)">
+			<title>工作表.12</title>
+			<path d="M0 45.56 L24.34 45.56" class="st3"/>
+		</g>
+		<g id="shape13-16" v:mID="13" v:groupContext="shape" transform="translate(84.268,-22.7832) rotate(0.1)">
+			<title>工作表.13</title>
+			<path d="M0 45.56 L13.5 45.56" class="st3"/>
+		</g>
+		<g id="shape14-19" v:mID="14" v:groupContext="shape" transform="translate(49.7751,1.8549) rotate(-36.9922)">
+			<title>工作表.14</title>
+			<path d="M0 45.56 L25.67 45.56" class="st3"/>
+		</g>
+		<g id="shape15-22" v:mID="15" v:groupContext="shape" transform="translate(78.4155,1.58639) rotate(90.1)">
+			<title>工作表.15</title>
+			<path d="M0 38.81 C0 40.65 1.59 42.18 3.57 42.18 L17.74 42.18 C19.67 42.18 21.26 43.67 21.26 45.56 C21.26 43.67 22.85
+						 42.18 24.83 42.18 L39 42.18 C40.93 42.18 42.52 40.65 42.52 38.81 L0 38.81 Z" class="st4"/>
+			<path d="M0 38.81 C0 40.65 1.59 42.18 3.57 42.18 L17.74 42.18 C19.67 42.18 21.26 43.67 21.26 45.56 C21.26 43.67 22.85
+						 42.18 24.83 42.18 L39 42.18 C40.93 42.18 42.52 40.65 42.52 38.81" class="st3"/>
+		</g>
+		<g id="shape17-25" v:mID="17" v:groupContext="shape" transform="translate(99.8487,-17.528) rotate(0.1)">
+			<title>工作表.17</title>
+			<desc>三種不滅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="21.254" cy="40.1561" width="42.51" height="10.8"/>
+			<rect x="0" y="34.7561" width="42.508" height="10.8" class="st1"/>
+			<text x="0" y="43.27" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三種不滅</text>		</g>
+	</g>
+</svg>

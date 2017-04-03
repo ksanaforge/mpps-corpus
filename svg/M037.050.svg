@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M037.050=F03104XXXX.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.19402in" height="0.685112in"
+		viewBox="0 0 229.969 49.3281" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group12-1" transform="translate(0.75,-0.75)" v:mID="12" v:groupContext="group">
+			<title>工作表.12</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(53.5916,-33.8617) rotate(-0.2)">
+				<title>工作表.1</title>
+				<desc>不著行人法不可得故</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="60.3403" cy="42.5556" width="120.69" height="13.5449"/>
+				<rect x="0" y="35.7832" width="120.681" height="13.5449" class="st1"/>
+				<text x="0" y="45.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不著行－－－人法不可得故</text>			</g>
+			<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(53.6507,-16.9307) rotate(-0.2)">
+				<title>工作表.2</title>
+				<desc>不著不行凡不能觀實相云何言不行</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="87.3236" cy="42.5556" width="174.65" height="13.5449"/>
+				<rect x="0" y="35.7832" width="174.647" height="13.5449" class="st1"/>
+				<text x="0" y="45.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不著不行－－凡不能觀實相云何言不行</text>			</g>
+			<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(53.7098,0.000300524) rotate(-0.2)">
+				<title>工作表.3</title>
+				<desc>不著行不行二俱過故</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="53.1968" cy="42.5556" width="106.4" height="13.5449"/>
+				<rect x="0" y="35.7832" width="106.394" height="13.5449" class="st1"/>
+				<text x="-0" y="45.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不著行不行－二俱過故</text>			</g>
+			<g id="shape10-11" v:mID="10" v:groupContext="shape" transform="translate(91.6315,4.76227) rotate(89.8)">
+				<title>工作表.10</title>
+				<path d="M0 40.86 C0 43.21 1.57 45.1 3.54 45.1 L17.72 45.1 C19.68 45.1 21.26 46.98 21.26 49.33 C21.26 46.98 22.83
+							 45.1 24.8 45.1 L38.98 45.1 C40.94 45.1 42.52 43.21 42.52 40.86 L0 40.86 Z" class="st3"/>
+				<path d="M0 40.86 C0 43.21 1.57 45.1 3.54 45.1 L17.72 45.1 C19.68 45.1 21.26 46.98 21.26 49.33 C21.26 46.98 22.83
+							 45.1 24.8 45.1 L38.98 45.1 C40.94 45.1 42.52 43.21 42.52 40.86" class="st4"/>
+			</g>
+			<g id="shape11-14" v:mID="11" v:groupContext="shape" transform="translate(-0.124907,-16.7531) rotate(-0.2)">
+				<title>工作表.11</title>
+				<desc>行般若時</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="21.245" cy="42.5556" width="42.49" height="13.5449"/>
+				<rect x="0" y="35.7832" width="42.49" height="13.5449" class="st1"/>
+				<text x="0" y="45.67" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>行般若時</text>			</g>
+		</g>
+	</g>
+</svg>

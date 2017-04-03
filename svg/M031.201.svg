@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F2301.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.58719in" height="0.685281in"
+		viewBox="0 0 258.278 49.3402" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(133.195,-34.6117) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>諸法各各捨自相而轉異故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.0808" cy="42.5678" width="124.17" height="13.5449"/>
+			<rect x="0" y="35.7953" width="124.162" height="13.5449" class="st1"/>
+			<text x="0" y="45.68" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>諸法各各捨自相而轉異故</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.625051,-17.1291) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>一切法不可得相不定故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.0808" cy="42.5678" width="124.17" height="13.5449"/>
+			<rect x="0" y="35.7953" width="124.162" height="13.5449" class="st1"/>
+			<text x="0" y="45.68" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一切法不可得，相不定故</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(133.254,-17.6807) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>三世相雜相不住故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50.7933" cy="42.5678" width="101.59" height="13.5449"/>
+			<rect x="0" y="35.7953" width="101.587" height="13.5449" class="st1"/>
+			<text x="0" y="45.68" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三世相雜，相不住故</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(133.313,-0.749699) rotate(-0.2)">
+			<title>工作表.5</title>
+			<desc>有為亦有無有為相故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.4371" cy="42.5678" width="112.88" height="13.5449"/>
+			<rect x="0" y="35.7953" width="112.874" height="13.5449" class="st1"/>
+			<text x="0" y="45.68" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有為亦有無有為相故。</text>		</g>
+		<g id="shape14-13" v:mID="14" v:groupContext="shape" transform="translate(166.503,4.15002) rotate(89.8)">
+			<title>工作表.14</title>
+			<path d="M0 38.05 C0 41.25 1.6 43.7 3.48 43.7 L17.59 43.7 C19.56 43.7 21.16 46.24 21.16 49.34 C21.16 46.24 22.76 43.7
+						 24.64 43.7 L38.75 43.7 C40.73 43.7 42.33 41.25 42.33 38.05 L0 38.05 Z" class="st3"/>
+			<path d="M0 38.05 C0 41.25 1.6 43.7 3.48 43.7 L17.59 43.7 C19.56 43.7 21.16 46.24 21.16 49.34 C21.16 46.24 22.76 43.7
+						 24.64 43.7 L38.75 43.7 C40.73 43.7 42.33 41.25 42.33 38.05" class="st4"/>
+		</g>
+	</g>
+</svg>

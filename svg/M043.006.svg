@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00805.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.8555in" height="0.811785in"
+		viewBox="0 0 133.596 58.4485" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(51.9465,-46.8193) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>身清淨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.2258" cy="53.0485" width="40.46" height="10.8"/>
+			<rect x="0" y="47.6485" width="40.4516" height="10.8" class="st1"/>
+			<text x="-0" y="56.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>身清淨</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(51.917,-31.3051) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>語清淨秦缺此</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.5062" cy="53.0485" width="81.02" height="10.8"/>
+			<rect x="0" y="47.6485" width="81.0124" height="10.8" class="st1"/>
+			<text x="0" y="56.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>語清淨（秦缺此）</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.852012,-23.5336) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>四種清淨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.8912" cy="53.0485" width="41.79" height="10.8"/>
+			<rect x="0" y="47.6485" width="41.7824" height="10.8" class="st1"/>
+			<text x="-0" y="56.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>四種清淨</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(51.2916,-15.8869) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>意清淨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.8597" cy="53.0485" width="35.72" height="10.8"/>
+			<rect x="0" y="47.6485" width="35.7193" height="10.8" class="st1"/>
+			<text x="-0" y="56.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>意清淨</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(51.8224,-0.881298) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>相清淨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.2897" cy="53.0485" width="38.58" height="10.8"/>
+			<rect x="0" y="47.6485" width="38.5793" height="10.8" class="st1"/>
+			<text x="0" y="56.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>相清淨</text>		</g>
+		<g id="shape13-16" v:mID="13" v:groupContext="shape" transform="translate(102.047,1.2954) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 51.81 C0 53.64 2.1 55.13 4.71 55.13 L23.61 55.13 C26.22 55.13 28.35 56.61 28.35 58.45 C28.35 56.61 30.44
+						 55.13 33.05 55.13 L51.95 55.13 C54.56 55.13 56.69 53.64 56.69 51.81 L0 51.81 Z" class="st3"/>
+			<path d="M0 51.81 C0 53.64 2.1 55.13 4.71 55.13 L23.61 55.13 C26.22 55.13 28.35 56.61 28.35 58.45 C28.35 56.61 30.44
+						 55.13 33.05 55.13 L51.95 55.13 C54.56 55.13 56.69 53.64 56.69 51.81" class="st4"/>
+		</g>
+	</g>
+</svg>

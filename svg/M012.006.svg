@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02407.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.40075in" height="0.605606in"
+		viewBox="0 0 388.854 43.6036" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(71.2059,-1.34342)">
+			<title>工作表.1</title>
+			<desc>此岸一、慳貪二、有無見三、小乘世間　　　施有三礙 中流一、檀二、布施三、愛八正為栰　　煩惱六事能度 彼岸一、佛道二、破有無...</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="158.449" cy="23.1452" width="316.9" height="40.9169"/>
+			<rect x="0" y="2.68677" width="316.898" height="40.9169" class="st1"/>
+			<text x="0" y="12.24" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>此岸：一、慳貪，二、有無見，三、小乘世間　　　施有三礙<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">中流</tspan>：一、檀，二、布施，三、愛（八正為栰）　　煩惱（六事能度）<v:newlineChar/><tspan x="0"
+						dy="1.453em" class="st3">彼岸</tspan>：一、佛道，二、破有無見智，三、涅槃　　　施無三礙</text>		</g>
+		<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(0.75,-15.5707)">
+			<title>工作表.3</title>
+			<desc>兩岸中流四說</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.3937" cy="36.8312" width="62.79" height="13.5449"/>
+			<rect x="0" y="30.0587" width="62.7874" height="13.5449" class="st1"/>
+			<text x="-0" y="40.46" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>兩岸中流四說  </text>		</g>
+		<g id="shape26-9" v:mID="26" v:groupContext="shape" transform="translate(273.301,-34.7489)">
+			<title>工作表.26</title>
+			<path d="M0 43.6 L25.4 43.6" class="st4"/>
+		</g>
+		<g id="shape32-12" v:mID="32" v:groupContext="shape" transform="translate(282.008,-20.5757)">
+			<title>工作表.32</title>
+			<path d="M0 43.6 L16.69 43.6" class="st4"/>
+		</g>
+		<g id="shape33-15" v:mID="33" v:groupContext="shape" transform="translate(273.301,-6.40248)">
+			<title>工作表.33</title>
+			<path d="M0 43.6 L25.4 43.6" class="st4"/>
+		</g>
+		<g id="shape34-18" v:mID="34" v:groupContext="shape" transform="translate(106.28,7.9599) rotate(90)">
+			<title>工作表.34</title>
+			<path d="M0 37.07 C0 38.87 0 40.36 0 40.36 L14.62 40.36 C14.62 40.36 14.62 41.8 14.62 43.6 C14.62 41.8 14.62 40.36 14.62
+						 40.36 L29.24 40.36 C29.24 40.36 29.24 38.87 29.24 37.07 L0 37.07 Z" class="st5"/>
+			<path d="M0 37.07 C0 38.87 0 40.36 0 40.36 L14.62 40.36 C14.62 40.36 14.62 41.8 14.62 43.6 C14.62 41.8 14.62 40.36 14.62
+						 40.36 L29.24 40.36 C29.24 40.36 29.24 38.87 29.24 37.07" class="st4"/>
+		</g>
+	</g>
+</svg>

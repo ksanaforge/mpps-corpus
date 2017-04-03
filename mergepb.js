@@ -42,7 +42,11 @@ const insertP=function(content_para,content_lb,fn){
 		var c=0;
 		var l1=lbline.trim();
 		var l2=line.substr(0,lbline.length).trim();
-
+/*
+		if (l1=='<ndef n="124"/><svg>			┌	一法是地，餘三應非') {
+			debugger
+		}
+*/
 		while (l1==l2) {
 			out.push((c==0?"<p/>":"")+lbline);
 			line=line.substr(lbline.length);
@@ -115,12 +119,20 @@ const processFile=function(fn){
 
 	if (parseInt(fn,10)==18) { //hot fix for missing 18.124
 
-		content_para=content_para.replace('<svg>			┌	一法是地，餘三應非',
-			'@124 <svg>			┌	一法是地，餘三應非');
-		content_lb=content_lb.replace('<svg>			┌	一法是地，餘三應非',
-			'@  <svg>			┌	一法是地，餘三應非');
-		const i=content_para.indexOf("@124");
-		const i2=content_lb.indexOf("┌	一法是地，餘三應非");
+		content_para=content_para.replace('@ <svg>			┌	一法是地，餘三應非'
+			,'@124 <svg>			┌	一法是地，餘三應非');
+
+		content_lb=content_lb.replace('@ <svg>			┌	一法是地，餘三應非'
+			,'@  <svg>			┌	一法是地，餘三應非');
+
+		//content_para=content_para.replace('<svg>			┌	一法是地，餘三應非',
+		//	'@124 <svg>			┌	一法是地，餘三應非');
+		//content_lb=content_lb.replace('<svg>			┌	一法是地，餘三應非',
+		//	'@ <svg>			┌	一法是地，餘三應非');
+
+
+		//const i=content_para.indexOf("@124");
+		//const i2=content_lb.indexOf("┌	一法是地，餘三應非");
 	}
 
 	if (parseInt(fn,10)==11) {

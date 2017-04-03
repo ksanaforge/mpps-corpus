@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01301.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.21729in" height="0.38107in"
+		viewBox="0 0 231.645 27.437" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(50.1628,-0.75)">
+			<title>工作表.1</title>
+			<desc>多習愛——著常——為說無作門——無常 多習見——著實——為說空門———空</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.3661" cy="14.4685" width="180.74" height="25.937"/>
+			<rect x="0" y="1.5" width="180.732" height="25.937" class="st1"/>
+			<text x="0" y="10.35" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>多習愛<tspan class="st3">——</tspan>著常<tspan
+						class="st3">——</tspan>為說無作門<tspan class="st3">——</tspan>無常<v:newlineChar/><tspan x="0" dy="1.446em"
+						class="st4">多習見</tspan><tspan class="st3">——</tspan>著實<tspan class="st3">——</tspan>為說空門<tspan class="st3">———</tspan>空</text>		</g>
+		<g id="shape8-11" v:mID="8" v:groupContext="shape" transform="translate(0.75,-7.34102)">
+			<title>工作表.8</title>
+			<desc>二種眾生</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="20.6646" width="45.15" height="13.5449"/>
+			<rect x="0" y="13.8921" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="23.78" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種眾生</text>		</g>
+		<g id="shape22-14" v:mID="22" v:groupContext="shape" transform="translate(69.7146,5.42775) rotate(90)">
+			<title>工作表.22</title>
+			<path d="M0 20.17 C0 22.17 0.6 23.8 1.41 23.8 L7.09 23.8 C7.86 23.8 8.5 25.43 8.5 27.44 C8.5 25.43 9.14 23.8 9.95 23.8
+						 L15.63 23.8 C16.44 23.8 17.08 22.17 17.08 20.17 L0 20.17 Z" class="st5"/>
+			<path d="M0 20.17 C0 22.17 0.6 23.8 1.41 23.8 L7.09 23.8 C7.86 23.8 8.5 25.43 8.5 27.44 C8.5 25.43 9.14 23.8 9.95 23.8
+						 L15.63 23.8 C16.44 23.8 17.08 22.17 17.08 20.17" class="st6"/>
+		</g>
+	</g>
+</svg>

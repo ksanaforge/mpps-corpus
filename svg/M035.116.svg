@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F3202.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.07427in" height="0.688291in"
+		viewBox="0 0 293.348 49.5569" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(17.4962,-33.4018) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>經</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="42.7845" width="33.87" height="13.5449"/>
+			<rect x="0" y="36.0121" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="45.9" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>（經）</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(95.7505,-34.6117) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>以不可得空度一切眾生故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="67.7245" cy="42.7845" width="135.45" height="13.5449"/>
+			<rect x="0" y="36.0121" width="135.449" height="13.5449" class="st1"/>
+			<text x="-0" y="45.9" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>以不可得空度一切眾生故。</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(217.782,-35.0648) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>同第一</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="42.7845" width="56.44" height="13.5449"/>
+			<rect x="0" y="36.0121" width="56.4371" height="13.5449" class="st1"/>
+			<text x="-0" y="45.9" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>（同第一）</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(0.624294,-16.4117) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>菩薩智慧勝小乘</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="42.7845" width="90.3" height="13.5449"/>
+			<rect x="0" y="36.0121" width="90.2993" height="13.5449" class="st1"/>
+			<text x="-0" y="45.9" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩智慧勝小乘：</text>		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(95.8096,-17.6807) rotate(-0.2)">
+			<title>工作表.5</title>
+			<desc>欲以一切種智度一切眾生故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="73.3682" cy="42.7845" width="146.74" height="13.5449"/>
+			<rect x="0" y="36.0121" width="146.736" height="13.5449" class="st1"/>
+			<text x="-0" y="45.9" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>欲以一切種智度一切眾生故。</text>		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" transform="translate(95.8687,-0.749698) rotate(-0.2)">
+			<title>工作表.6</title>
+			<desc>欲行一切功德成圓滿覺度一切眾生故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="98.2786" cy="42.7845" width="196.56" height="13.5449"/>
+			<rect x="0" y="36.0121" width="196.557" height="13.5449" class="st1"/>
+			<text x="0" y="45.9" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>欲行一切功德，成圓滿覺，度一切眾生故。</text>		</g>
+		<g id="shape11-19" v:mID="11" v:groupContext="shape" transform="translate(132.238,4.23253) rotate(89.8)">
+			<title>工作表.11</title>
+			<path d="M0 41.09 C0 43.44 1.57 45.32 3.54 45.32 L17.72 45.32 C19.68 45.32 21.26 47.21 21.26 49.56 C21.26 47.21 22.83
+						 45.32 24.8 45.32 L38.98 45.32 C40.94 45.32 42.52 43.44 42.52 41.09 L0 41.09 Z" class="st3"/>
+			<path d="M0 41.09 C0 43.44 1.57 45.32 3.54 45.32 L17.72 45.32 C19.68 45.32 21.26 47.21 21.26 49.56 C21.26 47.21 22.83
+						 45.32 24.8 45.32 L38.98 45.32 C40.94 45.32 42.52 43.44 42.52 41.09" class="st4"/>
+		</g>
+	</g>
+</svg>

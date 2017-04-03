@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01409.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.74907in" height="0.374901in"
+		viewBox="0 0 125.933 26.9929" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(81.0497,-15.3637) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>如幻三昧</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.0807" cy="21.5929" width="44.17" height="10.8"/>
+			<rect x="0" y="16.1929" width="44.1615" height="10.8" class="st1"/>
+			<text x="0" y="24.71" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如幻三昧</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.797111,-9.77912) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>八地得二種三昧</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="41.3375" cy="23.5293" width="82.68" height="6.92724"/>
+			<rect x="0" y="20.0657" width="82.6749" height="6.92724" class="st1"/>
+			<text x="0" y="26.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>八地得二種三昧</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(80.9914,-0.898799) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>報生三昧</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.6923" cy="21.5929" width="41.39" height="10.8"/>
+			<rect x="0" y="16.1929" width="41.3846" height="10.8" class="st1"/>
+			<text x="0" y="24.71" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>報生三昧</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(100.014,0.78778) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 21.32 C0 22.89 0.95 24.16 2.11 24.16 L10.59 24.16 C11.78 24.16 12.73 25.42 12.73 26.99 C12.73 25.42 13.67
+						 24.16 14.84 24.16 L23.32 24.16 C24.51 24.16 25.45 22.89 25.45 21.32 L0 21.32 Z" class="st3"/>
+			<path d="M0 21.32 C0 22.89 0.95 24.16 2.11 24.16 L10.59 24.16 C11.78 24.16 12.73 25.42 12.73 26.99 C12.73 25.42 13.67
+						 24.16 14.84 24.16 L23.32 24.16 C24.51 24.16 25.45 22.89 25.45 21.32" class="st4"/>
+		</g>
+	</g>
+</svg>

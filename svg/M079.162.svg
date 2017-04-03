@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B03101.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.54214in" height="0.588873in"
+		viewBox="0 0 111.034 42.3988" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape4-1" v:mID="4" v:groupContext="shape" transform="translate(54.3476,-30.4685) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>菩薩時</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="27.9956" cy="36.8087" width="56" height="11.1803"/>
+			<rect x="0" y="31.2185" width="55.9912" height="11.1803" class="st1"/>
+			<text x="17" y="39.92" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩時</text>		</g>
+		<g id="shape5-4" v:mID="5" v:groupContext="shape" transform="translate(0.824,-15.6551) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>大乘三時度生</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.5" cy="36.5024" width="63.01" height="11.7928"/>
+			<rect x="0" y="30.606" width="63" height="11.7928" class="st1"/>
+			<text x="0" y="39.62" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>大乘三時度生 </text>		</g>
+		<g id="shape6-7" v:mID="6" v:groupContext="shape" transform="translate(70.6549,-15.7941) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>作佛時</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5749" cy="36.8087" width="39.15" height="11.1803"/>
+			<rect x="0" y="31.2185" width="39.1498" height="11.1803" class="st1"/>
+			<text x="-0" y="39.92" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>作佛時</text>		</g>
+		<g id="shape8-10" v:mID="8" v:groupContext="shape" transform="translate(70.6314,-0.818304) rotate(0.1)">
+			<title>工作表.8</title>
+			<desc>滅度時</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5863" cy="36.8087" width="39.18" height="11.1803"/>
+			<rect x="0" y="31.2185" width="39.1725" height="11.1803" class="st1"/>
+			<text x="0" y="39.92" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>滅度時</text>		</g>
+		<g id="shape15-13" v:mID="15" v:groupContext="shape" transform="translate(104.739,0.953683) rotate(90.1)">
+			<title>工作表.15</title>
+			<path d="M0 36.73 C0 38.32 1.47 39.56 3.34 39.56 L16.69 39.56 C18.52 39.56 20.03 40.85 20.03 42.4 C20.03 40.85 21.5 39.56
+						 23.37 39.56 L36.73 39.56 C38.55 39.56 40.07 38.32 40.07 36.73 L0 36.73 Z" class="st3"/>
+			<path d="M0 36.73 C0 38.32 1.47 39.56 3.34 39.56 L16.69 39.56 C18.52 39.56 20.03 40.85 20.03 42.4 C20.03 40.85 21.5 39.56
+						 23.37 39.56 L36.73 39.56 C38.55 39.56 40.07 38.32 40.07 36.73" class="st4"/>
+		</g>
+	</g>
+</svg>

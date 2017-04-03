@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02205-1（M009.083-1）.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.62625in" height="0.843874in"
+		viewBox="0 0 189.09 60.7589" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(80.521,-0.75)">
+			<title>工作表.1</title>
+			<desc>一、十方皆有身心苦故 二、阿含亦說有十方故 三、一佛應度一切生故 四、緣苦發心應非一故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="53.9094" cy="31.1295" width="107.82" height="59.2589"/>
+			<rect x="0" y="1.5" width="107.819" height="59.2589" class="st1"/>
+			<text x="-0" y="12.96" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、十方皆有身心苦故<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st3">二</tspan>、阿含亦說有十方故<v:newlineChar/><tspan x="-0" dy="1.453em" class="st3">三</tspan>、一佛應度一切生故<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st3">四</tspan>、緣苦發心應非一故</text>		</g>
+		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(0.75,-23.6108)">
+			<title>工作表.2</title>
+			<desc>應有十方佛之理</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="53.9865" width="79.02" height="13.5449"/>
+			<rect x="0" y="47.214" width="79.0119" height="13.5449" class="st1"/>
+			<text x="0" y="57.62" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>應有十方佛之理</text>		</g>
+		<g id="shape3-10" v:mID="3" v:groupContext="shape" transform="translate(133.435,8.68699) rotate(90)">
+			<title>工作表.3</title>
+			<path d="M0 54.23 C0 56.03 0 57.52 0 57.52 L21.76 57.52 C21.76 57.52 21.76 58.96 21.76 60.76 C21.76 58.96 21.76 57.52
+						 21.76 57.52 L43.51 57.52 C43.51 57.52 43.51 56.03 43.51 54.23 L0 54.23 Z" class="st4"/>
+			<path d="M0 54.23 C0 56.03 0 57.52 0 57.52 L21.76 57.52 C21.76 57.52 21.76 58.96 21.76 60.76 C21.76 58.96 21.76 57.52
+						 21.76 57.52 L43.51 57.52 C43.51 57.52 43.51 56.03 43.51 54.23" class="st5"/>
+		</g>
+	</g>
+</svg>

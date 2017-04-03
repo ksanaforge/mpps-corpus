@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01105.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.12596in" height="0.830151in"
+		viewBox="0 0 297.069 59.7709" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {stroke:#040000;stroke-dasharray:0,2.11639;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(92.7756,-45.476)">
+			<title>工作表.1</title>
+			<desc>邪見——取相戲論是邪見</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.0808" cy="52.9984" width="124.17" height="13.5449"/>
+			<rect x="0" y="46.226" width="124.162" height="13.5449" class="st1"/>
+			<text x="-0" y="56.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>邪見<tspan class="st3">——</tspan>取相戲論是邪見</text>		</g>
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.75,-35.1186)">
+			<title>工作表.2</title>
+			<desc>有邊、無邊之邪正</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="52.9984" width="90.3" height="13.5449"/>
+			<rect x="0" y="46.226" width="90.2993" height="13.5449" class="st1"/>
+			<text x="-0" y="56.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有邊、無邊之邪正</text>		</g>
+		<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(163.162,-15.7122)">
+			<title>工作表.3</title>
+			<desc>令厭生死 令生心歡喜受不殺戒得無邊福</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.5787" cy="45.4518" width="133.16" height="28.6381"/>
+			<rect x="0" y="31.1328" width="133.157" height="28.6381" class="st1"/>
+			<text x="0" y="41.34" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>令厭生死<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st4">令生心歡喜受不殺戒得無邊福</tspan></text>		</g>
+		<g id="shape4-12" v:mID="4" v:groupContext="shape" transform="translate(92.7769,-24.1188)">
+			<title>工作表.4</title>
+			<desc>正論——無邊</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="52.9984" width="67.73" height="13.5449"/>
+			<rect x="0" y="46.226" width="67.7245" height="13.5449" class="st1"/>
+			<text x="-0" y="56.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>正論<tspan class="st3">——</tspan>無邊</text>		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" transform="translate(132.134,-0.75)">
+			<title>工作表.6</title>
+			<desc>有邊</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="52.9984" width="33.87" height="13.5449"/>
+			<rect x="0" y="46.226" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="56.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有邊？</text>		</g>
+		<g id="shape16-19" v:mID="16" v:groupContext="shape" transform="translate(213.931,22.1257) rotate(90)">
+			<title>工作表.16</title>
+			<path d="M0 52.19 C0 54.29 0.59 55.98 1.28 55.98 L6.48 55.98 C7.21 55.98 7.8 57.71 7.8 59.77 C7.8 57.71 8.38 55.98 9.08
+						 55.98 L14.27 55.98 C15 55.98 15.59 54.29 15.59 52.19 L0 52.19 Z" class="st5"/>
+			<path d="M0 52.19 C0 54.29 0.59 55.98 1.28 55.98 L6.48 55.98 C7.21 55.98 7.8 57.71 7.8 59.77 C7.8 57.71 8.38 55.98 9.08
+						 55.98 L14.27 55.98 C15 55.98 15.59 54.29 15.59 52.19" class="st6"/>
+		</g>
+		<g id="shape17-22" v:mID="17" v:groupContext="shape" transform="translate(141.733,7.00418) rotate(90)">
+			<title>工作表.17</title>
+			<path d="M0 50.44 C0 53.03 0.82 55.11 1.85 55.11 L9.31 55.11 C10.34 55.11 11.2 57.23 11.2 59.77 C11.2 57.23 12.01 55.11
+						 13.05 55.11 L20.51 55.11 C21.54 55.11 22.39 53.03 22.39 50.44 L0 50.44 Z" class="st5"/>
+			<path d="M0 50.44 C0 53.03 0.82 55.11 1.85 55.11 L9.31 55.11 C10.34 55.11 11.2 57.23 11.2 59.77 C11.2 57.23 12.01 55.11
+						 13.05 55.11 L20.51 55.11 C21.54 55.11 22.39 53.03 22.39 50.44" class="st6"/>
+		</g>
+		<g id="shape18-25" v:mID="18" v:groupContext="shape" transform="translate(62.1542,53.0823) rotate(-90)">
+			<title>工作表.18</title>
+			<path d="M0 59.77 L22.32 59.77" class="st7"/>
+		</g>
+		<g id="shape19-28" v:mID="19" v:groupContext="shape" transform="translate(130.041,112.856) rotate(180)">
+			<title>工作表.19</title>
+			<path d="M0 59.77 L8 59.77" class="st7"/>
+		</g>
+	</g>
+</svg>

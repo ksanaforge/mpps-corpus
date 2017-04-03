@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F4103.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.78689in" height="0.458289in"
+		viewBox="0 0 272.656 32.9968" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(63.6245,-18.0048) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>欲著</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="26.2243" width="22.58" height="13.5449"/>
+			<rect x="0" y="19.4519" width="22.5748" height="13.5449" class="st1"/>
+			<text x="-0" y="29.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>欲著</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(108.774,-18.1624) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>為說無常等觀無常等破著得解脫</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.2565" cy="26.2243" width="154.52" height="13.5449"/>
+			<rect x="0" y="19.4519" width="154.513" height="13.5449" class="st1"/>
+			<text x="0" y="29.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>為說無常等，觀無常等破著得解脫</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(0.6821,-7.86269) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>二著二解脫</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="26.2243" width="56.44" height="13.5449"/>
+			<rect x="0" y="19.4519" width="56.4371" height="13.5449" class="st1"/>
+			<text x="0" y="29.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二著二解脫</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(63.7427,-0.749799) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>見著</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="26.2243" width="22.58" height="13.5449"/>
+			<rect x="0" y="19.4519" width="22.5748" height="13.5449" class="st1"/>
+			<text x="-0" y="29.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>見著</text>		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(108.892,-0.907401) rotate(-0.2)">
+			<title>工作表.5</title>
+			<desc>復著法生愛為生法空乃離著得脫</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.4498" cy="26.2243" width="162.9" height="13.5449"/>
+			<rect x="0" y="19.4519" width="162.9" height="13.5449" class="st1"/>
+			<text x="0" y="29.34" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>復著法生愛，為生法空，乃離著得脫</text>		</g>
+		<g id="shape13-16" v:mID="13" v:groupContext="shape" transform="translate(86.7018,4.60962) rotate(89.8)">
+			<title>工作表.13</title>
+			<path d="M0 26.44 C0 28.26 0.95 29.72 2.18 29.72 L10.9 29.72 C12.07 29.72 13.09 31.18 13.09 33 C13.09 31.18 14.03 29.72
+						 15.27 29.72 L23.99 29.72 C25.15 29.72 26.17 28.26 26.17 26.44 L0 26.44 Z" class="st3"/>
+			<path d="M0 26.44 C0 28.26 0.95 29.72 2.18 29.72 L10.9 29.72 C12.07 29.72 13.09 31.18 13.09 33 C13.09 31.18 14.03 29.72
+						 15.27 29.72 L23.99 29.72 C25.15 29.72 26.17 28.26 26.17 26.44" class="st4"/>
+		</g>
+		<g id="shape14-19" v:mID="14" v:groupContext="shape" transform="translate(88.9874,-24.8661) rotate(-0.2)">
+			<title>工作表.14</title>
+			<path d="M0 33 L16.93 33" class="st4"/>
+		</g>
+		<g id="shape15-22" v:mID="15" v:groupContext="shape" transform="translate(89.1056,-7.6111) rotate(-0.2)">
+			<title>工作表.15</title>
+			<path d="M0 33 L16.93 33" class="st4"/>
+		</g>
+		<g id="shape16-25" v:mID="16" v:groupContext="shape" transform="translate(112.535,-15.1016) rotate(45.2454)">
+			<title>工作表.16</title>
+			<path d="M0 33 L24.22 33" class="st4"/>
+		</g>
+	</g>
+</svg>

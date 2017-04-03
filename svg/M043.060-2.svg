@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00903.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.9395in" height="0.392139in"
+		viewBox="0 0 139.644 28.234" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:#000000}
+		.st6 {stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st7 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(19.7875,-16.6048) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>不善</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="10.9785" cy="22.834" width="21.96" height="10.8"/>
+			<rect x="0" y="17.434" width="21.9571" height="10.8" class="st1"/>
+			<text x="0" y="25.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不善</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(73.1597,-16.4791) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>善</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.5" cy="22.834" width="9.01" height="10.8"/>
+			<rect x="0" y="17.434" width="9" height="10.8" class="st1"/>
+			<text x="0" y="25.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>善</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.799278,-9.18144) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>病</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.5" cy="22.834" width="9.01" height="10.8"/>
+			<rect x="0" y="17.434" width="9" height="10.8" class="st1"/>
+			<text x="0" y="25.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>病</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(30.1819,-1.14247) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>善</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.5" cy="22.834" width="9.01" height="10.8"/>
+			<rect x="0" y="17.434" width="9" height="10.8" class="st1"/>
+			<text x="-0" y="25.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>善</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(72.9352,-0.942431) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>無相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.025" cy="22.834" width="22.05" height="10.8"/>
+			<rect x="0" y="17.434" width="22.05" height="10.8" class="st1"/>
+			<text x="0" y="25.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無相</text>		</g>
+		<g id="shape7-16" v:mID="7" v:groupContext="shape" transform="translate(117.935,-0.863891) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>自破</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="10.4947" cy="22.834" width="20.99" height="10.8"/>
+			<rect x="0" y="17.434" width="20.9894" height="10.8" class="st1"/>
+			<text x="0" y="25.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>自破</text>		</g>
+		<g id="shape14-19" v:mID="14" v:groupContext="shape" transform="translate(41.5768,1.15175) rotate(90.1)">
+			<title>工作表.14</title>
+			<path d="M0 22.96 C0 24.42 0.96 25.59 2.1 25.59 L10.62 25.59 C11.8 25.59 12.76 26.79 12.76 28.23 C12.76 26.79 13.71 25.59
+						 14.86 25.59 L23.37 25.59 C24.56 25.59 25.51 24.42 25.51 22.96 L0 22.96 Z" class="st3"/>
+			<path d="M0 22.96 C0 24.42 0.96 25.59 2.1 25.59 L10.62 25.59 C11.8 25.59 12.76 26.79 12.76 28.23 C12.76 26.79 13.71 25.59
+						 14.86 25.59 L23.37 25.59 C24.56 25.59 25.51 24.42 25.51 22.96" class="st4"/>
+		</g>
+		<g id="shape15-22" v:mID="15" v:groupContext="shape" transform="translate(71.878,19.3796) rotate(90.1)">
+			<title>工作表.15</title>
+			<path d="M4.5 25.6 L2.25 28.23 L0 25.6 L4.5 25.6 ZM1.98 26.05 L1.98 1.98 L2.07 1.88 L2.25 1.82 L2.47 1.88 L2.56 1.98
+						 L2.56 26.05 L2.47 26.16 L2.25 26.21 L2.07 26.16 L1.98 26.05 Z" class="st5"/>
+			<path d="M4.5 25.6 L2.25 28.23 L0 25.6M1.98 26.05 L1.98 1.98 L2.07 1.88 L2.25 1.82 L2.47 1.88 L2.56 1.98 L2.56 26.05
+						 L2.47 26.16 L2.25 26.21 L2.07 26.16 L1.98 26.05" class="st6"/>
+		</g>
+		<g id="shape16-25" v:mID="16" v:groupContext="shape" transform="translate(30.4602,-2.20569) rotate(-32.5861)">
+			<title>工作表.16</title>
+			<path d="M0 28.23 L28.75 28.23" class="st7"/>
+		</g>
+		<g id="shape17-28" v:mID="17" v:groupContext="shape" transform="translate(71.878,4.12126) rotate(90.1)">
+			<title>工作表.17</title>
+			<path d="M4.5 25.6 L2.25 28.23 L0 25.6 L4.5 25.6 ZM1.98 26.05 L1.98 1.98 L2.07 1.88 L2.25 1.82 L2.47 1.88 L2.56 1.98
+						 L2.56 26.05 L2.47 26.16 L2.25 26.21 L2.07 26.16 L1.98 26.05 Z" class="st5"/>
+			<path d="M4.5 25.6 L2.25 28.23 L0 25.6M1.98 26.05 L1.98 1.98 L2.07 1.88 L2.25 1.82 L2.47 1.88 L2.56 1.98 L2.56 26.05
+						 L2.47 26.16 L2.25 26.21 L2.07 26.16 L1.98 26.05" class="st6"/>
+		</g>
+		<g id="shape18-31" v:mID="18" v:groupContext="shape" transform="translate(122.379,19.6941) rotate(90.1)">
+			<title>工作表.18</title>
+			<path d="M4.5 26.04 L2.25 28.23 L0 26.04 L4.5 26.04 ZM1.98 26.41 L1.98 6.29 L2.07 6.2 L2.25 6.16 L2.47 6.2 L2.56 6.29
+						 L2.56 26.41 L2.47 26.5 L2.25 26.54 L2.07 26.5 L1.98 26.41 Z" class="st5"/>
+			<path d="M4.5 26.04 L2.25 28.23 L0 26.04M1.98 26.41 L1.98 6.29 L2.07 6.2 L2.25 6.16 L2.47 6.2 L2.56 6.29 L2.56 26.41
+						 L2.47 26.5 L2.25 26.54 L2.07 26.5 L1.98 26.41" class="st6"/>
+		</g>
+	</g>
+</svg>

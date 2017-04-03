@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00501.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.74202in" height="0.634068in"
+		viewBox="0 0 197.426 45.6529" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(72.8576,-34.0236) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>一、與色相違色非是空。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="61.939" cy="40.2529" width="123.88" height="10.8"/>
+			<rect x="0" y="34.8529" width="123.878" height="10.8" class="st1"/>
+			<text x="-0" y="43.37" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一、與色相違，色非是空。</text>		</g>
+		<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(0.829679,-16.0688) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>虛空無相故無</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.2947" cy="40.2529" width="72.59" height="10.8"/>
+			<rect x="0" y="34.8529" width="72.5895" height="10.8" class="st1"/>
+			<text x="0" y="43.37" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>虛空無相故無</text>		</g>
+		<g id="shape5-7" v:mID="5" v:groupContext="shape" transform="translate(72.8295,-17.5537) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>二、若色盡處更無別法。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="61.9535" cy="40.2529" width="123.91" height="10.8"/>
+			<rect x="0" y="34.8529" width="123.907" height="10.8" class="st1"/>
+			<text x="0" y="43.37" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二、若色盡處，更無別法。</text>		</g>
+		<g id="shape6-10" v:mID="6" v:groupContext="shape" transform="translate(72.8001,-1.0384) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>三、若入出相但是色業。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="61.9679" cy="40.2529" width="123.94" height="10.8"/>
+			<rect x="0" y="34.8529" width="123.936" height="10.8" class="st1"/>
+			<text x="0" y="43.37" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三、若入出相，但是色業。</text>		</g>
+		<g id="shape13-13" v:mID="13" v:groupContext="shape" transform="translate(109.772,3.69803) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 38.9 C0 40.79 1.55 42.28 3.42 42.28 L17.22 42.28 C19.15 42.28 20.69 43.81 20.69 45.65 C20.69 43.81 22.24
+						 42.28 24.11 42.28 L37.91 42.28 C39.84 42.28 41.39 40.79 41.39 38.9 L0 38.9 Z" class="st3"/>
+			<path d="M0 38.9 C0 40.79 1.55 42.28 3.42 42.28 L17.22 42.28 C19.15 42.28 20.69 43.81 20.69 45.65 C20.69 43.81 22.24
+						 42.28 24.11 42.28 L37.91 42.28 C39.84 42.28 41.39 40.79 41.39 38.9" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01504.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.29052in" height="0.40374in"
+		viewBox="0 0 164.917 29.0693" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(30.939,-0.857436)">
+			<title>工作表.1</title>
+			<desc>一切作法皆是虛妄如夢如幻 諸法平等是為真實</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6142" cy="15.3921" width="133.23" height="27.3544"/>
+			<rect x="0" y="1.71492" width="133.228" height="27.3544" class="st1"/>
+			<text x="0" y="11.76" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一切作法皆是虛妄，如夢如幻<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">諸法平等是為真實</tspan></text>		</g>
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.75,-7.18643)">
+			<title>工作表.2</title>
+			<desc>假實</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="22.2968" width="22.58" height="13.5449"/>
+			<rect x="0" y="15.5244" width="22.5748" height="13.5449" class="st1"/>
+			<text x="-0" y="25.41" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>假實</text>		</g>
+		<g id="shape11-8" v:mID="11" v:groupContext="shape" transform="translate(51.5043,6.95198) rotate(90)">
+			<title>工作表.11</title>
+			<path d="M0 21.94 C0 23.88 0.62 25.5 1.41 25.5 L7.09 25.5 C7.88 25.5 8.5 27.08 8.5 29.07 C8.5 27.13 9.17 25.5 9.91 25.5
+						 L15.6 25.5 C16.39 25.5 17.01 23.92 17.01 21.94 L0 21.94 Z" class="st4"/>
+			<path d="M0 21.94 C0 23.88 0.62 25.5 1.41 25.5 L7.09 25.5 C7.88 25.5 8.5 27.08 8.5 29.07 C8.5 27.13 9.17 25.5 9.91 25.5
+						 L15.6 25.5 C16.39 25.5 17.01 23.92 17.01 21.94" class="st5"/>
+		</g>
+	</g>
+</svg>

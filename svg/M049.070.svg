@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01308.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.14885in" height="0.374001in"
+		viewBox="0 0 82.7175 26.9281" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(40.2885,-17.8183) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>但菩薩地</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.858" cy="24.0475" width="41.72" height="5.76115"/>
+			<rect x="0" y="21.1669" width="41.7159" height="5.76115" class="st1"/>
+			<text x="0" y="27.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>但菩薩地</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.796998,-10.4175) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>二種地</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.7373" cy="24.0475" width="43.48" height="5.76115"/>
+			<rect x="0" y="21.1669" width="43.4746" height="5.76115" class="st1"/>
+			<text x="0" y="27.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種地</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(40.2258,-0.863893) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>共地</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.1" cy="21.5281" width="24.21" height="10.8"/>
+			<rect x="0" y="16.1281" width="24.2" height="10.8" class="st1"/>
+			<text x="0" y="24.64" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>共地</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(59.8389,0.999778) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 21.26 C0 22.83 0.94 24.09 2.11 24.09 L10.51 24.09 C11.67 24.09 12.6 25.36 12.6 26.93 C12.6 25.36 13.54 24.09
+						 14.71 24.09 L23.12 24.09 C24.27 24.09 25.21 22.83 25.21 21.26 L0 21.26 Z" class="st3"/>
+			<path d="M0 21.26 C0 22.83 0.94 24.09 2.11 24.09 L10.51 24.09 C11.67 24.09 12.6 25.36 12.6 26.93 C12.6 25.36 13.54 24.09
+						 14.71 24.09 L23.12 24.09 C24.27 24.09 25.21 22.83 25.21 21.26" class="st4"/>
+		</g>
+	</g>
+</svg>

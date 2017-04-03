@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M031.141=F02201-1.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.8429in" height="0.451147in"
+		viewBox="0 0 420.689 32.4826" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group5-1" transform="translate(0.75,-0.75)" v:mID="5" v:groupContext="group">
+			<title>工作表.5</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(-0.0661048,-16.7732) rotate(-0.2)">
+				<title>工作表.1</title>
+				<desc>遣難</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="11.2874" cy="25.7101" width="22.58" height="13.5449"/>
+				<rect x="0" y="18.9377" width="22.5748" height="13.5449" class="st1"/>
+				<text x="-0" y="28.82" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>遣難</text>			</g>
+			<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(38.6268,-16.9308) rotate(-0.2)">
+				<title>工作表.2</title>
+				<desc>難無始非實法云何以度人</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="72.5869" cy="25.7101" width="145.18" height="13.5449"/>
+				<rect x="0" y="18.9377" width="145.174" height="13.5449" class="st1"/>
+				<text x="0" y="28.82" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>難：無始非實法，云何以度人？</text>			</g>
+			<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(38.6859,0.000197895) rotate(-0.2)">
+				<title>工作表.3</title>
+				<desc>答實法無可說言說皆虛誑佛以方便力無著心為說聞者心無著則得心厭離。</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="190.196" cy="25.7101" width="380.4" height="13.5449"/>
+				<rect x="0" y="18.9377" width="380.392" height="13.5449" class="st1"/>
+				<text x="0" y="28.82" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>答：實法無可說，言說皆虛誑，佛以方便力，無著心為說，聞者心無著，則得心厭離。</text>			</g>
+			<g id="shape4-11" v:mID="4" v:groupContext="shape" transform="translate(55.6869,8.70797) rotate(89.8)">
+				<title>工作表.4</title>
+				<path d="M0 19.78 C0 23.26 0 26.09 0 26.09 C0 26.09 0 29 0 32.48 C0 29 0 26.09 0 26.09 L16.93 26.09 C16.93 26.09
+							 16.93 23.26 16.93 19.78 L0 19.78 Z" class="st3"/>
+				<path d="M0 19.78 C0 23.26 0 26.09 0 26.09 C0 26.09 0 29 0 32.48 C0 29 0 26.09 0 26.09 L16.93 26.09 C16.93 26.09
+							 16.93 23.26 16.93 19.78" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

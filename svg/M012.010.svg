@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02503.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.60762in" height="0.40374in"
+		viewBox="0 0 403.748 29.0693" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(100.503,-1.83651)">
+			<title>工作表.1</title>
+			<desc>一、不以一切物一切時一切種施二、或無記或有漏善心或無漏施 三、無大悲心而施四、不為一切眾生施。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="151.248" cy="16.3709" width="302.5" height="25.3967"/>
+			<rect x="0" y="3.6726" width="302.495" height="25.3967" class="st1"/>
+			<text x="0" y="12.74" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、不以一切物一切時一切種施；二、或無記或有漏善心或無漏施，<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">三</tspan>、無大悲心而施；四、不為一切眾生施。</text>		</g>
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.75,-6.74807)">
+			<title>工作表.2</title>
+			<desc>小施不名波羅蜜四意</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50.7933" cy="22.2968" width="101.59" height="13.5449"/>
+			<rect x="0" y="15.5244" width="101.587" height="13.5449" class="st1"/>
+			<text x="0" y="25.93" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>小施不名波羅蜜四意</text>		</g>
+		<g id="shape13-8" v:mID="13" v:groupContext="shape" transform="translate(121.65,7.88871) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 22.54 C0 24.34 0 25.83 0 25.83 L7.53 25.83 C7.53 25.83 7.53 27.27 7.53 29.07 C7.53 27.27 7.53 25.83 7.53
+						 25.83 L15.07 25.83 C15.07 25.83 15.07 24.34 15.07 22.54 L0 22.54 Z" class="st4"/>
+			<path d="M0 22.54 C0 24.34 0 25.83 0 25.83 L7.53 25.83 C7.53 25.83 7.53 27.27 7.53 29.07 C7.53 27.27 7.53 25.83 7.53
+						 25.83 L15.07 25.83 C15.07 25.83 15.07 24.34 15.07 22.54" class="st5"/>
+		</g>
+	</g>
+</svg>

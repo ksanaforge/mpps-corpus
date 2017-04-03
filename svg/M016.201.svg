@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01505.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.10154in" height="0.816854in"
+		viewBox="0 0 295.311 58.8135" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(101.133,-0.75)">
+			<title>工作表.1</title>
+			<desc>不見身——身無所作 不見心——心無所念 不見眾生為此岸 不見佛道為彼岸</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="47.2401" cy="30.1568" width="94.49" height="57.3135"/>
+			<rect x="0" y="1.5" width="94.4802" height="57.3135" class="st1"/>
+			<text x="-0" y="11.99" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>不見身<tspan class="st3">——</tspan>身無所作<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">不見心</tspan><tspan class="st3">——</tspan>心無所念<v:newlineChar/><tspan x="-0"
+						dy="1.453em" class="st4">不見眾生為此岸<v:newlineChar/></tspan><tspan x="-0" dy="1.453em" class="st4">不見佛道為彼岸</tspan></text>		</g>
+		<g id="shape2-9" v:mID="2" v:groupContext="shape" transform="translate(51.4675,-36.1253)">
+			<title>工作表.2</title>
+			<desc>身心精進</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.6257" cy="52.0411" width="43.26" height="13.5449"/>
+			<rect x="0" y="45.2686" width="43.2514" height="13.5449" class="st1"/>
+			<text x="0" y="55.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>身心精進</text>		</g>
+		<g id="shape3-12" v:mID="3" v:groupContext="shape" transform="translate(222.457,-35.3037)">
+			<title>工作表.3</title>
+			<desc>身心一等無分別</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.0522" cy="52.0411" width="72.11" height="13.5449"/>
+			<rect x="0" y="45.2686" width="72.1043" height="13.5449" class="st1"/>
+			<text x="0" y="55.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>身心一等無分別</text>		</g>
+		<g id="shape5-15" v:mID="5" v:groupContext="shape" transform="translate(0.75,-22.0564)">
+			<title>工作表.5</title>
+			<desc>七住精進</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="52.0411" width="45.15" height="13.5449"/>
+			<rect x="0" y="45.2686" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="55.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>七住精進</text>		</g>
+		<g id="shape7-18" v:mID="7" v:groupContext="shape" transform="translate(51.4671,-7.27138)">
+			<title>工作表.7</title>
+			<desc>上求下化</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.6257" cy="52.0411" width="43.26" height="13.5449"/>
+			<rect x="0" y="45.2686" width="43.2514" height="13.5449" class="st1"/>
+			<text x="0" y="55.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>上求下化</text>		</g>
+		<g id="shape15-21" v:mID="15" v:groupContext="shape" transform="translate(151.849,8.57083) rotate(90)">
+			<title>工作表.15</title>
+			<path d="M0 52.7 C0 54.4 0.59 55.76 1.28 55.76 L6.48 55.76 C7.21 55.76 7.8 57.15 7.8 58.81 C7.8 57.15 8.38 55.76 9.08
+						 55.76 L14.27 55.76 C15 55.76 15.59 54.4 15.59 52.7 L0 52.7 Z" class="st5"/>
+			<path d="M0 52.7 C0 54.4 0.59 55.76 1.28 55.76 L6.48 55.76 C7.21 55.76 7.8 57.15 7.8 58.81 C7.8 57.15 8.38 55.76 9.08
+						 55.76 L14.27 55.76 C15 55.76 15.59 54.4 15.59 52.7" class="st6"/>
+		</g>
+		<g id="shape17-24" v:mID="17" v:groupContext="shape" transform="translate(101.091,15.3201) rotate(90)">
+			<title>工作表.17</title>
+			<path d="M0 49.63 C0 52.18 1.1 54.22 2.46 54.22 L12.38 54.22 C13.74 54.22 14.88 56.31 14.88 58.81 C14.88 56.31 15.98
+						 54.22 17.34 54.22 L27.27 54.22 C28.62 54.22 29.76 52.18 29.76 49.63 L0 49.63 Z" class="st5"/>
+			<path d="M0 49.63 C0 52.18 1.1 54.22 2.46 54.22 L12.38 54.22 C13.74 54.22 14.88 56.31 14.88 58.81 C14.88 56.31 15.98
+						 54.22 17.34 54.22 L27.27 54.22 C28.62 54.22 29.76 52.18 29.76 49.63" class="st6"/>
+		</g>
+		<g id="shape18-27" v:mID="18" v:groupContext="shape" transform="translate(252.802,8.23347) rotate(90)">
+			<title>工作表.18</title>
+			<path d="M16.93 58.81 L8.47 33.42 L0 58.81 L16.93 58.81 Z" class="st5"/>
+			<path d="M16.93 58.81 L8.47 33.42 L0 58.81" class="st6"/>
+		</g>
+		<g id="shape22-30" v:mID="22" v:groupContext="shape" transform="translate(151.849,36.9173) rotate(90)">
+			<title>工作表.22</title>
+			<path d="M0 52.7 C0 54.4 0.59 55.76 1.28 55.76 L6.48 55.76 C7.21 55.76 7.8 57.15 7.8 58.81 C7.8 57.15 8.38 55.76 9.08
+						 55.76 L14.27 55.76 C15 55.76 15.59 54.4 15.59 52.7 L0 52.7 Z" class="st5"/>
+			<path d="M0 52.7 C0 54.4 0.59 55.76 1.28 55.76 L6.48 55.76 C7.21 55.76 7.8 57.15 7.8 58.81 C7.8 57.15 8.38 55.76 9.08
+						 55.76 L14.27 55.76 C15 55.76 15.59 54.4 15.59 52.7" class="st6"/>
+		</g>
+	</g>
+</svg>

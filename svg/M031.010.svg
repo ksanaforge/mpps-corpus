@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01206.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.57212in" height="0.375164in"
+		viewBox="0 0 113.193 27.0118" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(49.3486,-0.75)">
+			<title>工作表.1</title>
+			<desc>大——實相慧 小——十八空</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.547" cy="14.2559" width="63.1" height="25.5118"/>
+			<rect x="0" y="1.5" width="63.094" height="25.5118" class="st1"/>
+			<text x="0" y="10.14" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>大<tspan class="st3">——</tspan>實相慧<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st4">小</tspan><tspan class="st3">——</tspan>十八空</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.75,-6.07604)">
+			<title>工作表.4</title>
+			<desc>般若二分</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="20.2393" width="45.15" height="13.5449"/>
+			<rect x="0" y="13.4669" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="23.35" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>般若二分</text>		</g>
+		<g id="shape14-10" v:mID="14" v:groupContext="shape" transform="translate(69.2893,5.99971) rotate(90)">
+			<title>工作表.14</title>
+			<path d="M0 20.64 C0 22.38 0.59 23.83 1.3 23.83 L6.5 23.83 C7.2 23.83 7.8 25.23 7.8 27.01 C7.8 25.27 8.39 23.83 9.09
+						 23.83 L14.29 23.83 C15 23.83 15.59 22.38 15.59 20.64 L0 20.64 Z" class="st5"/>
+			<path d="M0 20.64 C0 22.38 0.59 23.83 1.3 23.83 L6.5 23.83 C7.2 23.83 7.8 25.23 7.8 27.01 C7.8 25.27 8.39 23.83 9.09
+						 23.83 L14.29 23.83 C15 23.83 15.59 22.38 15.59 20.64" class="st6"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F2104.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.94356in" height="0.421873in"
+		viewBox="0 0 211.936 30.3749" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(45.0535,-15.5003) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>問一切畢竟空依止何法捨涅槃</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="83.0139" cy="23.6024" width="166.03" height="13.5449"/>
+			<rect x="0" y="16.83" width="166.028" height="13.5449" class="st1"/>
+			<text x="0" y="26.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>問：一切畢竟空，依止何法捨涅槃？</text>		</g>
+		<g id="shape1-4" v:mID="1" v:groupContext="shape" transform="translate(0.691252,-8.44988) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>畢竟空</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="23.6024" width="33.87" height="13.5449"/>
+			<rect x="0" y="16.83" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="26.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>畢竟空</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(45.1119,-0.749815) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>答涅槃繫著斷云何求捨離</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="67.4488" cy="23.6024" width="134.9" height="13.5449"/>
+			<rect x="0" y="16.83" width="134.898" height="13.5449" class="st1"/>
+			<text x="-0" y="26.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>答：涅槃繫著斷，云何求捨離</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(64.1102,4.19601) rotate(89.8)">
+			<title>工作表.11</title>
+			<path d="M0 21.91 C0 24.26 0.79 26.14 1.82 26.14 L9.09 26.14 C10.06 26.14 10.91 28.02 10.91 30.37 C10.91 28.02 11.7 26.14
+						 12.73 26.14 L20.01 26.14 C20.98 26.14 21.83 24.26 21.83 21.91 L0 21.91 Z" class="st3"/>
+			<path d="M0 21.91 C0 24.26 0.79 26.14 1.82 26.14 L9.09 26.14 C10.06 26.14 10.91 28.02 10.91 30.37 C10.91 28.02 11.7 26.14
+						 12.73 26.14 L20.01 26.14 C20.98 26.14 21.83 24.26 21.83 21.91" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02706-1（M076.146-2）.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.37279in" height="0.475555in"
+		viewBox="0 0 170.841 34.2399" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(98.4996,-24.538) rotate(0.1)">
+			<title>工作表.1</title>
+			<desc>有於佛前授記</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.5753" cy="30.7672" width="61.16" height="6.94541"/>
+			<rect x="0" y="27.2945" width="61.1507" height="6.94541" class="st1"/>
+			<text x="0" y="33.88" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有於佛前授記</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(49.3685,-17.2994) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>生死肉身</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.7001" cy="30.7672" width="41.41" height="6.94541"/>
+			<rect x="0" y="27.2945" width="41.4002" height="6.94541" class="st1"/>
+			<text x="0" y="33.88" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>生死肉身 </text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(0.80976,-10.1351) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>阿鞞跋致</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="20.5099" cy="30.7672" width="41.02" height="6.94541"/>
+			<rect x="0" y="27.2945" width="41.0198" height="6.94541" class="st1"/>
+			<text x="0" y="33.88" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>阿鞞跋致</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(37.8057,-10.0901) rotate(0.1)">
+			<title>工作表.4</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="27.2945" width="78" height="6.94541" class="st1"/>
+		</g>
+		<g id="shape5-12" v:mID="5" v:groupContext="shape" transform="translate(98.4603,-10.0847) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>有不於佛前授記</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.8391" cy="30.7672" width="71.68" height="6.94541"/>
+			<rect x="0" y="27.2945" width="71.6781" height="6.94541" class="st1"/>
+			<text x="0" y="33.88" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有不於佛前授記</text>		</g>
+		<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(49.3271,-2.82609) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>法性生身</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.7205" cy="30.7672" width="41.45" height="6.94541"/>
+			<rect x="0" y="27.2945" width="41.4411" height="6.94541" class="st1"/>
+			<text x="0" y="33.88" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>法性生身</text>		</g>
+		<g id="shape7-18" v:mID="7" v:groupContext="shape" transform="translate(77.0804,9.44195) rotate(90.1)">
+			<title>工作表.7</title>
+			<path d="M0 29 C0 30.43 0.85 31.62 1.9 31.62 L9.83 31.62 C10.89 31.62 11.73 32.77 11.73 34.24 C11.73 32.77 12.58 31.62
+						 13.61 31.62 L20.8 31.62 C21.83 31.62 22.68 30.43 22.68 29 L0 29 Z" class="st3"/>
+			<path d="M0 29 C0 30.43 0.85 31.62 1.9 31.62 L9.83 31.62 C10.89 31.62 11.73 32.77 11.73 34.24 C11.73 32.77 12.58 31.62
+						 13.61 31.62 L20.8 31.62 C21.83 31.62 22.68 30.43 22.68 29" class="st4"/>
+		</g>
+		<g id="shape10-21" v:mID="10" v:groupContext="shape" transform="translate(125.269,2.35081) rotate(90.1)">
+			<title>工作表.10</title>
+			<path d="M0 29 C0 30.43 0.85 31.62 1.9 31.62 L9.83 31.62 C10.89 31.62 11.73 32.77 11.73 34.24 C11.73 32.77 12.58 31.62
+						 13.61 31.62 L20.8 31.62 C21.83 31.62 22.68 30.43 22.68 29 L0 29 Z" class="st3"/>
+			<path d="M0 29 C0 30.43 0.85 31.62 1.9 31.62 L9.83 31.62 C10.89 31.62 11.73 32.77 11.73 34.24 C11.73 32.77 12.58 31.62
+						 13.61 31.62 L20.8 31.62 C21.83 31.62 22.68 30.43 22.68 29" class="st4"/>
+		</g>
+	</g>
+</svg>

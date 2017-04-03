@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02704.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.72451in" height="0.808235in"
+		viewBox="0 0 268.165 58.1929" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(61.1697,-0.75)">
+			<title>工作表.1</title>
+			<desc>初禪五支覺、觀、喜、樂、一心。 二禪四支繫心一處內心淨、喜、樂、一心。 三禪五支行捨、正念、智、樂、一心。 四禪四支不苦不...</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="103.122" cy="29.8465" width="206.25" height="56.6929"/>
+			<rect x="0" y="1.5" width="206.245" height="56.6929" class="st1"/>
+			<text x="0" y="11.68" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>初禪五支：覺、觀、喜、樂、一心。<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">二禪四支</tspan>：繫心一處內心淨、喜、樂、一心。<v:newlineChar/><tspan x="0" dy="1.453em"
+						class="st3">三禪五支</tspan>：行捨、正念、智、樂、一心。<v:newlineChar/><tspan x="0" dy="1.453em" class="st3">四禪四支</tspan>：不苦不樂、捨、念、一心。</text>		</g>
+		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(0.75,-23.1856)">
+			<title>工作表.2</title>
+			<desc>四禪十八支</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="51.4205" width="56.44" height="13.5449"/>
+			<rect x="0" y="44.648" width="56.4371" height="13.5449" class="st1"/>
+			<text x="-0" y="55.05" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>四禪十八支</text>		</g>
+		<g id="shape22-10" v:mID="22" v:groupContext="shape" transform="translate(110.914,7.24536) rotate(90)">
+			<title>工作表.22</title>
+			<path d="M0 51.66 C0 53.46 0 54.95 0 54.95 L21.71 54.95 C21.71 54.95 21.71 56.39 21.71 58.19 C21.71 56.39 21.71 54.95
+						 21.71 54.95 L43.41 54.95 C43.41 54.95 43.41 53.46 43.41 51.66 L0 51.66 Z" class="st4"/>
+			<path d="M0 51.66 C0 53.46 0 54.95 0 54.95 L21.71 54.95 C21.71 54.95 21.71 56.39 21.71 58.19 C21.71 56.39 21.71 54.95
+						 21.71 54.95 L43.41 54.95 C43.41 54.95 43.41 53.46 43.41 51.66" class="st5"/>
+		</g>
+	</g>
+</svg>

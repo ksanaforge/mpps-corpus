@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M023.103=F01004XXXX.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.88025in" height="0.619662in"
+		viewBox="0 0 351.378 44.6157" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group159-1" transform="translate(0.75,-1.00385)" v:mID="159" v:groupContext="group">
+			<title>工作表.159</title>
+			<g id="shape17-2" v:mID="17" v:groupContext="shape" transform="translate(53.7637,0.000271814) rotate(-0.2)">
+				<title>工作表.17</title>
+				<desc>斷想1、斷結2、斷三毒3、無漏道斷結使4、有餘涅槃 離想1、離結2、斷離愛3、加行道遠煩惱4、涅槃方便 盡想1、盡結2、盡...</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="147.98" cy="23.8176" width="295.97" height="41.5962"/>
+				<rect x="0" y="3.01948" width="295.96" height="41.5962" class="st1"/>
+				<text x="0" y="12.92" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>斷想：<tspan class="st3">1</tspan>、斷結，<tspan
+							class="st3">2</tspan>、斷三毒，<tspan class="st3">3</tspan>、無漏道斷結使，<tspan class="st3">4</tspan>、有餘涅槃<v:newlineChar/><tspan
+							x="0" dy="1.453em" class="st4">離想</tspan>：<tspan class="st3">1</tspan>、離結，<tspan class="st3">2</tspan>、斷（離）愛，<tspan
+							class="st3">3</tspan>、加行道遠煩惱，<tspan class="st3">4</tspan>、涅槃方便<v:newlineChar/><tspan x="0" dy="1.453em"
+							class="st4">盡想</tspan>：<tspan class="st3">1</tspan>、盡結，<tspan class="st3">2</tspan>、盡苦不生，<tspan
+							class="st3">3</tspan>、入涅槃滅五受眾，<tspan class="st3">4</tspan>、無餘涅槃</text>			</g>
+			<g id="shape26-19" v:mID="26" v:groupContext="shape" transform="translate(-0.108457,-13.3003) rotate(-0.2)">
+				<title>工作表.26</title>
+				<desc>三想之別</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="23.9826" cy="37.8432" width="47.97" height="13.5449"/>
+				<rect x="0" y="31.0708" width="47.9652" height="13.5449" class="st1"/>
+				<text x="-0" y="41.48" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>三想之別</text>			</g>
+			<g id="shape83-22" v:mID="83" v:groupContext="shape" transform="translate(86.3635,5.69088) rotate(89.8)">
+				<title>工作表.83</title>
+				<path d="M0 34.68 C0 37.44 1.35 39.65 3.12 39.65 L15.59 39.65 C17.25 39.65 18.71 41.86 18.71 44.62 C18.71 41.86 20.06
+							 39.65 21.83 39.65 L34.3 39.65 C35.96 39.65 37.42 37.44 37.42 34.68 L0 34.68 Z" class="st5"/>
+				<path d="M0 34.68 C0 37.44 1.35 39.65 3.12 39.65 L15.59 39.65 C17.25 39.65 18.71 41.86 18.71 44.62 C18.71 41.86 20.06
+							 39.65 21.83 39.65 L34.3 39.65 C35.96 39.65 37.42 37.44 37.42 34.68" class="st6"/>
+			</g>
+		</g>
+	</g>
+</svg>

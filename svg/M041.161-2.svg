@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00309.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.42182in" height="0.419702in"
+		viewBox="0 0 174.371 30.2186" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group12-1" transform="translate(0.75,-0.784982)" v:mID="12" v:groupContext="group">
+			<title>工作表.12</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(51.1845,-17.8043) rotate(0.1)">
+				<title>工作表.2</title>
+				<desc>依生滅慧得離顛倒</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="60.8602" cy="24.8186" width="121.73" height="10.8"/>
+				<rect x="0" y="19.4186" width="121.72" height="10.8" class="st1"/>
+				<text x="-0" y="27.93" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>依生滅慧，得離顛倒</text>			</g>
+			<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(0.0527413,-8.72557) rotate(0.1)">
+				<title>工作表.3</title>
+				<desc>無生法忍</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="30.6089" cy="24.8186" width="61.22" height="10.8"/>
+				<rect x="0" y="19.4186" width="61.2179" height="10.8" class="st1"/>
+				<text x="0" y="27.93" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無生法忍</text>			</g>
+			<g id="shape4-8" v:mID="4" v:groupContext="shape" transform="translate(51.1471,-0.201079) rotate(0.1)">
+				<title>工作表.4</title>
+				<desc>離生滅慧名無生法</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="57.618" cy="24.8186" width="115.24" height="10.8"/>
+				<rect x="0" y="19.4186" width="115.236" height="10.8" class="st1"/>
+				<text x="-0" y="27.93" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>離生滅慧，名無生法</text>			</g>
+			<g id="shape11-11" v:mID="11" v:groupContext="shape" transform="translate(73.4532,2.43913) rotate(90.1)">
+				<title>工作表.11</title>
+				<path d="M0 24.78 C0 26.26 1.03 27.5 2.25 27.5 L11.25 27.5 C12.51 27.5 13.5 28.69 13.5 30.22 C13.5 28.69 14.53 27.5
+							 15.75 27.5 L24.75 27.5 C26.01 27.5 27 26.26 27 24.78 L0 24.78 Z" class="st3"/>
+				<path d="M0 24.78 C0 26.26 1.03 27.5 2.25 27.5 L11.25 27.5 C12.51 27.5 13.5 28.69 13.5 30.22 C13.5 28.69 14.53 27.5
+							 15.75 27.5 L24.75 27.5 C26.01 27.5 27 26.26 27 24.78" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

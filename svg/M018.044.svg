@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02803.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.448in" height="0.423281in"
+		viewBox="0 0 176.256 30.4762" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(0.75,-8.64991)">
+			<title>工作表.2</title>
+			<desc>外道不如佛法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="23.7038" width="67.73" height="13.5449"/>
+			<rect x="0" y="16.9313" width="67.7245" height="13.5449" class="st1"/>
+			<text x="0" y="27.34" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>外道不如佛法</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(71.6684,-0.75)">
+			<title>工作表.3</title>
+			<desc>一、戒定慧俱不真實。 二、五戒隨緣得開許。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.9188" cy="15.9881" width="103.84" height="28.9762"/>
+			<rect x="0" y="1.5" width="103.838" height="28.9762" class="st1"/>
+			<text x="-0" y="12.35" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、戒定慧俱不真實。<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st3">二</tspan>、五戒隨緣得開許。</text>		</g>
+		<g id="shape13-8" v:mID="13" v:groupContext="shape" transform="translate(93.6406,8.2808) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 23.95 C0 25.75 0 27.24 0 27.24 L7.53 27.24 C7.53 27.24 7.53 28.68 7.53 30.48 C7.53 28.68 7.53 27.24 7.53
+						 27.24 L15.07 27.24 C15.07 27.24 15.07 25.75 15.07 23.95 L0 23.95 Z" class="st4"/>
+			<path d="M0 23.95 C0 25.75 0 27.24 0 27.24 L7.53 27.24 C7.53 27.24 7.53 28.68 7.53 30.48 C7.53 28.68 7.53 27.24 7.53
+						 27.24 L15.07 27.24 C15.07 27.24 15.07 25.75 15.07 23.95" class="st5"/>
+		</g>
+	</g>
+</svg>

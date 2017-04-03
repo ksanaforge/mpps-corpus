@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02702.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.0623in" height="0.40374in"
+		viewBox="0 0 76.4856 29.0693" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape12-1" v:mID="12" v:groupContext="shape" transform="translate(20.418,-0.9428)">
+			<title>工作表.12</title>
+			<desc>或言通色界 或言色界無</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.6588" cy="15.4774" width="55.32" height="27.1838"/>
+			<rect x="0" y="1.88543" width="55.3177" height="27.1838" class="st1"/>
+			<text x="0" y="11.84" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>或言通色界<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">或言色界無</tspan></text>		</g>
+		<g id="shape13-5" v:mID="13" v:groupContext="shape" transform="translate(0.75,-8.63248)">
+			<title>工作表.13</title>
+			<desc>忍</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="22.2968" width="11.29" height="13.5449"/>
+			<rect x="0" y="15.5244" width="11.2874" height="13.5449" class="st1"/>
+			<text x="-0" y="25.93" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>忍</text>		</g>
+		<g id="shape24-8" v:mID="24" v:groupContext="shape" transform="translate(41.5821,7.00053) rotate(90)">
+			<title>工作表.24</title>
+			<path d="M0 22.54 C0 24.34 0 25.83 0 25.83 L7.53 25.83 C7.53 25.83 7.53 27.27 7.53 29.07 C7.53 27.27 7.53 25.83 7.53
+						 25.83 L15.07 25.83 C15.07 25.83 15.07 24.34 15.07 22.54 L0 22.54 Z" class="st4"/>
+			<path d="M0 22.54 C0 24.34 0 25.83 0 25.83 L7.53 25.83 C7.53 25.83 7.53 27.27 7.53 29.07 C7.53 27.27 7.53 25.83 7.53
+						 25.83 L15.07 25.83 C15.07 25.83 15.07 24.34 15.07 22.54" class="st5"/>
+		</g>
+	</g>
+</svg>

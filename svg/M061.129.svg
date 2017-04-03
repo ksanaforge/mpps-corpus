@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02103.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.38254in" height="0.374421in"
+		viewBox="0 0 171.543 26.9583" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape8-1" v:mID="8" v:groupContext="shape" transform="translate(61.979,-18.3726) rotate(0.1)">
+			<title>工作表.8</title>
+			<desc>有餘捨五眾因緣諸煩惱</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="54.4264" cy="24.6017" width="108.86" height="4.71332"/>
+			<rect x="0" y="22.245" width="108.853" height="4.71332" class="st1"/>
+			<text x="-0" y="27.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有餘捨五眾因緣諸煩惱</text>		</g>
+		<g id="shape9-4" v:mID="9" v:groupContext="shape" transform="translate(0.797051,-11.2947) rotate(0.1)">
+			<title>工作表.9</title>
+			<desc>五眾二種捨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="29.2487" cy="24.6017" width="58.5" height="4.71332"/>
+			<rect x="0" y="22.245" width="58.4975" height="4.71332" class="st1"/>
+			<text x="-0" y="27.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>五眾二種捨</text>		</g>
+		<g id="shape10-7" v:mID="10" v:groupContext="shape" transform="translate(61.9532,-3.97716) rotate(0.1)">
+			<title>工作表.10</title>
+			<desc>無餘捨五眾果</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="41.7005" cy="24.6017" width="83.41" height="4.71332"/>
+			<rect x="0" y="22.245" width="83.401" height="4.71332" class="st1"/>
+			<text x="0" y="27.72" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無餘捨五眾果</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(80.5631,0.491386) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 21.29 C0 22.86 0.95 24.12 2.14 24.12 L10.64 24.12 C11.81 24.12 12.76 25.39 12.76 26.96 C12.76 25.39 13.7
+						 24.12 14.89 24.12 L23.4 24.12 C24.56 24.12 25.51 22.86 25.51 21.29 L0 21.29 Z" class="st3"/>
+			<path d="M0 21.29 C0 22.86 0.95 24.12 2.14 24.12 L10.64 24.12 C11.81 24.12 12.76 25.39 12.76 26.96 C12.76 25.39 13.7
+						 24.12 14.89 24.12 L23.4 24.12 C24.56 24.12 25.51 22.86 25.51 21.29" class="st4"/>
+		</g>
+	</g>
+</svg>

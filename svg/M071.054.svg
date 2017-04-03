@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M071.054=B02602.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.36147in" height="0.390862in"
+		viewBox="0 0 386.026 28.1421" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {font-size:1em;font-weight:bold}
+		.st5 {baseline-shift:32.4947%;font-family:Times New Roman;font-size:0.649894em}
+		.st6 {fill:none}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(52.1142,-18.2846) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>得諸法實相。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.1781" cy="24.5137" width="78.36" height="7.25668"/>
+			<rect x="0" y="20.8854" width="78.3562" height="7.25668" class="st1"/>
+			<text x="-0em 1em 2em 3em 4em" y="27.63" class="st2" v:langID="1028"><v:paragraph v:horizAlign="3"/><v:tabList/>得諸法實相<tspan
+						x="5em" dy="0em" class="st3">。</tspan></text>		</g>
+		<g id="shape4-5" v:mID="4" v:groupContext="shape" transform="translate(0.799117,-10.8446) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>二種菩薩</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5" cy="24.5137" width="45" height="7.25668"/>
+			<rect x="0" y="20.8854" width="45" height="7.25668" class="st1"/>
+			<text x="0em 1em 2em 3em" y="27.63" class="st2" v:langID="1028"><v:paragraph v:horizAlign="3"/><v:tabList/>二種菩薩 </text>		</g>
+		<g id="shape6-8" v:mID="6" v:groupContext="shape" transform="translate(52.0878,-3.16656) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>未得</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.9378" cy="24.5137" width="35.88" height="7.25668"/>
+			<rect x="0" y="20.8854" width="35.8757" height="7.25668" class="st1"/>
+			<text x="-0em 1em" y="27.63" class="st2" v:langID="1028"><v:paragraph v:horizAlign="3"/><v:tabList/>未得</text>		</g>
+		<g id="shape7-11" v:mID="7" v:groupContext="shape" transform="translate(70.0878,-3.13514) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>諸法實相</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.7645" cy="24.5137" width="79.53" height="7.25668"/>
+			<rect x="0" y="20.8854" width="79.5291" height="7.25668" class="st1"/>
+			<text x="0em" y="27.63" class="st2" v:langID="1028"><v:paragraph v:horizAlign="3"/><v:tabList/>（<tspan x="1em 2em 3em
+							 4em" dy="0em" class="st3">諸法實相</tspan><tspan x="5em" dy="0em" class="st3">）</tspan></text>		</g>
+		<g id="shape8-16" v:mID="8" v:groupContext="shape" transform="translate(123.84,-3.04875) rotate(0.1)">
+			<title>工作表.8</title>
+			<desc>於佛道中有信、忍、淨心、深心、欲、解、捨※、精進。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.736" cy="24.5137" width="261.48" height="7.25668"/>
+			<rect x="0" y="20.8854" width="261.473" height="7.25668" class="st1"/>
+			<text x="0em" y="27.63" class="st2" v:langID="1028"><v:paragraph v:horizAlign="3"/><v:tabList/>，<tspan x="1em 2em 3em
+							 4em 5em 6em" dy="0em" class="st3">於佛道中有信</tspan><tspan x="7em" dy="0em" class="st3">、</tspan><tspan
+						x="8em" dy="0em" class="st3">忍</tspan><tspan x="9em" dy="0em" class="st3">、</tspan><tspan x="10em 11em"
+						dy="0em" class="st3">淨心</tspan><tspan x="12em" dy="0em" class="st3">、</tspan><tspan x="13em 14em" dy="0em"
+						class="st3">深心</tspan><tspan x="15em" dy="0em" class="st3">、</tspan><tspan x="16em" dy="0em" class="st3">欲</tspan><tspan
+						x="17em" dy="0em" class="st3">、</tspan><tspan x="18em" dy="0em" class="st3">解</tspan><tspan x="19em"
+						dy="0em" class="st3">、</tspan><tspan x="20em" dy="0em" class="st4">捨</tspan><tspan x="32.314em"
+						dy="-0.198em" class="st5" v:baseFontSize="10">※</tspan><tspan x="21.651em" dy="0.129em" class="st3">、</tspan><tspan
+						x="22.651em 23.651em" dy="0em" class="st3">精進</tspan><tspan x="24.651em" dy="0em" class="st3">。</tspan></text>		</g>
+		<g id="shape17-36" v:mID="17" v:groupContext="shape" transform="translate(71.7363,1.19104) rotate(90.1)">
+			<title>工作表.17</title>
+			<path d="M0 22.47 C0 24.04 0.95 25.31 2.14 25.31 L10.65 25.31 C11.8 25.31 12.76 26.59 12.76 28.14 C12.76 26.59 13.71
+						 25.31 14.9 25.31 L23.4 25.31 C24.56 25.31 25.51 24.04 25.51 22.47 L0 22.47 Z" class="st6"/>
+			<path d="M0 22.47 C0 24.04 0.95 25.31 2.14 25.31 L10.65 25.31 C11.8 25.31 12.76 26.59 12.76 28.14 C12.76 26.59 13.71
+						 25.31 14.9 25.31 L23.4 25.31 C24.56 25.31 25.51 24.04 25.51 22.47" class="st7"/>
+		</g>
+	</g>
+</svg>

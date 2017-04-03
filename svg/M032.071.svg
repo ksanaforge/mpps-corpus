@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M032.071＝F02601-2.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.0861in" height="0.45842in"
+		viewBox="0 0 150.199 33.0062" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group42-1" transform="translate(0.75,-0.75)" v:mID="42" v:groupContext="group">
+			<title>工作表.42</title>
+			<g id="shape36-2" v:mID="36" v:groupContext="shape" transform="translate(34.7685,-17.6639) rotate(-0.2)">
+				<title>工作表.36</title>
+				<desc>觀諸法生滅相為如</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="42.5924" cy="26.2338" width="85.19" height="13.5449"/>
+				<rect x="0" y="19.4613" width="85.1847" height="13.5449" class="st1"/>
+				<text x="-0" y="29.35" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>觀諸法生滅相為如</text>			</g>
+			<g id="shape37-5" v:mID="37" v:groupContext="shape" transform="translate(-0.0679327,-7.62773) rotate(-0.2)">
+				<title>工作表.37</title>
+				<desc>小乘</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="15.3427" cy="26.2338" width="30.69" height="13.5449"/>
+				<rect x="0" y="19.4613" width="30.6853" height="13.5449" class="st1"/>
+				<text x="-0" y="29.35" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>小乘   </text>			</g>
+			<g id="shape39-8" v:mID="39" v:groupContext="shape" transform="translate(34.8867,0.000201085) rotate(-0.2)">
+				<title>工作表.39</title>
+				<desc>滅一切諸觀得諸法實相</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.8488" cy="26.2338" width="113.7" height="13.5449"/>
+				<rect x="0" y="19.4613" width="113.698" height="13.5449" class="st1"/>
+				<text x="0" y="29.35" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>滅一切諸觀，得諸法實相</text>			</g>
+			<g id="shape41-11" v:mID="41" v:groupContext="shape" transform="translate(56.545,5.41299) rotate(89.8)">
+				<title>工作表.41</title>
+				<path d="M0 24.54 C0 26.89 0.88 28.77 2.03 28.77 L10.16 28.77 C11.24 28.77 12.19 30.65 12.19 33.01 C12.19 30.65 13.07
+							 28.77 14.22 28.77 L22.35 28.77 C23.43 28.77 24.38 26.89 24.38 24.54 L0 24.54 Z" class="st3"/>
+				<path d="M0 24.54 C0 26.89 0.88 28.77 2.03 28.77 L10.16 28.77 C11.24 28.77 12.19 30.65 12.19 33.01 C12.19 30.65 13.07
+							 28.77 14.22 28.77 L22.35 28.77 C23.43 28.77 24.38 26.89 24.38 24.54" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

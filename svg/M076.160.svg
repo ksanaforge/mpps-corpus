@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02903.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.55394in" height="0.400205in"
+		viewBox="0 0 183.883 28.8147" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(0.853933,-19.7537) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>不悔</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="51" cy="25.9827" width="102" height="5.66399"/>
+			<rect x="0" y="23.1507" width="102" height="5.66399" class="st1"/>
+			<text x="51" y="29.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不悔</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(95.3538,-19.6536) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>受罪畢墮小</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="34.5554" cy="25.9827" width="69.12" height="5.66399"/>
+			<rect x="0" y="23.1507" width="69.1108" height="5.66399" class="st1"/>
+			<text x="-0" y="29.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>受罪畢，墮小</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(2.42486,-12.1186) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>輕餘菩薩</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5" cy="25.9827" width="45" height="5.66399"/>
+			<rect x="0" y="23.1507" width="45" height="5.66399" class="st1"/>
+			<text x="0" y="29.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>輕餘菩薩 </text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(0.800291,-3.63892) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>即世悔</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="55.5" cy="25.9827" width="111" height="5.66399"/>
+			<rect x="0" y="23.1507" width="111" height="5.66399" class="st1"/>
+			<text x="51" y="29.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>即世悔</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(99.8001,-3.53684) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>受罪畢還依大出</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="41.6869" cy="25.9827" width="83.38" height="5.66399"/>
+			<rect x="0" y="23.1507" width="83.3739" height="5.66399" class="st1"/>
+			<text x="0" y="29.1" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>受罪畢，還依大出</text>		</g>
+		<g id="shape18-16" v:mID="18" v:groupContext="shape" transform="translate(73.4196,2.59886) rotate(90.1)">
+			<title>工作表.18</title>
+			<path d="M0 23.15 C0 24.71 0.88 25.99 2.01 25.99 L9.37 25.99 C10.47 25.99 11.38 27.25 11.38 28.81 C11.38 27.25 12.26
+						 25.99 13.39 25.99 L22.09 25.99 C23.18 25.99 24.09 24.71 24.09 23.15 L0 23.15 Z" class="st3"/>
+			<path d="M0 23.15 C0 24.71 0.88 25.99 2.01 25.99 L9.37 25.99 C10.47 25.99 11.38 27.25 11.38 28.81 C11.38 27.25 12.26
+						 25.99 13.39 25.99 L22.09 25.99 C23.18 25.99 24.09 24.71 24.09 23.15" class="st4"/>
+		</g>
+		<g id="shape19-19" v:mID="19" v:groupContext="shape" transform="translate(75.4113,-22.3661)">
+			<title>工作表.19</title>
+			<path d="M0 28.81 L17.01 28.81" class="st4"/>
+		</g>
+		<g id="shape20-22" v:mID="20" v:groupContext="shape" transform="translate(85.3325,-6.15901)">
+			<title>工作表.20</title>
+			<path d="M0 28.81 L11.34 28.81" class="st4"/>
+		</g>
+	</g>
+</svg>

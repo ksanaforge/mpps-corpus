@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F01202.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.10282in" height="0.683639in"
+		viewBox="0 0 223.403 49.222" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(86.9146,-34.6117) rotate(-0.2)">
+			<title>工作表.1</title>
+			<desc>出定常在欲界定故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="42.4496" width="90.3" height="13.5449"/>
+			<rect x="0" y="35.6771" width="90.2993" height="13.5449" class="st1"/>
+			<text x="0" y="45.56" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>出定常在欲界定故</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.625464,-17.3458) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>如來定中能說法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="42.4496" width="79.02" height="13.5449"/>
+			<rect x="0" y="35.6771" width="79.0119" height="13.5449" class="st1"/>
+			<text x="0" y="45.56" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如來定中能說法</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(86.9737,-17.6807) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>佛異聲聞定能說故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="42.4496" width="90.3" height="13.5449"/>
+			<rect x="0" y="35.6771" width="90.2993" height="13.5449" class="st1"/>
+			<text x="0" y="45.56" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛異聲聞定能說故</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(87.0328,-0.7497) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>無覺觀粗心有不思議智故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="67.7245" cy="42.4496" width="135.45" height="13.5449"/>
+			<rect x="0" y="35.6771" width="135.449" height="13.5449" class="st1"/>
+			<text x="0" y="45.56" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無覺觀粗心，有不思議智故</text>		</g>
+		<g id="shape14-13" v:mID="14" v:groupContext="shape" transform="translate(124.984,6.93317) rotate(89.8)">
+			<title>工作表.14</title>
+			<path d="M0 40.76 C0 43.11 1.32 44.99 2.82 44.99 L14.67 44.99 C16.27 44.99 17.5 46.87 17.5 49.22 C17.5 46.87 18.81 44.99
+						 20.32 44.99 L31.04 44.99 C32.64 44.99 33.86 43.11 33.86 40.76 L0 40.76 Z" class="st3"/>
+			<path d="M0 40.76 C0 43.11 1.32 44.99 2.82 44.99 L14.67 44.99 C16.27 44.99 17.5 46.87 17.5 49.22 C17.5 46.87 18.81 44.99
+						 20.32 44.99 L31.04 44.99 C32.64 44.99 33.86 43.11 33.86 40.76" class="st4"/>
+		</g>
+	</g>
+</svg>

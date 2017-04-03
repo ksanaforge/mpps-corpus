@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02105.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.82496in" height="0.604179in"
+		viewBox="0 0 131.397 43.5009" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(72.8535,-32.2109) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>悔過品</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.0022" cy="38.44" width="38.01" height="10.1219"/>
+			<rect x="0" y="33.379" width="38.0044" height="10.1219" class="st1"/>
+			<text x="0" y="41.55" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>悔過品</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.825923,-16.8588) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>菩薩禮佛三品</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.1749" cy="38.44" width="70.35" height="10.1219"/>
+			<rect x="0" y="33.379" width="70.3498" height="10.1219" class="st1"/>
+			<text x="-0" y="41.55" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩禮佛三品</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(72.8258,-16.7332) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>隨喜迴向品</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.9386" cy="38.44" width="57.88" height="10.1219"/>
+			<rect x="0" y="33.379" width="57.8773" height="10.1219" class="st1"/>
+			<text x="-0" y="41.55" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>隨喜迴向品</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(72.7988,-1.2554) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>勸請諸佛品</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.9535" cy="38.44" width="57.91" height="10.1219"/>
+			<rect x="0" y="33.379" width="57.907" height="10.1219" class="st1"/>
+			<text x="0" y="41.55" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>勸請諸佛品</text>		</g>
+		<g id="shape12-13" v:mID="12" v:groupContext="shape" transform="translate(107.057,1.44732) rotate(90.1)">
+			<title>工作表.12</title>
+			<path d="M0 37.83 C0 39.4 1.53 40.67 3.41 40.67 L17.11 40.67 C19.02 40.67 20.55 41.95 20.55 43.5 C20.55 41.95 22.08 40.67
+						 23.96 40.67 L37.66 40.67 C39.58 40.67 41.1 39.4 41.1 37.83 L0 37.83 Z" class="st3"/>
+			<path d="M0 37.83 C0 39.4 1.53 40.67 3.41 40.67 L17.11 40.67 C19.02 40.67 20.55 41.95 20.55 43.5 C20.55 41.95 22.08 40.67
+						 23.96 40.67 L37.66 40.67 C39.58 40.67 41.1 39.4 41.1 37.83" class="st4"/>
+		</g>
+	</g>
+</svg>

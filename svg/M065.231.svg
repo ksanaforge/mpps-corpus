@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02407.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.32936in" height="0.993289in"
+		viewBox="0 0 95.7139 71.5168" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(62.0452,-60.1082) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>凡夫法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.4727" cy="66.3373" width="30.95" height="10.3591"/>
+			<rect x="0" y="61.1577" width="30.9455" height="10.3591" class="st1"/>
+			<text x="-0" y="69.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>凡夫法</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(62.0907,-45.5702) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>聲聞法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.4866" cy="66.3373" width="32.98" height="10.3591"/>
+			<rect x="0" y="61.1577" width="32.9733" height="10.3591" class="st1"/>
+			<text x="-0" y="69.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>聲聞法</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(0.87482,-30.9618) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>略說五種法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.5812" cy="66.5137" width="53.17" height="10.0062"/>
+			<rect x="0" y="61.5106" width="53.1624" height="10.0062" class="st1"/>
+			<text x="-0" y="69.63" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>略說五種法</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(53.4855,-31.0181) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>緣覺法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="20.7926" cy="66.3373" width="41.59" height="10.3591"/>
+			<rect x="0" y="61.1577" width="41.5853" height="10.3591" class="st1"/>
+			<text x="8.5" y="69.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>緣覺法</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(62.0484,-16.251) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>菩薩法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.0986" cy="66.3373" width="32.2" height="10.3591"/>
+			<rect x="0" y="61.1577" width="32.1973" height="10.3591" class="st1"/>
+			<text x="0" y="69.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩法</text>		</g>
+		<g id="shape7-16" v:mID="7" v:groupContext="shape" transform="translate(62.1422,-1.08442) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>佛法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.0026" cy="66.3373" width="28.01" height="10.3591"/>
+			<rect x="0" y="61.1577" width="28.0053" height="10.3591" class="st1"/>
+			<text x="-0" y="69.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>佛法</text>		</g>
+		<g id="shape16-19" v:mID="16" v:groupContext="shape" transform="translate(125.017,1.20477) rotate(90.1)">
+			<title>工作表.16</title>
+			<path d="M0 65.85 C0 67.42 2.58 68.68 5.75 68.68 L28.68 68.68 C31.85 68.68 34.4 69.97 34.4 71.52 C34.4 69.97 36.98 68.68
+						 40.15 68.68 L63.08 68.68 C66.25 68.68 68.79 67.42 68.79 65.85 L0 65.85 Z" class="st3"/>
+			<path d="M0 65.85 C0 67.42 2.58 68.68 5.75 68.68 L28.68 68.68 C31.85 68.68 34.4 69.97 34.4 71.52 C34.4 69.97 36.98 68.68
+						 40.15 68.68 L63.08 68.68 C66.25 68.68 68.79 67.42 68.79 65.85" class="st4"/>
+		</g>
+	</g>
+</svg>

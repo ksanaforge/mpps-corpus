@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00410.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.96371in" height="0.404076in"
+		viewBox="0 0 141.387 29.0935" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(91.0419,-17.4643) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>得名集</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.8136" cy="23.6935" width="49.63" height="10.8"/>
+			<rect x="0" y="18.2935" width="49.6272" height="10.8" class="st1"/>
+			<text x="0" y="26.81" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>得名集</text>		</g>
+		<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(0.800778,-8.81619) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>如法性實際之集散</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.9099" cy="23.6935" width="85.82" height="10.8"/>
+			<rect x="0" y="18.2935" width="85.8198" height="10.8" class="st1"/>
+			<text x="-0" y="26.81" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如法性實際之集散</text>		</g>
+		<g id="shape6-7" v:mID="6" v:groupContext="shape" transform="translate(91.0061,-0.881343) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>失名散</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.1307" cy="23.6935" width="46.27" height="10.8"/>
+			<rect x="0" y="18.2935" width="46.2615" height="10.8" class="st1"/>
+			<text x="0" y="26.81" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>失名散</text>		</g>
+		<g id="shape13-10" v:mID="13" v:groupContext="shape" transform="translate(111.571,1.18012) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 22.34 C0 24.19 0.99 25.72 2.25 25.72 L11.25 25.72 C12.46 25.72 13.5 27.25 13.5 29.09 C13.5 27.25 14.49 25.72
+						 15.75 25.72 L24.75 25.72 C25.96 25.72 27 24.19 27 22.34 L0 22.34 Z" class="st3"/>
+			<path d="M0 22.34 C0 24.19 0.99 25.72 2.25 25.72 L11.25 25.72 C12.46 25.72 13.5 27.25 13.5 29.09 C13.5 27.25 14.49 25.72
+						 15.75 25.72 L24.75 25.72 C25.96 25.72 27 24.19 27 22.34" class="st4"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02401.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.0071in" height="0.363124in"
+		viewBox="0 0 144.511 26.1449" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(81.808,-17.6923) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>用上三句破</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.7449" cy="23.9213" width="53.49" height="4.44729"/>
+			<rect x="0" y="21.6976" width="53.4898" height="4.44729" class="st1"/>
+			<text x="0" y="27.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>用上三句破</text>		</g>
+		<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(0.795632,-11.0385) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>非有非無二種破</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="38.1286" cy="23.9213" width="76.26" height="4.44729"/>
+			<rect x="0" y="21.6976" width="76.2572" height="4.44729" class="st1"/>
+			<text x="0" y="27.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>非有非無二種破</text>		</g>
+		<g id="shape5-7" v:mID="5" v:groupContext="shape" transform="translate(81.7816,-4.11026) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>用涅槃實相破</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.0088" cy="23.9213" width="62.02" height="4.44729"/>
+			<rect x="0" y="21.6976" width="62.0177" height="4.44729" class="st1"/>
+			<text x="0" y="27.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>用涅槃實相破</text>		</g>
+		<g id="shape14-10" v:mID="14" v:groupContext="shape" transform="translate(99.2027,1.49596) rotate(90.1)">
+			<title>工作表.14</title>
+			<path d="M0 19.86 C0 21.6 0.83 23 1.86 23 L9.27 23 C10.29 23 11.12 24.41 11.12 26.14 C11.12 24.41 11.94 23 12.98 23 L20.39
+						 23 C21.41 23 22.23 21.6 22.23 19.86 L0 19.86 Z" class="st3"/>
+			<path d="M0 19.86 C0 21.6 0.83 23 1.86 23 L9.27 23 C10.29 23 11.12 24.41 11.12 26.14 C11.12 24.41 11.94 23 12.98 23 L20.39
+						 23 C21.41 23 22.23 21.6 22.23 19.86" class="st4"/>
+		</g>
+	</g>
+</svg>

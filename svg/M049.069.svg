@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01307.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.37563in" height="0.394784in"
+		viewBox="0 0 387.045 28.4245" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(51.3729,-19.1884) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>知法不來不去無動無發法性常住。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="103.843" cy="25.4176" width="207.69" height="6.01375"/>
+			<rect x="0" y="22.4107" width="207.686" height="6.01375" class="st1"/>
+			<text x="0" y="28.53" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>知法不來不去，無動無發，法性常住。</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.79961,-11.2418) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>發趣大乘</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="25.9096" cy="25.4176" width="51.82" height="6.01375"/>
+			<rect x="0" y="22.4107" width="51.8192" height="6.01375" class="st1"/>
+			<text x="0" y="28.53" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>發趣大乘</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(51.1433,-1.40494) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>以大悲心精進力方便力修諸善法更求勝地……不取地相不見此地。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="167.592" cy="23.0245" width="335.19" height="10.8"/>
+			<rect x="0" y="17.6245" width="335.183" height="10.8" class="st1"/>
+			<text x="0" y="26.14" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>以大悲心，精進力，方便力，修諸善法更求勝地<tspan class="st3">……</tspan>不取地相，不見此地。</text>		</g>
+		<g id="shape11-11" v:mID="11" v:groupContext="shape" transform="translate(71.3903,0.929793) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 22.04 C0 23.8 0.98 25.23 2.18 25.23 L10.95 25.23 C12.18 25.23 13.16 26.66 13.16 28.42 C13.16 26.66 14.13
+						 25.23 15.34 25.23 L24.11 25.23 C25.33 25.23 26.31 23.8 26.31 22.04 L0 22.04 Z" class="st4"/>
+			<path d="M0 22.04 C0 23.8 0.98 25.23 2.18 25.23 L10.95 25.23 C12.18 25.23 13.16 26.66 13.16 28.42 C13.16 26.66 14.13
+						 25.23 15.34 25.23 L24.11 25.23 C25.33 25.23 26.31 23.8 26.31 22.04" class="st5"/>
+		</g>
+	</g>
+</svg>

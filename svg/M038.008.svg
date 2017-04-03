@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 M026.175-1=A00901-2.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.32372in" height="1.14605in"
+		viewBox="0 0 167.308 82.5154" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(55.1284,-68.2205)">
+			<title>工作表.1</title>
+			<desc>世諦第一義諦</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="75.7429" width="79.02" height="13.5449"/>
+			<rect x="0" y="68.9705" width="79.0119" height="13.5449" class="st1"/>
+			<text x="0" y="78.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>世諦，第一義諦</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(55.1271,-51.3529)">
+			<title>工作表.2</title>
+			<desc>知名字相不知名字相。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.7153" cy="75.7429" width="111.44" height="13.5449"/>
+			<rect x="0" y="68.9705" width="111.431" height="13.5449" class="st1"/>
+			<text x="0" y="78.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>知名字相，不知名字相。</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(55.1275,-34.4852)">
+			<title>工作表.3</title>
+			<desc>初習行久習行</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="75.7429" width="79.02" height="13.5449"/>
+			<rect x="0" y="68.9705" width="79.0119" height="13.5449" class="st1"/>
+			<text x="0" y="78.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>初習行，久習行</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(55.1284,-17.6176)">
+			<title>工作表.4</title>
+			<desc>著者不著者</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="75.7429" width="67.73" height="13.5449"/>
+			<rect x="0" y="68.9705" width="67.7245" height="13.5449" class="st1"/>
+			<text x="0" y="78.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>著者，不著者</text>		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(55.1271,-0.75)">
+			<title>工作表.5</title>
+			<desc>知它意者不知它意者。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.7153" cy="75.7429" width="111.44" height="13.5449"/>
+			<rect x="0" y="68.9705" width="111.431" height="13.5449" class="st1"/>
+			<text x="0" y="78.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>知它意者，不知它意者。</text>		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" transform="translate(127.183,6.84209) rotate(90)">
+			<title>工作表.6</title>
+			<path d="M0 74.05 C0 76.4 2.58 78.28 5.73 78.28 L28.78 78.28 C32 78.28 34.58 80.16 34.58 82.52 C34.58 80.16 37.17 78.28
+						 40.31 78.28 L63.37 78.28 C66.58 78.28 69.17 76.4 69.17 74.05 L0 74.05 Z" class="st3"/>
+			<path d="M0 74.05 C0 76.4 2.58 78.28 5.73 78.28 L28.78 78.28 C32 78.28 34.58 80.16 34.58 82.52 C34.58 80.16 37.17 78.28
+						 40.31 78.28 L63.37 78.28 C66.58 78.28 69.17 76.4 69.17 74.05" class="st4"/>
+		</g>
+		<g id="shape10-19" v:mID="10" v:groupContext="shape" transform="translate(0.75,-34.5685)">
+			<title>工作表.10</title>
+			<desc>有我無我</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="75.7429" width="45.15" height="13.5449"/>
+			<rect x="0" y="68.9705" width="45.1496" height="13.5449" class="st1"/>
+			<text x="-0" y="78.86" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有我無我</text>		</g>
+	</g>
+</svg>

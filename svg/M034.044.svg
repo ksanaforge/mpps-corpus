@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00102.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.32216in" height="0.420004in"
+		viewBox="0 0 167.195 30.2403" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group25-1" transform="translate(0.75,-0.28125)" v:mID="25" v:groupContext="group">
+			<title>工作表.25</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(53.5034,-18.3298) rotate(0.1)">
+				<title>工作表.1</title>
+				<desc>一、共聲聞菩薩合說</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.113" cy="24.8403" width="112.23" height="10.8"/>
+				<rect x="0" y="19.4403" width="112.226" height="10.8" class="st1"/>
+				<text x="-0" y="27.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一、共聲聞菩薩合說</text>			</g>
+			<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.0527792,-7.93944) rotate(0.1)">
+				<title>工作表.2</title>
+				<desc>二種般若</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="26.4285" cy="24.8403" width="52.86" height="10.8"/>
+				<rect x="0" y="19.4403" width="52.857" height="10.8" class="st1"/>
+				<text x="0" y="27.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種般若</text>			</g>
+			<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(53.4668,-0.761406) rotate(0.1)">
+				<title>工作表.3</title>
+				<desc>二、但與法身菩薩說</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="52.5878" cy="24.8403" width="105.18" height="10.8"/>
+				<rect x="0" y="19.4403" width="105.176" height="10.8" class="st1"/>
+				<text x="-0" y="27.95" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二、但與法身菩薩說</text>			</g>
+			<g id="shape24-11" v:mID="24" v:groupContext="shape" transform="translate(72.9969,3.28283) rotate(90.1)">
+				<title>工作表.24</title>
+				<path d="M0 24.36 C0 25.97 1.04 27.3 2.25 27.3 L11.25 27.3 C12.51 27.3 13.5 28.63 13.5 30.24 C13.5 28.63 14.54 27.3
+							 15.75 27.3 L24.75 27.3 C26.01 27.3 27 25.97 27 24.36 L0 24.36 Z" class="st3"/>
+				<path d="M0 24.36 C0 25.97 1.04 27.3 2.25 27.3 L11.25 27.3 C12.51 27.3 13.5 28.63 13.5 30.24 C13.5 28.63 14.54 27.3
+							 15.75 27.3 L24.75 27.3 C26.01 27.3 27 25.97 27 24.36" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

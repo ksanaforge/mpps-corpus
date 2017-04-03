@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02105.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.92831in" height="0.65666in"
+		viewBox="0 0 354.839 47.2796" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(72.6233,-0.75)">
+			<title>工作表.1</title>
+			<desc>一、報佛恩故 二、佛以深法試故 三、增進定故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="43.6461" cy="24.3898" width="87.3" height="45.7796"/>
+			<rect x="0" y="1.5" width="87.2921" height="45.7796" class="st1"/>
+			<text x="-0" y="12.4" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、報佛恩故<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st3">二</tspan>、佛以深法試故<v:newlineChar/><tspan x="-0" dy="1.453em" class="st3">三</tspan>、增進定故</text>		</g>
+		<g id="shape4-6" v:mID="4" v:groupContext="shape" transform="translate(0.75,-17.8547)">
+			<title>工作表.4</title>
+			<desc>羅漢聽法七意</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="40.5071" width="67.73" height="13.5449"/>
+			<rect x="0" y="33.7347" width="67.7245" height="13.5449" class="st1"/>
+			<text x="0" y="44.14" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>羅漢聽法七意</text>		</g>
+		<g id="shape20-9" v:mID="20" v:groupContext="shape" transform="translate(184.01,-0.75)">
+			<title>工作表.20</title>
+			<desc>四、現前樂故 五、聞無厭故 六、更欲聞故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="33.8622" cy="24.3898" width="67.73" height="45.7796"/>
+			<rect x="0" y="1.5" width="67.7245" height="45.7796" class="st1"/>
+			<text x="0" y="12.4" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>四、現前樂故<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st3">五</tspan>、聞無厭故<v:newlineChar/><tspan x="0" dy="1.453em" class="st3">六</tspan>、更欲聞故</text>		</g>
+		<g id="shape24-14" v:mID="24" v:groupContext="shape" transform="translate(275.077,-0.75)">
+			<title>工作表.24</title>
+			<desc>七、住處相應故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="39.5059" cy="24.3898" width="79.02" height="45.7796"/>
+			<rect x="0" y="1.5" width="79.0119" height="45.7796" class="st1"/>
+			<text x="0" y="12.4" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>七、住處相應故</text>		</g>
+		<g id="shape26-17" v:mID="26" v:groupContext="shape" transform="translate(110.174,8.72308) rotate(90)">
+			<title>工作表.26</title>
+			<path d="M0 39.55 C0 41.68 0 43.44 0 43.44 L15.13 43.44 C15.13 43.44 15.13 45.2 15.13 47.28 C15.13 45.15 15.13 43.44
+						 15.13 43.44 L30.26 43.44 C30.26 43.44 30.26 41.68 30.26 39.55 L0 39.55 Z" class="st4"/>
+			<path d="M0 39.55 C0 41.68 0 43.44 0 43.44 L15.13 43.44 C15.13 43.44 15.13 45.2 15.13 47.28 C15.13 45.15 15.13 43.44
+						 15.13 43.44 L30.26 43.44 C30.26 43.44 30.26 41.68 30.26 39.55" class="st5"/>
+		</g>
+	</g>
+</svg>

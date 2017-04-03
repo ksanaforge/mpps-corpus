@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02605.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.32264in" height="0.398329in"
+		viewBox="0 0 167.23 28.6797" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="group1-1" transform="translate(0.75,-0.75)" v:mID="1" v:groupContext="group">
+			<title>工作表.1</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(81.057,-18.1504) rotate(0.1)">
+				<title>工作表.2</title>
+				<desc>一、約經卷含受說</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="40.938" cy="25.1296" width="81.88" height="7.1003"/>
+				<rect x="0" y="21.5794" width="81.876" height="7.1003" class="st1"/>
+				<text x="-0" y="28.24" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一、約經卷含受說</text>			</g>
+			<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(0.0729178,-10.6769) rotate(0.1)">
+				<title>工作表.3</title>
+				<desc>般若含受五度等</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="36" cy="25.1296" width="72" height="7.1003"/>
+				<rect x="0" y="21.5794" width="72" height="7.1003" class="st1"/>
+				<text x="0" y="28.24" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>般若含受五度等 </text>			</g>
+			<g id="shape4-8" v:mID="4" v:groupContext="shape" transform="translate(0.0500555,-0.240812) rotate(0.1)">
+				<title>工作表.4</title>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<rect x="0" y="17.8797" width="138" height="10.8" class="st1"/>
+			</g>
+			<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(81.0177,-3.35898) rotate(0.1)">
+				<title>工作表.5</title>
+				<desc>二、約和合相應說</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="42.3751" cy="25.1296" width="84.76" height="7.1003"/>
+				<rect x="0" y="21.5794" width="84.7502" height="7.1003" class="st1"/>
+				<text x="0" y="28.24" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二、約和合相應說</text>			</g>
+			<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(101.59,2.43799) rotate(90.1)">
+				<title>工作表.6</title>
+				<path d="M0 23.01 C0 24.58 0.9 25.85 2.02 25.85 L10.05 25.85 C11.15 25.85 12.05 27.13 12.05 28.68 C12.05 27.13 12.94
+							 25.85 14.07 25.85 L22.1 25.85 C23.19 25.85 24.09 24.58 24.09 23.01 L0 23.01 Z" class="st3"/>
+				<path d="M0 23.01 C0 24.58 0.9 25.85 2.02 25.85 L10.05 25.85 C11.15 25.85 12.05 27.13 12.05 28.68 C12.05 27.13 12.94
+							 25.85 14.07 25.85 L22.1 25.85 C23.19 25.85 24.09 24.58 24.09 23.01" class="st4"/>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A02707.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.8102in" height="0.612639in"
+		viewBox="0 0 346.335 44.11" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(120.556,-0.75)">
+			<title>工作表.2</title>
+			<desc>外道禪有味著、邪見、憍慢三患。 二乘禪悲薄智淺不貫徹實相獨善斷佛種。 菩薩禪集諸佛法不忘眾生。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.514" cy="22.805" width="225.03" height="42.61"/>
+			<rect x="0" y="1.5" width="225.028" height="42.61" class="st1"/>
+			<text x="-0" y="11.9" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>外道禪：有味著、邪見、憍慢三患。<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st3">二乘禪</tspan>：悲薄智淺，不貫徹實相，獨善，斷佛種。<v:newlineChar/><tspan x="-0" dy="1.453em"
+						class="st3">菩薩禪</tspan>：集諸佛法，不忘眾生。</text>		</g>
+		<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(0.75,-15.2085)">
+			<title>工作表.3</title>
+			<desc>又外、小、菩薩入禪之別</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="58.3228" cy="37.3375" width="116.65" height="13.5449"/>
+			<rect x="0" y="30.5651" width="116.646" height="13.5449" class="st1"/>
+			<text x="0" y="40.97" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>又外、小、菩薩入禪之別</text>		</g>
+		<g id="shape16-9" v:mID="16" v:groupContext="shape" transform="translate(156.823,8.17681) rotate(90)">
+			<title>工作表.16</title>
+			<path d="M0 37.58 C0 39.38 0 40.87 0 40.87 L14.62 40.87 C14.62 40.87 14.62 42.31 14.62 44.11 C14.62 42.31 14.62 40.87
+						 14.62 40.87 L29.24 40.87 C29.24 40.87 29.24 39.38 29.24 37.58 L0 37.58 Z" class="st4"/>
+			<path d="M0 37.58 C0 39.38 0 40.87 0 40.87 L14.62 40.87 C14.62 40.87 14.62 42.31 14.62 44.11 C14.62 42.31 14.62 40.87
+						 14.62 40.87 L29.24 40.87 C29.24 40.87 29.24 39.38 29.24 37.58" class="st5"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01702.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.55823in" height="0.440125in"
+		viewBox="0 0 184.193 31.689" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(90.9469,-0.75)">
+			<title>工作表.1</title>
+			<desc>凡夫人——有所得 諸佛心中——無所得</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.248" cy="16.5945" width="92.5" height="30.189"/>
+			<rect x="0" y="1.5" width="92.496" height="30.189" class="st1"/>
+			<text x="0" y="12.96" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>凡夫人<tspan class="st3">——</tspan>有所得<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st4">諸佛心中</tspan><tspan class="st3">——</tspan>無所得</text>		</g>
+		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(0.75,-7.50413)">
+			<title>工作表.2</title>
+			<desc>福德智慧增益善根</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.4986" cy="24.9166" width="85" height="13.5449"/>
+			<rect x="0" y="18.1441" width="84.9973" height="13.5449" class="st1"/>
+			<text x="-0" y="28.03" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>福德智慧增益善根</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(113.652,8.97048) rotate(90)">
+			<title>工作表.11</title>
+			<path d="M0 24.12 C0 26.22 0.59 27.9 1.36 27.9 L7.52 27.9 C8.24 27.9 8.87 29.63 8.87 31.69 C8.87 29.63 9.46 27.9 10.23
+						 27.9 L14.94 27.9 C15.71 27.9 16.3 26.22 16.3 24.12 L0 24.12 Z" class="st5"/>
+			<path d="M0 24.12 C0 26.22 0.59 27.9 1.36 27.9 L7.52 27.9 C8.24 27.9 8.87 29.63 8.87 31.69 C8.87 29.63 9.46 27.9 10.23
+						 27.9 L14.94 27.9 C15.71 27.9 16.3 26.22 16.3 24.12" class="st6"/>
+		</g>
+	</g>
+</svg>

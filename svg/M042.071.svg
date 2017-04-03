@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B00503.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.03996in" height="0.394399in"
+		viewBox="0 0 146.877 28.3968" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(50.785,-16.7675) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>慧眼觀之是虛誑故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.5608" cy="22.9968" width="91.13" height="10.8"/>
+			<rect x="0" y="17.5968" width="91.1217" height="10.8" class="st1"/>
+			<text x="0" y="26.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>慧眼觀之是虛誑故。</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.799562,-8.91013) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>地大無實</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.8385" cy="22.9968" width="41.68" height="10.8"/>
+			<rect x="0" y="17.5968" width="41.677" height="10.8" class="st1"/>
+			<text x="-0" y="26.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>地大無實</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(50.749,-0.986064) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>隨觀而轉無定實故。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="47.7045" cy="22.9968" width="95.41" height="10.8"/>
+			<rect x="0" y="17.5968" width="95.409" height="10.8" class="st1"/>
+			<text x="-0" y="26.11" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>隨觀而轉無定實故。</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(71.6205,1.09948) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 23.14 C0 24.58 0.99 25.77 2.25 25.77 L11.25 25.77 C12.46 25.77 13.5 26.96 13.5 28.4 C13.5 26.96 14.49 25.77
+						 15.75 25.77 L24.75 25.77 C25.96 25.77 27 24.58 27 23.14 L0 23.14 Z" class="st3"/>
+			<path d="M0 23.14 C0 24.58 0.99 25.77 2.25 25.77 L11.25 25.77 C12.46 25.77 13.5 26.96 13.5 28.4 C13.5 26.96 14.49 25.77
+						 15.75 25.77 L24.75 25.77 C25.96 25.77 27 24.58 27 23.14" class="st4"/>
+		</g>
+	</g>
+</svg>

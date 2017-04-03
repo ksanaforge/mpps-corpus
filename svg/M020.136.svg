@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F00702.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.38894in" height="0.452358in"
+		viewBox="0 0 316.004 32.5698" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape38-1" v:mID="38" v:groupContext="shape" transform="translate(0.675789,-18.0643) rotate(-0.2)">
+			<title>工作表.38</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="21.2598" width="104.578" height="11.31" class="st1"/>
+		</g>
+		<g id="shape39-3" v:mID="39" v:groupContext="shape" transform="translate(85.3897,-17.802) rotate(-0.2)">
+			<title>工作表.39</title>
+			<desc>第一義中</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.1079" cy="25.7973" width="48.22" height="13.5449"/>
+			<rect x="0" y="19.0249" width="48.2159" height="13.5449" class="st1"/>
+			<text x="0" y="28.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>第一義中</text>		</g>
+		<g id="shape40-6" v:mID="40" v:groupContext="shape" transform="translate(0.683591,-8.94477) rotate(-0.2)">
+			<title>工作表.40</title>
+			<desc>眾生能不度盡</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="25.7973" width="67.73" height="13.5449"/>
+			<rect x="0" y="19.0249" width="67.7245" height="13.5449" class="st1"/>
+			<text x="-0" y="28.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>眾生能不度盡</text>		</g>
+		<g id="shape42-9" v:mID="42" v:groupContext="shape" transform="translate(85.8163,-0.749802) rotate(-0.2)">
+			<title>工作表.42</title>
+			<desc>世俗法中</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.836" cy="25.7973" width="47.68" height="13.5449"/>
+			<rect x="0" y="19.0249" width="47.6719" height="13.5449" class="st1"/>
+			<text x="0" y="28.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>世俗法中</text>		</g>
+		<g id="shape59-12" v:mID="59" v:groupContext="shape" transform="translate(105.412,4.10405) rotate(89.8)">
+			<title>工作表.59</title>
+			<path d="M0 24.1 C0 26.46 0.91 28.34 2.09 28.34 L10.46 28.34 C11.57 28.34 12.55 30.22 12.55 32.57 C12.55 30.22 13.45
+						 28.34 14.64 28.34 L23 28.34 C24.12 28.34 25.09 26.46 25.09 24.1 L0 24.1 Z" class="st3"/>
+			<path d="M0 24.1 C0 26.46 0.91 28.34 2.09 28.34 L10.46 28.34 C11.57 28.34 12.55 30.22 12.55 32.57 C12.55 30.22 13.45
+						 28.34 14.64 28.34 L23 28.34 C24.12 28.34 25.09 26.46 25.09 24.1" class="st4"/>
+		</g>
+		<g id="shape61-15" v:mID="61" v:groupContext="shape" transform="translate(152.195,-18.0179) rotate(-0.2)">
+			<title>工作表.61</title>
+			<desc>實無眾生可度</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.7999" cy="25.7973" width="73.6" height="13.5449"/>
+			<rect x="0" y="19.0249" width="73.5997" height="13.5449" class="st1"/>
+			<text x="0" y="28.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>實無眾生可度</text>		</g>
+		<g id="shape62-18" v:mID="62" v:groupContext="shape" transform="translate(152.882,-1.69261) rotate(-0.2)">
+			<title>工作表.62</title>
+			<desc>說有可度實無可度故言不盡</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.1294" cy="25.7973" width="162.26" height="13.5449"/>
+			<rect x="0" y="19.0249" width="162.259" height="13.5449" class="st1"/>
+			<text x="0" y="28.91" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>說有可度，實無可度，故言不盡</text>		</g>
+		<g id="shape64-21" v:mID="64" v:groupContext="shape" transform="translate(129.64,-1.94495)">
+			<title>工作表.64</title>
+			<desc>──</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.311" cy="25.7973" width="22.63" height="13.5449"/>
+			<rect x="0" y="19.0249" width="22.622" height="13.5449" class="st1"/>
+			<text x="0" y="28.8" class="st5" v:langID="1028"><v:paragraph/><v:tabList/>──</text>		</g>
+		<g id="shape65-24" v:mID="65" v:groupContext="shape" transform="translate(129.64,-18.2749)">
+			<title>工作表.65</title>
+			<desc>──</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.311" cy="25.7973" width="22.63" height="13.5449"/>
+			<rect x="0" y="19.0249" width="22.622" height="13.5449" class="st1"/>
+			<text x="0" y="28.8" class="st5" v:langID="1028"><v:paragraph/><v:tabList/>──</text>		</g>
+	</g>
+</svg>

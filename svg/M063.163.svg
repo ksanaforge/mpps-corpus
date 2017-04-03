@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02302.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.16309in" height="0.383943in"
+		viewBox="0 0 227.743 27.6439" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(51.4139,-18.9748) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>名字清淨─用二法清淨─分別是垢是淨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="87.8093" cy="25.204" width="175.62" height="4.87985"/>
+			<rect x="0" y="22.764" width="175.619" height="4.87985" class="st1"/>
+			<text x="0" y="28.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>名字清淨<tspan class="st3">─</tspan>用二法清淨<tspan
+						class="st3">─</tspan>分別是垢是淨</text>		</g>
+		<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(0.798248,-11.6537) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>二種清淨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.0824" cy="25.204" width="56.17" height="4.87985"/>
+			<rect x="0" y="22.764" width="56.1648" height="4.87985" class="st1"/>
+			<text x="0" y="28.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種清淨</text>		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(51.3872,-4.05094) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>真清淨─用不二法清淨─無垢無淨</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="85.8502" cy="25.204" width="171.71" height="4.87985"/>
+			<rect x="0" y="22.764" width="171.7" height="4.87985" class="st1"/>
+			<text x="0" y="28.32" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>真清淨<tspan class="st3">─</tspan>用不二法清淨<tspan
+						class="st3">─</tspan>無垢無淨</text>		</g>
+		<g id="shape13-14" v:mID="13" v:groupContext="shape" transform="translate(70.9767,1.12826) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 21.97 C0 23.54 0.9 24.81 2.02 24.81 L10.05 24.81 C11.15 24.81 12.05 26.09 12.05 27.64 C12.05 26.09 12.94
+						 24.81 14.07 24.81 L22.1 24.81 C23.2 24.81 24.09 23.54 24.09 21.97 L0 21.97 Z" class="st4"/>
+			<path d="M0 21.97 C0 23.54 0.9 24.81 2.02 24.81 L10.05 24.81 C11.15 24.81 12.05 26.09 12.05 27.64 C12.05 26.09 12.94
+						 24.81 14.07 24.81 L22.1 24.81 C23.2 24.81 24.09 23.54 24.09 21.97" class="st5"/>
+		</g>
+	</g>
+</svg>

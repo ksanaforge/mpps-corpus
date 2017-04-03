@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02707.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.15198in" height="0.379856in"
+		viewBox="0 0 154.943 27.3496" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(41.4013,-18.0698) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>得道空三解脫門</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.5597" cy="24.2989" width="93.12" height="6.10147"/>
+			<rect x="0" y="21.2482" width="93.1195" height="6.10147" class="st1"/>
+			<text x="0" y="27.41" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>得道空（三解脫門）</text>		</g>
+		<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(144.97,-15.3596) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>深</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="4.5" cy="21.9496" width="9.01" height="10.8"/>
+			<rect x="0" y="16.5496" width="9" height="10.8" class="st1"/>
+			<text x="0" y="25.06" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>深</text>		</g>
+		<g id="shape5-7" v:mID="5" v:groupContext="shape" transform="translate(0.797734,-10.9629) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>二種空</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18" cy="24.2989" width="36" height="6.10147"/>
+			<rect x="0" y="21.2482" width="36" height="6.10147" class="st1"/>
+			<text x="0" y="27.41" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種空 </text>		</g>
+		<g id="shape7-10" v:mID="7" v:groupContext="shape" transform="translate(41.3755,-3.24818) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>口說空。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.0321" cy="24.2989" width="52.07" height="6.10147"/>
+			<rect x="0" y="21.2482" width="52.0642" height="6.10147" class="st1"/>
+			<text x="0" y="27.41" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>口說空。</text>		</g>
+		<g id="shape14-13" v:mID="14" v:groupContext="shape" transform="translate(60.3696,1.23447) rotate(90.1)">
+			<title>工作表.14</title>
+			<path d="M0 21.63 C0 23.23 0.9 24.49 1.99 24.49 L10.44 24.49 C11.53 24.49 12.43 25.79 12.43 27.35 C12.43 25.79 13.33
+						 24.49 14.46 24.49 L22.07 24.49 C23.2 24.49 24.09 23.23 24.09 21.63 L0 21.63 Z" class="st3"/>
+			<path d="M0 21.63 C0 23.23 0.9 24.49 1.99 24.49 L10.44 24.49 C11.53 24.49 12.43 25.79 12.43 27.35 C12.43 25.79 13.33
+						 24.49 14.46 24.49 L22.07 24.49 C23.2 24.49 24.09 23.23 24.09 21.63" class="st4"/>
+		</g>
+		<g id="shape15-16" v:mID="15" v:groupContext="shape" transform="translate(128.73,-20.638)">
+			<title>工作表.15</title>
+			<path d="M0 27.35 L13.87 27.35" class="st5"/>
+		</g>
+	</g>
+</svg>

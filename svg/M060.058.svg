@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B02003.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.18074in" height="0.390791in"
+		viewBox="0 0 373.014 28.137" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(51.4252,-19.3068) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>相似般若─有所得般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6874" cy="25.5359" width="113.38" height="5.2022"/>
+			<rect x="0" y="22.9348" width="113.375" height="5.2022" class="st1"/>
+			<text x="0" y="28.65" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>相似般若<tspan class="st3">─</tspan>有所得般若</text>		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(167.327,-19.1793) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>如取相說五眾無常</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.3769" cy="25.5359" width="84.76" height="5.2022"/>
+			<rect x="0" y="22.9348" width="84.7538" height="5.2022" class="st1"/>
+			<text x="-0" y="28.65" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如取相說五眾無常</text>		</g>
+		<g id="shape4-8" v:mID="4" v:groupContext="shape" transform="translate(0.799108,-10.9066) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>二種般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="29.8473" cy="25.5359" width="59.7" height="5.2022"/>
+			<rect x="0" y="22.9348" width="59.6946" height="5.2022" class="st1"/>
+			<text x="-0" y="28.65" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種般若</text>		</g>
+		<g id="shape5-11" v:mID="5" v:groupContext="shape" transform="translate(51.3719,-3.6188) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>真實般若─無所得般若</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.5521" cy="25.1" width="119.11" height="6.07398"/>
+			<rect x="0" y="22.063" width="119.104" height="6.07398" class="st1"/>
+			<text x="-0" y="28.21" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>真實般若<tspan class="st3">─</tspan>無所得般若</text>		</g>
+		<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(167.273,-3.54118) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>如不取相說五眾無常但破常倒不著無常</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="102.515" cy="25.1" width="205.03" height="6.07398"/>
+			<rect x="0" y="22.063" width="205.029" height="6.07398" class="st1"/>
+			<text x="0" y="28.21" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如不取相說五眾無常（但破常倒，不著無常）</text>		</g>
+		<g id="shape13-18" v:mID="13" v:groupContext="shape" transform="translate(71.5931,3.33024) rotate(90.1)">
+			<title>工作表.13</title>
+			<path d="M0 22.47 C0 24.03 0.85 25.3 1.91 25.3 L9.49 25.3 C10.53 25.3 11.38 26.57 11.38 28.14 C11.38 26.57 12.23 25.3
+						 13.29 25.3 L20.87 25.3 C21.91 25.3 22.76 24.03 22.76 22.47 L0 22.47 Z" class="st4"/>
+			<path d="M0 22.47 C0 24.03 0.85 25.3 1.91 25.3 L9.49 25.3 C10.53 25.3 11.38 26.57 11.38 28.14 C11.38 26.57 12.23 25.3
+						 13.29 25.3 L20.87 25.3 C21.91 25.3 22.76 24.03 22.76 22.47" class="st5"/>
+		</g>
+		<g id="shape14-21" v:mID="14" v:groupContext="shape" transform="translate(153.99,-21.4898)">
+			<title>工作表.14</title>
+			<path d="M0 28.14 L10.76 28.14" class="st6"/>
+		</g>
+		<g id="shape15-24" v:mID="15" v:groupContext="shape" transform="translate(153.98,-6.22095) rotate(-0.0215938)">
+			<title>工作表.15</title>
+			<path d="M0 28.14 L10.36 28.14" class="st6"/>
+		</g>
+	</g>
+</svg>

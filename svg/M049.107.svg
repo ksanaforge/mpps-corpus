@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01401.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.57411in" height="0.635234in"
+		viewBox="0 0 257.336 45.7369" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {stroke:#000000;stroke-dasharray:0.5625,1.125;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(51.4165,-34.1076) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>涅槃</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2468" cy="40.3369" width="42.5" height="10.8"/>
+			<rect x="0" y="34.9369" width="42.4935" height="10.8" class="st1"/>
+			<text x="-0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>涅槃</text>		</g>
+		<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(203.358,-33.8484) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>果理法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.6444" cy="40.3369" width="53.29" height="10.8"/>
+			<rect x="0" y="34.9369" width="53.2889" height="10.8" class="st1"/>
+			<text x="0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>果（理）法</text>		</g>
+		<g id="shape5-7" v:mID="5" v:groupContext="shape" transform="translate(0.829826,-17.6872) rotate(0.1)">
+			<title>工作表.5</title>
+			<desc>法有三種</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.4265" cy="40.3369" width="54.86" height="10.8"/>
+			<rect x="0" y="34.9369" width="54.853" height="10.8" class="st1"/>
+			<text x="0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>法有三種</text>		</g>
+		<g id="shape6-10" v:mID="6" v:groupContext="shape" transform="translate(51.3877,-17.5929) rotate(0.1)">
+			<title>工作表.6</title>
+			<desc>涅槃方便八聖道</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="41.1041" cy="40.3369" width="82.21" height="10.8"/>
+			<rect x="0" y="34.9369" width="82.2082" height="10.8" class="st1"/>
+			<text x="0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>涅槃方便八聖道</text>		</g>
+		<g id="shape7-13" v:mID="7" v:groupContext="shape" transform="translate(203.33,-17.3331) rotate(0.1)">
+			<title>工作表.7</title>
+			<desc>行法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.0036" cy="40.3369" width="40.01" height="10.8"/>
+			<rect x="0" y="34.9369" width="40.0072" height="10.8" class="st1"/>
+			<text x="0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>行法</text>		</g>
+		<g id="shape8-16" v:mID="8" v:groupContext="shape" transform="translate(51.3596,-1.12305) rotate(0.1)">
+			<title>工作表.8</title>
+			<desc>善語實語助入聖道大小乘經</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="75.1331" cy="40.3369" width="150.27" height="10.8"/>
+			<rect x="0" y="34.9369" width="150.266" height="10.8" class="st1"/>
+			<text x="0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>善語實語助入聖道（大小乘經）</text>		</g>
+		<g id="shape9-19" v:mID="9" v:groupContext="shape" transform="translate(203.301,-0.863864) rotate(0.1)">
+			<title>工作表.9</title>
+			<desc>教法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.4736" cy="40.3369" width="32.95" height="10.8"/>
+			<rect x="0" y="34.9369" width="32.9472" height="10.8" class="st1"/>
+			<text x="-0" y="43.45" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>教法</text>		</g>
+		<g id="shape16-22" v:mID="16" v:groupContext="shape" transform="translate(89.197,0.869793) rotate(90.1)">
+			<title>工作表.16</title>
+			<path d="M0 40.07 C0 41.64 1.58 42.9 3.52 42.9 L17.7 42.9 C19.68 42.9 21.26 44.19 21.26 45.74 C21.26 44.19 22.84 42.9
+						 24.78 42.9 L38.96 42.9 C40.94 42.9 42.52 41.64 42.52 40.07 L0 40.07 Z" class="st3"/>
+			<path d="M0 40.07 C0 41.64 1.58 42.9 3.52 42.9 L17.7 42.9 C19.68 42.9 21.26 44.19 21.26 45.74 C21.26 44.19 22.84 42.9
+						 24.78 42.9 L38.96 42.9 C40.94 42.9 42.52 41.64 42.52 40.07" class="st4"/>
+		</g>
+		<g id="shape17-25" v:mID="17" v:groupContext="shape" transform="translate(74.3692,-39.4278) rotate(0.1)">
+			<title>工作表.17</title>
+			<path d="M0 45.74 L126.14 45.74" class="st5"/>
+		</g>
+		<g id="shape18-28" v:mID="18" v:groupContext="shape" transform="translate(122.979,-22.1534)">
+			<title>工作表.18</title>
+			<path d="M0 45.74 L76.35 45.74" class="st5"/>
+		</g>
+		<g id="shape19-31" v:mID="19" v:groupContext="shape" transform="translate(189.09,-5.47746)">
+			<title>工作表.19</title>
+			<path d="M0 45.74 L10.24 45.74" class="st5"/>
+		</g>
+	</g>
+</svg>

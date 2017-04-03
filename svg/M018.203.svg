@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A03004.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.89428in" height="0.396731in"
+		viewBox="0 0 424.388 28.5646" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {font-family:Times New Roman;font-size:1em}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {marker-end:url(#mrkr5-25);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-25" class="st7" v:arrowType="5" v:arrowSize="2" v:setback="7.63" refX="-7.63" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group26-1" transform="translate(0.375,-1.07574)" v:mID="26" v:groupContext="group">
+			<title>工作表.26</title>
+			<g id="shape3-2" v:mID="3" v:groupContext="shape" transform="translate(2.19824E-14,-7.08661)">
+				<title>工作表.3</title>
+				<desc>菩薩</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.3858" cy="22.7536" width="28.78" height="11.622"/>
+				<rect x="0" y="16.9426" width="28.7717" height="11.622" class="st1"/>
+				<text x="4" y="25.87" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>菩薩</text>			</g>
+			<g id="shape5-5" v:mID="5" v:groupContext="shape" transform="translate(44.5984,-15.4488)">
+				<title>工作表.5</title>
+				<desc>先知諸法相</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="46.6535" cy="22.7536" width="93.31" height="11.622"/>
+				<rect x="0" y="16.9426" width="93.3071" height="11.622" class="st1"/>
+				<text x="4" y="25.87" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>先知諸法相</text>			</g>
+			<g id="shape7-8" v:mID="7" v:groupContext="shape" transform="translate(44.5984,1.1724E-13)">
+				<title>工作表.7</title>
+				<desc>次令入性空無所著　　過二地入菩薩位——以大悲方便力——分別法相三乘度生</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="189.52" cy="22.7536" width="379.04" height="11.622"/>
+				<rect x="0" y="16.9426" width="379.039" height="11.622" class="st1"/>
+				<text x="4" y="25.87" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>次令入性空，無所著<tspan class="st3"
+							v:langID="1028">　　</tspan>過二地入菩薩位<tspan class="st4">——</tspan>以大悲方便力<tspan class="st4">——</tspan>分別法相，三乘度生</text>			</g>
+			<g id="shape19-14" v:mID="19" v:groupContext="shape" transform="translate(34.4409,45.082) rotate(180)">
+				<title>工作表.19</title>
+				<path d="M0 28.56 L6.97 28.56" class="st5"/>
+			</g>
+			<g id="shape20-17" v:mID="20" v:groupContext="shape" transform="translate(34.4409,-4.67713)">
+				<title>工作表.20</title>
+				<path d="M10.16 11.79 L0 11.79 L0 28.56 L10.16 28.56" class="st5"/>
+			</g>
+			<g id="shape24-20" v:mID="24" v:groupContext="shape" transform="translate(141.307,-6.2362)">
+				<title>工作表.24</title>
+				<path d="M0 28.56 L8.71 28.56" class="st6"/>
+			</g>
+		</g>
+	</g>
+</svg>

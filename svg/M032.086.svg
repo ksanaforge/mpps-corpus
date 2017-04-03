@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F2603.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.84214in" height="0.495743in"
+		viewBox="0 0 492.634 35.6935" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:#000080;font-family:新細明體;font-size:0.833336em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(0.672687,-19.3744) rotate(-0.2)">
+			<title>工作表.1</title>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<rect x="0" y="22.1486" width="154.261" height="13.5449" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(44.7536,-19.729) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>一一法中九相知此法有體為下如終歸無常為中如非有無非</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="158.024" cy="28.921" width="316.05" height="13.5449"/>
+			<rect x="0" y="22.1486" width="316.048" height="13.5449" class="st1"/>
+			<text x="0" y="32.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一一法中九相，知此法有體為下如，終歸無常為中如，非有無非</text>		</g>
+		<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(324.878,-20.8161) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>〔生〕</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="28.921" width="33.87" height="13.5449"/>
+			<rect x="0" y="22.1486" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="32.04" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>〔生〕</text>		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(357.498,-20.9303) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>滅</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="28.921" width="11.29" height="13.5449"/>
+			<rect x="0" y="22.1486" width="11.2874" height="13.5449" class="st1"/>
+			<text x="0" y="32.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>滅</text>		</g>
+		<g id="shape5-12" v:mID="5" v:groupContext="shape" transform="translate(368.165,-20.9672) rotate(-0.2)">
+			<title>工作表.5</title>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="28.921" width="11.29" height="13.5449"/>
+			<rect x="0" y="22.1486" width="11.2874" height="13.5449" class="st1"/>
+			<text x="0" y="32.04" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>，</text>		</g>
+		<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(378.886,-21.0045) rotate(-0.2)">
+			<title>工作表.6</title>
+			<desc>滅諸觀法清淨為上如。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="56.4371" cy="28.921" width="112.88" height="13.5449"/>
+			<rect x="0" y="22.1486" width="112.874" height="13.5449" class="st1"/>
+			<text x="0" y="32.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>滅諸觀法清淨為上如。</text>		</g>
+		<g id="shape12-18" v:mID="12" v:groupContext="shape" transform="translate(0.731784,-8.56456) rotate(-0.2)">
+			<title>工作表.12</title>
+			<desc>第三說</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="16.8933" cy="28.921" width="33.79" height="13.5449"/>
+			<rect x="0" y="22.1486" width="33.7866" height="13.5449" class="st1"/>
+			<text x="-0" y="32.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>第三說</text>		</g>
+		<g id="shape14-21" v:mID="14" v:groupContext="shape" transform="translate(44.8718,-0.749783) rotate(-0.2)">
+			<title>工作表.14</title>
+			<desc>或言法名如性為法性得果為實際。</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="95.943" cy="28.921" width="191.89" height="13.5449"/>
+			<rect x="0" y="22.1486" width="191.886" height="13.5449" class="st1"/>
+			<text x="0" y="32.04" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>或言法名如，性為法性，得果為實際。</text>		</g>
+		<g id="shape22-24" v:mID="22" v:groupContext="shape" transform="translate(70.9283,9.10695) rotate(89.8)">
+			<title>工作表.22</title>
+			<path d="M0 29.82 C0 31.45 0.77 32.76 1.78 32.76 L8.91 32.76 C9.86 32.76 10.69 34.06 10.69 35.69 C10.69 34.06 11.47 32.76
+						 12.48 32.76 L19.6 32.76 C20.55 32.76 21.39 31.45 21.39 29.82 L0 29.82 Z" class="st4"/>
+			<path d="M0 29.82 C0 31.45 0.77 32.76 1.78 32.76 L8.91 32.76 C9.86 32.76 10.69 34.06 10.69 35.69 C10.69 34.06 11.47 32.76
+						 12.48 32.76 L19.6 32.76 C20.55 32.76 21.39 31.45 21.39 29.82" class="st5"/>
+		</g>
+	</g>
+</svg>

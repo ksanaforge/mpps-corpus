@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01007.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.08579in" height="0.808235in"
+		viewBox="0 0 366.177 58.1929" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {font-family:Times New Roman;font-size:1em}
+		.st6 {font-size:1em}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(0.75,-23.5411)">
+			<title>工作表.3</title>
+			<desc>修行四法入菩薩位</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.0236" cy="51.4205" width="84.05" height="13.5449"/>
+			<rect x="0" y="44.648" width="84.0472" height="13.5449" class="st1"/>
+			<text x="-0" y="54.53" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>修行四法入菩薩位</text>		</g>
+		<g id="shape13-4" v:mID="13" v:groupContext="shape" transform="translate(140.156,7.64239) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 47.77 C0 50.67 1.59 52.98 3.57 52.98 L16.72 52.98 C18.7 52.98 20.29 55.36 20.29 58.19 C20.29 55.36 21.88
+						 52.98 23.82 52.98 L38.99 52.98 C40.97 52.98 42.52 50.67 42.52 47.77 L0 47.77 Z" class="st3"/>
+			<path d="M0 47.77 C0 50.67 1.59 52.98 3.57 52.98 L16.72 52.98 C18.7 52.98 20.29 55.36 20.29 58.19 C20.29 55.36 21.88
+						 52.98 23.82 52.98 L38.99 52.98 C40.97 52.98 42.52 50.67 42.52 47.77" class="st4"/>
+		</g>
+		<g id="shape14-7" v:mID="14" v:groupContext="shape" transform="translate(94.5293,-0.75)">
+			<title>工作表.14</title>
+			<desc>一、發意——發菩提心 二、修行——修行六度智——知法實相、般若 三、大悲——愍念眾生悲 四、方便——觀空不捨眾生悲智具……...</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="135.449" cy="29.8465" width="270.9" height="56.6929"/>
+			<rect x="0" y="1.5" width="270.898" height="56.6929" class="st1"/>
+			<text x="-0" y="11.27" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>一、發意<tspan class="st5">——</tspan>發菩提心<v:newlineChar/><tspan
+						x="-0" dy="1.446em" class="st6">二</tspan>、修行<tspan class="st5">——</tspan>修行六度（智）<tspan class="st5">——</tspan>（知法實相、般若）<v:newlineChar/><tspan
+						x="-0" dy="1.446em" class="st6">三</tspan>、大悲<tspan class="st5">——</tspan>愍念眾生（悲）<v:newlineChar/><tspan
+						x="-0" dy="1.446em" class="st6">四</tspan>、方便<tspan class="st5">——</tspan>觀空不捨眾生（悲智具）<tspan class="st5">………………</tspan>入菩薩位</text>		</g>
+	</g>
+</svg>

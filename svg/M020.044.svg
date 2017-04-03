@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A03203.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.07538in" height="0.620653in"
+		viewBox="0 0 365.427 44.687" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {font-family:Times New Roman;font-size:1em}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape127-1" v:mID="127" v:groupContext="shape" transform="translate(0.375,-14.8317)">
+			<title>工作表.127</title>
+			<desc>三解脫門與十六行</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="36.8917" width="88.3" height="15.5906"/>
+			<rect x="0" y="29.0965" width="88.2992" height="15.5906" class="st1"/>
+			<text x="4" y="40.01" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>三解脫門與十六行</text>		</g>
+		<g id="shape177-4" v:mID="177" v:groupContext="shape" transform="translate(95.3036,67.1797) rotate(180)">
+			<title>工作表.177</title>
+			<path d="M0 44.69 L6.63 44.69" class="st3"/>
+		</g>
+		<g id="shape178-7" v:mID="178" v:groupContext="shape" transform="translate(95.3036,-29.2809)">
+			<title>工作表.178</title>
+		</g>
+		<g id="shape179-8" v:mID="179" v:groupContext="shape" transform="translate(95.3036,-8.39407)">
+			<title>工作表.179</title>
+			<path d="M0 44.69 L6.63 44.69" class="st3"/>
+		</g>
+		<g id="shape180-11" v:mID="180" v:groupContext="shape" transform="translate(95.3036,-35.6216)">
+			<title>工作表.180</title>
+			<path d="M0 44.69 L6.17 44.69" class="st3"/>
+		</g>
+		<g id="shape200-14" v:mID="200" v:groupContext="shape" transform="translate(101.933,-28.7215)">
+			<title>工作表.200</title>
+			<desc>空二——空、無我</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="36.8917" width="88.3" height="15.5906"/>
+			<rect x="0" y="29.0965" width="88.2992" height="15.5906" class="st1"/>
+			<text x="4" y="40.01" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>空二<tspan class="st4">——</tspan>空、無我</text>		</g>
+		<g id="shape201-18" v:mID="201" v:groupContext="shape" transform="translate(101.933,-14.5482)">
+			<title>工作表.201</title>
+			<desc>無相四——盡、滅、妙、出</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.2367" cy="36.8917" width="128.48" height="15.5906"/>
+			<rect x="0" y="29.0965" width="128.473" height="15.5906" class="st1"/>
+			<text x="4" y="40.01" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>無相四<tspan class="st4">——</tspan>盡、滅、妙、出</text>		</g>
+		<g id="shape202-22" v:mID="202" v:groupContext="shape" transform="translate(101.933,-0.375)">
+			<title>工作表.202</title>
+			<desc>無作十——無常、苦、因、集、緣、生、道、正、迹、到</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="131.56" cy="36.8917" width="263.12" height="15.5906"/>
+			<rect x="0" y="29.0965" width="263.119" height="15.5906" class="st1"/>
+			<text x="4" y="40.01" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>無作十<tspan class="st4">——</tspan>無常、苦、因、集、緣、生、道、正、迹、到</text>		</g>
+		<g id="shape215-26" v:mID="215" v:groupContext="shape" transform="translate(139.991,9.06542) rotate(90)">
+			<title>工作表.215</title>
+			<path d="M0 44.69 L27.23 44.69" class="st3"/>
+		</g>
+	</g>
+</svg>

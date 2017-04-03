@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 B01505.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.32996in" height="0.391923in"
+		viewBox="0 0 167.757 28.2184" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(62.1451,-19.6116) rotate(0.1)">
+			<title>工作表.2</title>
+			<desc>有法智慧少故不能得</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="52.4517" cy="25.8408" width="104.91" height="4.75527"/>
+			<rect x="0" y="23.4632" width="104.903" height="4.75527" class="st1"/>
+			<text x="0" y="28.96" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有法，智慧少故不能得</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(0.79925,-11.6161) rotate(0.1)">
+			<title>工作表.3</title>
+			<desc>二種不可得</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.721" cy="25.8408" width="71.45" height="4.75527"/>
+			<rect x="0" y="23.4632" width="71.4421" height="4.75527" class="st1"/>
+			<text x="-0" y="28.96" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種不可得</text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(62.1189,-4.0259) rotate(0.1)">
+			<title>工作表.4</title>
+			<desc>有大智慧推求不能得</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.3594" cy="25.8408" width="102.72" height="4.75527"/>
+			<rect x="0" y="23.4632" width="102.719" height="4.75527" class="st1"/>
+			<text x="0" y="28.96" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>有大智慧，推求不能得</text>		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(82.0123,1.03369) rotate(90.1)">
+			<title>工作表.11</title>
+			<path d="M0 22.55 C0 24.12 0.95 25.38 2.11 25.38 L10.62 25.38 C11.78 25.38 12.76 26.65 12.76 28.22 C12.76 26.65 13.7
+						 25.38 14.87 25.38 L23.37 25.38 C24.54 25.38 25.51 24.12 25.51 22.55 L0 22.55 Z" class="st3"/>
+			<path d="M0 22.55 C0 24.12 0.95 25.38 2.11 25.38 L10.62 25.38 C11.78 25.38 12.76 26.65 12.76 28.22 C12.76 26.65 13.7
+						 25.38 14.87 25.38 L23.37 25.38 C24.54 25.38 25.51 24.12 25.51 22.55" class="st4"/>
+		</g>
+	</g>
+</svg>

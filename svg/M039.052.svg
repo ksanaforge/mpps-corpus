@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F3804.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.37749in" height="1.40168in"
+		viewBox="0 0 315.179 100.921" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(102.172,-86.0147) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>淨佛道</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="94.1484" width="33.87" height="13.5449"/>
+			<rect x="0" y="87.376" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>淨佛道</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(193.48,-86.3496) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>一切法不可得故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="94.1484" width="79.02" height="13.5449"/>
+			<rect x="0" y="87.376" width="79.0119" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一切法不可得故</text>		</g>
+		<g id="group4-7" transform="translate(190.247,4.02257) rotate(89.8)" v:mID="4" v:groupContext="group">
+			<title>工作表.4</title>
+			<g id="group5-8" v:mID="5" v:groupContext="group">
+				<title>工作表.5</title>
+				<g id="shape6-9" v:mID="6" v:groupContext="shape">
+					<title>工作表.6</title>
+					<path d="M0 92.46 C0 94.81 3.46 96.69 7.8 96.69 L38.98 96.69 C43.22 96.69 46.77 98.57 46.77 100.92 C46.77 98.57
+								 50.24 96.69 54.57 96.69 L85.75 96.69 C89.99 96.69 93.54 94.81 93.54 92.46 L0 92.46 Z" class="st3"/>
+					<path d="M0 92.46 C0 94.81 3.46 96.69 7.8 96.69 L38.98 96.69 C43.22 96.69 46.77 98.57 46.77 100.92 C46.77 98.57
+								 50.24 96.69 54.57 96.69 L85.75 96.69 C89.99 96.69 93.54 94.81 93.54 92.46" class="st4"/>
+				</g>
+			</g>
+		</g>
+		<g id="shape7-12" v:mID="7" v:groupContext="shape" transform="translate(235.551,5.11551) rotate(89.8)">
+			<title>工作表.7</title>
+			<path d="M0 100.92 C0 98.57 1.29 96.69 2.98 96.69 L22.85 96.69 C24.53 96.69 25.83 94.81 25.83 92.46 C25.83 94.81 27.12
+						 96.69 28.81 96.69 L32.78 96.69 C34.37 96.69 35.76 98.57 35.76 100.92 L0 100.92 Z" class="st3"/>
+			<path d="M0 100.92 C0 98.57 1.29 96.69 2.98 96.69 L22.85 96.69 C24.53 96.69 25.83 94.81 25.83 92.46 C25.83 94.81 27.12
+						 96.69 28.81 96.69 L32.78 96.69 C34.37 96.69 35.76 98.57 35.76 100.92" class="st4"/>
+		</g>
+		<g id="shape8-15" v:mID="8" v:groupContext="shape" transform="translate(144.88,-92.9384) rotate(-0.2)">
+			<title>工作表.8</title>
+			<path d="M0 100.92 L42.33 100.92" class="st4"/>
+		</g>
+		<g id="shape9-18" v:mID="9" v:groupContext="shape" transform="translate(147.691,-63.3612) rotate(-0.2)">
+			<title>工作表.9</title>
+			<desc>六度</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="94.1484" width="22.58" height="13.5449"/>
+			<rect x="0" y="87.376" width="22.5748" height="13.5449" class="st1"/>
+			<text x="-0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>六度</text>		</g>
+		<g id="shape10-21" v:mID="10" v:groupContext="shape" transform="translate(102.375,-54.159) rotate(-0.2)">
+			<title>工作表.10</title>
+			<desc>無能壞</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="94.1484" width="33.87" height="13.5449"/>
+			<rect x="0" y="87.376" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>無能壞</text>		</g>
+		<g id="shape11-24" v:mID="11" v:groupContext="shape" transform="translate(193.684,-54.4394) rotate(-0.2)">
+			<title>工作表.11</title>
+			<desc>不念一切法故</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="33.8622" cy="94.1484" width="67.73" height="13.5449"/>
+			<rect x="0" y="87.376" width="67.7245" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>不念一切法故</text>		</g>
+		<g id="shape12-27" v:mID="12" v:groupContext="shape" transform="translate(0.445001,-42.8485) rotate(-0.2)">
+			<title>工作表.12</title>
+			<desc>菩薩住般若五人</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50.7933" cy="94.1484" width="101.59" height="13.5449"/>
+			<rect x="0" y="87.376" width="101.587" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩住般若（五人）</text>		</g>
+		<g id="shape13-30" v:mID="13" v:groupContext="shape" transform="translate(102.162,-34.6114) rotate(-0.2)">
+			<title>工作表.13</title>
+			<desc>具智慧</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="94.1484" width="33.87" height="13.5449"/>
+			<rect x="0" y="87.376" width="33.8622" height="13.5449" class="st1"/>
+			<text x="-0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>具智慧</text>		</g>
+		<g id="shape14-33" v:mID="14" v:groupContext="shape" transform="translate(136.024,-34.7296) rotate(-0.2)">
+			<title>工作表.14</title>
+			<desc>——</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="94.1484" width="22.58" height="13.5449"/>
+			<rect x="0" y="87.376" width="22.5748" height="13.5449" class="st1"/>
+			<text x="0" y="97.15" class="st5" v:langID="1028"><v:paragraph/><v:tabList/>——</text>		</g>
+		<g id="shape15-36" v:mID="15" v:groupContext="shape" transform="translate(158.871,-34.8084) rotate(-0.2)">
+			<title>工作表.15</title>
+			<desc>此慧能具足一切法亦不得一切法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.6035" cy="94.1484" width="155.21" height="13.5449"/>
+			<rect x="0" y="87.376" width="155.207" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>此慧能具足一切法，亦不得一切法</text>		</g>
+		<g id="shape16-39" v:mID="16" v:groupContext="shape" transform="translate(102.221,-17.6804) rotate(-0.2)">
+			<title>工作表.16</title>
+			<desc>淨五眼</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="94.1484" width="33.87" height="13.5449"/>
+			<rect x="0" y="87.376" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>淨五眼</text>		</g>
+		<g id="shape17-42" v:mID="17" v:groupContext="shape" transform="translate(102.28,-0.749385) rotate(-0.2)">
+			<title>工作表.17</title>
+			<desc>得六通</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="94.1484" width="33.87" height="13.5449"/>
+			<rect x="0" y="87.376" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="97.26" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>得六通</text>		</g>
+		<g id="shape29-45" v:mID="29" v:groupContext="shape" transform="translate(145.021,-61.0444)">
+			<title>工作表.29</title>
+			<path d="M0 100.92 L42.33 100.92" class="st4"/>
+		</g>
+	</g>
+</svg>

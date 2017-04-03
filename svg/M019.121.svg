@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01803.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.80233in" height="0.807476in"
+		viewBox="0 0 201.768 58.1383" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(58.6559,-1.65188)">
+			<title>工作表.1</title>
+			<desc>身苦——四百四病 心苦——憂愁、瞋怖、嫉妒、疑 王者、勝己、惡賊、惡獸等害 風雨、寒熱、雷電等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="71.1809" cy="30.7208" width="142.37" height="54.8349"/>
+			<rect x="0" y="3.3034" width="142.362" height="54.8349" class="st1"/>
+			<text x="-0" y="12.55" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>身苦<tspan class="st3">——</tspan>四百四病<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">心苦</tspan><tspan class="st3">——</tspan>憂愁、瞋怖、嫉妒、疑<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">王者</tspan>、勝己、惡賊、惡獸等害<v:newlineChar/><tspan x="-0" dy="1.453em" class="st4">風雨</tspan>、寒熱、雷電等</text>		</g>
+		<g id="shape2-9" v:mID="2" v:groupContext="shape" transform="translate(26.1669,-36.3816)">
+			<title>工作表.2</title>
+			<desc>內苦</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="10.7851" cy="51.3658" width="21.58" height="13.5449"/>
+			<rect x="0" y="44.5934" width="21.5702" height="13.5449" class="st1"/>
+			<text x="0" y="55" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>內苦</text>		</g>
+		<g id="shape4-12" v:mID="4" v:groupContext="shape" transform="translate(0.75,-22.3494)">
+			<title>工作表.4</title>
+			<desc>苦</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="51.3658" width="11.29" height="13.5449"/>
+			<rect x="0" y="44.5934" width="11.2874" height="13.5449" class="st1"/>
+			<text x="0" y="55" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>苦</text>		</g>
+		<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(25.1624,-8.29778)">
+			<title>工作表.6</title>
+			<desc>外苦</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="51.3658" width="22.58" height="13.5449"/>
+			<rect x="0" y="44.5934" width="22.5748" height="13.5449" class="st1"/>
+			<text x="0" y="55" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>外苦</text>		</g>
+		<g id="shape14-18" v:mID="14" v:groupContext="shape" transform="translate(105.456,8.06082) rotate(90)">
+			<title>工作表.14</title>
+			<path d="M0 49 C0 51.54 0.6 53.57 1.31 53.57 L6.6 53.57 C7.34 53.57 7.94 55.65 7.94 58.14 C7.94 55.65 8.54 53.57 9.24
+						 53.57 L14.53 53.57 C15.27 53.57 15.87 51.54 15.87 49 L0 49 Z" class="st5"/>
+			<path d="M0 49 C0 51.54 0.6 53.57 1.31 53.57 L6.6 53.57 C7.34 53.57 7.94 55.65 7.94 58.14 C7.94 55.65 8.54 53.57 9.24
+						 53.57 L14.53 53.57 C15.27 53.57 15.87 51.54 15.87 49" class="st6"/>
+		</g>
+		<g id="shape16-21" v:mID="16" v:groupContext="shape" transform="translate(70.0737,14.6909) rotate(90)">
+			<title>工作表.16</title>
+			<path d="M0 46.85 C0 49.99 1.14 52.49 2.56 52.49 L12.85 52.49 C14.3 52.49 15.45 55.07 15.45 58.14 C15.45 55.07 16.59
+						 52.49 18 52.49 L28.3 52.49 C29.75 52.49 30.9 49.99 30.9 46.85 L0 46.85 Z" class="st5"/>
+			<path d="M0 46.85 C0 49.99 1.14 52.49 2.56 52.49 L12.85 52.49 C14.3 52.49 15.45 55.07 15.45 58.14 C15.45 55.07 16.59
+						 52.49 18 52.49 L28.3 52.49 C29.75 52.49 30.9 49.99 30.9 46.85" class="st6"/>
+		</g>
+		<g id="shape20-24" v:mID="20" v:groupContext="shape" transform="translate(105.456,35.2734) rotate(90)">
+			<title>工作表.20</title>
+			<path d="M0 49 C0 51.54 0.6 53.57 1.31 53.57 L6.6 53.57 C7.34 53.57 7.94 55.65 7.94 58.14 C7.94 55.65 8.54 53.57 9.24
+						 53.57 L14.53 53.57 C15.27 53.57 15.87 51.54 15.87 49 L0 49 Z" class="st5"/>
+			<path d="M0 49 C0 51.54 0.6 53.57 1.31 53.57 L6.6 53.57 C7.34 53.57 7.94 55.65 7.94 58.14 C7.94 55.65 8.54 53.57 9.24
+						 53.57 L14.53 53.57 C15.27 53.57 15.87 51.54 15.87 49" class="st6"/>
+		</g>
+	</g>
+</svg>

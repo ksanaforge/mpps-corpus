@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F01601.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.2121in" height="0.483467in"
+		viewBox="0 0 159.271 34.8096" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st4 {fill:none}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.235154}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(89.0713,-19.8527) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>戒定慧</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="28.0372" width="33.87" height="13.5449"/>
+			<rect x="0" y="21.2648" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="31.15" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>戒定慧</text>		</g>
+		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(116.694,-20.3964) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>—</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="16.9311" cy="28.0372" width="33.87" height="13.5449"/>
+			<rect x="0" y="21.2648" width="33.8622" height="13.5449" class="st1"/>
+			<text x="5.3" y="31.04" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>— </text>		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(135.802,-19.5303) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>近門</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2874" cy="28.0372" width="22.58" height="13.5449"/>
+			<rect x="0" y="21.2648" width="22.5748" height="13.5449" class="st1"/>
+			<text x="0" y="31.15" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>近門</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(0.675772,-9.58038) rotate(-0.2)">
+			<title>工作表.5</title>
+			<desc>六波羅是佛道門</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="28.0372" width="79.02" height="13.5449"/>
+			<rect x="0" y="21.2648" width="79.0119" height="13.5449" class="st1"/>
+			<text x="-0" y="31.15" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>六波羅是佛道門</text>		</g>
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(107.746,4.3526) rotate(89.8)">
+			<title>工作表.6</title>
+			<path d="M0 22.41 C0 25.86 1.25 28.61 2.9 28.61 L11.28 28.61 C12.84 28.61 14.17 31.43 14.17 34.81 C14.17 31.43 15.43
+						 28.61 17.07 28.61 L25.45 28.61 C27.02 28.61 28.35 25.86 28.35 22.41 L0 22.41 Z" class="st4"/>
+			<path d="M0 22.41 C0 25.86 1.25 28.61 2.9 28.61 L11.28 28.61 C12.84 28.61 14.17 31.43 14.17 34.81 C14.17 31.43 15.43
+						 28.61 17.07 28.61 L25.45 28.61 C27.02 28.61 28.35 25.86 28.35 22.41" class="st5"/>
+		</g>
+		<g id="shape7-16" v:mID="7" v:groupContext="shape" transform="translate(88.8652,-0.749788) rotate(-0.2)">
+			<title>工作表.7</title>
+			<desc>施忍進</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.9311" cy="28.0372" width="33.87" height="13.5449"/>
+			<rect x="0" y="21.2648" width="33.8622" height="13.5449" class="st1"/>
+			<text x="0" y="31.15" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>施忍進</text>		</g>
+		<g id="shape8-19" v:mID="8" v:groupContext="shape" transform="translate(116.743,-0.867989) rotate(-0.2)">
+			<title>工作表.8</title>
+			<desc>—</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="16.9311" cy="28.0372" width="33.87" height="13.5449"/>
+			<rect x="0" y="21.2648" width="33.8622" height="13.5449" class="st1"/>
+			<text x="5.3" y="31.04" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>— </text>		</g>
+		<g id="shape9-22" v:mID="9" v:groupContext="shape" transform="translate(135.853,-0.94679) rotate(-0.2)">
+			<title>工作表.9</title>
+			<desc>遠門</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.2734" cy="28.0372" width="22.55" height="13.5449"/>
+			<rect x="0" y="21.2648" width="22.5468" height="13.5449" class="st1"/>
+			<text x="0" y="31.15" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>遠門</text>		</g>
+	</g>
+</svg>

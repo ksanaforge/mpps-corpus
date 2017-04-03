@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01601.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.28264in" height="1.00934in"
+		viewBox="0 0 380.35 72.6726" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(96.6167,-1.08533)">
+			<title>工作表.1</title>
+			<desc>一、外道有三患小乘智薄悲小…………菩薩禪中不忘眾生。 二、餘人欲界心不得次第入禪……………菩薩欲界心次第入。 三、餘人總相...</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="141.492" cy="37.4217" width="282.99" height="70.5019"/>
+			<rect x="0" y="2.17078" width="282.984" height="70.5019" class="st1"/>
+			<text x="-0" y="11.99" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>一、外道有三患，小乘智薄悲小<tspan
+						class="st3">…………</tspan>菩薩禪中不忘眾生。<v:newlineChar/><tspan x="-0" dy="1.453em" class="st4">二</tspan>、餘人欲界心不得次第入禪<tspan
+						class="st3">……………</tspan>菩薩欲界心次第入。<v:newlineChar/><tspan x="-0" dy="1.453em" class="st4">三</tspan>、餘人總相慧離欲<tspan
+						class="st3">………………………</tspan>菩薩能別相分別離欲。<v:newlineChar/><tspan x="-0" dy="1.453em" class="st4">四</tspan>、餘人不知菩薩住禪心所緣所到。<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">五</tspan>、小但超二，大自在能超。</text>		</g>
+		<g id="shape3-11" v:mID="3" v:groupContext="shape" transform="translate(0.75,-27.8098)">
+			<title>工作表.3</title>
+			<desc>菩薩與餘人禪之別</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.1496" cy="65.9002" width="90.3" height="13.5449"/>
+			<rect x="0" y="59.1277" width="90.2993" height="13.5449" class="st1"/>
+			<text x="0" y="69.01" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>菩薩與餘人禪之別</text>		</g>
+		<g id="shape18-14" v:mID="18" v:groupContext="shape" transform="translate(155.664,9.50854) rotate(90)">
+			<title>工作表.18</title>
+			<path d="M0 61.39 C0 64.47 2.14 67.03 4.75 67.03 L23.85 67.03 C26.46 67.03 28.6 69.59 28.6 72.67 C28.6 69.59 30.8 67.03
+						 33.41 67.03 L52.51 67.03 C55.12 67.03 57.26 64.47 57.26 61.39 L0 61.39 Z" class="st5"/>
+			<path d="M0 61.39 C0 64.47 2.14 67.03 4.75 67.03 L23.85 67.03 C26.46 67.03 28.6 69.59 28.6 72.67 C28.6 69.59 30.8 67.03
+						 33.41 67.03 L52.51 67.03 C55.12 67.03 57.26 64.47 57.26 61.39" class="st6"/>
+		</g>
+	</g>
+</svg>

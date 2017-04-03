@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 F3502.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.36954in" height="0.683092in"
+		viewBox="0 0 170.607 49.1826" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st3 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st4 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(93.9311,5.28174) rotate(89.8)">
+			<title>工作表.1</title>
+			<path d="M0 41.66 C0 43.73 1.5 45.42 3.29 45.42 L16.46 45.42 C18.25 45.42 19.75 47.11 19.75 49.18 C19.75 47.11 21.26
+						 45.42 23.05 45.42 L36.21 45.42 C38 45.42 39.51 43.82 39.51 41.66 L0 41.66 Z" class="st1"/>
+			<path d="M0 41.66 C0 43.73 1.5 45.42 3.29 45.42 L16.46 45.42 C18.25 45.42 19.75 47.11 19.75 49.18 C19.75 47.11 21.26
+						 45.42 23.05 45.42 L36.21 45.42 C38 45.42 39.51 43.82 39.51 41.66" class="st2"/>
+		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(55.3834,-34.6117) rotate(-0.2)">
+			<title>工作表.2</title>
+			<desc>不見有法出法性</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.5059" cy="42.4102" width="79.02" height="13.5449"/>
+			<rect x="0" y="35.6377" width="79.0119" height="13.5449" class="st3"/>
+			<text x="0" y="45.52" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>不見有法出法性</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(0.625601,-17.0788) rotate(-0.2)">
+			<title>工作表.3</title>
+			<desc>空行相應</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="42.4102" width="45.15" height="13.5449"/>
+			<rect x="0" y="35.6377" width="45.1496" height="13.5449" class="st3"/>
+			<text x="-0" y="45.52" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>空行相應</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(55.4425,-17.6807) rotate(-0.2)">
+			<title>工作表.4</title>
+			<desc>不見有法行般若及授記等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="57.1217" cy="42.4102" width="114.25" height="13.5449"/>
+			<rect x="0" y="35.6377" width="114.243" height="13.5449" class="st3"/>
+			<text x="0" y="45.52" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>不見有法行般若及授記等</text>		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(55.5016,-0.7497) rotate(-0.2)">
+			<title>工作表.5</title>
+			<desc>不見眾生等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="42.4102" width="56.44" height="13.5449"/>
+			<rect x="0" y="35.6377" width="56.4371" height="13.5449" class="st3"/>
+			<text x="0" y="45.52" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>不見眾生等</text>		</g>
+	</g>
+</svg>

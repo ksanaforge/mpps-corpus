@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01108.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.30111in" height="0.434893in"
+		viewBox="0 0 93.6798 31.3123" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(51.0953,-0.75)">
+			<title>工作表.1</title>
+			<desc>敗壞菩薩 成就菩薩</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.9173" cy="16.4061" width="41.84" height="29.8123"/>
+			<rect x="0" y="1.5" width="41.8346" height="29.8123" class="st1"/>
+			<text x="0" y="12.29" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>敗壞菩薩<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st3">成就菩薩</tspan></text>		</g>
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.75,-8.15078)">
+			<title>工作表.2</title>
+			<desc>二種菩薩</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="24.5398" width="45.15" height="13.5449"/>
+			<rect x="0" y="17.7674" width="45.1496" height="13.5449" class="st1"/>
+			<text x="-0" y="27.65" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>二種菩薩</text>		</g>
+		<g id="shape12-8" v:mID="12" v:groupContext="shape" transform="translate(73.5898,7.8851) rotate(90)">
+			<title>工作表.12</title>
+			<path d="M0 23.55 C0 25.71 0.64 27.43 1.4 27.43 L7.07 27.43 C7.86 27.43 8.5 29.2 8.5 31.31 C8.5 29.2 9.15 27.43 9.9 27.43
+						 L15.57 27.43 C16.37 27.43 17.01 25.71 17.01 23.55 L0 23.55 Z" class="st4"/>
+			<path d="M0 23.55 C0 25.71 0.64 27.43 1.4 27.43 L7.07 27.43 C7.86 27.43 8.5 29.2 8.5 31.31 C8.5 29.2 9.15 27.43 9.9 27.43
+						 L15.57 27.43 C16.37 27.43 17.01 25.71 17.01 23.55" class="st5"/>
+		</g>
+	</g>
+</svg>

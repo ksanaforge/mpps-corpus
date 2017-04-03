@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A01203.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.0228in" height="0.833826in"
+		viewBox="0 0 289.642 60.0355" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:#19499d;font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(64.1713,-0.75)">
+			<title>工作表.1</title>
+			<desc>一、菩薩發心乃至證覺斷欲行道 二、菩薩世世出家斷欲行道 三、入法王位乃至十地〔王位大正藏正位〕 四、得無生忍乃至十地離諸惡事</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.36" cy="30.7677" width="224.73" height="58.5355"/>
+			<rect x="0" y="1.5" width="224.72" height="58.5355" class="st1"/>
+			<text x="0" y="12.19" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>一、菩薩發心乃至證覺，斷欲行道<v:newlineChar/><tspan
+						x="0" dy="1.446em" class="st3">二</tspan>、菩薩世世出家斷欲行道<v:newlineChar/><tspan x="0" dy="1.446em" class="st3">三</tspan>、入法王位乃至十地<tspan
+						class="st4">〔</tspan><tspan class="st4">王位</tspan><tspan class="st4">＝（</tspan><tspan class="st4">大正藏</tspan><tspan
+						class="st4">）</tspan><tspan class="st4">正位</tspan><tspan class="st4">〕<v:newlineChar/></tspan><tspan x="0"
+						dy="1.446em" class="st3">四</tspan>、得無生忍乃至十地，離諸惡事</text>		</g>
+		<g id="shape3-14" v:mID="3" v:groupContext="shape" transform="translate(0.75,-25.4492)">
+			<title>工作表.3</title>
+			<desc>鳩摩羅伽地</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.2185" cy="53.263" width="56.44" height="13.5449"/>
+			<rect x="0" y="46.4906" width="56.4371" height="13.5449" class="st1"/>
+			<text x="-0" y="56.38" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>鳩摩羅伽地</text>		</g>
+		<g id="shape13-17" v:mID="13" v:groupContext="shape" transform="translate(112.761,8.0743) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 51.49 C0 53.83 1.58 55.76 3.54 55.76 L16.67 55.76 C18.63 55.76 20.21 57.69 20.21 60.04 C20.21 57.69 21.8
+						 55.76 23.75 55.76 L38.98 55.76 C40.94 55.76 42.52 53.83 42.52 51.49 L0 51.49 Z" class="st5"/>
+			<path d="M0 51.49 C0 53.83 1.58 55.76 3.54 55.76 L16.67 55.76 C18.63 55.76 20.21 57.69 20.21 60.04 C20.21 57.69 21.8
+						 55.76 23.75 55.76 L38.98 55.76 C40.94 55.76 42.52 53.83 42.52 51.49" class="st6"/>
+		</g>
+	</g>
+</svg>

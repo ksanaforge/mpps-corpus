@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 A00802.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.59564in" height="0.617979in"
+		viewBox="0 0 114.886 44.4945" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {fill:none}
+		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(25.6919,-30.1996)">
+			<title>工作表.1</title>
+			<desc>三七品</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.8755" cy="37.7221" width="31.76" height="13.5449"/>
+			<rect x="0" y="30.9496" width="31.751" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三七品</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(57.4434,-30.1996)">
+			<title>工作表.2</title>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="37.7221" width="11.29" height="13.5449"/>
+			<rect x="0" y="30.9496" width="11.2874" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>－</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(68.9853,-30.1996)">
+			<title>工作表.3</title>
+			<desc>趣涅槃道</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="37.7221" width="45.15" height="13.5449"/>
+			<rect x="0" y="30.9496" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>趣涅槃道</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(0.75,-15.9518)">
+			<title>工作表.4</title>
+			<desc>行</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="37.7221" width="11.29" height="13.5449"/>
+			<rect x="0" y="30.9496" width="11.2874" height="13.5449" class="st1"/>
+			<text x="-0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>行</text>		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(57.4442,-15.9518)">
+			<title>工作表.5</title>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="37.7221" width="11.29" height="13.5449"/>
+			<rect x="0" y="30.9496" width="11.2874" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>－</text>		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" transform="translate(68.9862,-15.9518)">
+			<title>工作表.6</title>
+			<desc>助開門法</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.5748" cy="37.7221" width="45.15" height="13.5449"/>
+			<rect x="0" y="30.9496" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>助開門法</text>		</g>
+		<g id="shape7-19" v:mID="7" v:groupContext="shape" transform="translate(25.6917,-0.75)">
+			<title>工作表.7</title>
+			<desc>三解脫</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.8755" cy="37.7221" width="31.76" height="13.5449"/>
+			<rect x="0" y="30.9496" width="31.751" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>三解脫</text>		</g>
+		<g id="shape8-22" v:mID="8" v:groupContext="shape" transform="translate(57.4429,-0.75)">
+			<title>工作表.8</title>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="37.7221" width="11.29" height="13.5449"/>
+			<rect x="0" y="30.9496" width="11.2874" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>－</text>		</g>
+		<g id="shape9-25" v:mID="9" v:groupContext="shape" transform="translate(68.9849,-0.75)">
+			<title>工作表.9</title>
+			<desc>門</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="5.64371" cy="37.7221" width="11.29" height="13.5449"/>
+			<rect x="0" y="30.9496" width="11.2874" height="13.5449" class="st1"/>
+			<text x="-0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>門</text>		</g>
+		<g id="shape16-28" v:mID="16" v:groupContext="shape" transform="translate(58.4963,6.10512) rotate(90)">
+			<title>工作表.16</title>
+			<path d="M0 34.15 C0 37.06 1.15 39.32 2.6 39.32 L12.99 39.32 C14.44 39.32 15.59 41.67 15.59 44.49 C15.59 41.67 16.75
+						 39.32 18.19 39.32 L28.58 39.32 C30.03 39.32 31.18 36.97 31.18 34.15 L0 34.15 Z" class="st3"/>
+			<path d="M0 34.15 C0 37.06 1.15 39.32 2.6 39.32 L12.99 39.32 C14.44 39.32 15.59 41.67 15.59 44.49 C15.59 41.67 16.75
+						 39.32 18.19 39.32 L28.58 39.32 C30.03 39.32 31.18 36.97 31.18 34.15" class="st4"/>
+		</g>
+		<g id="shape17-31" v:mID="17" v:groupContext="shape" transform="translate(25.6919,-16.0264)">
+			<title>工作表.17</title>
+			<desc>四禪等</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.8755" cy="37.7221" width="31.76" height="13.5449"/>
+			<rect x="0" y="30.9496" width="31.751" height="13.5449" class="st1"/>
+			<text x="0" y="40.84" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>四禪等</text>		</g>
+	</g>
+</svg>
