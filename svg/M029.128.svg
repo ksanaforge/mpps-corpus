@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 產生 A01202.svg 頁-1 -->
+<!-- 由 Microsoft Visio, SVG Export 產生 M029.128=A01202.svg 頁-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.82191in" height="0.400755in"
-		viewBox="0 0 275.178 28.8544" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+		viewBox="0 0 275.178 28.8544" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
 	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
 
 	<style type="text/css">
 	<![CDATA[
 		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
-		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
-		.st3 {font-family:Times New Roman;font-size:1em}
-		.st4 {font-size:1em}
-		.st5 {fill:none}
-		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
-		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em;letter-spacing:0.499998em}
+		.st3 {font-size:1em;letter-spacing:0em}
+		.st4 {font-family:Times New Roman;font-size:1em;letter-spacing:0em}
+		.st5 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st6 {fill:none}
+		.st7 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -24,26 +25,28 @@
 				v:shadowOffsetY="-9"/>
 		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(70.9149,-0.75)">
 			<title>工作表.1</title>
-			<desc>退轉家——名字家——雜家——信不堅固定 不退轉家——實家———淨家——信堅固定</desc>
+			<desc>退轉家——名字家——雜家——信不堅固家 不退轉家——實家———淨家——信堅固家</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
 			<v:textRect cx="101.756" cy="15.1772" width="203.52" height="27.3544"/>
 			<rect x="0" y="1.5" width="203.513" height="27.3544" class="st1"/>
-			<text x="-0" y="11.06" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>退轉家<tspan class="st3">——</tspan>名字家<tspan
-						class="st3">——</tspan>雜家<tspan class="st3">——</tspan>信不堅固定<v:newlineChar/><tspan x="-0" dy="1.446em"
-						class="st4">不退轉家</tspan><tspan class="st3">——</tspan>實家<tspan class="st3">———</tspan>淨家<tspan class="st3">——</tspan>信堅固定</text>		</g>
-		<g id="shape10-11" v:mID="10" v:groupContext="shape" transform="translate(0.75,-7.91749)">
+			<text x="-0" y="11.06" class="st2" v:langID="1028"><v:paragraph v:spBefore="2"/><v:tabList/>退轉<tspan class="st3">家</tspan><tspan
+						class="st4">——</tspan><tspan class="st3">名字家</tspan><tspan class="st4">——</tspan><tspan class="st3">雜家</tspan><tspan
+						class="st4">——</tspan><tspan class="st3">信不堅固家<v:newlineChar/></tspan><tspan x="-0" dy="1.446em"
+						class="st3">不退轉家</tspan><tspan class="st4">——</tspan><tspan class="st3">實家</tspan><tspan class="st4">———</tspan><tspan
+						class="st3">淨家</tspan><tspan class="st4">——</tspan><tspan class="st3">信堅固家</tspan></text>		</g>
+		<g id="shape10-18" v:mID="10" v:groupContext="shape" transform="translate(0.75,-7.91749)">
 			<title>工作表.10</title>
 			<desc>生菩薩家有二</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
 			<v:textRect cx="33.8622" cy="22.0819" width="67.73" height="13.5449"/>
 			<rect x="0" y="15.3095" width="67.7245" height="13.5449" class="st1"/>
-			<text x="0" y="25.2" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>生菩薩家有二</text>		</g>
-		<g id="shape24-14" v:mID="24" v:groupContext="shape" transform="translate(90.9744,6.16736) rotate(90)">
+			<text x="0" y="25.2" class="st5" v:langID="1028"><v:paragraph/><v:tabList/>生菩薩家有二</text>		</g>
+		<g id="shape24-21" v:mID="24" v:groupContext="shape" transform="translate(90.9744,6.16736) rotate(90)">
 			<title>工作表.24</title>
 			<path d="M0 21.01 C0 23.21 0.61 24.93 1.39 24.93 L6.91 24.93 C7.69 24.93 8.3 26.7 8.3 28.85 C8.3 26.7 8.91 24.93 9.69
-						 24.93 L15.21 24.93 C15.99 24.93 16.6 23.16 16.6 21.01 L0 21.01 Z" class="st5"/>
+						 24.93 L15.21 24.93 C15.99 24.93 16.6 23.16 16.6 21.01 L0 21.01 Z" class="st6"/>
 			<path d="M0 21.01 C0 23.21 0.61 24.93 1.39 24.93 L6.91 24.93 C7.69 24.93 8.3 26.7 8.3 28.85 C8.3 26.7 8.91 24.93 9.69
-						 24.93 L15.21 24.93 C15.99 24.93 16.6 23.16 16.6 21.01" class="st6"/>
+						 24.93 L15.21 24.93 C15.99 24.93 16.6 23.16 16.6 21.01" class="st7"/>
 		</g>
 	</g>
 </svg>

@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- 由 Microsoft Visio, SVG Export 產生 A00702.svg 頁-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.8732in" height="0.600695in"
-		viewBox="0 0 422.87 43.25" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.8732in" height="0.553872in"
+		viewBox="0 0 422.87 39.8788" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
 	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -21,55 +21,65 @@
 		<title>頁-1</title>
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
 				v:shadowOffsetY="-9"/>
-		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(52.0113,-28.9551)">
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(52.0113,-25.5839)">
 			<title>工作表.1</title>
 			<desc>一中具足餘五相應隨行六度互攝行</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="100.015" cy="36.4776" width="200.04" height="13.5449"/>
-			<rect x="0" y="29.7051" width="200.03" height="13.5449" class="st1"/>
-			<text x="10" y="39.59" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一中具足餘五，相應隨行（六度互攝行）</text>		</g>
-		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.75,-20.7772)">
+			<v:textRect cx="100.015" cy="33.1063" width="200.04" height="13.5449"/>
+			<rect x="0" y="26.3339" width="200.03" height="13.5449" class="st1"/>
+			<text x="10" y="36.22" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>一中具足餘五，相應隨行（六度互攝行）</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.75,-13.5059)">
 			<title>工作表.2</title>
 			<desc>波羅蜜二種</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="28.2185" cy="36.4776" width="56.44" height="13.5449"/>
-			<rect x="0" y="29.7051" width="56.4371" height="13.5449" class="st1"/>
-			<text x="-0" y="39.59" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>波羅蜜二種</text>		</g>
-		<g id="shape6-7" v:mID="6" v:groupContext="shape" transform="translate(279.874,-20.7772)">
+			<v:textRect cx="28.2185" cy="33.1063" width="56.44" height="13.5449"/>
+			<rect x="0" y="26.3339" width="56.4371" height="13.5449" class="st1"/>
+			<text x="-0" y="36.22" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>波羅蜜二種</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(57.1871,-24.4556)">
+			<title>工作表.3</title>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<rect x="0" y="26.3339" width="95.943" height="13.5449" class="st1"/>
+		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(142.312,-24.4556)">
+			<title>工作表.4</title>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<rect x="0" y="26.3339" width="11.2874" height="13.5449" class="st1"/>
+		</g>
+		<g id="shape6-11" v:mID="6" v:groupContext="shape" transform="translate(279.874,-14.6091)">
 			<title>工作表.6</title>
 			<desc>目的並生起般若宗歸般若行</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="71.1229" cy="36.4776" width="142.25" height="13.5449"/>
-			<rect x="0" y="29.7051" width="142.246" height="13.5449" class="st1"/>
-			<text x="-0" y="39.59" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>目的並生起般若（宗歸般若行）</text>		</g>
-		<g id="shape7-10" v:mID="7" v:groupContext="shape" transform="translate(52.0118,-13.8998)">
+			<v:textRect cx="71.1229" cy="33.1063" width="142.25" height="13.5449"/>
+			<rect x="0" y="26.3339" width="142.246" height="13.5449" class="st1"/>
+			<text x="0" y="36.22" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>目的並生起般若（宗歸般若行）</text>		</g>
+		<g id="shape7-14" v:mID="7" v:groupContext="shape" transform="translate(52.0118,-0.75)">
 			<title>工作表.7</title>
 			<desc>或一或二得般若隨時別行六度差別行</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="104.975" cy="36.4776" width="209.96" height="13.5449"/>
-			<rect x="0" y="29.7051" width="209.951" height="13.5449" class="st1"/>
-			<text x="10" y="39.59" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>或一或二得般若，隨時別行（六度差別行）</text>		</g>
-		<g id="shape8-13" v:mID="8" v:groupContext="shape" transform="translate(141.695,-0.75)">
+			<v:textRect cx="104.975" cy="33.1063" width="209.96" height="13.5449"/>
+			<rect x="0" y="26.3339" width="209.951" height="13.5449" class="st1"/>
+			<text x="10" y="36.22" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>或一或二得般若，隨時別行（六度差別行）</text>		</g>
+		<g id="shape8-17" v:mID="8" v:groupContext="shape" transform="translate(131.793,-13.1917)">
 			<title>工作表.8</title>
 			<desc>從多為名</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="22.5748" cy="36.4776" width="45.15" height="13.5449"/>
-			<rect x="0" y="29.7051" width="45.1496" height="13.5449" class="st1"/>
-			<text x="0" y="39.59" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>從多為名</text>		</g>
-		<g id="shape15-16" v:mID="15" v:groupContext="shape" transform="translate(241.404,-18.3342) rotate(-16.9374)">
+			<v:textRect cx="22.5748" cy="33.1063" width="45.15" height="13.5449"/>
+			<rect x="0" y="26.3339" width="45.1496" height="13.5449" class="st1"/>
+			<text x="0" y="36.22" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>從多為名</text>		</g>
+		<g id="shape15-20" v:mID="15" v:groupContext="shape" transform="translate(235.001,-2.78405) rotate(-29.8924)">
 			<title>工作表.15</title>
-			<path d="M0 43.25 L24.83 43.25" class="st3"/>
+			<path d="M0 39.88 L27.3 39.88" class="st3"/>
 		</g>
-		<g id="shape16-19" v:mID="16" v:groupContext="shape" transform="translate(254.233,-34.0596) rotate(11.649)">
+		<g id="shape16-23" v:mID="16" v:groupContext="shape" transform="translate(257.744,-30.4302) rotate(17.8803)">
 			<title>工作表.16</title>
-			<path d="M0 43.25 L35.1 43.25" class="st3"/>
+			<path d="M0 39.88 L34.72 39.88" class="st3"/>
 		</g>
-		<g id="shape17-22" v:mID="17" v:groupContext="shape" transform="translate(96.8661,7.40439) rotate(90)">
+		<g id="shape17-26" v:mID="17" v:groupContext="shape" transform="translate(94.0406,6.62724) rotate(90)">
 			<title>工作表.17</title>
-			<path d="M0 36.71 C0 38.53 0.64 39.98 1.4 39.98 L7.07 39.98 C7.86 39.98 8.5 41.43 8.5 43.25 C8.5 41.43 9.15 39.98 9.9
-						 39.98 L15.57 39.98 C16.37 39.98 17.01 38.53 17.01 36.71 L0 36.71 Z" class="st4"/>
-			<path d="M0 36.71 C0 38.53 0.64 39.98 1.4 39.98 L7.07 39.98 C7.86 39.98 8.5 41.43 8.5 43.25 C8.5 41.43 9.15 39.98 9.9
-						 39.98 L15.57 39.98 C16.37 39.98 17.01 38.53 17.01 36.71" class="st5"/>
+			<path d="M0 32.16 C0 34.3 0.97 36.02 2.12 36.02 L10.69 36.02 C11.89 36.02 12.86 37.73 12.86 39.88 C12.86 37.73 13.84
+						 36.02 14.98 36.02 L23.56 36.02 C24.76 36.02 25.73 34.3 25.73 32.16 L0 32.16 Z" class="st4"/>
+			<path d="M0 32.16 C0 34.3 0.97 36.02 2.12 36.02 L10.69 36.02 C11.89 36.02 12.86 37.73 12.86 39.88 C12.86 37.73 13.84
+						 36.02 14.98 36.02 L23.56 36.02 C24.76 36.02 25.73 34.3 25.73 32.16" class="st5"/>
 		</g>
 	</g>
 </svg>
