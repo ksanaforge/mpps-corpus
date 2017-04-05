@@ -76,7 +76,7 @@ const insertP=function(content_para,content_lb,fn){
 
 	return out;
 }
-const prolog=function(content){
+const prolog=function(content,juan,paralb){
 	content=content.replace(/\r?\n/g,"\n").replace(/\r/g,"\n");
 
 	content=content.replace(/!!([\s\S]+?)!!/g,function(m,m1){
@@ -85,6 +85,29 @@ const prolog=function(content){
 		}
 		return "<svg>"+m1+"</svg>"
 	});
+
+	if (juan==36) {
+		if (paralb=="lb") {
+			content=content.replace(/24!@ @!\n@/,"@  !@ @!\n");
+		} else {
+			content=content.replace(/24!@@!\n@24/,"@24 !@ @!\n");
+		}
+	}
+	if (juan==37) {
+		if (paralb=="lb") {
+			content=content.replace(/25!@  @!\n@/,"@  !@ @!\n");
+		} else {
+			content=content.replace(/25!@ @!\n@25/,"@25 !@ @!\n");
+		}
+	}
+	if (juan==38) {
+		if (paralb=="lb") {
+			content=content.replace(/26!@ @!\n@/,"@  !@ @!\n");
+		} else {
+			content=content.replace(/26!@@!\n@26/,"@26 !@ @!\n");
+		}
+	}
+
 	content=content.replace(/!@([\s\S]*?)@!/g,function(m,m1){//might be no space
 		return "<svg2>"+m1.trim()+"</svg2>"
 	});
@@ -107,6 +130,8 @@ const prolog=function(content){
 		console.log(content.length)
 		throw "unclean 品"
 	}
+
+
 	return content;
 }
 const processFile=function(fn){
@@ -114,8 +139,8 @@ const processFile=function(fn){
 	var content_para=fs.readFileSync(para_path+fn,"utf8");
 	var content_lb=fs.readFileSync(lb_path+fn,"utf8");
 
-	content_para=prolog(content_para);
-	content_lb=prolog(content_lb);
+	content_para=prolog(content_para,parseInt(fn,10),"para");
+	content_lb=prolog(content_lb,parseInt(fn,10),"lb");
 
 	if (parseInt(fn,10)==18) { //hot fix for missing 18.124
 

@@ -155,7 +155,9 @@ const xml2htll=function(def,id){
 		});
 
 		def=def.replace(/<svg2>([\S\s]*?)<\/svg2>/g,function(m,m1){
-			return "{svg2}";
+			const svgfn=getSVGfn(id,++count);
+			if (!m1) m1=" ";
+			return "{svg|"+svgfn+","+m1+"|svg}";
 		});
 	}
 	

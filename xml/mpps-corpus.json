@@ -2,7 +2,7 @@
 	"title":"大智度論講義",
 	"toc":"H0",
 	"rendClass":["kai","b","s","j","pin"],
-	"extrasize":5242880,
+	"extrasize":15242880,
 	"displayOptions":{"groupColumn":[20,44,73]},
 	"external":{
 		"footnotes":"footnotes.json"
