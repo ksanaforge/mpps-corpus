@@ -1,94 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 產生 A00303.svg 頁-1 -->
+<!-- 由 Microsoft Visio, SVG Export 產生 繪圖3.svg 頁-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.90075in" height="0.858563in"
-		viewBox="0 0 208.854 61.8165" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
-	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
-
+		width="2.90018in" height="0.858564in" viewBox="0 0 208.813 61.8166" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st6">
 	<style type="text/css">
 	<![CDATA[
 		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
 		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
-		.st3 {fill:none}
-		.st4 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
-		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st3 {fill:none;stroke:none;stroke-width:1}
+		.st4 {fill:none}
+		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
-	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+	<g>
 		<title>頁-1</title>
-		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
-				v:shadowOffsetY="-9"/>
-		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(65.3154,-47.5217)">
-			<title>工作表.2</title>
-			<desc>如熱氣盛非黃見黃</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="50.7933" cy="55.0441" width="101.59" height="13.5449"/>
-			<rect x="0" y="48.2717" width="101.587" height="13.5449" class="st1"/>
-			<text x="-0" y="58.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如熱氣盛，非黃見黃</text>		</g>
-		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(11.2845,-39.3319)">
-			<title>工作表.3</title>
-			<desc>想智力</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="22.5748" cy="55.0441" width="45.15" height="13.5449"/>
-			<rect x="0" y="48.2717" width="45.1496" height="13.5449" class="st1"/>
-			<text x="10" y="58.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>想智力</text>		</g>
-		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(65.3137,-31.9311)">
-			<title>工作表.4</title>
-			<desc>諸法轉觀是名淺法</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="50.7933" cy="55.0441" width="101.59" height="13.5449"/>
-			<rect x="0" y="48.2717" width="101.587" height="13.5449" class="st1"/>
-			<text x="0" y="58.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>諸法轉觀，是名淺法</text>		</g>
-		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(0.75,-23.7413)">
-			<title>工作表.5</title>
-			<desc>心</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="16.9311" cy="55.0441" width="33.87" height="13.5449"/>
-			<rect x="0" y="48.2717" width="33.8622" height="13.5449" class="st1"/>
-			<text x="-0" y="58.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>心  </text>		</g>
-		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(62.8365,-16.3406)">
-			<title>工作表.6</title>
-			<desc>如眼淨無熱氣如實見黃是黃</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="72.6339" cy="55.0441" width="145.27" height="13.5449"/>
-			<rect x="0" y="48.2717" width="145.268" height="13.5449" class="st1"/>
-			<text x="10" y="58.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>如眼淨無熱氣，如實見黃是黃</text>		</g>
-		<g id="shape7-16" v:mID="7" v:groupContext="shape" transform="translate(11.2835,-7.83663)">
-			<title>工作表.7</title>
-			<desc>除想智力</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="28.2185" cy="55.0441" width="56.44" height="13.5449"/>
-			<rect x="0" y="48.2717" width="56.4371" height="13.5449" class="st1"/>
-			<text x="10" y="58.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>除想智力</text>		</g>
-		<g id="shape8-19" v:mID="8" v:groupContext="shape" transform="translate(62.8373,-0.75)">
-			<title>工作表.8</title>
-			<desc>慧眼清淨見法實相</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="56.4371" cy="55.0441" width="112.88" height="13.5449"/>
-			<rect x="0" y="48.2717" width="112.874" height="13.5449" class="st1"/>
-			<text x="10" y="58.16" class="st2" v:langID="1028"><v:paragraph/><v:tabList/>慧眼清淨，見法實相</text>		</g>
-		<g id="shape15-22" v:mID="15" v:groupContext="shape" transform="translate(116.965,6.10511) rotate(90)">
-			<title>工作表.15</title>
-			<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67 57.85
-						 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88 L0 53.88 Z" class="st3"/>
-			<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67 57.85
-						 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88" class="st4"/>
-		</g>
-		<g id="shape17-25" v:mID="17" v:groupContext="shape" transform="translate(73.117,14.609) rotate(90)">
+		<g id="group17-1" transform="translate(0.75,-0.75)">
 			<title>工作表.17</title>
-			<path d="M0 50.53 C0 53.66 1.26 56.17 2.81 56.17 L14.15 56.17 C15.75 56.17 17.01 58.74 17.01 61.82 C17.01 58.74 18.27
-						 56.17 19.82 56.17 L31.16 56.17 C32.76 56.17 34.02 53.66 34.02 50.53 L0 50.53 Z" class="st3"/>
-			<path d="M0 50.53 C0 53.66 1.26 56.17 2.81 56.17 L14.15 56.17 C15.75 56.17 17.01 58.74 17.01 61.82 C17.01 58.74 18.27
-						 56.17 19.82 56.17 L31.16 56.17 C32.76 56.17 34.02 53.66 34.02 50.53" class="st4"/>
-		</g>
-		<g id="shape18-28" v:mID="18" v:groupContext="shape" transform="translate(126.491,37.2862) rotate(90)">
-			<title>工作表.18</title>
-			<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67 57.85
-						 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88 L0 53.88 Z" class="st3"/>
-			<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67 57.85
-						 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88" class="st4"/>
+			<g id="shape1-2" transform="translate(64.5654,-46.7717)">
+				<title>工作表.2</title>
+				<desc>如熱氣盛非黃見黃</desc>
+				<rect x="0" y="48.2717" width="90.5901" height="13.5449" class="st1"/>
+				<text x="-0" y="58.04" class="st2">如熱氣盛，非黃見黃</text>			</g>
+			<g id="shape2-5" transform="translate(23.3174,-38.5819)">
+				<title>工作表.3</title>
+				<desc>想智力</desc>
+				<rect x="0" y="48.2717" width="31.2352" height="13.5449" class="st1"/>
+				<text x="-0" y="58.04" class="st2">想智力</text>			</g>
+			<g id="shape3-8" transform="translate(64.5637,-31.1811)">
+				<title>工作表.4</title>
+				<desc>諸法轉觀是名淺法</desc>
+				<rect x="0" y="48.2717" width="90.5918" height="13.5449" class="st1"/>
+				<text x="-0" y="58.04" class="st2">諸法轉觀，是名淺法</text>			</g>
+			<g id="shape4-11" transform="translate(0,-22.9913)">
+				<title>工作表.5</title>
+				<desc>心</desc>
+				<rect x="0" y="48.2717" width="10.5886" height="13.5449" class="st1"/>
+				<text x="-0" y="58.04" class="st2">心</text>			</g>
+			<g id="shape5-14" transform="translate(74.5001,-15.5906)">
+				<title>工作表.6</title>
+				<desc>如眼淨無熱氣如實見黃是黃</desc>
+				<rect x="0" y="48.2717" width="132.813" height="13.5449" class="st1"/>
+				<text x="-0" y="58.04" class="st2">如眼淨無熱氣，如實見黃是黃</text>			</g>
+			<g id="shape6-17" transform="translate(22.5448,-7.08663)">
+				<title>工作表.7</title>
+				<desc>除想智力</desc>
+				<rect x="0" y="48.2717" width="40.4847" height="13.5449" class="st1"/>
+				<text x="-0" y="58.04" class="st2">除想智力</text>			</g>
+			<g id="shape7-20" transform="translate(74.3909,0)">
+				<title>工作表.8</title>
+				<desc>慧眼清淨見法實相</desc>
+				<rect x="0" y="48.2717" width="92.1032" height="13.5449" class="st1"/>
+				<text x="-0" y="58.04" class="st2">慧眼清淨，見法實相</text>			</g>
+			<g id="group8-23" transform="translate(116.212,6.85511) rotate(90)">
+				<title>工作表.15</title>
+				<g id="shape9-24">
+					<title>工作表.9</title>
+					<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67
+								 57.85 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88 L0 53.88 Z" class="st3"/>
+				</g>
+				<g id="shape10-26">
+					<title>工作表.10</title>
+					<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67
+								 57.85 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88 L0 53.88 Z" class="st4"/>
+					<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67
+								 57.85 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88" class="st5"/>
+				</g>
+			</g>
+			<g id="group11-29" transform="translate(72.3636,15.359) rotate(90)">
+				<title>工作表.17</title>
+				<g id="shape12-30">
+					<title>工作表.12</title>
+					<path d="M0 50.53 C0 53.66 1.26 56.17 2.81 56.17 L14.15 56.17 C15.75 56.17 17.01 58.74 17.01 61.82 C17.01 58.74
+								 18.27 56.17 19.82 56.17 L31.16 56.17 C32.76 56.17 34.02 53.66 34.02 50.53 L0 50.53 Z" class="st3"/>
+				</g>
+				<g id="shape13-32">
+					<title>工作表.13</title>
+					<path d="M0 50.53 C0 53.66 1.26 56.17 2.81 56.17 L14.15 56.17 C15.75 56.17 17.01 58.74 17.01 61.82 C17.01 58.74
+								 18.27 56.17 19.82 56.17 L31.16 56.17 C32.76 56.17 34.02 53.66 34.02 50.53 L0 50.53 Z" class="st4"/>
+					<path d="M0 50.53 C0 53.66 1.26 56.17 2.81 56.17 L14.15 56.17 C15.75 56.17 17.01 58.74 17.01 61.82 C17.01 58.74
+								 18.27 56.17 19.82 56.17 L31.16 56.17 C32.76 56.17 34.02 53.66 34.02 50.53" class="st5"/>
+				</g>
+			</g>
+			<g id="group14-35" transform="translate(125.738,38.0362) rotate(90)">
+				<title>工作表.18</title>
+				<g id="shape15-36">
+					<title>工作表.15</title>
+					<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67
+								 57.85 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88 L0 53.88 Z" class="st3"/>
+				</g>
+				<g id="shape16-38">
+					<title>工作表.16</title>
+					<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67
+								 57.85 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88 L0 53.88 Z" class="st4"/>
+					<path d="M0 53.88 C0 56.09 0.75 57.85 1.63 57.85 L8.25 57.85 C9.17 57.85 9.92 59.66 9.92 61.82 C9.92 59.66 10.67
+								 57.85 11.55 57.85 L18.17 57.85 C19.09 57.85 19.84 56.09 19.84 53.88" class="st5"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </svg>

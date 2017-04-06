@@ -86,6 +86,10 @@ const epilog=function(output,juan){//fix long head
 
 		output=output.replace(/菩薩不見有法出法性，乃至若法無有生滅相，云何有法當行般若波羅蜜<\/H2>\n<\/kai><b>」<\/b>/,
 			"菩薩不見有法出法性，乃至若法無有生滅相，云何有法當行般若波羅蜜</kai>」</H2>");
+	} else if (juan==1) {
+		output=output.replace(/是等閻浮提大論議\n師\n/,"是等閻浮提大論議師\n");
+		output=output.replace(/學習何<taisho \nn="25.61c"\/>經？<\/kai>/,
+			'學習何<taisho n="25.61c"/>\n經？</kai>');
 	}
 	return output;
 }
@@ -110,6 +114,7 @@ const def_epilog=function(defs){
 	defs=defs.replace(/<def n="89.11"\/>、/g,"、");//extra
 	defs=defs.replace(/<def n="1.1"\/>/,'<def n="1.1">');
 	defs=defs.replace(/<def n="0.1"\/>/,'<def n="0.1">');
+	defs=defs.replace(/-+\n/g,'\n');
 
 	defs=defs.trim()+"</def>";
 	var opencount=0,closecount=0;
@@ -145,8 +150,8 @@ const xml2htll=function(def,id){
 	})
 	def=def.replace(/<kai>/g,"{k");
 	def=def.replace(/<\/kai>/g,"k}");
-	def=def.replace(/<b>/g,"{");
-	def=def.replace(/<\/b>/g,"}");
+	def=def.replace(/<b>/g,"{b");
+	def=def.replace(/<\/b>/g,"b}");
 	var count=0;
 	if (def.indexOf("svg")>-1){
 		def=def.replace(/<svg>([\S\s]+?)<\/svg>/g,function(m,m1){
