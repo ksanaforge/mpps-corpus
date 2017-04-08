@@ -5,13 +5,20 @@ var mpps_yinshun_note=function(content){
 		return '<note_mpps ref="'+bk1+'#'+pg1+'"></note_mpps><note_mpps ref="'+bk2+'#'+pg2+'"></note_mpps>';
 	});
 
-	content=content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］）]p\.?(\d+)）?/g,function(m,bk,pg){
+	content=content.replace(/（?印?\n?順?\n?[法導]\n?師，?\n?《?大\n?智\n?度\n?論\n?筆\n?記》\n?[〔［]\n?(.+?)[〕］）]\n?，?\n?p\.?(\d+)）?/g,function(m,bk,pg){
+		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
+	});
+	content=content.replace(/（?印\n?順\n?[導法]\n?師，\n?《?大\n?智\n?度\n?論\n?筆\n?記》\n?[〔［](.+?)[〕］）]\n?pp\.?(\d+)-\d+）?/g,function(m,bk,pg){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
 	});
 
 	content=content.replace(/（《大智度論筆記》[〔［](.+?)[〕］]p\.(\d+)）?/g,function(m,bk,pg){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
 	});	
+
+	content=content.replace(/〔([A-Z]\d+)〕\n?p\.(\d+)[）；]/g,function(m,bk,pg){
+		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
+	});
 
 	return content.replace(/（[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk,pg){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
