@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 產生 A02102.svg 頁-1 -->
+<!-- 由 Microsoft Visio, SVG Export 產生 M003.114=A02102.svg 頁-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.73934in" height="0.833826in"
-		viewBox="0 0 269.232 60.0355" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.41257in" height="0.833826in"
+		viewBox="0 0 245.705 60.0355" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
 	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -32,11 +32,11 @@
 						x="-0" dy="1.453em" class="st3">厭離心少故</tspan></text>		</g>
 		<g id="shape2-7" v:mID="2" v:groupContext="shape" transform="translate(162.581,-36.6083)">
 			<title>工作表.2</title>
-			<desc>阿難留滯學地之之因。</desc>
+			<desc>阿難留滯學地之因</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="52.9507" cy="53.263" width="105.91" height="13.5449"/>
-			<rect x="0" y="46.4906" width="105.901" height="13.5449" class="st1"/>
-			<text x="-0" y="56.9" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>阿難留滯學地之之因。</text>		</g>
+			<v:textRect cx="41.1869" cy="53.263" width="82.38" height="13.5449"/>
+			<rect x="0" y="46.4906" width="82.3738" height="13.5449" class="st1"/>
+			<text x="-0" y="56.9" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>阿難留滯學地之因</text>		</g>
 		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(0.75,-24.0625)">
 			<title>工作表.11</title>
 			<desc>阿難留滯學地之理由</desc>
