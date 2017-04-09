@@ -156,7 +156,7 @@ const xml2htll=function(def,id){
 	if (def.indexOf("svg")>-1){
 		def=def.replace(/<svg>([\S\s]+?)<\/svg>/g,function(m,m1){
 			const svgfn=getSVGfn(id,++count);
-			return "{svg|"+svgfn+","+m1+"|svg}";
+			return "{svg|"+svgfn+","+m1+"|svg}";				
 		});
 
 		def=def.replace(/<svg2>([\S\s]*?)<\/svg2>/g,function(m,m1){

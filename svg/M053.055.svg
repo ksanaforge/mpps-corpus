@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 產生 B01702.svg 頁-1 -->
+<!-- 由 Microsoft Visio, SVG Export 產生 M053.055=B01702.svg 頁-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.34983in" height="1.00916in"
-		viewBox="0 0 529.188 72.6592" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.48737in" height="1.05008in"
+		viewBox="0 0 539.091 75.6054" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
 	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
 
 	<style type="text/css">
 	<![CDATA[
-		.st1 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:0.75}
-		.st2 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
-		.st3 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
-		.st4 {fill:#000000;font-family:新細明體;font-size:0.833336em}
-		.st5 {font-family:Times New Roman;font-size:1em}
-		.st6 {fill:none}
-		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
+		.st3 {font-family:Times New Roman;font-size:1em}
+		.st4 {font-size:1em}
+		.st5 {fill:none}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5625}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
 		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
@@ -23,100 +23,59 @@
 		<title>頁-1</title>
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
 				v:shadowOffsetY="-9"/>
-		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(117.615,27.0961) rotate(90.1)">
-			<title>工作表.2</title>
-			<rect x="0" y="45.6592" width="18.3522" height="27" class="st1"/>
-		</g>
-		<g id="shape3-3" v:mID="3" v:groupContext="shape" transform="translate(51.4765,-31.4203) rotate(0.1)">
-			<title>工作表.3</title>
-			<desc>(2)</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)"/>
-			<v:textRect cx="13.5" cy="67.7653" width="27" height="9.78782"/>
-			<rect x="0" y="62.8714" width="27" height="9.78782" class="st2"/>
-			<text x="0" y="70.77" class="st3" v:langID="1028"><v:paragraph/><v:tabList/>(2)</text>		</g>
-		<g id="shape4-6" v:mID="4" v:groupContext="shape" transform="translate(73.8201,-61.5362) rotate(0.1)">
+		<g id="shape4-1" v:mID="4" v:groupContext="shape" transform="translate(73.7117,-1.48672) rotate(0.1)">
 			<title>工作表.4</title>
-			<desc>發心菩提─於生死中發無上心</desc>
+			<desc>發心菩提─於生死中發無上心 伏心菩提─折伏煩惱降伏其心行諸波羅密 明心菩提─得法實相畢竟清淨 出到菩提─於般若中得方便力不...</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="77.6837" cy="67.7653" width="155.37" height="9.78782"/>
-			<rect x="0" y="62.8714" width="155.367" height="9.78782" class="st2"/>
-			<text x="0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>發心菩提<tspan class="st5">─</tspan>於生死中發無上心</text>		</g>
-		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(307.82,-61.157) rotate(0.1)">
-			<title>工作表.5</title>
-			<desc>資糧</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="22.6206" cy="67.7653" width="45.25" height="9.78782"/>
-			<rect x="0" y="62.8714" width="45.2412" height="9.78782" class="st2"/>
-			<text x="0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>資糧</text>		</g>
-		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(73.792,-46.6127) rotate(0.1)">
-			<title>工作表.6</title>
-			<desc>伏心菩提─折伏煩惱降伏其心行諸波羅密</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="95.4122" cy="67.7653" width="190.83" height="9.78782"/>
-			<rect x="0" y="62.8714" width="190.824" height="9.78782" class="st2"/>
-			<text x="-0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>伏心菩提<tspan class="st5">─</tspan>折伏煩惱降伏其心行諸波羅密</text>		</g>
-		<g id="shape7-17" v:mID="7" v:groupContext="shape" transform="translate(307.792,-46.2316) rotate(0.1)">
-			<title>工作表.7</title>
-			<desc>加行</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="28.0184" cy="67.7653" width="56.04" height="9.78782"/>
-			<rect x="0" y="62.8714" width="56.0369" height="9.78782" class="st2"/>
-			<text x="0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>加行</text>		</g>
-		<g id="shape8-20" v:mID="8" v:groupContext="shape" transform="translate(0.876814,-30.8625) rotate(0.1)">
+			<v:textRect cx="211.087" cy="38.9211" width="422.18" height="73.3687"/>
+			<rect x="0" y="2.23673" width="422.175" height="73.3687" class="st1"/>
+			<text x="-0" y="13.49" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>發心菩提<tspan class="st3">─</tspan>於生死中發無上心<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">伏心菩提</tspan><tspan class="st3">─</tspan>折伏煩惱降伏其心行諸波羅密<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">明心菩提</tspan><tspan class="st3">─</tspan>得法實相畢竟清淨<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">出到菩提</tspan><tspan class="st3">─</tspan>於般若中得方便力，不著般若，滅諸煩惱，見一切佛，得無生忍，出三界，到薩婆若<v:newlineChar/><tspan
+						x="-0" dy="1.453em" class="st4">無上菩提</tspan><tspan class="st3">─</tspan>坐道場，斷煩惱習</text>		</g>
+		<g id="shape8-13" v:mID="8" v:groupContext="shape" transform="translate(0.881956,-33.1994) rotate(0.1)">
 			<title>工作表.8</title>
-			<desc>五種菩提之</desc>
+			<desc>五種菩提之(2)</desc>
 			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="30.0865" cy="67.7653" width="60.18" height="9.78782"/>
-			<rect x="0" y="62.8714" width="60.173" height="9.78782" class="st2"/>
-			<text x="0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>五種菩提之</text>		</g>
-		<g id="shape9-23" v:mID="9" v:groupContext="shape" transform="translate(73.7625,-31.6413) rotate(0.1)">
-			<title>工作表.9</title>
-			<desc>明心菩提─得法實相畢竟清淨</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="72.0391" cy="67.7653" width="144.08" height="9.78782"/>
-			<rect x="0" y="62.8714" width="144.078" height="9.78782" class="st2"/>
-			<text x="-0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>明心菩提<tspan class="st5">─</tspan>得法實相畢竟清淨</text>		</g>
-		<g id="shape10-27" v:mID="10" v:groupContext="shape" transform="translate(307.762,-31.2646) rotate(0.1)">
-			<title>工作表.10</title>
-			<desc>通達</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="28.0336" cy="67.7653" width="56.07" height="9.78782"/>
-			<rect x="0" y="62.8714" width="56.0672" height="9.78782" class="st2"/>
-			<text x="0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>通達</text>		</g>
-		<g id="shape11-30" v:mID="11" v:groupContext="shape" transform="translate(73.7337,-16.6996) rotate(0.1)">
-			<title>工作表.11</title>
-			<desc>出到菩提─於般若中得方便力不著般若滅諸煩惱見一切佛得無生忍出三界到薩婆若</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="226.119" cy="67.7653" width="452.24" height="9.78782"/>
-			<rect x="0" y="62.8714" width="452.238" height="9.78782" class="st2"/>
-			<text x="0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>出到菩提<tspan class="st5">─</tspan>於般若中得方便力，不著般若，滅諸煩惱，見一切佛，得無生忍，出三界，到薩婆若</text>		</g>
-		<g id="shape12-34" v:mID="12" v:groupContext="shape" transform="translate(497.21,-16.0864) rotate(0.1)">
-			<title>工作表.12</title>
-			<desc>修習</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="15.669" cy="67.7653" width="31.34" height="9.78782"/>
-			<rect x="0" y="62.8714" width="31.3379" height="9.78782" class="st2"/>
-			<text x="-0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>修習</text>		</g>
-		<g id="shape13-37" v:mID="13" v:groupContext="shape" transform="translate(73.7056,-1.74845) rotate(0.1)">
-			<title>工作表.13</title>
-			<desc>無上菩提─坐道場斷煩惱習</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="74.1957" cy="67.7653" width="148.4" height="9.78782"/>
-			<rect x="0" y="62.8714" width="148.391" height="9.78782" class="st2"/>
-			<text x="-0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>無上菩提<tspan class="st5">─</tspan>坐道場，斷煩惱習</text>		</g>
-		<g id="shape14-41" v:mID="14" v:groupContext="shape" transform="translate(307.705,-1.37008) rotate(0.1)">
-			<title>工作表.14</title>
-			<desc>究竟</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="23.8098" cy="67.7653" width="47.62" height="9.78782"/>
-			<rect x="0" y="62.8714" width="47.6195" height="9.78782" class="st2"/>
-			<text x="0" y="70.88" class="st4" v:langID="1028"><v:paragraph/><v:tabList/>究竟</text>		</g>
-		<g id="shape21-44" v:mID="21" v:groupContext="shape" transform="translate(137.733,2.55164) rotate(90.1)">
+			<v:textRect cx="32.0983" cy="70.7115" width="64.2" height="9.78782"/>
+			<rect x="0" y="65.8176" width="64.1966" height="9.78782" class="st1"/>
+			<text x="0" y="74.35" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>五種菩提之<tspan class="st3">(2)</tspan></text>		</g>
+		<g id="shape21-17" v:mID="21" v:groupContext="shape" transform="translate(140.677,4.76458) rotate(90.1)">
 			<title>工作表.21</title>
-			<path d="M0 66.99 C0 68.56 2.54 69.82 5.71 69.82 L28.64 69.82 C31.81 69.82 34.4 71.11 34.4 72.66 C34.4 71.11 36.94 69.82
-						 40.11 69.82 L63.04 69.82 C66.21 69.82 68.8 68.56 68.8 66.99 L0 66.99 Z" class="st6"/>
-			<path d="M0 66.99 C0 68.56 2.54 69.82 5.71 69.82 L28.64 69.82 C31.81 69.82 34.4 71.11 34.4 72.66 C34.4 71.11 36.94 69.82
-						 40.11 69.82 L63.04 69.82 C66.21 69.82 68.8 68.56 68.8 66.99" class="st7"/>
+			<path d="M0 69.94 C0 71.5 2.48 72.77 5.58 72.77 L27.98 72.77 C31.07 72.77 33.6 74.06 33.6 75.61 C33.6 74.06 36.08 72.77
+						 39.18 72.77 L61.58 72.77 C64.67 72.77 67.2 71.5 67.2 69.94 L0 69.94 Z" class="st5"/>
+			<path d="M0 69.94 C0 71.5 2.48 72.77 5.58 72.77 L27.98 72.77 C31.07 72.77 33.6 74.06 33.6 75.61 C33.6 74.06 36.08 72.77
+						 39.18 72.77 L61.58 72.77 C64.67 72.77 67.2 71.5 67.2 69.94" class="st6"/>
+		</g>
+		<g id="shape26-20" v:mID="26" v:groupContext="shape" transform="translate(515.667,-1.13062) rotate(0.1)">
+			<title>工作表.26</title>
+			<desc>資糧 加行 通達 修習 究竟</desc>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="11.3386" cy="38.9211" width="22.68" height="73.3687"/>
+			<rect x="0" y="2.23673" width="22.6771" height="73.3687" class="st1"/>
+			<text x="0" y="13.49" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>資糧<v:newlineChar/><tspan
+						x="0" dy="1.453em" class="st4">加行<v:newlineChar/></tspan><tspan x="0" dy="1.453em" class="st4">通達<v:newlineChar/></tspan><tspan
+						x="0" dy="1.453em" class="st4">修習<v:newlineChar/></tspan><tspan x="0" dy="1.453em" class="st4">究竟</tspan></text>		</g>
+		<g id="shape154-27" v:mID="154" v:groupContext="shape" transform="translate(204.986,-65.9784)">
+			<title>工作表.154</title>
+			<path d="M0 75.61 L309.37 75.61" class="st7"/>
+		</g>
+		<g id="shape155-30" v:mID="155" v:groupContext="shape" transform="translate(255.483,-51.4509)">
+			<title>工作表.155</title>
+			<path d="M0 75.61 L258.87 75.61" class="st7"/>
+		</g>
+		<g id="shape156-33" v:mID="156" v:groupContext="shape" transform="translate(204.986,-36.9233)">
+			<title>工作表.156</title>
+			<path d="M0 75.61 L309.37 75.61" class="st7"/>
+		</g>
+		<g id="shape157-36" v:mID="157" v:groupContext="shape" transform="translate(495.213,-22.3958)">
+			<title>工作表.157</title>
+			<path d="M0 75.61 L19.14 75.61" class="st7"/>
+		</g>
+		<g id="shape158-39" v:mID="158" v:groupContext="shape" transform="translate(204.986,-7.86819)">
+			<title>工作表.158</title>
+			<path d="M0 75.61 L309.37 75.61" class="st7"/>
 		</g>
 	</g>
 </svg>
