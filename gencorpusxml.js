@@ -92,6 +92,10 @@ const epilog=function(output,juan){//fix long head
 			'學習何<taisho n="25.61c"/>\n經？</kai>');
 	} else if (juan==44) {
 		output=output.replace(/（《大智度<\/H6>\n論筆記》/,"</H6>");
+	} else if (juan==43) {
+		output=output.replace(/（印順法師，《大智度論》筆記/g,"");
+	} else if (juan==55) {
+		output=output.replace(/（印順法師，《大智度論》筆記/g,"");
 	}
 
 	return output;
