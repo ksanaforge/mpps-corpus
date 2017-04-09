@@ -20,9 +20,8 @@ var mpps_yinshun_note=function(content){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
 	});
 
-	//content=content.replace(/（《大智度論筆記》/g,"");
 
-	return content.replace(/（[〔［](.+?)[〕］]p\.(\d+)）/g,function(m,bk,pg){
+	return content.replace(/（?[〔［]\n?([A-Z]\d+)[〕］]\n?p\.(\d+)）/g,function(m,bk,pg){
 		return '<note_mpps ref="'+bk+'#'+pg+'"></note_mpps>';
 	});
 }

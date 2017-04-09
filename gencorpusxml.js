@@ -90,7 +90,10 @@ const epilog=function(output,juan){//fix long head
 		output=output.replace(/是等閻浮提大論議\n師\n/,"是等閻浮提大論議師\n");
 		output=output.replace(/學習何<taisho \nn="25.61c"\/>經？<\/kai>/,
 			'學習何<taisho n="25.61c"/>\n經？</kai>');
+	} else if (juan==44) {
+		output=output.replace(/（《大智度<\/H6>\n論筆記》/,"</H6>");
 	}
+
 	return output;
 }
 /* def to enclose entire foot note*/
@@ -128,6 +131,9 @@ const def_epilog=function(defs){
 	if (opencount!==closecount) {
 		console.log("tag unmatch",opencount,closecount)
 	}
+	defs=defs.replace(/（印順法\n師，《大智度論筆 記》/g,"");
+	defs=defs.replace(/（印順法師，《大智度論》筆記/g,"");
+
 
 	defs=defs.replace(/<\/j>【論】/,"【論】");
 
