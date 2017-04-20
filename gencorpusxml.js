@@ -282,6 +282,9 @@ var processfile=function(fn){
 
 	var juanname=fs.readFileSync("juanname.txt","utf8").split(/\r?\n/);
 	juanname=juanname.map(juan=>juan.replace(/\d+=/,""))
+	output=output.replace(/慧日佛學班第\d+期/,"");
+	output=output.replace(/／福嚴推廣教育班第24期/g,"");
+			
 	output=output.replace(/<b>《大智度論》卷(\d+)\n/,function(m,m1){
 		return "<article>卷"+m1+"："+juanname[parseInt(m1)-1]+"</article>\n<b>";
 	})
