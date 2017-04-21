@@ -12,7 +12,7 @@ runall_para ; output without linebreaks with foot note number
 node mergepb
 
 ===create xhtml format from word xml , 每一卷一個  xhtml===
-node gen 
+node genxml
 
 
 
@@ -23,7 +23,7 @@ node parsejinlunmapping
 node gencorpusxml
 
 ====create mpps.cor====
-node gencorpus
+node gen
 
 
 
