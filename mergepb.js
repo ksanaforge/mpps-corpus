@@ -81,7 +81,7 @@ const prolog=function(content,juan,paralb){
 
 	content=content.replace(/!!([\s\S]+?)!!/g,function(m,m1){
 		if (m1.length>500) {
-			console.log("possible wrong table",m1)
+			console.log("juan "+juan,"possible wrong table",m1.substr(0,100).replace(/\n/g," ")+"...")
 		}
 		return "<svg>"+m1+"</svg>"
 	});

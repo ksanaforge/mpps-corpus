@@ -2,7 +2,7 @@
 change a text pattern to xml tag*/
 var mpps_yinshun_note=function(content){
 	content=content.replace(/（?印順法師，《?大智度論筆記》[〔［](.+?)[〕］]p\.?(\d+)；[〔［](.+?)[〕］]p\.(\d+)）?/g,function(m,bk1,pg1,bk2,pg2){
-		return '<note_mpps ref="'+bk1+'#'+pg1+'"></note_mpps><note_mpps ref="'+bk2+'#'+pg2+'"></note_mpps>';
+		return '<note_mpps ref="'+bk1+'#'+pg1+'"></note_mpps>；<note_mpps ref="'+bk2+'#'+pg2+'"></note_mpps>';
 	});
 
 	content=content.replace(/（?印?\n?順?\n?[法導]\n?師，?\n?《?大\n?智\n?度\n?論\n?筆\n?記》\n?[〔［]\n?(.+?)[〕］）]\n?，?\n?p\.?(\d+)）?/g,function(m,bk,pg){

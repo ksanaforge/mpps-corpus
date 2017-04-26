@@ -98,6 +98,7 @@ const epilog=function(output,juan){//fix long head
 		output=output.replace(/（印順法師，《大智度論》筆記/g,"");
 	}
 
+	output=output.replace(/<link target="mpps@.+?"\/>/g,"");
 	return output;
 }
 /* def to enclose entire foot note*/
