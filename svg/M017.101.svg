@@ -1,48 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 產生 A02705.svg 頁-1 -->
+<!-- 由 Microsoft Visio, SVG Export 產生 M017.101.svg 頁-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.44807in" height="0.40374in"
-		viewBox="0 0 248.261 29.0693" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
-	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
-
+		width="3.3054in" height="0.396313in" viewBox="0 0 237.989 28.5345" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st8">
 	<style type="text/css">
 	<![CDATA[
-		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.749999}
 		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
 		.st3 {font-family:Times New Roman;font-size:1em;letter-spacing:0.749998em}
 		.st4 {font-size:1em}
-		.st5 {fill:none}
-		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
-		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st5 {fill:none;stroke:none;stroke-width:0.999999}
+		.st6 {fill:none}
+		.st7 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
-	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+	<g>
 		<title>頁-1</title>
-		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
-				v:shadowOffsetY="-9"/>
-		<g id="shape13-1" v:mID="13" v:groupContext="shape" transform="translate(0.75,-8.5016)">
-			<title>工作表.13</title>
-			<desc>漏無漏定、離欲之別</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="46.9843" cy="22.2968" width="93.97" height="13.5449"/>
-			<rect x="0" y="15.5244" width="93.9685" height="13.5449" class="st1"/>
-			<text x="0" y="25.93" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>漏無漏定、離欲之別  </text>		</g>
-		<g id="shape14-4" v:mID="14" v:groupContext="shape" transform="translate(100.775,-1.50712)">
-			<title>工作表.14</title>
-			<desc>有漏定依上地邊離下地欲。 無漏定離自地欲及上地。</desc>
-			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-			<v:textRect cx="73.3682" cy="16.0417" width="146.74" height="26.0551"/>
-			<rect x="0" y="3.01417" width="146.736" height="26.0551" class="st1"/>
-			<text x="0" y="12.41" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>有漏定：依上地邊，離下地欲。<tspan
-						class="st3"> </tspan><tspan x="0" dy="1.453em" class="st4">無漏定</tspan>：離自地欲及上地。</text>		</g>
-		<g id="shape26-9" v:mID="26" v:groupContext="shape" transform="translate(121.232,7.35487) rotate(90)">
-			<title>工作表.26</title>
-			<path d="M0 22.54 C0 24.34 0 25.83 0 25.83 L7.53 25.83 C7.53 25.83 7.53 27.27 7.53 29.07 C7.53 27.27 7.53 25.83 7.53
-						 25.83 L15.07 25.83 C15.07 25.83 15.07 24.34 15.07 22.54 L0 22.54 Z" class="st5"/>
-			<path d="M0 22.54 C0 24.34 0 25.83 0 25.83 L7.53 25.83 C7.53 25.83 7.53 27.27 7.53 29.07 C7.53 27.27 7.53 25.83 7.53
-						 25.83 L15.07 25.83 C15.07 25.83 15.07 24.34 15.07 22.54" class="st6"/>
+		<g id="group6-1" transform="translate(0.749999,-1.23961)">
+			<title>工作表.6</title>
+			<g id="shape1-2" transform="translate(0,-6.99445)">
+				<title>工作表.13</title>
+				<desc>漏無漏定、離欲之別</desc>
+				<rect x="0" y="14.9896" width="93.9684" height="13.5449" class="st1"/>
+				<text x="-0" y="25.26" class="st2">漏無漏定離欲之別</text>			</g>
+			<g id="shape2-5" transform="translate(89.7527,0)">
+				<title>工作表.14</title>
+				<desc>有漏定依上地邊離下地欲。 無漏定離自地欲及上地。</desc>
+				<rect x="0" y="2.47943" width="146.736" height="26.0551" class="st1"/>
+				<text x="-0" y="12.14" class="st2">有漏定：依上地邊，離下地欲。<tspan class="st3"> </tspan><tspan x="-0" dy="1.413em" class="st4">無漏定</tspan>：離自地欲及上地。</text>			</g>
+			<g id="group3-10" transform="translate(109.674,8.32725) rotate(90)">
+				<title>工作表.26</title>
+				<g id="shape4-11">
+					<title>工作表.4</title>
+					<path d="M0 22 C0 23.8 0 25.29 0 25.29 L7.53 25.29 C7.53 25.29 7.53 26.73 7.53 28.53 C7.53 26.73 7.53 25.29 7.53
+								 25.29 L15.07 25.29 C15.07 25.29 15.07 23.8 15.07 22 L0 22 Z" class="st5"/>
+				</g>
+				<g id="shape5-13">
+					<title>工作表.5</title>
+					<path d="M0 22 C0 23.8 0 25.29 0 25.29 L7.53 25.29 C7.53 25.29 7.53 26.73 7.53 28.53 C7.53 26.73 7.53 25.29 7.53
+								 25.29 L15.07 25.29 C15.07 25.29 15.07 23.8 15.07 22 L0 22 Z" class="st6"/>
+					<path d="M0 22 C0 23.8 0 25.29 0 25.29 L7.53 25.29 C7.53 25.29 7.53 26.73 7.53 28.53 C7.53 26.73 7.53 25.29 7.53
+								 25.29 L15.07 25.29 C15.07 25.29 15.07 23.8 15.07 22" class="st7"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </svg>
