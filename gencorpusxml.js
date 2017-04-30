@@ -70,15 +70,14 @@ const epilog=function(output,juan){//fix long head
 
 	} else if (juan==23){
 		output=output.replace(/\n<b>\n<pb n="660"\/><\/b>\n<p\/>\n\n/,'<pb n="660"/><p/>');
-		const at=output.indexOf("<b>一、說一切有部的修行位次</b>");
-		if (at==-1) throw "long lines not found at end of juan 23"
-		var longlines=output.substr(at).replace(/\n\n/g,"\n");
-		longlines=longlines.replace(/\n\n+/g,"\n");
-		longlines=longlines.replace(/\n向\n果/g," 向 果");
 
-		longlines=longlines.replace(/\n(.)\n/g,function(m,m1){return " "+m1+"\n"});
-		longlines=longlines.replace(/\n(..)\n/g,function(m,m1){return "\n"+m1+" "});
-		output=output.substr(0,at)+longlines;
+		const at=output.indexOf('<pb n="660"/>');
+		if (at>-1 ) {
+			output=output.substr(0,at)+require("./j23");
+		} else {
+			throw "cannot replace juan 23"
+		}
+
 	} else if (juan==90) {
 		output=output.replace(/<svg src="M090.p2643.svg">\n+<\/svg>/,
 			'<svg src="M090.p2643.svg">表格</svg>\n');
