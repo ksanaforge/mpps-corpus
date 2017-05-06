@@ -60,6 +60,33 @@ var cleanupkepanline=function(line){
 		return m1;
 	});
 }
+
+// 針對特定的卷與行, 指定要載入 treename.js 的內容
+var special_check=function(line,juan)
+{
+	if(juan == 3 && line.indexOf("※ 四眾皆見聖諦")>-1) return true;
+	if(juan == 5 && line.indexOf("※ 釋「摩訶薩埵」")>-1) return true;
+	if(juan == 11 && line.indexOf("※ 布施有何利益功德")>-1) return true;
+	if(juan == 11 && line.indexOf("一、布施之體")>-1) return true;
+	if(juan == 11 && line.indexOf("一、何謂「法施」")>-1) return true;
+	if(juan == 13 && line.indexOf("貳、尸羅波羅蜜（之二）")>-1) return true;
+	if(juan == 13 && line.indexOf("※ 因論生論：云何戒為八正道初門")>-1) return true;
+	//if(juan == 14 && line.indexOf("九、釋「尸羅波羅蜜」")>-1) return true;
+	if(juan == 15 && line.indexOf("貳、忍波羅蜜（之二）")>-1) return true;
+	if(juan == 16 && line.indexOf("貳、精進波羅蜜（之二）")>-1) return true;
+	if(juan == 18 && line.indexOf("貳、般若波羅蜜（之二）")>-1) return true;
+	if(juan == 20 && line.indexOf("貳、空三昧等八種定法")>-1) return true;
+	if(juan == 20 && line.indexOf("三、四無量心")>-1) return true;
+	if(juan == 21 && line.indexOf("五、八背捨")>-1) return true;
+	if(juan == 21 && line.indexOf("參、九相（九想）")>-1) return true;
+	if(juan == 21 && line.indexOf("肆、八念")>-1) return true;
+	if(juan == 23 && line.indexOf("伍、十想")>-1) return true;
+	if(juan == 23 && line.indexOf("陸、十一智")>-1) return true;
+	if(juan == 25 && line.indexOf("參、依聲聞法釋「四無所畏」")>-1) return true;
+
+	return false;
+}
+
 var processlines=function(content,juan){
 	content=content.replace(/\n<\/b>/g,"</b>\n");
 	content=content.replace(/<b>\n/g,"\n<b>");
@@ -71,7 +98,7 @@ var processlines=function(content,juan){
 	var textlinecount=0,prevlineiskepan=false;
 
 	for (var i=0;i<lines.length;i++) {
-		//if (juan==1 && line==95) debugger;
+		if (juan==11 && i==336) debugger;
 		var line=lines[i];
 		if (line.indexOf("$")>-1 && line.indexOf("<kai>")>-1) {
 			line=cleanupkepanline(line);
@@ -100,7 +127,7 @@ var processlines=function(content,juan){
 			}
 			//juan 1~40, 42 , top level kepan might come before <jin>
 			//※ same as 壹, but without  貳, used in ※禪波羅密 juan 17
-			if ((line.indexOf("壹、")>-1||line.indexOf("※、")>-1)
+			if ((line.indexOf("壹、")>-1||line.indexOf("※、")>-1||special_check(line,juan))
 			 &&line.indexOf("拾壹、")===-1 
 			&& (mode==1 || juan<41 || juan==42 )) { //start of a new tree
 

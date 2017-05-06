@@ -67,7 +67,9 @@ var patchKepan=function(lines,juan){
       if (d==0) continue;//start of tree is mark as attribute in first H1
       var extra="";
       if (mode!=="L")extra=' m="'+mode+'"';
-      if (d==1&&kepanView[i-1][1]==0) extra+=' start="1"';
+      //if (d==1&&kepanView[i-1][1]==0) extra+=' start="1"';
+      // 本層不要限制為 1
+      if (kepanView[i-1][1]==0) extra+=' start="1"';
       var line=lines[l];
       //move pb before $
       line=line.replace(/\$<pb n="(.*)"><\/pb>/,function(m,m1){
