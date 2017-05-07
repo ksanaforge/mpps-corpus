@@ -62,7 +62,7 @@ var cleanupkepanline=function(line){
 }
 
 // 針對特定的卷與行, 指定要載入 treename.js 的內容
-var special_check=function(line,juan)
+var special_check=function(line,juan,mode)
 {
 	if(juan == 3 && line.indexOf("※ 四眾皆見聖諦")>-1) return true;
 	if(juan == 5 && line.indexOf("※ 釋「摩訶薩埵」")>-1) return true;
@@ -83,8 +83,50 @@ var special_check=function(line,juan)
 	if(juan == 23 && line.indexOf("伍、十想")>-1) return true;
 	if(juan == 23 && line.indexOf("陸、十一智")>-1) return true;
 	if(juan == 25 && line.indexOf("參、依聲聞法釋「四無所畏」")>-1) return true;
+	if(juan == 26 && line.indexOf("陸、釋「十八不共法」")>-1) return true;
+	if(juan == 27 && line.indexOf("柒、釋「大慈大悲」")>-1) return true;
+	if(juan == 31 && line.indexOf("一、內空，二、外空，三、內外空")>-1) return true;
+	//if(juan == 40 && line.indexOf("（四）法眼淨")>-1) return true;
+	if(mode==1)	// 41 卷之後會有重複科判, 要 mode == 1 才算
+	{
+		if(juan == 43 && line.indexOf("（貳）就「無相門」破諸法顯般若")>-1) return true;
+		if(juan == 44 && line.indexOf("（參）就「無作門」破諸法顯般若")>-1) return true;
+		if(juan == 44 && line.indexOf("貳、就「菩薩、摩訶薩」說般若")>-1) return true;
+		if(juan == 45 && line.indexOf("（貳）明「摩訶薩」義")>-1) return true;
+		if(juan == 45 && line.indexOf("二、舍利弗以「有方便斷諸見故而說法」為摩訶薩")>-1) return true;
+		if(juan == 45 && line.indexOf("四、富樓那以三事明「摩訶薩」")>-1) return true;
+		if(juan == 46 && line.indexOf("3、依「乘於大乘」明「摩訶薩」")>-1) return true;
+		if(juan == 46 && line.indexOf("五、取定「大莊嚴」義以明「摩訶薩」")>-1) return true;
+		if(juan == 46 && line.indexOf("參、就「摩訶衍義」說般若")>-1) return true;
+		//if(juan == 47 && line.indexOf("（三）百八三昧是摩訶衍")>-1) return true;
+		if(juan == 48 && line.indexOf("（四）三十七道品是摩訶衍")>-1) return true;
+		if(juan == 49 && line.indexOf("二、答第二問：云何發趣大乘")>-1) return true;
+		//if(juan == 50 && line.indexOf("（7）第七地：不應著二十法，應具足滿二十法")>-1) return true;
+		if(juan == 50 && line.indexOf("三、答第三問：是乘發何處，是乘至何處")>-1) return true;
+		if(juan == 51 && line.indexOf("（參）須菩提以勝出等五義稱歎摩訶衍")>-1) return true;
+		if(juan == 51 && line.indexOf("（二）等空歎")>-1) return true;
+		if(juan == 52 && line.indexOf("（陸）摩訶衍與般若無二無別")>-1) return true;
+		if(juan == 52 && line.indexOf("肆、以無生門說般若")>-1) return true;
+		if(juan == 53 && line.indexOf("三、明「菩薩、般若波羅蜜及觀」義")>-1) return true;
+		if(juan == 65 && line.indexOf("陸、歎般若導諸行到彼岸究竟")>-1) return true;
+		if(juan == 68 && line.indexOf("十、明師弟不和合為魔事")>-1) return true;
+		if(juan == 71 && line.indexOf("二、舉喻明理")>-1) return true;
+		if(juan == 71 && line.indexOf("肆、能信解般若者，趣至一切種智，應當驗知")>-1) return true;
+		if(juan == 73 && line.indexOf("（2）明外惡緣不能壞")>-1) return true;
+		if(juan == 92 && line.indexOf("（二）菩薩自住勝道，教眾生無住，共證菩提")>-1) return true;
+		if(juan == 99 && line.indexOf("（貳）明具足聞法")>-1) return true;
+	}
 
 	return false;
+}
+
+// 針對特定的卷與行, 指定不要載入 treename.js 的內容
+var special_check2=function(line,juan,mode)
+{
+	if(juan == 12 ) return false;	// 卷 12 不用標記
+	if(juan == 27 && line.indexOf("壹、釋「道慧、道種慧」")>-1) return false;
+	if(juan == 27 && line.indexOf("壹、釋「上菩薩位」")>-1) return false;
+	return true;
 }
 
 var processlines=function(content,juan){
@@ -98,7 +140,7 @@ var processlines=function(content,juan){
 	var textlinecount=0,prevlineiskepan=false;
 
 	for (var i=0;i<lines.length;i++) {
-		if (juan==11 && i==336) debugger;
+		if (juan==43 && i==1) debugger;
 		var line=lines[i];
 		if (line.indexOf("$")>-1 && line.indexOf("<kai>")>-1) {
 			line=cleanupkepanline(line);
@@ -127,9 +169,12 @@ var processlines=function(content,juan){
 			}
 			//juan 1~40, 42 , top level kepan might come before <jin>
 			//※ same as 壹, but without  貳, used in ※禪波羅密 juan 17
-			if ((line.indexOf("壹、")>-1||line.indexOf("※、")>-1||special_check(line,juan))
-			 &&line.indexOf("拾壹、")===-1 
-			&& (mode==1 || juan<41 || juan==42 )) { //start of a new tree
+			if (
+			    ((line.indexOf("壹、")>-1 || line.indexOf("※、")>-1 )
+			      && (line.indexOf("拾壹、")===-1)
+			      && (mode==1 || juan<41 || juan==42)
+				  && special_check2(line,juan,mode)) 
+				|| special_check(line,juan,mode)) { //start of a new tree
 
 				var text=treename[treecount];
 				Kepan.reset(text,mode,juan,textlinecount,i);
