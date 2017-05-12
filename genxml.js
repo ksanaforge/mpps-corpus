@@ -140,7 +140,7 @@ var processlines=function(content,juan){
 	var textlinecount=0,prevlineiskepan=false;
 
 	for (var i=0;i<lines.length;i++) {
-		if (juan==43 && i==1) debugger;
+		if (juan==40 && i==1) debugger;
 		var line=lines[i];
 		if (line.indexOf("$")>-1 && line.indexOf("<kai>")>-1) {
 			line=cleanupkepanline(line);

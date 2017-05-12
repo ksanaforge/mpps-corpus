@@ -58,8 +58,25 @@ var renderDepth=function(depth){
    }
    return out;
 }
-//
+// 取得跨卷目錄的抬頭
+// 例如 : 卷 40 的第一個標題 （四）法眼淨（承上卷40） 改成
+// 卷40 （四）法眼淨（承上卷40）
+var get_juan_titla = function(juan)
+{
+    // 有跨卷的卷數
+    var j=[8,9,10,12,14,22,29,34,36,37,39,40,43,47,50,63,64,65,67,69,70,74,75,77,79,81,83,84,87,89,93,94,97,98,100];
+
+    if (j.indexOf(juan) !=-1)
+    {
+        if(juan<10)
+            return "卷0" + juan.toString() + " ";
+        else
+	        return "卷" + juan.toString() + " ";
+    }
+    return "";
+}
 var patchKepan=function(lines,juan){
+   var juan_title = get_juan_titla(juan);  // 跨卷的第一個標記要加 卷XX 
    for (i=filestart;i<kepanView.length;i++) {
       var k=kepanView[i];
       var mode=k[0],j=k[3],l=k[4],d=k[1];
@@ -90,8 +107,9 @@ var patchKepan=function(lines,juan){
          console.log("warning empty head",juan,l);
       }
       line=line.substr(0,starat)+
-         "<H"+d+extra+'>'+head+"</H"+d+">"+remain;
+         "<H"+d+extra+'>'+juan_title+head+"</H"+d+">"+remain;
       lines[l]=line;
+      juan_title = "";  // 只要第一個標記要 卷xx, 之後就清空
    }
    return lines;
 }
