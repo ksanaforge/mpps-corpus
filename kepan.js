@@ -106,6 +106,8 @@ var patchKepan=function(lines,juan){
       if (!head) {
          console.log("warning empty head",juan,l);
       }
+      if(juan_title != "") d = d-2;  // 因為標題加了 "卷xx" , 所以層次上調一層, 以便對齊
+      if(d<1) d=1;
       line=line.substr(0,starat)+
          "<H"+d+extra+'>'+juan_title+head+"</H"+d+">"+remain;
       lines[l]=line;
