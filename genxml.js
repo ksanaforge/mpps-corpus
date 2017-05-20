@@ -66,6 +66,7 @@ var special_check=function(line,juan,mode)
 {
 	if(juan == 3 && line.indexOf("※ 四眾皆見聖諦")>-1) return true;
 	if(juan == 5 && line.indexOf("※ 釋「摩訶薩埵」")>-1) return true;
+	if(juan == 9 && line.indexOf("※ 十方諸佛世界眾皆來至釋迦佛所")>-1) return true;
 	if(juan == 11 && line.indexOf("※ 布施有何利益功德")>-1) return true;
 	if(juan == 11 && line.indexOf("一、布施之體")>-1) return true;
 	if(juan == 11 && line.indexOf("一、何謂「法施」")>-1) return true;
@@ -123,6 +124,7 @@ var special_check=function(line,juan,mode)
 // 針對特定的卷與行, 指定不要載入 treename.js 的內容
 var special_check2=function(line,juan,mode)
 {
+	if(juan == 9 && line.indexOf("壹、舉東方世界")>-1) return false;
 	if(juan == 12 ) return false;	// 卷 12 不用標記
 	if(juan == 27 && line.indexOf("壹、釋「道慧、道種慧」")>-1) return false;
 	if(juan == 27 && line.indexOf("壹、釋「上菩薩位」")>-1) return false;
@@ -140,7 +142,7 @@ var processlines=function(content,juan){
 	var textlinecount=0,prevlineiskepan=false;
 
 	for (var i=0;i<lines.length;i++) {
-		if (juan==40 && i==1) debugger;
+		if (juan==21 && i==59) debugger;
 		var line=lines[i];
 		if (line.indexOf("$")>-1 && line.indexOf("<kai>")>-1) {
 			line=cleanupkepanline(line);

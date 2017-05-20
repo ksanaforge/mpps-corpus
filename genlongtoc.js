@@ -5,7 +5,7 @@
 var fs=require("fs");
 var count = 0;
 var change_count = 0;
-
+debugger
 // 卷五
 // (十）欲知一切眾生心、一切眾生根、一切世界中諸劫次第、欲斷一切眾生諸煩惱悉無餘故發菩提心
 
@@ -33,7 +33,7 @@ filename = "xml/008-D07.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="14.198"\/><H2>八、一切眾生)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="14.199"\/><H2>八、一切眾生)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
@@ -53,7 +53,7 @@ filename = "xml/010-D08.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="15.52"\/><H4>（二）佛實不動)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="15.\d+"\/><H4>（二）佛實不動)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
@@ -87,7 +87,7 @@ filename = "xml/037-MP-07.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="54.528"\/><H3>（二）行空相)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="54.529"\/><H3>（二）行空相)/g,function(m,m1){
 	change_count++;
 	return m1;
 });

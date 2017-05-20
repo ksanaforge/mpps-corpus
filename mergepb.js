@@ -34,6 +34,20 @@ const insertP=function(content_para,content_lb,fn){
 		if (lbline==line){
 			j++;
 			out.push(line);
+			/* Heaven Version
+			if(j>=6 && (line[0] != '$') && (line.trim().substr(0,4) != '<b>$') && line != "")
+			{
+				var preline = lbs[j-2];
+				if((preline[0] == '$') || (preline.trim().substr(0,4) == '<b>$'))
+				{
+					out.push("<p/>" + line);
+				}
+				else
+					out.push(line);
+			}
+			else
+				out.push(line);
+			*/
 			continue;
 		}
 		if (j==lbs.length) {
