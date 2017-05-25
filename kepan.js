@@ -94,7 +94,10 @@ var patchKepan=function(lines,juan){
       });
       var starat=line.indexOf("$");
       var tagat=line.indexOf("<note_",starat+1);
-      var bracketat=line.indexOf("（",starat+1);//（印順導師筆記
+      var bracketat=line.indexOf("（卷",starat+1);//（卷xx
+      if(bracketat != -1)
+        if (tagat != -1 && bracketat < tagat) tagat = bracketat;
+        else if(tagat == -1) tagat = bracketat;
 
       var remain="";
       if (tagat>-1) {
@@ -106,10 +109,21 @@ var patchKepan=function(lines,juan){
       if (!head) {
          console.log("warning empty head",juan,l);
       }
-      if(juan_title != "") d = d-2;  // 因為標題加了 "卷xx" , 所以層次上調一層, 以便對齊
-      if(d<1) d=1;
-      line=line.substr(0,starat)+
-         "<H"+d+extra+'>'+juan_title+head+"</H"+d+">"+remain;
+      // 卷首的標題要加 "卷xx", 層次也要向上二層, 以便對齊
+      if(juan_title != "")
+      {
+          d = d-2;
+          if(d<1) d=1;
+          // 將標記及 [x] 註解移除
+          var pure_head = head.replace(/<.*?>/g,"").replace(/\[\d+\]/g,"");
+          line=line.substr(0,starat)+
+             "<H"+d+extra+' t="'+juan_title+pure_head+'">'+head+"</H"+d+">"+remain;
+      }
+      else
+      {
+          line=line.substr(0,starat)+
+             "<H"+d+extra+'>'+head+"</H"+d+">"+remain;
+      }
       lines[l]=line;
       juan_title = "";  // 只要第一個標記要 卷xx, 之後就清空
    }
