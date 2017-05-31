@@ -4,6 +4,7 @@
 	"rendClass":["kai","b","s","j","pin"],
 	"extrasize":15242880,
 	"displayOptions":{"groupColumn":[20,44,73]},
+	"removePunc":true,
 	"external":{
 		"footnotes":"footnotes.json"
 	},
