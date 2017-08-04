@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 產生 A02205-2（M009.083-2）.svg 頁-1 -->
+<!-- 由 Microsoft Visio, SVG Export 產生 M009.083-2.svg 頁-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.18734in" height="0.428445in"
-		viewBox="0 0 157.489 30.848" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
-	<v:documentProperties v:langID="1028" v:viewMarkup="false"/>
-
+		width="2.28601in" height="0.428443in" viewBox="0 0 164.593 30.8479" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st7">
 	<style type="text/css">
 	<![CDATA[
-		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.749998}
 		.st2 {fill:#000000;font-family:新細明體;font-size:0.833336em}
 		.st3 {font-size:1em}
-		.st4 {fill:none}
-		.st5 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705463}
-		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st4 {fill:none;stroke:none;stroke-width:0.999997}
+		.st5 {fill:none}
+		.st6 {stroke:#040000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.705461}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
-	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+	<g>
 		<title>頁-1</title>
-		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
-				v:shadowOffsetY="-9"/>
-		<g id="group7-1" transform="translate(0.75,-0.75)" v:mID="7" v:groupContext="group">
+		<g id="group7-1" transform="translate(0.749998,-0.749998)">
 			<title>工作表.7</title>
-			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(-2.60696E-13,-7.81013)">
+			<g id="shape2-2" transform="translate(-3.9968E-15,-7.8101)">
 				<title>工作表.1</title>
 				<desc>有十方佛之理</desc>
-				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-				<v:textRect cx="31.3059" cy="24.0756" width="62.62" height="13.5449"/>
-				<rect x="0" y="17.3031" width="62.6119" height="13.5449" class="st1"/>
-				<text x="0" y="27.71" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>有十方佛之理</text>			</g>
-			<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(70.748,4.61853E-13)">
+				<rect x="0" y="17.303" width="62.6117" height="13.5449" class="st1"/>
+				<text x="-0" y="27.58" class="st2">有十方佛之理</text>			</g>
+			<g id="shape3-5" transform="translate(70.7478,0)">
 				<title>工作表.2</title>
 				<desc>例如過未現應多故 摩訶衍中說十方故</desc>
-				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
-				<v:textRect cx="42.6204" cy="16.174" width="85.25" height="29.348"/>
-				<rect x="0" y="1.5" width="85.2407" height="29.348" class="st1"/>
-				<text x="-0" y="12.54" class="st2" v:langID="1028"><v:paragraph v:spLine="-1.4"/><v:tabList/>例如過未現應多故<v:newlineChar/><tspan
-							x="-0" dy="1.453em" class="st3">摩訶衍中說十方故</tspan></text>			</g>
-			<g id="shape5-9" v:mID="5" v:groupContext="shape" transform="translate(92.6787,9.01181) rotate(90)">
+				<rect x="0" y="1.49999" width="92.3448" height="29.3479" class="st1"/>
+				<text x="-0" y="12.67" class="st2">例如過未現亦應多故 <tspan x="-0" dy="1.4em" class="st3">摩訶衍中說十方故</tspan></text>			</g>
+			<g id="group4-9" transform="translate(92.6764,9.01178) rotate(90)">
 				<title>工作表.5</title>
-				<path d="M0 24.32 C0 26.12 0 27.61 0 27.61 L8.08 27.61 C8.08 27.61 8.08 29.05 8.08 30.85 C8.08 29.05 8.08 27.61 8.08
-							 27.61 L16.16 27.61 C16.16 27.61 16.16 26.12 16.16 24.32 L0 24.32 Z" class="st4"/>
-				<path d="M0 24.32 C0 26.12 0 27.61 0 27.61 L8.08 27.61 C8.08 27.61 8.08 29.05 8.08 30.85 C8.08 29.05 8.08 27.61 8.08
-							 27.61 L16.16 27.61 C16.16 27.61 16.16 26.12 16.16 24.32" class="st5"/>
+				<g id="shape5-10">
+					<title>工作表.5</title>
+					<path d="M0 24.32 C0 26.12 0 27.61 0 27.61 L8.08 27.61 C8.08 27.61 8.08 29.05 8.08 30.85 C8.08 29.05 8.08 27.61
+								 8.08 27.61 L16.16 27.61 C16.16 27.61 16.16 26.12 16.16 24.32 L0 24.32 Z" class="st4"/>
+				</g>
+				<g id="shape6-12">
+					<title>工作表.6</title>
+					<path d="M0 24.32 C0 26.12 0 27.61 0 27.61 L8.08 27.61 C8.08 27.61 8.08 29.05 8.08 30.85 C8.08 29.05 8.08 27.61
+								 8.08 27.61 L16.16 27.61 C16.16 27.61 16.16 26.12 16.16 24.32 L0 24.32 Z" class="st5"/>
+					<path d="M0 24.32 C0 26.12 0 27.61 0 27.61 L8.08 27.61 C8.08 27.61 8.08 29.05 8.08 30.85 C8.08 29.05 8.08 27.61
+								 8.08 27.61 L16.16 27.61 C16.16 27.61 16.16 26.12 16.16 24.32" class="st6"/>
+				</g>
 			</g>
 		</g>
 	</g>
