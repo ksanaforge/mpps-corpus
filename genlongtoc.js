@@ -33,7 +33,7 @@ filename = "xml/008-D07.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="14.199"\/><H2>八、一切眾生)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="14.199"\/><H2 to="14.200~227">八、一切眾生)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
@@ -53,7 +53,7 @@ filename = "xml/010-D08.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="15.\d+"\/><H4>（二）佛實不動)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="15.\d+"\/><H4 to="15.50">（二）佛實不動)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
@@ -87,7 +87,7 @@ filename = "xml/037-MP-07.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="54.529"\/><H3>（二）行空相)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="54.529"\/><H3 to="54.517">（二）行空相)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
@@ -121,7 +121,7 @@ filename = "xml/059-MP-05.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="88.86"\/><H8 to="88.88" m="J">（B）持誦般若)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="88.86"\/><H8 to="88.189" m="J">（B）持誦般若)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
@@ -141,7 +141,7 @@ filename = "xml/061-MP-05.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="90.242"\/><H3 m="J">三、「無著)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="90.242"\/><H3 to="90.279" m="J">三、「無著)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
@@ -161,7 +161,7 @@ filename = "xml/086-MP-05.xml";
 content=fs.readFileSync(filename,"utf8");
 
 count++;
-content=content.replace(/<p\/>(<a n="126.58"\/><H10>（b）初禪欲離)/g,function(m,m1){
+content=content.replace(/<p\/>(<a n="126.58"\/><H10 to="126.16">（b）初禪欲離)/g,function(m,m1){
 	change_count++;
 	return m1;
 });
