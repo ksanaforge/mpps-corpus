@@ -92,7 +92,10 @@ const pack=function(nums){//pack nums to a short string notation
 		prevgroup=group;
 	}
 	emitgroup(nums[nums.length-1]%groupshift);
-	return segments.join(";");
+	// 因為連結若為 <a n="71.21"/><H5 to="71.3;71.14">3、別釋十地</H5>
+	// 那個 71.3;71.14 反而無法連結, 所以暫時只留下第一組 71.3
+	// return segments.join(";");
+	return segments[0];
 }
 /* the kepan has no correspondance
    connect with paragraph
@@ -211,7 +214,6 @@ const listOrphan=function(){
 */
 //console.log(pack([10001,10002,10003,20005,20006,20007,20008,30010,40050,40052,40053]));
 //1.1~3;2.5~8;3.10;4.50;4.52~53
-
 f1.map(processline);
 f2.map(processline);
 
